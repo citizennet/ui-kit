@@ -8,8 +8,8 @@ module.exports = function(grunt) {
         livereload: true
       },
       sass: {
-        files: '<%= files.sass %>',
-        tasks: ['compass']
+        files: 'sass/*',
+        tasks: ['compass:dist']
       }
     },
     compass: {
