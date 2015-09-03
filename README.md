@@ -1,7 +1,7 @@
 # CitizenNet's UI Kit #
 
 ## Build The Project ##
-* grunt
+* ./build.sh
 
 ## Running Web App ##
 * php -S localhost:8000

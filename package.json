@@ -1,6 +1,6 @@
 {
   "name": "ui-ki",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Citizennet's UI Kit",
   "main": "web/index.php",
   "scripts": {
@@ -10,6 +10,7 @@
   "devDependencies": {
     "bower": "^1.3.3",
     "grunt": "0.4.x",
+    "grunt-concat-css": "^0.3.1",
     "grunt-contrib-compass": "^0.8.0",
     "grunt-contrib-concat": "^0.4.0",
     "grunt-contrib-copy": "^0.5.0",
@@ -20,5 +21,9 @@
   "directories": {
     "example": "examples"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@git.assembla.com:dash.ui-kit.git"
+  }
 }

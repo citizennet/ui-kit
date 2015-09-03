@@ -35,3 +35,6 @@ Thumbs.db
 # Folders to ignore
 bower_components
 node_modules
+
+dist/css/citizennet/
+dist/css/vendor/
