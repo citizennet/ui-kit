@@ -3827,6 +3827,479 @@ table th[class*="col-"] {
   }
 }
 
+/************************************************************************
+TABLE
+************************************************************************/
+/* line 237, ../../../sass/_tables.scss */
+table.fixed {
+  display: none;
+}
+/* line 241, ../../../sass/_tables.scss */
+table td, table th {
+  font-size: 12px;
+}
+
+/* line 247, ../../../sass/_tables.scss */
+.cn-list {
+  padding: 0;
+  /*
+   * Specific CSS Targeting Per List Type
+   */
+}
+/* line 250, ../../../sass/_tables.scss */
+.cn-list table {
+  border: none;
+  border-bottom: 1px solid #d8d8d8;
+  background-color: #fff;
+  color: #3F4041;
+  margin-bottom: 0;
+}
+/* line 259, ../../../sass/_tables.scss */
+.cn-list a {
+  color: #0886BD;
+}
+/* line 262, ../../../sass/_tables.scss */
+.cn-list a:hover {
+  color: #01639D;
+}
+/* line 276, ../../../sass/_tables.scss */
+.cn-list .selected {
+  background-color: #D6EEFA;
+}
+/* line 279, ../../../sass/_tables.scss */
+.cn-list .selected > td,
+.cn-list .selected > tr > td {
+  border-color: #BADDED;
+}
+/* line 285, ../../../sass/_tables.scss */
+.cn-list .selected:hover > td,
+.cn-list .selected:hover > tr:first-child > td {
+  background-color: #D6EEFA;
+}
+/* line 299, ../../../sass/_tables.scss */
+.cn-list thead th {
+  background-color: #EBE9EC;
+  color: #737377;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  border: none;
+}
+/* line 307, ../../../sass/_tables.scss */
+.cn-list thead th:first-child {
+  padding-left: 20px;
+}
+/* line 311, ../../../sass/_tables.scss */
+.cn-list thead th:last-child {
+  padding-right: 20px;
+}
+/* line 326, ../../../sass/_tables.scss */
+.cn-list tbody + tbody {
+  border-top-width: 1px;
+}
+/* line 330, ../../../sass/_tables.scss */
+.cn-list tbody td {
+  border-width: 0 0 2px;
+  border-color: #FAFAFA;
+  font-size: 12px;
+  padding: 10px;
+  vertical-align: middle;
+}
+/* line 337, ../../../sass/_tables.scss */
+.modal-content .cn-list tbody td {
+  font-size: 12px;
+  vertical-align: top;
+}
+/* line 342, ../../../sass/_tables.scss */
+.cn-list tbody td:first-child {
+  padding-left: 20px;
+}
+/* line 346, ../../../sass/_tables.scss */
+.cn-list tbody td:last-child {
+  padding-right: 20px;
+}
+/* line 352, ../../../sass/_tables.scss */
+.cn-list tbody .grouped-list .collapse {
+  border-top: 1px solid #d8d8d8;
+}
+/* line 355, ../../../sass/_tables.scss */
+.cn-list tbody .grouped-list > td {
+  padding: 0;
+  border: 0;
+}
+/* line 359, ../../../sass/_tables.scss */
+.cn-list tbody .grouped-list > td:first-child {
+  padding-left: 0;
+}
+/* line 363, ../../../sass/_tables.scss */
+.cn-list tbody .grouped-list > td:last-child {
+  padding-right: 0;
+}
+/* line 368, ../../../sass/_tables.scss */
+.cn-list tbody .grouped-list table {
+  border: 0;
+  border-left: 20px solid #f0eff2;
+  border-bottom: 1px solid #f0eff2;
+}
+/* line 374, ../../../sass/_tables.scss */
+.cn-list tbody .grouped-list td {
+  border-color: #f0eff2;
+}
+/* line 379, ../../../sass/_tables.scss */
+.cn-list tbody h5 {
+  margin: 0;
+  line-height: 11px;
+}
+/* line 383, ../../../sass/_tables.scss */
+.cn-list tbody h5 .glyphicon-new-window {
+  font-size: 12px;
+}
+/* line 388, ../../../sass/_tables.scss */
+.cn-list tbody small {
+  color: #ADADAD;
+}
+/* line 396, ../../../sass/_tables.scss */
+.cn-list .disabled td, .cn-list .disabled .grouped-list td, .cn-list .disabled.selected td, .cn-list .disabled.selected .grouped-list td,
+.cn-list .disabled:hover td,
+.cn-list .disabled:hover .grouped-list td,
+.cn-list .disabled:hover.selected td,
+.cn-list .disabled:hover.selected .grouped-list td {
+  background: #fff;
+}
+/* line 400, ../../../sass/_tables.scss */
+.cn-list .disabled td, .cn-list .disabled td *, .cn-list .disabled .grouped-list td, .cn-list .disabled .grouped-list td *, .cn-list .disabled.selected td, .cn-list .disabled.selected td *, .cn-list .disabled.selected .grouped-list td, .cn-list .disabled.selected .grouped-list td *,
+.cn-list .disabled:hover td,
+.cn-list .disabled:hover td *,
+.cn-list .disabled:hover .grouped-list td,
+.cn-list .disabled:hover .grouped-list td *,
+.cn-list .disabled:hover.selected td,
+.cn-list .disabled:hover.selected td *,
+.cn-list .disabled:hover.selected .grouped-list td,
+.cn-list .disabled:hover.selected .grouped-list td * {
+  color: #939196;
+}
+/* line 407, ../../../sass/_tables.scss */
+.cn-list .kpi-stat {
+  text-align: right;
+}
+/* line 410, ../../../sass/_tables.scss */
+.cn-list .kpi-stat span {
+  display: block;
+}
+/* line 415, ../../../sass/_tables.scss */
+.cn-list .kpi-stat p {
+  text-align: center;
+}
+/* line 420, ../../../sass/_tables.scss */
+.cn-list .spend-breakdown {
+  text-align: right;
+}
+/* line 423, ../../../sass/_tables.scss */
+.cn-list .spend-breakdown h5 {
+  margin-bottom: 4px;
+  font-weight: 400;
+}
+/* line 427, ../../../sass/_tables.scss */
+.cn-list .spend-breakdown h5 span {
+  color: #ADADAD;
+  font-size: 12px;
+}
+/* line 434, ../../../sass/_tables.scss */
+.cn-list a.popover-preview {
+  display: block;
+  height: 100%;
+}
+/* line 439, ../../../sass/_tables.scss */
+.cn-list p.popover-text {
+  font-size: 10px;
+}
+/* line 443, ../../../sass/_tables.scss */
+.cn-list .highlighted {
+  color: #D6EEFA;
+}
+/* line 450, ../../../sass/_tables.scss */
+.cn-list.temp-list-table table.empty {
+  background-color: transparent;
+  border-bottom: none;
+}
+/* line 454, ../../../sass/_tables.scss */
+.cn-list.temp-list-table table.empty tr:hover {
+  background: transparent;
+}
+/* line 458, ../../../sass/_tables.scss */
+.cn-list.temp-list-table table .form-group {
+  margin: 0;
+}
+/* line 461, ../../../sass/_tables.scss */
+.cn-list.temp-list-table table .form-group .checkbox {
+  margin: 0;
+  text-align: center;
+}
+/* line 465, ../../../sass/_tables.scss */
+.cn-list.temp-list-table table .form-group .checkbox label, .cn-list.temp-list-table table .form-group .checkbox .has-success .control-label, .has-success .cn-list.temp-list-table table .form-group .checkbox .control-label,
+.cn-list.temp-list-table table .form-group .checkbox .has-error .control-label,
+.has-error .cn-list.temp-list-table table .form-group .checkbox .control-label {
+  margin: 0 8px 0 0;
+  padding: 0;
+}
+/* line 469, ../../../sass/_tables.scss */
+.cn-list.temp-list-table table .form-group .checkbox label span, .cn-list.temp-list-table table .form-group .checkbox .has-success .control-label span, .has-success .cn-list.temp-list-table table .form-group .checkbox .control-label span,
+.cn-list.temp-list-table table .form-group .checkbox .has-error .control-label span,
+.has-error .cn-list.temp-list-table table .form-group .checkbox .control-label span {
+  margin: 0;
+}
+/* line 476, ../../../sass/_tables.scss */
+.cn-list.temp-list-table table th {
+  min-width: 100px;
+  background: #f0eff2;
+}
+/* line 480, ../../../sass/_tables.scss */
+.cn-list.temp-list-table table th:first-child {
+  min-width: 10px;
+  text-align: center;
+}
+/* line 484, ../../../sass/_tables.scss */
+.cn-list.temp-list-table table th span {
+  cursor: pointer;
+  font-weight: 400;
+}
+/* line 492, ../../../sass/_tables.scss */
+.cn-list.temp-list-table table tbody tr td {
+  padding: 15px 8px;
+}
+/* line 495, ../../../sass/_tables.scss */
+.cn-list.temp-list-table table tbody tr td:first-child {
+  text-align: center;
+  padding-left: 20px;
+}
+/* line 500, ../../../sass/_tables.scss */
+.cn-list.temp-list-table table tbody tr td p {
+  margin: 5px 0 0 0;
+}
+/* line 504, ../../../sass/_tables.scss */
+.cn-list.temp-list-table table tbody tr td a {
+  line-height: normal;
+}
+/* line 506, ../../../sass/_tables.scss */
+.cn-list.temp-list-table table tbody tr td a:focus {
+  text-decoration: none;
+}
+/* line 511, ../../../sass/_tables.scss */
+.cn-list.temp-list-table table tbody tr td .full-width {
+  width: 100%;
+}
+/* line 516, ../../../sass/_tables.scss */
+.cn-list.temp-list-table table tbody tr.no-items-to-show .well {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+}
+/* line 521, ../../../sass/_tables.scss */
+.cn-list.temp-list-table table tbody tr.no-items-to-show td {
+  padding: 15px 8px;
+}
+/* line 532, ../../../sass/_tables.scss */
+.cn-list.fixed-header-table:first-child {
+  overflow: auto;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+/* line 546, ../../../sass/_tables.scss */
+.cn-list.reports-list-table table th:last-child {
+  min-width: 10px;
+  text-align: center;
+}
+/* line 550, ../../../sass/_tables.scss */
+.cn-list.reports-list-table table th:nth-child(2) {
+  min-width: 575px;
+}
+/* line 554, ../../../sass/_tables.scss */
+.cn-list.reports-list-table table th #number-selected {
+  float: left;
+}
+/* line 559, ../../../sass/_tables.scss */
+.cn-list.reports-list-table table th #reports-context-menu a {
+  font-weight: 400;
+  margin-left: 15px;
+}
+/* line 563, ../../../sass/_tables.scss */
+.cn-list.reports-list-table table th #reports-context-menu a:hover {
+  text-decoration: none;
+}
+/* line 567, ../../../sass/_tables.scss */
+.cn-list.reports-list-table table th #reports-context-menu a i {
+  margin: 0 3px -2px 0;
+}
+/* line 574, ../../../sass/_tables.scss */
+.cn-list.reports-list-table table .scheduled-cell {
+  text-align: center;
+}
+/* line 581, ../../../sass/_tables.scss */
+.cn-list.reports-list-table table tbody tr td:last-child {
+  text-align: center;
+}
+/* line 585, ../../../sass/_tables.scss */
+.cn-list.reports-list-table table tbody tr td h5 {
+  display: inline;
+}
+/* line 589, ../../../sass/_tables.scss */
+.cn-list.reports-list-table table tbody tr td input[type="text"],
+.cn-list.reports-list-table table tbody tr td input[type="text"]:focus {
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 0;
+}
+/* line 610, ../../../sass/_tables.scss */
+.cn-list.requests-list-table table thead th:nth-child(2) {
+  min-width: 10px;
+}
+/* line 613, ../../../sass/_tables.scss */
+.cn-list.requests-list-table table thead th:nth-child(3) {
+  width: 25%;
+}
+/* line 616, ../../../sass/_tables.scss */
+.cn-list.requests-list-table table thead th:nth-child(4) {
+  width: 20%;
+}
+/* line 619, ../../../sass/_tables.scss */
+.cn-list.requests-list-table table thead th:nth-child(5) {
+  text-align: center;
+}
+/* line 622, ../../../sass/_tables.scss */
+.cn-list.requests-list-table table thead th:last-child {
+  min-width: 120px;
+}
+/* line 630, ../../../sass/_tables.scss */
+.cn-list.requests-list-table table tbody td:nth-child(2) i {
+  font-size: 1.4em;
+}
+/* line 634, ../../../sass/_tables.scss */
+.cn-list.requests-list-table table tbody td:nth-child(5) {
+  text-align: center;
+}
+/* line 636, ../../../sass/_tables.scss */
+.cn-list.requests-list-table table tbody td:nth-child(5) i {
+  color: #638A79;
+}
+/* line 641, ../../../sass/_tables.scss */
+.cn-list.requests-list-table table tbody td:nth-child(7) a {
+  margin-top: 5px;
+  display: table;
+  font-size: 0.9em;
+}
+/* line 648, ../../../sass/_tables.scss */
+.cn-list.requests-list-table table tbody td .status {
+  position: relative;
+  padding-left: 20px;
+}
+/* line 652, ../../../sass/_tables.scss */
+.cn-list.requests-list-table table tbody td .status i {
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+/* line 658, ../../../sass/_tables.scss */
+.cn-list.requests-list-table table tbody td .status p:first-of-type {
+  text-transform: capitalize;
+}
+/* line 661, ../../../sass/_tables.scss */
+.cn-list.requests-list-table table tbody td .status p:nth-of-type(2) {
+  font-size: 0.9em;
+  opacity: 0.5;
+}
+/* line 666, ../../../sass/_tables.scss */
+.cn-list.requests-list-table table tbody td .status a {
+  margin-top: 5px;
+  display: table;
+  font-size: 0.9em;
+}
+/* line 690, ../../../sass/_tables.scss */
+.cn-list .ad-sets-list-table td.toggle-collapse {
+  width: 45px;
+}
+/* line 694, ../../../sass/_tables.scss */
+.cn-list .ad-sets-list-table .grouped-list td.toggle-collapse {
+  width: 0;
+  padding: 12px;
+}
+/* line 699, ../../../sass/_tables.scss */
+.cn-list .ad-sets-list-table td.toggle-status {
+  width: 8%;
+}
+/* line 702, ../../../sass/_tables.scss */
+.cn-list .ad-sets-list-table td.ad-set-name {
+  width: 10%;
+}
+/* line 705, ../../../sass/_tables.scss */
+.cn-list .ad-sets-list-table td.delivery-status {
+  width: 10%;
+}
+/* line 708, ../../../sass/_tables.scss */
+.cn-list .ad-sets-list-table td.kpi-stat {
+  width: 15%;
+}
+/* line 711, ../../../sass/_tables.scss */
+.cn-list .ad-sets-list-table td.campaign-name {
+  width: 30%;
+}
+/* line 714, ../../../sass/_tables.scss */
+.cn-list .ad-sets-list-table td.date {
+  width: 8%;
+}
+/* line 717, ../../../sass/_tables.scss */
+.cn-list .ad-sets-list-table td.spend-breakdown {
+  width: 20%;
+}
+/* line 727, ../../../sass/_tables.scss */
+.cn-list .label {
+  display: inline;
+}
+/* line 731, ../../../sass/_tables.scss */
+.cn-list .media-object {
+  max-width: 50px;
+  display: inline;
+}
+
+/* line 737, ../../../sass/_tables.scss */
+.list-container {
+  max-width: 85%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+/* line 745, ../../../sass/_tables.scss */
+.cn-timepicker td {
+  min-width: 50px;
+}
+/* line 748, ../../../sass/_tables.scss */
+.cn-timepicker button {
+  margin: 0px 2px;
+  padding: 9px;
+}
+
+/* line 754, ../../../sass/_tables.scss */
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  vertical-align: middle;
+}
+
+/* line 763, ../../../sass/_tables.scss */
+.top-heavy > tbody > tr > td,
+.top-heavy > tbody > tr > th,
+.top-heavy > tfoot > tr > td,
+.top-heavy > tfoot > tr > th,
+.top-heavy > thead > tr > td,
+.top-heavy > thead > tr > th {
+  vertical-align: top;
+}
+
 /* line 9, ../../../sass/_forms.scss */
 fieldset {
   padding: 0;
@@ -7334,6 +7807,93 @@ tbody.collapse.in {
   color: #444;
 }
 
+/************************************************************************
+NAVBAR
+************************************************************************/
+/* line 656, ../../../sass/_navbar.scss */
+.navbar-default {
+  background: #0d1015;
+  border: 0;
+}
+/* line 660, ../../../sass/_navbar.scss */
+.navbar-default ul.navbar-nav > li a {
+  padding: 17px 20px;
+}
+/* line 663, ../../../sass/_navbar.scss */
+.navbar-default ul.navbar-nav > li a.btn {
+  padding: 9px 8px;
+}
+/* line 668, ../../../sass/_navbar.scss */
+.navbar-default li li a {
+  padding: 14px 20px;
+}
+/* line 672, ../../../sass/_navbar.scss */
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
+  color: #939196;
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: .875em;
+  letter-spacing: .05em;
+}
+/* line 683, ../../../sass/_navbar.scss */
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a.active {
+  color: #fff;
+  background-color: transparent;
+}
+/* line 689, ../../../sass/_navbar.scss */
+.navbar-default .navbar-nav > .disabled > a {
+  color: #555;
+  background-color: transparent;
+}
+/* line 693, ../../../sass/_navbar.scss */
+.navbar-default .navbar-nav > .disabled > a:focus, .navbar-default .navbar-nav > .disabled > a:hover {
+  color: #555;
+  background-color: transparent;
+}
+/* line 700, ../../../sass/_navbar.scss */
+.navbar-default form {
+  display: inline;
+}
+/* line 704, ../../../sass/_navbar.scss */
+.navbar-default a.btn-default,
+.navbar-default .open a.btn-default,
+.navbar-default .open a.btn-default:hover {
+  background: transparent;
+  border: 1px solid #939196;
+  box-shadow: none;
+}
+/* line 711, ../../../sass/_navbar.scss */
+.navbar-default .open a.btn-default,
+.navbar-default .open a.btn-default:hover {
+  color: #fff;
+}
+/* line 716, ../../../sass/_navbar.scss */
+.navbar-default tags-input .host,
+.navbar-default .btn {
+  margin: 7px 5px;
+}
+/* line 722, ../../../sass/_navbar.scss */
+.navbar-default tags-input .host .input {
+  height: 32px;
+  margin: 0;
+  -webkit-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+}
+/* line 727, ../../../sass/_navbar.scss */
+.navbar-default tags-input .host .input.focused, .navbar-default tags-input .host .input:focus {
+  min-width: 300px;
+}
+/* line 733, ../../../sass/_navbar.scss */
+.navbar-default tags-input .host .form-control {
+  height: 41px;
+}
+
+/* line 740, ../../../sass/_navbar.scss */
+#listen-nav-li {
+  display: none;
+}
+
 /* line 5, ../../../sass/_breadcrumbs.scss */
 .breadcrumb {
   padding: 8px 15px;
@@ -10323,93 +10883,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, label, .has-success .control-label,
 }
 
 /************************************************************************
-NAVBAR
-************************************************************************/
-/* line 5, ../../../sass/_nav-bar.scss */
-.navbar-default {
-  background: #0d1015;
-  border: 0;
-}
-/* line 9, ../../../sass/_nav-bar.scss */
-.navbar-default ul.navbar-nav > li a {
-  padding: 17px 20px;
-}
-/* line 12, ../../../sass/_nav-bar.scss */
-.navbar-default ul.navbar-nav > li a.btn {
-  padding: 9px 8px;
-}
-/* line 17, ../../../sass/_nav-bar.scss */
-.navbar-default li li a {
-  padding: 14px 20px;
-}
-/* line 21, ../../../sass/_nav-bar.scss */
-.navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
-  color: #939196;
-  font-weight: 300;
-  line-height: 1.5;
-  font-size: .875em;
-  letter-spacing: .05em;
-}
-/* line 32, ../../../sass/_nav-bar.scss */
-.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a.active {
-  color: #fff;
-  background-color: transparent;
-}
-/* line 38, ../../../sass/_nav-bar.scss */
-.navbar-default .navbar-nav > .disabled > a {
-  color: #555;
-  background-color: transparent;
-}
-/* line 42, ../../../sass/_nav-bar.scss */
-.navbar-default .navbar-nav > .disabled > a:focus, .navbar-default .navbar-nav > .disabled > a:hover {
-  color: #555;
-  background-color: transparent;
-}
-/* line 49, ../../../sass/_nav-bar.scss */
-.navbar-default form {
-  display: inline;
-}
-/* line 53, ../../../sass/_nav-bar.scss */
-.navbar-default a.btn-default,
-.navbar-default .open a.btn-default,
-.navbar-default .open a.btn-default:hover {
-  background: transparent;
-  border: 1px solid #939196;
-  box-shadow: none;
-}
-/* line 60, ../../../sass/_nav-bar.scss */
-.navbar-default .open a.btn-default,
-.navbar-default .open a.btn-default:hover {
-  color: #fff;
-}
-/* line 65, ../../../sass/_nav-bar.scss */
-.navbar-default tags-input .host,
-.navbar-default .btn {
-  margin: 7px 5px;
-}
-/* line 71, ../../../sass/_nav-bar.scss */
-.navbar-default tags-input .host .input {
-  height: 32px;
-  margin: 0;
-  -webkit-transition: all 500ms;
-  -o-transition: all 500ms;
-  transition: all 500ms;
-}
-/* line 76, ../../../sass/_nav-bar.scss */
-.navbar-default tags-input .host .input.focused, .navbar-default tags-input .host .input:focus {
-  min-width: 300px;
-}
-/* line 82, ../../../sass/_nav-bar.scss */
-.navbar-default tags-input .host .form-control {
-  height: 41px;
-}
-
-/* line 89, ../../../sass/_nav-bar.scss */
-#listen-nav-li {
-  display: none;
-}
-
-/************************************************************************
 SUBNAV
 ************************************************************************/
 /* line 5, ../../../sass/_sub-nav.scss */
@@ -10856,479 +11329,6 @@ TOOL BAR
 /* line 186, ../../../sass/_sidebar.scss */
 .request-info p {
   padding: 0 30px;
-}
-
-/************************************************************************
-TABLE
-************************************************************************/
-/* line 8, ../../../sass/_table.scss */
-table.fixed {
-  display: none;
-}
-/* line 12, ../../../sass/_table.scss */
-table td, table th {
-  font-size: 12px;
-}
-
-/* line 18, ../../../sass/_table.scss */
-.cn-list {
-  padding: 0;
-  /*
-   * Specific CSS Targeting Per List Type
-   */
-}
-/* line 21, ../../../sass/_table.scss */
-.cn-list table {
-  border: none;
-  border-bottom: 1px solid #d8d8d8;
-  background-color: #fff;
-  color: #3F4041;
-  margin-bottom: 0;
-}
-/* line 30, ../../../sass/_table.scss */
-.cn-list a {
-  color: #0886BD;
-}
-/* line 33, ../../../sass/_table.scss */
-.cn-list a:hover {
-  color: #01639D;
-}
-/* line 47, ../../../sass/_table.scss */
-.cn-list .selected {
-  background-color: #D6EEFA;
-}
-/* line 50, ../../../sass/_table.scss */
-.cn-list .selected > td,
-.cn-list .selected > tr > td {
-  border-color: #BADDED;
-}
-/* line 56, ../../../sass/_table.scss */
-.cn-list .selected:hover > td,
-.cn-list .selected:hover > tr:first-child > td {
-  background-color: #D6EEFA;
-}
-/* line 70, ../../../sass/_table.scss */
-.cn-list thead th {
-  background-color: #EBE9EC;
-  color: #737377;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 12px;
-  border: none;
-}
-/* line 78, ../../../sass/_table.scss */
-.cn-list thead th:first-child {
-  padding-left: 20px;
-}
-/* line 82, ../../../sass/_table.scss */
-.cn-list thead th:last-child {
-  padding-right: 20px;
-}
-/* line 97, ../../../sass/_table.scss */
-.cn-list tbody + tbody {
-  border-top-width: 1px;
-}
-/* line 101, ../../../sass/_table.scss */
-.cn-list tbody td {
-  border-width: 0 0 2px;
-  border-color: #FAFAFA;
-  font-size: 12px;
-  padding: 10px;
-  vertical-align: middle;
-}
-/* line 108, ../../../sass/_table.scss */
-.modal-content .cn-list tbody td {
-  font-size: 12px;
-  vertical-align: top;
-}
-/* line 113, ../../../sass/_table.scss */
-.cn-list tbody td:first-child {
-  padding-left: 20px;
-}
-/* line 117, ../../../sass/_table.scss */
-.cn-list tbody td:last-child {
-  padding-right: 20px;
-}
-/* line 123, ../../../sass/_table.scss */
-.cn-list tbody .grouped-list .collapse {
-  border-top: 1px solid #d8d8d8;
-}
-/* line 126, ../../../sass/_table.scss */
-.cn-list tbody .grouped-list > td {
-  padding: 0;
-  border: 0;
-}
-/* line 130, ../../../sass/_table.scss */
-.cn-list tbody .grouped-list > td:first-child {
-  padding-left: 0;
-}
-/* line 134, ../../../sass/_table.scss */
-.cn-list tbody .grouped-list > td:last-child {
-  padding-right: 0;
-}
-/* line 139, ../../../sass/_table.scss */
-.cn-list tbody .grouped-list table {
-  border: 0;
-  border-left: 20px solid #f0eff2;
-  border-bottom: 1px solid #f0eff2;
-}
-/* line 145, ../../../sass/_table.scss */
-.cn-list tbody .grouped-list td {
-  border-color: #f0eff2;
-}
-/* line 150, ../../../sass/_table.scss */
-.cn-list tbody h5 {
-  margin: 0;
-  line-height: 11px;
-}
-/* line 154, ../../../sass/_table.scss */
-.cn-list tbody h5 .glyphicon-new-window {
-  font-size: 12px;
-}
-/* line 159, ../../../sass/_table.scss */
-.cn-list tbody small {
-  color: #ADADAD;
-}
-/* line 167, ../../../sass/_table.scss */
-.cn-list .disabled td, .cn-list .disabled .grouped-list td, .cn-list .disabled.selected td, .cn-list .disabled.selected .grouped-list td,
-.cn-list .disabled:hover td,
-.cn-list .disabled:hover .grouped-list td,
-.cn-list .disabled:hover.selected td,
-.cn-list .disabled:hover.selected .grouped-list td {
-  background: #fff;
-}
-/* line 171, ../../../sass/_table.scss */
-.cn-list .disabled td, .cn-list .disabled td *, .cn-list .disabled .grouped-list td, .cn-list .disabled .grouped-list td *, .cn-list .disabled.selected td, .cn-list .disabled.selected td *, .cn-list .disabled.selected .grouped-list td, .cn-list .disabled.selected .grouped-list td *,
-.cn-list .disabled:hover td,
-.cn-list .disabled:hover td *,
-.cn-list .disabled:hover .grouped-list td,
-.cn-list .disabled:hover .grouped-list td *,
-.cn-list .disabled:hover.selected td,
-.cn-list .disabled:hover.selected td *,
-.cn-list .disabled:hover.selected .grouped-list td,
-.cn-list .disabled:hover.selected .grouped-list td * {
-  color: #939196;
-}
-/* line 178, ../../../sass/_table.scss */
-.cn-list .kpi-stat {
-  text-align: right;
-}
-/* line 181, ../../../sass/_table.scss */
-.cn-list .kpi-stat span {
-  display: block;
-}
-/* line 186, ../../../sass/_table.scss */
-.cn-list .kpi-stat p {
-  text-align: center;
-}
-/* line 191, ../../../sass/_table.scss */
-.cn-list .spend-breakdown {
-  text-align: right;
-}
-/* line 194, ../../../sass/_table.scss */
-.cn-list .spend-breakdown h5 {
-  margin-bottom: 4px;
-  font-weight: 400;
-}
-/* line 198, ../../../sass/_table.scss */
-.cn-list .spend-breakdown h5 span {
-  color: #ADADAD;
-  font-size: 12px;
-}
-/* line 205, ../../../sass/_table.scss */
-.cn-list a.popover-preview {
-  display: block;
-  height: 100%;
-}
-/* line 210, ../../../sass/_table.scss */
-.cn-list p.popover-text {
-  font-size: 10px;
-}
-/* line 214, ../../../sass/_table.scss */
-.cn-list .highlighted {
-  color: #D6EEFA;
-}
-/* line 221, ../../../sass/_table.scss */
-.cn-list.temp-list-table table.empty {
-  background-color: transparent;
-  border-bottom: none;
-}
-/* line 225, ../../../sass/_table.scss */
-.cn-list.temp-list-table table.empty tr:hover {
-  background: transparent;
-}
-/* line 229, ../../../sass/_table.scss */
-.cn-list.temp-list-table table .form-group {
-  margin: 0;
-}
-/* line 232, ../../../sass/_table.scss */
-.cn-list.temp-list-table table .form-group .checkbox {
-  margin: 0;
-  text-align: center;
-}
-/* line 236, ../../../sass/_table.scss */
-.cn-list.temp-list-table table .form-group .checkbox label, .cn-list.temp-list-table table .form-group .checkbox .has-success .control-label, .has-success .cn-list.temp-list-table table .form-group .checkbox .control-label,
-.cn-list.temp-list-table table .form-group .checkbox .has-error .control-label,
-.has-error .cn-list.temp-list-table table .form-group .checkbox .control-label {
-  margin: 0 8px 0 0;
-  padding: 0;
-}
-/* line 240, ../../../sass/_table.scss */
-.cn-list.temp-list-table table .form-group .checkbox label span, .cn-list.temp-list-table table .form-group .checkbox .has-success .control-label span, .has-success .cn-list.temp-list-table table .form-group .checkbox .control-label span,
-.cn-list.temp-list-table table .form-group .checkbox .has-error .control-label span,
-.has-error .cn-list.temp-list-table table .form-group .checkbox .control-label span {
-  margin: 0;
-}
-/* line 247, ../../../sass/_table.scss */
-.cn-list.temp-list-table table th {
-  min-width: 100px;
-  background: #f0eff2;
-}
-/* line 251, ../../../sass/_table.scss */
-.cn-list.temp-list-table table th:first-child {
-  min-width: 10px;
-  text-align: center;
-}
-/* line 255, ../../../sass/_table.scss */
-.cn-list.temp-list-table table th span {
-  cursor: pointer;
-  font-weight: 400;
-}
-/* line 263, ../../../sass/_table.scss */
-.cn-list.temp-list-table table tbody tr td {
-  padding: 15px 8px;
-}
-/* line 266, ../../../sass/_table.scss */
-.cn-list.temp-list-table table tbody tr td:first-child {
-  text-align: center;
-  padding-left: 20px;
-}
-/* line 271, ../../../sass/_table.scss */
-.cn-list.temp-list-table table tbody tr td p {
-  margin: 5px 0 0 0;
-}
-/* line 275, ../../../sass/_table.scss */
-.cn-list.temp-list-table table tbody tr td a {
-  line-height: normal;
-}
-/* line 277, ../../../sass/_table.scss */
-.cn-list.temp-list-table table tbody tr td a:focus {
-  text-decoration: none;
-}
-/* line 282, ../../../sass/_table.scss */
-.cn-list.temp-list-table table tbody tr td .full-width {
-  width: 100%;
-}
-/* line 287, ../../../sass/_table.scss */
-.cn-list.temp-list-table table tbody tr.no-items-to-show .well {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 300;
-}
-/* line 292, ../../../sass/_table.scss */
-.cn-list.temp-list-table table tbody tr.no-items-to-show td {
-  padding: 15px 8px;
-}
-/* line 303, ../../../sass/_table.scss */
-.cn-list.fixed-header-table:first-child {
-  overflow: auto;
-  -webkit-transform: translate3d(0, 0, 0);
-}
-/* line 317, ../../../sass/_table.scss */
-.cn-list.reports-list-table table th:last-child {
-  min-width: 10px;
-  text-align: center;
-}
-/* line 321, ../../../sass/_table.scss */
-.cn-list.reports-list-table table th:nth-child(2) {
-  min-width: 575px;
-}
-/* line 325, ../../../sass/_table.scss */
-.cn-list.reports-list-table table th #number-selected {
-  float: left;
-}
-/* line 330, ../../../sass/_table.scss */
-.cn-list.reports-list-table table th #reports-context-menu a {
-  font-weight: 400;
-  margin-left: 15px;
-}
-/* line 334, ../../../sass/_table.scss */
-.cn-list.reports-list-table table th #reports-context-menu a:hover {
-  text-decoration: none;
-}
-/* line 338, ../../../sass/_table.scss */
-.cn-list.reports-list-table table th #reports-context-menu a i {
-  margin: 0 3px -2px 0;
-}
-/* line 345, ../../../sass/_table.scss */
-.cn-list.reports-list-table table .scheduled-cell {
-  text-align: center;
-}
-/* line 352, ../../../sass/_table.scss */
-.cn-list.reports-list-table table tbody tr td:last-child {
-  text-align: center;
-}
-/* line 356, ../../../sass/_table.scss */
-.cn-list.reports-list-table table tbody tr td h5 {
-  display: inline;
-}
-/* line 360, ../../../sass/_table.scss */
-.cn-list.reports-list-table table tbody tr td input[type="text"],
-.cn-list.reports-list-table table tbody tr td input[type="text"]:focus {
-  border: none;
-  box-shadow: none;
-  width: 100%;
-  background: transparent;
-  font-size: 14px;
-  font-weight: 800;
-  padding: 0;
-}
-/* line 381, ../../../sass/_table.scss */
-.cn-list.requests-list-table table thead th:nth-child(2) {
-  min-width: 10px;
-}
-/* line 384, ../../../sass/_table.scss */
-.cn-list.requests-list-table table thead th:nth-child(3) {
-  width: 25%;
-}
-/* line 387, ../../../sass/_table.scss */
-.cn-list.requests-list-table table thead th:nth-child(4) {
-  width: 20%;
-}
-/* line 390, ../../../sass/_table.scss */
-.cn-list.requests-list-table table thead th:nth-child(5) {
-  text-align: center;
-}
-/* line 393, ../../../sass/_table.scss */
-.cn-list.requests-list-table table thead th:last-child {
-  min-width: 120px;
-}
-/* line 401, ../../../sass/_table.scss */
-.cn-list.requests-list-table table tbody td:nth-child(2) i {
-  font-size: 1.4em;
-}
-/* line 405, ../../../sass/_table.scss */
-.cn-list.requests-list-table table tbody td:nth-child(5) {
-  text-align: center;
-}
-/* line 407, ../../../sass/_table.scss */
-.cn-list.requests-list-table table tbody td:nth-child(5) i {
-  color: #638A79;
-}
-/* line 412, ../../../sass/_table.scss */
-.cn-list.requests-list-table table tbody td:nth-child(7) a {
-  margin-top: 5px;
-  display: table;
-  font-size: 0.9em;
-}
-/* line 419, ../../../sass/_table.scss */
-.cn-list.requests-list-table table tbody td .status {
-  position: relative;
-  padding-left: 20px;
-}
-/* line 423, ../../../sass/_table.scss */
-.cn-list.requests-list-table table tbody td .status i {
-  position: absolute;
-  left: 0;
-  top: 4px;
-}
-/* line 429, ../../../sass/_table.scss */
-.cn-list.requests-list-table table tbody td .status p:first-of-type {
-  text-transform: capitalize;
-}
-/* line 432, ../../../sass/_table.scss */
-.cn-list.requests-list-table table tbody td .status p:nth-of-type(2) {
-  font-size: 0.9em;
-  opacity: 0.5;
-}
-/* line 437, ../../../sass/_table.scss */
-.cn-list.requests-list-table table tbody td .status a {
-  margin-top: 5px;
-  display: table;
-  font-size: 0.9em;
-}
-/* line 461, ../../../sass/_table.scss */
-.cn-list .ad-sets-list-table td.toggle-collapse {
-  width: 45px;
-}
-/* line 465, ../../../sass/_table.scss */
-.cn-list .ad-sets-list-table .grouped-list td.toggle-collapse {
-  width: 0;
-  padding: 12px;
-}
-/* line 470, ../../../sass/_table.scss */
-.cn-list .ad-sets-list-table td.toggle-status {
-  width: 8%;
-}
-/* line 473, ../../../sass/_table.scss */
-.cn-list .ad-sets-list-table td.ad-set-name {
-  width: 10%;
-}
-/* line 476, ../../../sass/_table.scss */
-.cn-list .ad-sets-list-table td.delivery-status {
-  width: 10%;
-}
-/* line 479, ../../../sass/_table.scss */
-.cn-list .ad-sets-list-table td.kpi-stat {
-  width: 15%;
-}
-/* line 482, ../../../sass/_table.scss */
-.cn-list .ad-sets-list-table td.campaign-name {
-  width: 30%;
-}
-/* line 485, ../../../sass/_table.scss */
-.cn-list .ad-sets-list-table td.date {
-  width: 8%;
-}
-/* line 488, ../../../sass/_table.scss */
-.cn-list .ad-sets-list-table td.spend-breakdown {
-  width: 20%;
-}
-/* line 498, ../../../sass/_table.scss */
-.cn-list .label {
-  display: inline;
-}
-/* line 502, ../../../sass/_table.scss */
-.cn-list .media-object {
-  max-width: 50px;
-  display: inline;
-}
-
-/* line 508, ../../../sass/_table.scss */
-.list-container {
-  max-width: 85%;
-  margin: auto;
-  margin-top: 25px;
-}
-
-/* line 516, ../../../sass/_table.scss */
-.cn-timepicker td {
-  min-width: 50px;
-}
-/* line 519, ../../../sass/_table.scss */
-.cn-timepicker button {
-  margin: 0px 2px;
-  padding: 9px;
-}
-
-/* line 525, ../../../sass/_table.scss */
-.table > tbody > tr > td,
-.table > tbody > tr > th,
-.table > tfoot > tr > td,
-.table > tfoot > tr > th,
-.table > thead > tr > td,
-.table > thead > tr > th {
-  vertical-align: middle;
-}
-
-/* line 534, ../../../sass/_table.scss */
-.top-heavy > tbody > tr > td,
-.top-heavy > tbody > tr > th,
-.top-heavy > tfoot > tr > td,
-.top-heavy > tfoot > tr > th,
-.top-heavy > thead > tr > td,
-.top-heavy > thead > tr > th {
-  vertical-align: top;
 }
 
 /* line 1, ../../../sass/_heading.scss */
