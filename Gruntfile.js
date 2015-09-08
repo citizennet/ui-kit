@@ -8,7 +8,7 @@ module.exports = function(grunt) {
         livereload: true
       },
       sass: {
-        files: 'sass/*',
+        files: 'sass/common.scss',
         tasks: ['compass:dist']
       }
     },
