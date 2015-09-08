@@ -4,6 +4,8 @@
 * https://github.com/twbs/bootstrap-sass/tree/v3.3.2/assets/stylesheets/bootstrap
 *
 */
+@import "compass/css3";
+@import "compass/utilities";
 // Core variables and mixins
 @import "variables";
 @import "mixins";
@@ -50,3 +52,12 @@
 @import "responsive-utilities";
 // CN Legacy
 @import "typography";
+@import "nav-bar";
+@import "sub-nav";
+@import "tool-bar";
+@import "sidebar";
+@import "table";
+@import "heading";
+@import "modal";
+@import "toast";
+@import "cn-icons";

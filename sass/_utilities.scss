@@ -55,3 +55,227 @@
 .affix {
   position: fixed;
 }
+
+/************************************************************************
+COMMON
+************************************************************************/
+
+*, *:before, *:after {
+  @include box-sizing(border-box);
+}
+
+body {
+  background: $lighter-grey;
+}
+
+/************************************************************************
+GENERAL
+************************************************************************/
+
+.label, .close {
+  font-weight: inherit;
+}
+
+hr {
+  border-color: $light-grey;
+}
+
+body > .container-fluid {
+  padding: 0;
+}
+
+dl.list-inline {
+  margin-left: 0;
+
+  dt, dd {
+    display: inline-block;
+  }
+}
+
+dt {
+  margin-bottom: 5px; // if shouldn't apply to all dt's, move to _dashboard.scss
+}
+
+.bg-warning {
+  background-color: #f2cece;
+}
+
+// logo
+
+.navbar-brand > img {
+  height: 27px;
+  position: relative;
+  top: -3px;
+  margin-right: 1em;
+}
+
+// form
+
+select.form-control {
+  height: 26px;
+  cursor: pointer;
+}
+
+// placeholders
+input[type="text"]:focus::-webkit-input-placeholder {
+  color: #ccc;
+  @include transition(all .3s ease);
+}
+
+input[type="text"]:focus::-moz-placeholder {
+  /* Firefox 18- */
+  color: #ccc;
+  @include transition(all .3s ease);
+}
+
+input[type="text"]:focus::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ccc;
+  @include transition(all .3s ease);
+}
+
+input[type="text"]:focus:-ms-input-placeholder {
+  color: #ccc;
+  @include transition(all .3s ease);
+}
+
+.gutterless {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-padding-top {
+  padding-top: 0;
+}
+
+.no-padding-right {
+  padding-right: 0;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+.no-padding-left {
+  padding-left: 0;
+}
+
+.island {
+  padding: 40px;
+}
+
+.island-md {
+  padding: 30px;
+}
+
+.island-sm {
+  padding: 20px;
+}
+
+.island-xs {
+  padding: 10px;
+}
+
+.island + .island:not(.bordered),
+.island-md + .island-md:not(.bordered),
+.island-sm + .island-sm:not(.bordered),
+.island-xs + .island-xs:not(.bordered) {
+  padding-top: 0;
+}
+
+.label {
+  margin: 1px;
+  display: inline-block;
+  color: $dark-grey;
+  background: $white;
+  @include border-radius($radii);
+
+  &.label-block {
+    display: block;
+  }
+
+  &.label-primary {
+    //    color: $dark-grey;
+    background-color: $primary-highlight;
+  }
+}
+
+.flex {
+  width: auto;
+  min-width: 50%;
+}
+
+.cn-error {
+  color: $danger;
+}
+
+[truncate-show=click] {
+  cursor: pointer;
+}
+
+.text-break {
+  word-break: break-all;
+}
+
+.disabled-events {
+  pointer-events: none;
+}
+
+// allow non-btn anchor tags to use disabled class
+a.disabled {
+  pointer-events: none;
+  opacity: .65;
+}
+
+/* workaround for angular issue #8033 (https://github.com/angular/angular.js/issues/8033)
+ * ng-animate conflicts with ng-hide and causes a delay before the
+ * element is hidden. add class "instant-hide" to any element with ng-hide
+ * that needs to be hidden instantly.
+*/
+.instant-hide {
+  transition: 0s linear all !important;
+  -webkit-transition: 0s linear all !important;
+}
+
+.offscreen {
+  // offscreen but still able to focus on (for tabbing to and from)
+  position: absolute;
+  top: -999%;
+  left: -999%;
+}
+
+.hide-below {
+  position: absolute;
+  z-index: -999;
+  opacity: .01;
+}
+
+.boost {
+  z-index: 99;
+}
+
+.text-muted {
+  color: inherit;
+  opacity: .5;
+}
+
+@media screen and (min-width: $break-md) {
+  .vertical-parent {
+    position: relative;
+    z-index: 1;
+  }
+
+  .vertical-child {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 100%;
+  }
+
+  .vertical-child-right {
+    right: 0;
+  }
+}

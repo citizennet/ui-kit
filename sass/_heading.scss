@@ -1,0 +1,30 @@
+.cn-heading,
+.modal-content .modal-header.cn-heading {
+  background: $top-sub-nav-bg;
+  padding: 25px;
+  margin: 0;
+  color: $top-sub-nav-text;
+  border-top: 0;
+  z-index: 12;
+
+  .vertical-child-right {
+    right: 25px;
+  }
+
+  h1 {
+    color: $white;
+    margin-top: 10px;
+  }
+
+  h5 {
+    margin: 0;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  .btn {
+    margin-left: 10px;
+  }
+}

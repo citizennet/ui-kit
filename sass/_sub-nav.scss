@@ -1,0 +1,148 @@
+/************************************************************************
+SUBNAV
+************************************************************************/
+
+.cn-sub-navbar-fixed-top {
+  background-color: $top-sub-nav-bg;
+  border: 0;
+  height: 65px;
+  min-height: 65px;
+  color: $white;
+  position: relative;
+  display: table;
+  width: 100%;
+  padding: 0;
+  z-index: 1020;
+  overflow: hidden;
+
+  .row {
+    display: table-row;
+  }
+
+  label {
+    color: $white;
+    font-weight: 300;
+    line-height: 65px;
+    letter-spacing: .04em;
+  }
+
+  .col-sm-3 {
+    padding: 0;
+
+    &, & a {
+      color: #fff;
+    }
+
+    a, span {
+      width: 100%;
+      font-weight: 200;
+      letter-spacing: .04em;
+      display: table-cell;
+      height: 64px;
+      vertical-align: middle;
+      line-height: 1.2;
+      @include box-sizing(border-box);
+      padding: 0 45px;
+      margin: 0;
+
+      h4 {
+        color: $white;
+        font-size: 14px;
+        margin: 0;
+      }
+      h5 {
+        color: $light-grey;
+        font-size: 12px;
+        margin: 4px 0 0;
+        font-weight: normal;
+      }
+    }
+
+    div {
+      height: 100%;
+      display: table;
+
+      &::after {
+        position: absolute;
+        top: 0;
+        right: -8px;
+        width: 8px;
+        height: 100%;
+        content: "";
+        pointer-events: none;
+        background: url(../../../../images/arw-sm.svg) center center no-repeat;
+      }
+    }
+
+    &.active {
+      @include highlight;
+
+      div {
+        &::before,
+        &::after {
+          position: absolute;
+          top: 0;
+          width: 23px;
+          height: 100%;
+          content: "";
+          pointer-events: none;
+        }
+
+        &::before {
+          left: -16px;
+          background: url(../../../../images/arw-before.svg) center center no-repeat;
+        }
+
+        &::after {
+          width: 31px;
+          right: -16px;
+          background: url(../../../../images/arw-after.svg) center center no-repeat;
+        }
+      }
+
+      &:first-child div::before,
+      &:last-child div::after {
+        display: none;
+      }
+    }
+  }
+
+  > form > label, strong {
+    font-size: 1em;
+    line-height: 1.9;
+    font-weight: 200;
+    letter-spacing: .04em;
+    color: $top-sub-nav-secondary-text;
+
+    &:first-child {
+      color: $white;
+    }
+  }
+
+  .active strong {
+    color: $white;
+  }
+
+  > form > div.pull-right {
+    label {
+      font-size: .8125em;
+      font-weight: 400;
+    }
+    select {
+      background: transparent;
+      border: 0;
+      font-size: .8125em;
+      @include box-shadow(none);
+    }
+  }
+
+  .company-selection {
+    float: right;
+    margin-top: 15px;
+  }
+
+  .groups-list-header-nav {
+    padding: 0 15px;
+  }
+
+}
