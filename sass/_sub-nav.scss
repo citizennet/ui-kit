@@ -70,7 +70,7 @@ SUBNAV
         height: 100%;
         content: "";
         pointer-events: none;
-        background: url(../../js/vendor/ui-kit/assets/arw-sm.svg) center center no-repeat;
+        background: url(#{$svg-path}/arw-sm.svg) center center no-repeat;
       }
     }
 
@@ -90,13 +90,13 @@ SUBNAV
 
         &::before {
           left: -16px;
-          background: url(../../js/vendor/ui-kit/assets/arw-before.svg) center center no-repeat;
+          background: url(#{$svg-path}/arw-before.svg) center center no-repeat;
         }
 
         &::after {
           width: 31px;
           right: -16px;
-          background: url(../../js/vendor/ui-kit/assets/arw-after.svg) center center no-repeat;
+          background: url(#{$svg-path}/arw-after.svg) center center no-repeat;
         }
       }
 
