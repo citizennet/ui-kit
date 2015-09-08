@@ -20,7 +20,6 @@ module.exports = function(grunt) {
         src: [
           'bower_components/angular-bootstrap-toaster/toaster.css',
           'bower_components/jquery-ui/themes/base/jquery.ui.resizable.css',
-          'bower_components/bootstrap/dist/css/bootstrap.min.css',
           'bower_components/font-awesome/css/font-awesome.min.css',
           'bower_components/chosen/chosen.min.css'
         ],
