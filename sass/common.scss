@@ -1,16 +1,15 @@
 /**
+*
 * Styles Imported from Twitter bootstrap 3.3.2
 * https://github.com/twbs/bootstrap-sass/tree/v3.3.2/assets/stylesheets/bootstrap
 *
 */
-
 // Core variables and mixins
 @import "variables";
 @import "mixins";
 // Reset and dependencies
 @import "normalize";
 @import "print";
-@import "glyphicons";
 // Core CSS
 @import "scaffolding";
 @import "type";
