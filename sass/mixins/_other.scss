@@ -1,0 +1,90 @@
+/*
+* Mixins!
+* @author Lee
+*
+* ported from symfony project. Probably needs work
+*
+* Cool mixins: http://sachagreif.com/useful-sass-mixins/
+*/
+
+@mixin opacity($opacity) {
+  filter: alpha(opacity=$opacity * 100);
+  -moz-opacity: $opacity;
+  -khtml-opacity: $opacity;
+  opacity: $opacity;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -khtml-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin mbox-shadow($horizontal, $vertical, $blur, $color) {
+  -moz-box-shadow: $horizontal $vertical $blur $color;
+  -webkit-box-shadow: $horizontal $vertical $blur $color;
+  box-shadow: $horizontal $vertical $blur $color;
+}
+
+@mixin wrap-text() {
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+@mixin cursor-pointer() {
+  cursor: hand;
+  cursor: pointer;
+}
+
+@mixin cursor-grab() {
+  // Chrome windows & Operate
+  cursor: move;
+  // The grab icons were first introduced in Firefox 1.5 (November 29, 2005).
+  cursor: -moz-grab;
+  // Chrome & Safari on Mac & Linux
+  cursor: -webkit-grab;
+}
+
+@mixin background-gradient($toColor, $fromColor) {
+  background-image: -moz-linear-gradient(top, $toColor, $fromColor);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from($toColor), to($fromColor));
+  background-image: -webkit-linear-gradient(top, $toColor, $fromColor);
+  background-image: -o-linear-gradient(top, $toColor, $fromColor);
+  background-image: linear-gradient(to bottom, $toColor, $fromColor);
+}
+
+@mixin background-gradient-specific($placement, $toColor, $fromColor, $length) {
+  background-image: -moz-linear-gradient($placement, $toColor, $fromColor $length);
+  background-image: -webkit-linear-gradient($placement, $toColor, $fromColor $length);
+  background-image: -o-linear-gradient($placement, $toColor, $fromColor $length);
+  background-image: -ms-linear-gradient($placement, $toColor, $fromColor $length);
+  background-image: linear-gradient($placement, $toColor, $fromColor $length);
+}
+
+@mixin loading($margin: 100px) {
+  color: #999;
+  text-align: center;
+  font-weight: 200;
+  margin: $margin;
+}
+
+@mixin highlight() {
+  @include background-gradient(#1796A3, #0C8B99);
+}
+
+@mixin highlighter() {
+  @include background-gradient(#97DCE9, #8CD1DF);
+}
+
+@mixin user-select-none() {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

@@ -850,3 +850,152 @@ $page-header-border-color: $gray-lighter !default;
 $dl-horizontal-offset: $component-offset-horizontal !default;
 //** Horizontal line color.
 $hr-border: $gray-lighter !default;
+
+//
+// Citizennet Variables
+// --------------------------------------------------
+
+// media breakpoints
+
+$break-xs: 640px;
+$break-sm: 768px;
+$break-md: 992px;
+$break-lg: 1200px;
+
+// older -- DONT USE -- why not? "just before global"
+$white: #fff;
+$black: #0d1015;
+$danger: #e65d6d;
+$lighter-grey: #f0eff2;
+$light-grey: #d8d8d8;
+$mid-grey: #939196;
+$dark-grey: #1e222e;
+$darker-grey: $black;
+
+$primary-highlight: #c8e4f0;
+$primary-color: #3ba0cc;
+$primary-shadow: #3095c3;
+$primary-text: $white;
+$danger-color: $danger;
+$danger-text: $white;
+//$info-color: #D6EEFA;
+//$info-shadow: #bed7e2;
+
+$fb-blue: #3b5998;
+$fb-border: darken($fb-blue, 10%);
+$tw-blue: #00aced;
+$tw-border: darken($tw-blue, 10%);
+$ig-brown: #675144;
+$ig-border: darken($ig-brown, 10%);
+
+// global
+
+$default-color: $dark-grey;
+$default-bg: #dedae0;
+$default-shadow: #c6c3c8;
+
+$top-main-nav-bg: $darker-grey;
+$top-sub-nav-bg: $dark-grey;
+$top-nav-text: $mid-grey;
+$top-sub-nav-text: $light-grey;
+
+$top-sub-nav-secondary-text: #CECECE;
+
+$bg-inner-main: $dark-grey;
+
+$radii: 3px;
+
+// sidebar
+
+$sidebar-item-active: #2E2531;
+$sidebar-item-active-text: $white;
+$sidebar-item-active-circle: #00A0B3;
+$sidebar-item-inactive: #3B303F;
+$sidebar-item-inactive-text: #999;
+$sidebar-item-border: #4E4854;
+$sidebar-item-header-text: #1C7C8C;
+
+// forms
+
+$form-focused-outline: lighten($primary-color, 25%);
+
+$form-bg: $lighter-grey;
+$form-divider: $light-grey;
+
+$heading: #545157;
+$sub-heading: #342E3A;
+
+$supporting-text: #747276;
+
+$text-field-disabled: $lighter-grey;
+$text-field-shadow: #E7E6E9;
+
+$dropdown-text: $dark-grey;
+$dropdown-bg: $default-bg;
+$dropdown-shadow: $default-shadow;
+
+$help-text: #757276;
+$field-required: $danger;
+
+$slider-active: #42C7B0;
+
+//$tag-bg: #009FE5;
+$tag-bg: $primary-highlight;
+
+// controls
+
+$cn-toggle-bg: #6DC2AE;
+$cn-toggle-disabled-bg: #DEDCE0;
+$cn-toggle-button: #E2E2E2;
+
+$button-blue-bg: $primary-color;
+$button-blue-text: $white;
+$button-blue-shadow: $primary-shadow;
+
+$button-blue-bg-hover: lighten($primary-color, 5%);
+$button-blue-text-hover: $white;
+$button-blue-shadow-hover: lighten($primary-shadow, 5%);
+
+$button-gray-bg: $default-bg;
+$button-gray-text: $dark-grey;
+$button-gray-shadow: $default-shadow;
+
+$button-gray-bg-hover: lighten($default-bg, 5%);
+$button-gray-text-hover: lighten($dark-grey, 5%);
+$button-gray-shadow-hover: lighten($default-shadow, 5%);
+
+$panel-heading: #918E94;
+$panel-heading-bg: $dropdown-bg;
+$panel-body-text: $bg-inner-main;
+$panel-accordion-heading: #494450;
+
+$autocomplete-item-border: #E4E3E5;
+$autocomplete-item-hover: #428bca;
+
+// lists
+
+$list-header-bg: #EBE9EC;
+$list-header-text: #737377;
+$list-text: #3F4041;
+$list-link: #0886BD;
+$list-border: #FAFAFA;
+$list-selected-bg: #D6EEFA;
+$list-selected-border: #BADDED;
+$list-checkbox-border: #DADADA;
+
+$list-status-warning: #FC475F;
+$list-status-warning-selected: #F05B5B;
+$list-text-help: #ADADAD;
+
+$cn-definition-bg: #E8E6E9;
+$cn-definition-h3: $bg-inner-main;
+$cn-definition-small: #545157;
+$cn-definition-divider: #D8D8D8;
+
+// modal
+$modal-bg: #EDEAEF;
+$modal-text: #302A37;
+$modal-text-light: #808080;
+
+$data-sources-item-bg: #DFDCE1;
+
