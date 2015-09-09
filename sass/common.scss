@@ -15,12 +15,12 @@
 @import "glyphicons";
 // Core CSS
 @import "scaffolding";
-@import "type";
 @import "code";
 @import "grid";
 @import "tables";
 @import "forms";
 @import "buttons";
+@import "fonts/common";
 // Components
 @import "component-animations";
 @import "dropdowns";
@@ -43,6 +43,7 @@
 @import "responsive-embed";
 @import "wells";
 @import "close";
+@import "cards";
 // Components w/ JavaScript
 @import "modals";
 @import "tooltip";
@@ -52,7 +53,6 @@
 @import "utilities";
 @import "responsive-utilities";
 // CN Legacy
-@import "fonts/common";
 @import "sub-nav";
 @import "tool-bar";
 @import "sidebar";

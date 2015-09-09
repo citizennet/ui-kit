@@ -41,6 +41,8 @@ th {
   > thead > tr > th {
     vertical-align: bottom;
     border-bottom: 2px solid $table-border-color;
+    font-weight: 300;
+    color: #959BA2;
   }
   // Remove top border from thead by default
   > caption + thead,
@@ -103,16 +105,6 @@ th {
   }
 }
 
-// Zebra-striping
-//
-// Default zebra-stripe styles (alternating gray and transparent backgrounds)
-
-.table-striped {
-  > tbody > tr:nth-of-type(odd) {
-    background-color: $table-bg-accent;
-  }
-}
-
 // Hover effect
 //
 // Placed here since it has to come after the potential zebra striping
@@ -156,77 +148,6 @@ table {
 @include table-row-variant('warning', $state-warning-bg);
 @include table-row-variant('danger', $state-danger-bg);
 
-// Responsive tables
-//
-// Wrap your tables in `.table-responsive` and we'll make them mobile friendly
-// by enabling horizontal scrolling. Only applies <768px. Everything above that
-// will display normally.
-
-.table-responsive {
-  overflow-x: auto;
-  min-height: 0.01%; // Workaround for IE9 bug (see https://github.com/twbs/bootstrap/issues/14837)
-
-  @media screen and (max-width: $screen-xs-max) {
-    width: 100%;
-    margin-bottom: ($line-height-computed * 0.75);
-    overflow-y: hidden;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 1px solid $table-border-color;
-
-    // Tighten up spacing
-    > .table {
-      margin-bottom: 0;
-
-      // Ensure the content doesn't wrap
-      > thead,
-      > tbody,
-      > tfoot {
-        > tr {
-          > th,
-          > td {
-            white-space: nowrap;
-          }
-        }
-      }
-    }
-
-    // Special overrides for the bordered tables
-    > .table-bordered {
-      border: 0;
-
-      // Nuke the appropriate borders so that the parent can handle them
-      > thead,
-      > tbody,
-      > tfoot {
-        > tr {
-          > th:first-child,
-          > td:first-child {
-            border-left: 0;
-          }
-          > th:last-child,
-          > td:last-child {
-            border-right: 0;
-          }
-        }
-      }
-
-      // Only nuke the last row's bottom-border in `tbody` and `tfoot` since
-      // chances are there will be only one `tr` in a `thead` and that would
-      // remove the border altogether.
-      > tbody,
-      > tfoot {
-        > tr:last-child {
-          > th,
-          > td {
-            border-bottom: 0;
-          }
-        }
-      }
-
-    }
-  }
-}
-
 /************************************************************************
 TABLE
 ************************************************************************/
@@ -237,40 +158,11 @@ table {
   &.fixed {
     display: none;
   }
-
-  td, th {
-    font-size: 12px;
-  }
 }
 
 // All list views
 .cn-list {
   padding: 0;
-
-  table {
-    //    letter-spacing: .02em;
-    border: none;
-    border-bottom: 1px solid $light-grey;
-    background-color: $white;
-    color: $list-text;
-    margin-bottom: 0;
-  }
-
-  a {
-    color: $list-link;
-
-    &:hover {
-      color: #01639D;
-    }
-  }
-
-  //    input[type=checkbox] + label {
-  //      margin: 0;
-  //
-  //      span {
-  //        border: 1px solid $list-checkbox-border;
-  //      }
-  //    }
 
   // a row is selected
   .selected {
@@ -296,33 +188,30 @@ table {
   }
 
   thead {
-    th {
-      background-color: $list-header-bg;
-      color: $list-header-text;
-      font-size: 12px;
-      font-weight: 500;
-      line-height: 12px;
-      border: none;
+    tr {
+      height: 55px;
 
-      &:first-child {
-        padding-left: 20px;
+      th {
+        &:first-child {
+          padding-left: 20px;
+        }
+
+        &:last-child {
+          padding-right: 20px;
+        }
       }
-
-      &:last-child {
-        padding-right: 20px;
-      }
-
-      //          input[type=checkbox] + label {
-      //            margin: 0;
-      //
-      //            span {
-      //              border: 1px solid $list-checkbox-border;
-      //            }
-      //          }
     }
   }
 
   tbody {
+    background-color: #fff;
+
+    //    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    // fake box shadow, since it
+    border-left: 1px solid #E7E6EB;
+    border-right: 1px solid #E7E6EB;
+    border-bottom: 2px solid #DEDEDE;
+
     & + tbody {
       border-top-width: 1px;
     }
@@ -330,12 +219,10 @@ table {
     td {
       border-width: 0 0 2px;
       border-color: $list-border;
-      font-size: 12px;
       padding: 10px;
       vertical-align: middle;
 
       .modal-content & {
-        font-size: 12px;
         vertical-align: top;
       }
 
@@ -376,17 +263,12 @@ table {
       }
     }
 
-    h5 {
-      margin: 0;
-      line-height: 11px;
-
-      .glyphicon-new-window {
-        font-size: 12px;
-      }
-    }
-
     small {
       color: $list-text-help;
+    }
+
+    a.link {
+      font-weight: 500;
     }
   }
 
@@ -405,10 +287,7 @@ table {
   }
 
   .kpi-stat {
-    text-align: right;
-
     span {
-      //          text-align: center;
       display: block;
     }
 
@@ -417,27 +296,10 @@ table {
     }
   }
 
-  .spend-breakdown {
-    text-align: right;
-
-    h5 {
-      margin-bottom: 4px;
-      font-weight: 400;
-
-      span {
-        color: $list-text-help;
-        font-size: 12px;
-      }
-    }
-  }
 
   a.popover-preview {
     display: block;
     height: 100%;
-  }
-
-  p.popover-text {
-    font-size: 10px;
   }
 
   .highlighted {
@@ -515,7 +377,6 @@ table {
           &.no-items-to-show {
             .well {
               text-align: center;
-              font-size: 16px;
               font-weight: 300;
             }
             td {
@@ -592,7 +453,6 @@ table {
               box-shadow: none;
               width: 100%;
               background: transparent;
-              font-size: 14px;
               font-weight: 800;
               padding: 0;
             }
@@ -626,11 +486,6 @@ table {
       }
       tbody {
         td {
-          &:nth-child(2) {
-            i {
-              font-size: 1.4em;
-            }
-          }
           &:nth-child(5) {
             text-align: center;
             i {
@@ -641,7 +496,6 @@ table {
             a {
               margin-top: 5px;
               display: table;
-              font-size: 0.9em;
             }
           }
 
@@ -659,14 +513,12 @@ table {
                 text-transform: capitalize;
               }
               &:nth-of-type(2) {
-                font-size: 0.9em;
                 opacity: 0.5;
               }
             }
             a {
               margin-top: 5px;
               display: table;
-              font-size: 0.9em;
             }
           }
 

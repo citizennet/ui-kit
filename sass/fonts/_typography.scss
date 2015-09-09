@@ -3,13 +3,30 @@ TYPOGRAPHY
 ************************************************************************/
 
 body, button, input, optgroup, select, textarea {
-  font-family: Gotham SSm A, Gotham SSm B, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-style: normal;
-  color: $dark-grey;
-  font-size: 16px;
-  line-height: 1.5em;
+  font-size: 12px;
+  color: $charcoal;
+  text-align: left;
   letter-spacing: 0;
+  line-height: 1.8;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.right {
+  text-align: right;
+}
+
+.supporting {
+  font-size: 11px;
+  color: $grey;
+}
+
+a.link {
+  color: $sapphire;
 }
 
 h1, .h1 {
