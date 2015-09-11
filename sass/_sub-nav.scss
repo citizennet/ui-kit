@@ -15,8 +15,10 @@ SUBNAV
   z-index: 1020;
   overflow: hidden;
 
-  .row {
-    display: table-row;
+  .tabs {
+    width: $page-width;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   label {

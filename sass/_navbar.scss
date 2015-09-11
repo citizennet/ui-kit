@@ -19,6 +19,10 @@
   @media (min-width: $grid-float-breakpoint) {
     border-radius: $navbar-border-radius;
   }
+
+  > .container-fluid {
+    width: $page-width;
+  }
 }
 
 // Navbar heading
@@ -157,8 +161,6 @@
 // Brand/project name
 
 .navbar-brand {
-  float: left;
-  padding: $navbar-padding-vertical $navbar-padding-horizontal;
   font-size: $font-size-large;
   line-height: $line-height-computed;
   height: $navbar-height;
@@ -229,7 +231,7 @@
   > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
-    line-height: $line-height-computed;
+    line-height: 36px;
   }
 
   @media (max-width: $grid-float-breakpoint-max) {
@@ -671,10 +673,11 @@ NAVBAR
 
   .navbar-nav > li > a, .navbar-text {
     color: $top-nav-text;
-    font-weight: 300;
-    line-height: 1.5;
-    font-size: .875em;
-    letter-spacing: .05em;
+    font-weight: 400;
+
+    &.active {
+      color: $quartz;
+    }
   }
 
   .navbar-nav > {
