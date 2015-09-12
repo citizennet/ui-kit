@@ -4,21 +4,63 @@ SUBNAV
 
 .cn-sub-navbar-fixed-top {
   background-color: $top-sub-nav-bg;
-  border: 0;
-  height: 65px;
-  min-height: 65px;
-  color: $white;
-  position: relative;
-  display: table;
   width: 100%;
   padding: 0;
   z-index: 1020;
-  overflow: hidden;
 
-  .tabs {
+  .sub-sub-nav {
     width: $page-width;
     margin-left: auto;
     margin-right: auto;
+
+    .group-name {
+      text-decoration: none;
+      margin-bottom: 10px;
+      display: inline-block;
+
+      h1 {
+        margin: 19px 0;
+        display: inline-block;
+
+        .icn-back {
+          vertical-align: bottom;
+          margin-bottom: 3px;
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .tabs {
+      > div {
+        display: inline-block;
+        border-bottom: 5px solid $black;
+        margin-right: 50px;
+
+        a {
+          color: $silver;
+          font-weight: 300;
+          line-height: 45px;
+          letter-spacing: 0.2px;
+
+          .icn-facebook {
+
+          }
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+
+        &.active, &:hover {
+          cursor: pointer;
+          a {
+            color: $quartz;
+          }
+
+          border-bottom: 5px solid $maya;
+        }
+      }
+    }
   }
 
   label {
@@ -26,87 +68,6 @@ SUBNAV
     font-weight: 300;
     line-height: 65px;
     letter-spacing: .04em;
-  }
-
-  .col-sm-3 {
-    padding: 0;
-
-    &, & a {
-      color: #fff;
-    }
-
-    a, span {
-      width: 100%;
-      font-weight: 200;
-      letter-spacing: .04em;
-      display: table-cell;
-      height: 64px;
-      vertical-align: middle;
-      line-height: 1.2;
-      @include box-sizing(border-box);
-      padding: 0 45px;
-      margin: 0;
-
-      h4 {
-        color: $white;
-        font-size: 14px;
-        margin: 0;
-      }
-      h5 {
-        color: $light-grey;
-        font-size: 12px;
-        margin: 4px 0 0;
-        font-weight: normal;
-      }
-    }
-
-    div {
-      height: 100%;
-      display: table;
-
-      &::after {
-        position: absolute;
-        top: 0;
-        right: -8px;
-        width: 8px;
-        height: 100%;
-        content: "";
-        pointer-events: none;
-        background: url(#{$svg-path}/arw-sm.svg) center center no-repeat;
-      }
-    }
-
-    &.active {
-      @include highlight;
-
-      div {
-        &::before,
-        &::after {
-          position: absolute;
-          top: 0;
-          width: 23px;
-          height: 100%;
-          content: "";
-          pointer-events: none;
-        }
-
-        &::before {
-          left: -16px;
-          background: url(#{$svg-path}/arw-before.svg) center center no-repeat;
-        }
-
-        &::after {
-          width: 31px;
-          right: -16px;
-          background: url(#{$svg-path}/arw-after.svg) center center no-repeat;
-        }
-      }
-
-      &:first-child div::before,
-      &:last-child div::after {
-        display: none;
-      }
-    }
   }
 
   > form > label, strong {
@@ -119,10 +80,6 @@ SUBNAV
     &:first-child {
       color: $white;
     }
-  }
-
-  .active strong {
-    color: $white;
   }
 
   > form > div.pull-right {

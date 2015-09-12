@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>icn-facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icn-facebook" sketch:type="MSArtboardGroup" fill="#FFFFFF">
+            <path d="M19.172087,4 L5.82791295,4 C5.37054036,4 5,4.37054036 5,4.82785675 L5,18.1721432 C5,18.6293472 5.37054036,19 5.82791295,19 L13.0119448,19 L13.0119448,13.1912332 L11.05718,13.1912332 L11.05718,10.9274131 L13.0119448,10.9274131 L13.0119448,9.25793011 C13.0119448,7.32047554 14.1952236,6.26550616 15.9236064,6.26550616 C16.7514631,6.26550616 17.4629816,6.32715985 17.6704235,6.35469887 L17.6704235,8.37943528 L16.4716329,8.3799973 C15.5317092,8.3799973 15.3497269,8.82663529 15.3497269,9.48206404 L15.3497269,10.9274131 L17.5914033,10.9274131 L17.2994897,13.1912332 L15.3497269,13.1912332 L15.3497269,19 L19.172087,19 C19.629291,19 19.9999438,18.6293472 19.9999438,18.1721432 L19.9999438,4.82785675 C19.9999438,4.37054036 19.629291,4 19.172087,4" id="Fill-15-Copy" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

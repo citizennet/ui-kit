@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>icn-back</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icn-back" sketch:type="MSArtboardGroup" fill="#999FAA">
+            <path d="M7.8,10.795023 L13.0496949,5.54532807 C13.2431631,5.35185991 13.2394022,5.03442518 13.0467209,4.84174387 L12.3532791,4.1483021 C12.1581684,3.95319143 11.847333,3.94769003 11.6459275,4.14909544 L4,11.795023 L11.6459275,19.4409505 C11.8414764,19.6364993 12.1605978,19.6344252 12.3532791,19.4417439 L13.0467209,18.7483021 C13.2418316,18.5531914 13.2384422,18.2334652 13.0496949,18.0447179 L7.8,12.795023 L19.5066354,12.795023 C19.7791131,12.795023 20,12.580988 20,12.2903385 L20,11.2997074 C20,11.0209779 19.7671828,10.795023 19.5066354,10.795023 L7.8,10.795023 Z" id="Shape-Copy" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

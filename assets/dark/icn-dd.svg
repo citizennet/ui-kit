@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>icn-dd</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icn-dd" sketch:type="MSArtboardGroup" fill="#999FAA">
+            <path d="M16.1923882,9.29289322 L11.2426407,14.2426407 L12.6568542,14.2426407 L7.70710678,9.29289322 C7.31658249,8.90236893 6.68341751,8.90236893 6.29289322,9.29289322 C5.90236893,9.68341751 5.90236893,10.3165825 6.29289322,10.7071068 L11.2426407,15.6568542 C11.633165,16.0473785 12.26633,16.0473785 12.6568542,15.6568542 L17.6066017,10.7071068 C17.997126,10.3165825 17.997126,9.68341751 17.6066017,9.29289322 C17.2160774,8.90236893 16.5829124,8.90236893 16.1923882,9.29289322 L16.1923882,9.29289322 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
