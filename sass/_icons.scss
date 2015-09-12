@@ -21,3 +21,11 @@
   display: inline-block;
   vertical-align: middle;
 }
+
+.icn-search {
+  background: url(#{$svg-path}dark/icn-search.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}

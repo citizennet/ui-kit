@@ -6386,6 +6386,15 @@ address {
   vertical-align: middle;
 }
 
+/* line 25, ../../../sass/_icons.scss */
+.icn-search {
+  background: url(../../js/vendor/ui-kit/assets/dark/icn-search.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /* line 10, ../../../sass/_component-animations.scss */
 .fade {
   opacity: 0;
@@ -10967,7 +10976,7 @@ TOOL BAR
 /* line 45, ../../../sass/_tool-bar.scss */
 .tool-bar .right-hand-side-nav {
   position: absolute;
-  right: 10px;
+  right: 0;
   top: 10px;
 }
 /* line 52, ../../../sass/_tool-bar.scss */
@@ -11002,7 +11011,7 @@ TOOL BAR
 .has-error .tool-bar .spyglass.control-label {
   color: #535353;
   float: left;
-  margin: 6px 0 0 0;
+  margin: 4px 0 0;
   cursor: pointer;
 }
 /* line 84, ../../../sass/_tool-bar.scss */
