@@ -92,9 +92,13 @@ SUBNAV
   }
 
   .company-selection {
-    height: 85px;
+    height: 100px;
 
     a {
+      h1 {
+        display: inline-block;
+      }
+
       .icn-caret {
         margin-left: 15px;
         margin-top: -3px;
@@ -106,7 +110,7 @@ SUBNAV
     }
 
     .dropdown-menu {
-      top: 50px;
+      top: 60px;
     }
   }
 
