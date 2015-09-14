@@ -6,7 +6,7 @@
   vertical-align: middle;
 }
 
-.icn-facebook {
+.icn-twitter {
   background: url(#{$svg-path}icn-twitter.svg);
   width: 24px;
   height: 24px;
@@ -16,6 +16,14 @@
 
 .icn-facebook {
   background: url(#{$svg-path}socialmedia/dark-active/icn-facebook.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icn-facebook-dark {
+  background: url(#{$svg-path}socialmedia/light/icn-facebook.svg);
   width: 24px;
   height: 24px;
   display: inline-block;
@@ -34,6 +42,14 @@
   background: url(#{$svg-path}dark/icn-dd.svg);
   width: 24px;
   height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icn-caret-sm {
+  background: url(#{$svg-path}dark/icn-caret-sm.svg);
+  width: 10px;
+  height: 6px;
   display: inline-block;
   vertical-align: middle;
 }
