@@ -29,3 +29,11 @@
   display: inline-block;
   vertical-align: middle;
 }
+
+.icn-caret {
+  background: url(#{$svg-path}dark/icn-dd.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}

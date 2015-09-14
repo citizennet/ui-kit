@@ -6395,6 +6395,15 @@ address {
   vertical-align: middle;
 }
 
+/* line 33, ../../../sass/_icons.scss */
+.icn-caret {
+  background: url(../../js/vendor/ui-kit/assets/dark/icn-dd.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /* line 10, ../../../sass/_component-animations.scss */
 .fade {
   opacity: 0;
@@ -10915,12 +10924,26 @@ SUBNAV
 }
 /* line 94, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .company-selection {
-  float: right;
-  margin-top: 15px;
+  height: 85px;
 }
-/* line 99, ../../../sass/_sub-nav.scss */
+/* line 98, ../../../sass/_sub-nav.scss */
+.cn-sub-navbar-fixed-top .company-selection a .icn-caret {
+  margin-left: 15px;
+  margin-top: -3px;
+}
+/* line 103, ../../../sass/_sub-nav.scss */
+.cn-sub-navbar-fixed-top .company-selection a:hover {
+  text-decoration: none;
+}
+/* line 108, ../../../sass/_sub-nav.scss */
+.cn-sub-navbar-fixed-top .company-selection .dropdown-menu {
+  top: 50px;
+}
+/* line 113, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .groups-list-header-nav {
-  padding: 0 15px;
+  width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /************************************************************************
