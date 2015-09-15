@@ -22,7 +22,6 @@ th {
 .table {
   width: 100%;
   max-width: 100%;
-  margin-bottom: $line-height-computed;
   // Cells
   > thead,
   > tbody,
@@ -204,14 +203,6 @@ table {
   }
 
   tbody {
-    background-color: #fff;
-
-    //    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
-    // fake box shadow, since it
-    border-left: 1px solid #E7E6EB;
-    border-right: 1px solid #E7E6EB;
-    border-bottom: 2px solid #DEDEDE;
-
     & + tbody {
       border-top-width: 1px;
     }
@@ -538,11 +529,15 @@ table {
   }
 
   // Ad Sets List
-  .ad-sets-list-table {
+  table.ad-sets-list-table.card {
+    border-bottom: none;
+
     td.toggle-collapse {
       width: 45px;
     }
     .grouped-list {
+      border: none;
+
       td.toggle-collapse {
         width: 0;
         padding: 12px;

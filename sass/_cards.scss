@@ -16,3 +16,22 @@ div.card {
 }
 
 // table card is broken out into _cards.scss
+.cn-list {
+  > table.card {
+    // fake box shadow, since it (part 1/2)
+    border-bottom: 2px solid #DEDEDE;
+  }
+
+  table.card {
+    tbody {
+      background-color: #fff;
+
+      //    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+      // fake box shadow, since it (part 2/2)
+      tr {
+        border-left: 1px solid #E7E6EB;
+        border-right: 1px solid #E7E6EB;
+      }
+    }
+  }
+}

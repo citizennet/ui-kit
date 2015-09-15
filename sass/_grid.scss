@@ -27,6 +27,7 @@
 
 .container-fluid {
   @include container-fixed;
+  margin-bottom: 10px;
 }
 
 // Row
