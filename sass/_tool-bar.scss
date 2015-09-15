@@ -34,13 +34,19 @@ TOOL BAR
   margin-top: 15px;
 
   .filter-types {
-    border-right: 1px solid #D8DAE1;
-    padding-right: 20px;
+    &.border-right {
+      border-right: 1px solid #D8DAE1;
+      padding-right: 20px;
+    }
 
     a.dropdown-toggle {
       color: $charcoal;
       font-weight: 500;
       line-height: 35px;
+
+      .meta {
+        font-weight: 300;
+      }
 
       .icn-caret-sm {
         margin-left: 5px;
