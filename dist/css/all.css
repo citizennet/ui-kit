@@ -9508,6 +9508,32 @@ div.card {
   border-right: 1px solid #E7E6EB;
 }
 
+/* line 1, ../../../sass/_dashboard.scss */
+.cn-dashboard {
+  width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 6, ../../../sass/_dashboard.scss */
+.cn-dashboard .table > tbody > tr > td {
+  vertical-align: top;
+  padding: 0;
+}
+/* line 11, ../../../sass/_dashboard.scss */
+.cn-dashboard h5, .cn-dashboard h6 {
+  margin-bottom: 20px;
+}
+/* line 15, ../../../sass/_dashboard.scss */
+.cn-dashboard section {
+  margin: 0;
+  border: 0;
+  border-top: 1px solid #d8d8d8;
+}
+/* line 25, ../../../sass/_dashboard.scss */
+.cn-dashboard h5 + .pull-right {
+  margin-top: 10px;
+}
+
 /* line 11, ../../../sass/_modals.scss */
 .modal-open {
   overflow: hidden;

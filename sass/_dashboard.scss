@@ -1,0 +1,28 @@
+.cn-dashboard {
+  width: $page-width;
+  margin-left: auto;
+  margin-right: auto;
+
+  .table > tbody > tr > td {
+    vertical-align: top;
+    padding: 0;
+  }
+
+  h5, h6 {
+    margin-bottom: 20px;
+  }
+
+  section {
+    margin: 0;
+    border: 0;
+    border-top: 1px solid $form-divider;
+
+    //    &:first-child {
+    //      border-top-width: 0;
+    //    }
+  }
+
+  h5 + .pull-right {
+    margin-top: 10px;
+  }
+}
