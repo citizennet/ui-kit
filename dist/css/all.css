@@ -5977,40 +5977,39 @@ h6 .small, .h6 small,
 /* line 47, ../../../sass/fonts/_type.scss */
 h1, .h1 {
   font-size: 29px;
-  letter-spacing: -.05em;
 }
 
-/* line 52, ../../../sass/fonts/_type.scss */
+/* line 51, ../../../sass/fonts/_type.scss */
 h2, .h2 {
   font-size: 30px;
 }
 
-/* line 56, ../../../sass/fonts/_type.scss */
+/* line 55, ../../../sass/fonts/_type.scss */
 h3, .h3 {
   font-size: 24px;
 }
 
-/* line 60, ../../../sass/fonts/_type.scss */
+/* line 59, ../../../sass/fonts/_type.scss */
 h4, .h4 {
   font-size: 18px;
 }
 
-/* line 64, ../../../sass/fonts/_type.scss */
+/* line 63, ../../../sass/fonts/_type.scss */
 h5, .h5 {
   font-size: 14px;
 }
 
-/* line 68, ../../../sass/fonts/_type.scss */
+/* line 67, ../../../sass/fonts/_type.scss */
 h6, .h6 {
   font-size: 12px;
 }
 
-/* line 75, ../../../sass/fonts/_type.scss */
+/* line 74, ../../../sass/fonts/_type.scss */
 p {
   margin: 0 0 10px;
 }
 
-/* line 79, ../../../sass/fonts/_type.scss */
+/* line 78, ../../../sass/fonts/_type.scss */
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
@@ -6018,65 +6017,65 @@ p {
   line-height: 1.4;
 }
 @media (min-width: 768px) {
-  /* line 79, ../../../sass/fonts/_type.scss */
+  /* line 78, ../../../sass/fonts/_type.scss */
   .lead {
     font-size: 21px;
   }
 }
 
-/* line 93, ../../../sass/fonts/_type.scss */
+/* line 92, ../../../sass/fonts/_type.scss */
 small, .small {
   font-size: 10px;
 }
 
-/* line 97, ../../../sass/fonts/_type.scss */
+/* line 96, ../../../sass/fonts/_type.scss */
 mark,
 .mark {
   background-color: #fcf8e3;
   padding: .2em;
 }
 
-/* line 104, ../../../sass/fonts/_type.scss */
+/* line 103, ../../../sass/fonts/_type.scss */
 .text-left {
   text-align: left;
 }
 
-/* line 108, ../../../sass/fonts/_type.scss */
+/* line 107, ../../../sass/fonts/_type.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 112, ../../../sass/fonts/_type.scss */
+/* line 111, ../../../sass/fonts/_type.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 116, ../../../sass/fonts/_type.scss */
+/* line 115, ../../../sass/fonts/_type.scss */
 .text-justify {
   text-align: justify;
 }
 
-/* line 120, ../../../sass/fonts/_type.scss */
+/* line 119, ../../../sass/fonts/_type.scss */
 .text-nowrap {
   white-space: nowrap;
 }
 
-/* line 125, ../../../sass/fonts/_type.scss */
+/* line 124, ../../../sass/fonts/_type.scss */
 .text-lowercase {
   text-transform: lowercase;
 }
 
-/* line 129, ../../../sass/fonts/_type.scss */
+/* line 128, ../../../sass/fonts/_type.scss */
 .text-uppercase, .initialism {
   text-transform: uppercase;
 }
 
-/* line 133, ../../../sass/fonts/_type.scss */
+/* line 132, ../../../sass/fonts/_type.scss */
 .text-capitalize {
   text-transform: capitalize;
 }
 
-/* line 138, ../../../sass/fonts/_type.scss */
+/* line 137, ../../../sass/fonts/_type.scss */
 .text-muted {
   color: #777777;
 }
@@ -6136,7 +6135,7 @@ a.text-danger:focus {
   color: #843534;
 }
 
-/* line 155, ../../../sass/fonts/_type.scss */
+/* line 154, ../../../sass/fonts/_type.scss */
 .bg-primary {
   color: #fff;
 }
@@ -6196,20 +6195,20 @@ a.bg-danger:focus {
   background-color: #e4b9b9;
 }
 
-/* line 174, ../../../sass/fonts/_type.scss */
+/* line 173, ../../../sass/fonts/_type.scss */
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
   border-bottom: 1px solid #eeeeee;
 }
 
-/* line 184, ../../../sass/fonts/_type.scss */
+/* line 183, ../../../sass/fonts/_type.scss */
 ul,
 ol {
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 188, ../../../sass/fonts/_type.scss */
+/* line 187, ../../../sass/fonts/_type.scss */
 ul ul,
 ul ol,
 ol ul,
@@ -6217,43 +6216,43 @@ ol ol {
   margin-bottom: 0;
 }
 
-/* line 203, ../../../sass/fonts/_type.scss */
+/* line 202, ../../../sass/fonts/_type.scss */
 .list-unstyled {
   padding-left: 0;
   list-style: none;
 }
 
-/* line 208, ../../../sass/fonts/_type.scss */
+/* line 207, ../../../sass/fonts/_type.scss */
 .list-inline {
   padding-left: 0;
   list-style: none;
   margin-left: -5px;
 }
-/* line 212, ../../../sass/fonts/_type.scss */
+/* line 211, ../../../sass/fonts/_type.scss */
 .list-inline > li {
   display: inline-block;
   padding-left: 5px;
   padding-right: 5px;
 }
 
-/* line 220, ../../../sass/fonts/_type.scss */
+/* line 219, ../../../sass/fonts/_type.scss */
 dl {
   margin-top: 0;
   margin-bottom: 20px;
 }
 
-/* line 225, ../../../sass/fonts/_type.scss */
+/* line 224, ../../../sass/fonts/_type.scss */
 dt,
 dd {
   line-height: 1.42857;
 }
 
-/* line 230, ../../../sass/fonts/_type.scss */
+/* line 229, ../../../sass/fonts/_type.scss */
 dt {
   font-weight: bold;
 }
 
-/* line 234, ../../../sass/fonts/_type.scss */
+/* line 233, ../../../sass/fonts/_type.scss */
 dd {
   margin-left: 0;
 }
@@ -6268,7 +6267,7 @@ dd {
   clear: both;
 }
 @media (min-width: 768px) {
-  /* line 249, ../../../sass/fonts/_type.scss */
+  /* line 248, ../../../sass/fonts/_type.scss */
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -6278,38 +6277,38 @@ dd {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  /* line 256, ../../../sass/fonts/_type.scss */
+  /* line 255, ../../../sass/fonts/_type.scss */
   .dl-horizontal dd {
     margin-left: 180px;
   }
 }
 
-/* line 266, ../../../sass/fonts/_type.scss */
+/* line 265, ../../../sass/fonts/_type.scss */
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
   border-bottom: 1px dotted #777777;
 }
 
-/* line 273, ../../../sass/fonts/_type.scss */
+/* line 272, ../../../sass/fonts/_type.scss */
 .initialism {
   font-size: 90%;
 }
 
-/* line 279, ../../../sass/fonts/_type.scss */
+/* line 278, ../../../sass/fonts/_type.scss */
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
   border-left: 5px solid #eeeeee;
 }
-/* line 288, ../../../sass/fonts/_type.scss */
+/* line 287, ../../../sass/fonts/_type.scss */
 blockquote p:last-child,
 blockquote ul:last-child,
 blockquote ol:last-child {
   margin-bottom: 0;
 }
-/* line 295, ../../../sass/fonts/_type.scss */
+/* line 294, ../../../sass/fonts/_type.scss */
 blockquote footer,
 blockquote small,
 blockquote .small {
@@ -6318,14 +6317,14 @@ blockquote .small {
   line-height: 1.42857;
   color: #777777;
 }
-/* line 303, ../../../sass/fonts/_type.scss */
+/* line 302, ../../../sass/fonts/_type.scss */
 blockquote footer:before,
 blockquote small:before,
 blockquote .small:before {
   content: '\2014 \00A0';
 }
 
-/* line 312, ../../../sass/fonts/_type.scss */
+/* line 311, ../../../sass/fonts/_type.scss */
 .blockquote-reverse,
 blockquote.pull-right {
   padding-right: 15px;
@@ -6334,7 +6333,7 @@ blockquote.pull-right {
   border-left: 0;
   text-align: right;
 }
-/* line 324, ../../../sass/fonts/_type.scss */
+/* line 323, ../../../sass/fonts/_type.scss */
 .blockquote-reverse footer:before,
 .blockquote-reverse small:before,
 .blockquote-reverse .small:before,
@@ -6343,7 +6342,7 @@ blockquote.pull-right small:before,
 blockquote.pull-right .small:before {
   content: '';
 }
-/* line 327, ../../../sass/fonts/_type.scss */
+/* line 326, ../../../sass/fonts/_type.scss */
 .blockquote-reverse footer:after,
 .blockquote-reverse small:after,
 .blockquote-reverse .small:after,
@@ -6353,7 +6352,7 @@ blockquote.pull-right .small:after {
   content: '\00A0 \2014';
 }
 
-/* line 334, ../../../sass/fonts/_type.scss */
+/* line 333, ../../../sass/fonts/_type.scss */
 address {
   margin-bottom: 20px;
   font-style: normal;
