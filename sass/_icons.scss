@@ -61,3 +61,27 @@
   display: inline-block;
   vertical-align: middle;
 }
+
+/******************************************************
+* Icons for tables
+*******************************************************/
+
+.icn-sort-caret {
+  background: url(#{$svg-path}light/icn-sort-caret.svg);
+  width: 10px;
+  height: 6px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icn-mini-menu {
+  background: url(#{$svg-path}light/icn-mini-menu.svg);
+  width: 8px;
+  height: 7px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 3px;
+  margin-right: 3px;
+}
+
+/*******************************************************/

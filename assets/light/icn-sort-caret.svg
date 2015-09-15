@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>icn-sort-carat</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Campaigns---group---facebook-campaigns---select" sketch:type="MSArtboardGroup" transform="translate(-656.000000, -302.000000)" fill="#747C83">
+            <path d="M662.232233,302.767767 L659.232233,305.767767 L659.93934,305.767767 L656.93934,302.767767 C656.744078,302.572505 656.427495,302.572505 656.232233,302.767767 C656.036971,302.963029 656.036971,303.279612 656.232233,303.474874 L659.232233,306.474874 C659.427495,306.670136 659.744078,306.670136 659.93934,306.474874 L662.93934,303.474874 C663.134602,303.279612 663.134602,302.963029 662.93934,302.767767 C662.744078,302.572505 662.427495,302.572505 662.232233,302.767767 L662.232233,302.767767 Z" id="icn-sort-carat" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

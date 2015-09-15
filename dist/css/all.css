@@ -6430,6 +6430,30 @@ address {
   vertical-align: middle;
 }
 
+/******************************************************
+* Icons for tables
+*******************************************************/
+/* line 69, ../../../sass/_icons.scss */
+.icn-sort-caret {
+  background: url(../../js/vendor/ui-kit/assets/light/icn-sort-caret.svg);
+  width: 10px;
+  height: 6px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 77, ../../../sass/_icons.scss */
+.icn-mini-menu {
+  background: url(../../js/vendor/ui-kit/assets/light/icn-mini-menu.svg);
+  width: 8px;
+  height: 7px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 3px;
+  margin-right: 3px;
+}
+
+/*******************************************************/
 /* line 10, ../../../sass/_component-animations.scss */
 .fade {
   opacity: 0;

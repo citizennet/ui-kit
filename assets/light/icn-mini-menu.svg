@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="8px" height="7px" viewBox="0 0 8 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>icn-mini-menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Campaigns---group---facebook-campaigns---select" sketch:type="MSArtboardGroup" transform="translate(-587.000000, -301.000000)" fill="#747C83">
+            <path d="M587,301.5 C587,301.223858 587.230797,301 587.500436,301 L594.499564,301 C594.775947,301 595,301.231934 595,301.5 C595,301.776142 594.769203,302 594.499564,302 L587.500436,302 C587.224053,302 587,301.768066 587,301.5 Z M587,304.5 C587,304.223858 587.230797,304 587.500436,304 L594.499564,304 C594.775947,304 595,304.231934 595,304.5 C595,304.776142 594.769203,305 594.499564,305 L587.500436,305 C587.224053,305 587,304.768066 587,304.5 Z M587,307.5 C587,307.223858 587.230797,307 587.500436,307 L594.499564,307 C594.775947,307 595,307.231934 595,307.5 C595,307.776142 594.769203,308 594.499564,308 L587.500436,308 C587.224053,308 587,307.768066 587,307.5 Z" id="icn-mini-menu" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
