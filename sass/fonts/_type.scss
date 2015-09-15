@@ -227,7 +227,10 @@ dd {
 }
 
 dt {
-  font-weight: bold;
+  margin-bottom: 5px; // if shouldn't apply to all dt's, move to _dashboard.scss
+  font-weight: 300;
+  font-size: 11px;
+  color: #9DA1A8;
 }
 
 dd {

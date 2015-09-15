@@ -35,3 +35,21 @@ div.card {
     }
   }
 }
+
+table.cards {
+  tr {
+    border-radius: 10px;
+    // fake box shadow
+    border-left: 1px solid #E7E6EB;
+    border-right: 1px solid #E7E6EB;
+    border-bottom: 2px solid #DEDEDE;
+
+    background-color: #fff;
+    margin-bottom: 20px;
+    display: block;
+
+    td {
+      border: none;
+    }
+  }
+}

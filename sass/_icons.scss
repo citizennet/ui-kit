@@ -31,7 +31,7 @@
 }
 
 .icn-search {
-  background: url(#{$svg-path}dark/icn-search.svg);
+  background: url(#{$svg-path}dark/icn-search-darker.svg);
   width: 24px;
   height: 24px;
   display: inline-block;
@@ -40,6 +40,14 @@
 
 .icn-caret {
   background: url(#{$svg-path}dark/icn-dd.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icn-cog {
+  background: url(#{$svg-path}light/icn-settings.svg);
   width: 24px;
   height: 24px;
   display: inline-block;
