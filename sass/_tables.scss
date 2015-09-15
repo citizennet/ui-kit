@@ -287,7 +287,6 @@ table {
     }
   }
 
-
   a.popover-preview {
     display: block;
     height: 100%;
@@ -518,19 +517,11 @@ table {
     }
   }
 
-  // Groups List
-  &.groups-list-table {
-
-  }
-
-  // Campaigns List
-  &.campaigns-list-table {
-
-  }
-
   // Ad Sets List
-  table.ad-sets-list-table.card {
-    border-bottom: none;
+  table.ad-sets-list-table {
+    &.card {
+      border-bottom: none;
+    }
 
     td.toggle-collapse {
       width: 45px;
@@ -558,17 +549,9 @@ table {
     td.campaign-name {
       width: 30%;
     }
-    td.date {
+    td.date, td.spend-breakdown {
       width: 8%;
     }
-    td.spend-breakdown {
-      width: 20%;
-    }
-  }
-
-  // Ads List
-  &.ads-list-table {
-
   }
 
   .label {
