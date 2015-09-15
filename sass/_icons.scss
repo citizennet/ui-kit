@@ -62,16 +62,23 @@
   vertical-align: middle;
 }
 
+
 /******************************************************
 * Icons for tables
 *******************************************************/
 
 .icn-sort-caret {
   background: url(#{$svg-path}light/icn-sort-caret.svg);
-  width: 10px;
-  height: 6px;
+  width: 8px;
+  height: 5px;
   display: inline-block;
   vertical-align: middle;
+  margin-bottom: 3px;
+  margin-left: 3px;
+
+  &.up {
+    transform: rotate(180deg);
+  }
 }
 
 .icn-mini-menu {

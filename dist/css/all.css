@@ -6433,16 +6433,22 @@ address {
 /******************************************************
 * Icons for tables
 *******************************************************/
-/* line 69, ../../../sass/_icons.scss */
+/* line 70, ../../../sass/_icons.scss */
 .icn-sort-caret {
   background: url(../../js/vendor/ui-kit/assets/light/icn-sort-caret.svg);
-  width: 10px;
-  height: 6px;
+  width: 8px;
+  height: 5px;
   display: inline-block;
   vertical-align: middle;
+  margin-bottom: 3px;
+  margin-left: 3px;
+}
+/* line 79, ../../../sass/_icons.scss */
+.icn-sort-caret.up {
+  transform: rotate(180deg);
 }
 
-/* line 77, ../../../sass/_icons.scss */
+/* line 84, ../../../sass/_icons.scss */
 .icn-mini-menu {
   background: url(../../js/vendor/ui-kit/assets/light/icn-mini-menu.svg);
   width: 8px;
