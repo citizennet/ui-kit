@@ -723,7 +723,6 @@ NAVBAR
 
   tags-input .host {
     .input {
-      height: 32px;
       margin: 0;
       @include transition(all 500ms);
 
@@ -734,7 +733,8 @@ NAVBAR
     }
 
     .form-control {
-      height: 41px;
+      min-height: 25px;
+      margin-top: 13px;
     }
   }
 }

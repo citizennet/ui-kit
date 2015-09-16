@@ -8049,19 +8049,19 @@ NAVBAR
 }
 /* line 725, ../../../sass/_navbar.scss */
 .navbar-default tags-input .host .input {
-  height: 32px;
   margin: 0;
   -webkit-transition: all 500ms;
   -o-transition: all 500ms;
   transition: all 500ms;
 }
-/* line 730, ../../../sass/_navbar.scss */
+/* line 729, ../../../sass/_navbar.scss */
 .navbar-default tags-input .host .input.focused, .navbar-default tags-input .host .input:focus {
   min-width: 300px;
 }
-/* line 736, ../../../sass/_navbar.scss */
+/* line 735, ../../../sass/_navbar.scss */
 .navbar-default tags-input .host .form-control {
-  height: 41px;
+  min-height: 25px;
+  margin-top: 13px;
 }
 
 /* line 743, ../../../sass/_navbar.scss */
