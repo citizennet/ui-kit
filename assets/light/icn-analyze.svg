@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>icn-analyze</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icn-analyze" sketch:type="MSArtboardGroup" fill="#999FAA">
+            <path d="M2,15.4976988 C2,15.2228273 2.21484375,15 2.49769878,15 L6.50230122,15 C6.77717266,15 7,15.2148438 7,15.4976988 L7,19.5023012 C7,19.7771727 6.78515625,20 6.50230122,20 L2.49769878,20 C2.22282734,20 2,19.7851562 2,19.5023012 L2,15.4976988 Z M9,4.4963932 C9,4.22224281 9.21484375,4 9.49769878,4 L13.5023012,4 C13.7771727,4 14,4.22618103 14,4.4963932 L14,19.5036068 C14,19.7777572 13.7851562,20 13.5023012,20 L9.49769878,20 C9.22282734,20 9,19.773819 9,19.5036068 L9,4.4963932 Z M16,10.5096495 C16,10.2281779 16.2148438,10 16.4976988,10 L20.5023012,10 C20.7771727,10 21,10.2276528 21,10.5096495 L21,19.4903505 C21,19.7718221 20.7851562,20 20.5023012,20 L16.4976988,20 C16.2228273,20 16,19.7723472 16,19.4903505 L16,10.5096495 Z" id="Rectangle-795-Copy" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
