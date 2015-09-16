@@ -62,6 +62,19 @@
   vertical-align: middle;
 }
 
+.icn-toggle {
+  background: url(#{$svg-path}light/switch-on.png) no-repeat;
+  width: 24px;
+  height: 15px;
+  background-size: 24px 15px;
+  display: inline-block;
+  vertical-align: middle;
+
+  &.disabled {
+    background: url(#{$svg-path}light/switch-off.png);
+    background-size: 24px 15px;
+  }
+}
 
 /******************************************************
 * Icons for tables
