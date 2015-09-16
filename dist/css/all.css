@@ -3648,52 +3648,60 @@ table.fixed {
 }
 /* line 537, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table td.ad-set-name {
-  width: 10%;
+  width: 120px;
 }
 /* line 540, ../../../sass/_tables.scss */
-.cn-list table.ad-sets-list-table td.delivery-status {
-  width: 10%;
+.cn-list table.ad-sets-list-table td.toggle-status {
+  width: 72px;
 }
 /* line 543, ../../../sass/_tables.scss */
-.cn-list table.ad-sets-list-table td.kpi-stat {
-  width: 15%;
+.cn-list table.ad-sets-list-table td.delivery-status {
+  width: 140px;
 }
 /* line 546, ../../../sass/_tables.scss */
-.cn-list table.ad-sets-list-table td.campaign-name {
-  width: 30%;
+.cn-list table.ad-sets-list-table td.kpi-stat {
+  width: 180px;
 }
 /* line 549, ../../../sass/_tables.scss */
-.cn-list table.ad-sets-list-table td.date, .cn-list table.ad-sets-list-table td.spend-breakdown {
-  width: 8%;
+.cn-list table.ad-sets-list-table td.campaign-name {
+  width: 300px;
 }
-/* line 554, ../../../sass/_tables.scss */
+/* line 552, ../../../sass/_tables.scss */
+.cn-list table.ad-sets-list-table td.date {
+  width: 87px;
+}
+/* line 555, ../../../sass/_tables.scss */
+.cn-list table.ad-sets-list-table td.spend-breakdown {
+  width: 150px;
+}
+/* line 560, ../../../sass/_tables.scss */
 .cn-list .label {
   display: inline;
 }
-/* line 558, ../../../sass/_tables.scss */
+/* line 564, ../../../sass/_tables.scss */
 .cn-list .media-object {
   max-width: 50px;
   display: inline;
 }
 
-/* line 564, ../../../sass/_tables.scss */
+/* line 570, ../../../sass/_tables.scss */
 .list-container {
   max-width: 85%;
   margin: auto;
   margin-top: 25px;
 }
 
-/* line 572, ../../../sass/_tables.scss */
+/* line 578, ../../../sass/_tables.scss */
 .cn-timepicker td {
   min-width: 50px;
 }
-/* line 575, ../../../sass/_tables.scss */
+/* line 581, ../../../sass/_tables.scss */
 .cn-timepicker button {
   margin: 0px 2px;
   padding: 9px;
 }
 
-/* line 581, ../../../sass/_tables.scss */
+/* line 587, ../../../sass/_tables.scss */
 .table > tbody > tr > td,
 .table > tbody > tr > th,
 .table > tfoot > tr > td,
@@ -3703,7 +3711,7 @@ table.fixed {
   vertical-align: middle;
 }
 
-/* line 590, ../../../sass/_tables.scss */
+/* line 596, ../../../sass/_tables.scss */
 .top-heavy > tbody > tr > td,
 .top-heavy > tbody > tr > th,
 .top-heavy > tfoot > tr > td,

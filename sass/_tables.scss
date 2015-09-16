@@ -535,19 +535,25 @@ table {
       }
     }
     td.ad-set-name {
-      width: 10%;
+      width: 120px;
+    }
+    td.toggle-status {
+      width: 72px;
     }
     td.delivery-status {
-      width: 10%;
+      width: 140px;
     }
     td.kpi-stat {
-      width: 15%;
+      width: 180px;
     }
     td.campaign-name {
-      width: 30%;
+      width: 300px;
     }
-    td.date, td.spend-breakdown {
-      width: 8%;
+    td.date {
+      width: 87px;
+    }
+    td.spend-breakdown {
+      width: 150px;
     }
   }
 
