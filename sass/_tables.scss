@@ -165,17 +165,20 @@ table {
 
   // a row is selected
   .selected {
-    background-color: $list-selected-bg;
+    background-color: $list-selected-bg !important;
 
     > td,
     > tr > td {
-      border-color: $list-selected-border;
+      border-color: $list-selected-border !important;
+      // @cleanup
+      border-top: 1px solid $list-selected-border;
+      border-bottom: 1px solid $list-selected-border;
     }
 
     &:hover {
       > td,
       > tr:first-child > td {
-        background-color: $list-selected-bg;
+        background-color: $list-selected-bg !important;
       }
     }
 
