@@ -1269,12 +1269,18 @@ table {
 
 .form-group {
   .btn-options {
-    margin-left: 12px;
     margin-right: 7px;
+
+    .btn + .btn {
+      margin-left: -1px;
+    }
   }
 
   .selected-count {
     color: $azure;
+    // prevents popping when number incr
+    width: 50px;
+    display: inline-block;
   }
 }
 

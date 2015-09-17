@@ -3319,92 +3319,76 @@ table.fixed {
    */
 }
 /* line 167, ../../../sass/_tables.scss */
-.cn-list .selected {
-  background-color: #D6EEFA !important;
-}
-/* line 170, ../../../sass/_tables.scss */
-.cn-list .selected > td,
-.cn-list .selected > tr > td {
-  border-color: #BADDED !important;
-  border-top: 1px solid #BADDED;
-  border-bottom: 1px solid #BADDED;
-}
-/* line 179, ../../../sass/_tables.scss */
-.cn-list .selected:hover > td,
-.cn-list .selected:hover > tr:first-child > td {
-  background-color: #D6EEFA !important;
-}
-/* line 193, ../../../sass/_tables.scss */
 .cn-list thead tr {
   height: 55px;
 }
-/* line 197, ../../../sass/_tables.scss */
+/* line 171, ../../../sass/_tables.scss */
 .cn-list thead tr th:first-child {
   padding-left: 20px;
 }
-/* line 201, ../../../sass/_tables.scss */
+/* line 175, ../../../sass/_tables.scss */
 .cn-list thead tr th:last-child {
   padding-right: 20px;
 }
-/* line 209, ../../../sass/_tables.scss */
+/* line 183, ../../../sass/_tables.scss */
 .cn-list tbody + tbody {
   border-top-width: 1px;
 }
-/* line 213, ../../../sass/_tables.scss */
+/* line 187, ../../../sass/_tables.scss */
 .cn-list tbody td {
   border-width: 0 0 2px;
   border-color: #FAFAFA;
   padding: 10px;
   vertical-align: middle;
 }
-/* line 219, ../../../sass/_tables.scss */
+/* line 193, ../../../sass/_tables.scss */
 .modal-content .cn-list tbody td {
   vertical-align: top;
 }
-/* line 223, ../../../sass/_tables.scss */
+/* line 197, ../../../sass/_tables.scss */
 .cn-list tbody td:first-child {
   padding-left: 20px;
 }
-/* line 227, ../../../sass/_tables.scss */
+/* line 201, ../../../sass/_tables.scss */
 .cn-list tbody td:last-child {
   padding-right: 20px;
 }
-/* line 233, ../../../sass/_tables.scss */
+/* line 207, ../../../sass/_tables.scss */
 .cn-list tbody .grouped-list .collapse {
   border-top: 1px solid #d8d8d8;
 }
-/* line 236, ../../../sass/_tables.scss */
+/* line 210, ../../../sass/_tables.scss */
 .cn-list tbody .grouped-list > td {
   padding: 0;
   border: 0;
 }
-/* line 240, ../../../sass/_tables.scss */
+/* line 214, ../../../sass/_tables.scss */
 .cn-list tbody .grouped-list > td:first-child {
   padding-left: 0;
 }
-/* line 244, ../../../sass/_tables.scss */
+/* line 218, ../../../sass/_tables.scss */
 .cn-list tbody .grouped-list > td:last-child {
   padding-right: 0;
 }
-/* line 249, ../../../sass/_tables.scss */
+/* line 223, ../../../sass/_tables.scss */
 .cn-list tbody .grouped-list table {
   border: 0;
   border-left: 20px solid #f0eff2;
   border-bottom: 1px solid #f0eff2;
 }
-/* line 255, ../../../sass/_tables.scss */
+/* line 229, ../../../sass/_tables.scss */
 .cn-list tbody .grouped-list td {
   border-color: #f0eff2;
 }
-/* line 260, ../../../sass/_tables.scss */
+/* line 234, ../../../sass/_tables.scss */
 .cn-list tbody small {
   color: #ADADAD;
 }
-/* line 264, ../../../sass/_tables.scss */
+/* line 238, ../../../sass/_tables.scss */
 .cn-list tbody a.link {
   font-weight: 500;
 }
-/* line 272, ../../../sass/_tables.scss */
+/* line 246, ../../../sass/_tables.scss */
 .cn-list .disabled td, .cn-list .disabled .grouped-list td, .cn-list .disabled.selected td, .cn-list .disabled.selected .grouped-list td,
 .cn-list .disabled:hover td,
 .cn-list .disabled:hover .grouped-list td,
@@ -3412,7 +3396,7 @@ table.fixed {
 .cn-list .disabled:hover.selected .grouped-list td {
   background: #fff;
 }
-/* line 276, ../../../sass/_tables.scss */
+/* line 250, ../../../sass/_tables.scss */
 .cn-list .disabled td, .cn-list .disabled td *, .cn-list .disabled .grouped-list td, .cn-list .disabled .grouped-list td *, .cn-list .disabled.selected td, .cn-list .disabled.selected td *, .cn-list .disabled.selected .grouped-list td, .cn-list .disabled.selected .grouped-list td *,
 .cn-list .disabled:hover td,
 .cn-list .disabled:hover td *,
@@ -3424,147 +3408,147 @@ table.fixed {
 .cn-list .disabled:hover.selected .grouped-list td * {
   color: #939196;
 }
-/* line 284, ../../../sass/_tables.scss */
+/* line 258, ../../../sass/_tables.scss */
 .cn-list .kpi-stat span {
   display: block;
 }
-/* line 288, ../../../sass/_tables.scss */
+/* line 262, ../../../sass/_tables.scss */
 .cn-list .kpi-stat p {
   text-align: center;
 }
-/* line 293, ../../../sass/_tables.scss */
+/* line 267, ../../../sass/_tables.scss */
 .cn-list a.popover-preview {
   display: block;
   height: 100%;
 }
-/* line 298, ../../../sass/_tables.scss */
+/* line 272, ../../../sass/_tables.scss */
 .cn-list .highlighted {
   color: #D6EEFA;
 }
-/* line 305, ../../../sass/_tables.scss */
+/* line 279, ../../../sass/_tables.scss */
 .cn-list.temp-list-table table.empty {
   background-color: transparent;
   border-bottom: none;
 }
-/* line 309, ../../../sass/_tables.scss */
+/* line 283, ../../../sass/_tables.scss */
 .cn-list.temp-list-table table.empty tr:hover {
   background: transparent;
 }
-/* line 313, ../../../sass/_tables.scss */
+/* line 287, ../../../sass/_tables.scss */
 .cn-list.temp-list-table table .form-group {
   margin: 0;
 }
-/* line 316, ../../../sass/_tables.scss */
+/* line 290, ../../../sass/_tables.scss */
 .cn-list.temp-list-table table .form-group .checkbox {
   margin: 0;
   text-align: center;
 }
-/* line 320, ../../../sass/_tables.scss */
+/* line 294, ../../../sass/_tables.scss */
 .cn-list.temp-list-table table .form-group .checkbox label, .cn-list.temp-list-table table .form-group .checkbox .has-success .control-label, .has-success .cn-list.temp-list-table table .form-group .checkbox .control-label,
 .cn-list.temp-list-table table .form-group .checkbox .has-error .control-label,
 .has-error .cn-list.temp-list-table table .form-group .checkbox .control-label {
   margin: 0 8px 0 0;
   padding: 0;
 }
-/* line 324, ../../../sass/_tables.scss */
+/* line 298, ../../../sass/_tables.scss */
 .cn-list.temp-list-table table .form-group .checkbox label span, .cn-list.temp-list-table table .form-group .checkbox .has-success .control-label span, .has-success .cn-list.temp-list-table table .form-group .checkbox .control-label span,
 .cn-list.temp-list-table table .form-group .checkbox .has-error .control-label span,
 .has-error .cn-list.temp-list-table table .form-group .checkbox .control-label span {
   margin: 0;
 }
-/* line 331, ../../../sass/_tables.scss */
+/* line 305, ../../../sass/_tables.scss */
 .cn-list.temp-list-table table th {
   min-width: 100px;
   background: #f0eff2;
 }
-/* line 335, ../../../sass/_tables.scss */
+/* line 309, ../../../sass/_tables.scss */
 .cn-list.temp-list-table table th:first-child {
   min-width: 10px;
   text-align: center;
 }
-/* line 339, ../../../sass/_tables.scss */
+/* line 313, ../../../sass/_tables.scss */
 .cn-list.temp-list-table table th span {
   cursor: pointer;
   font-weight: 400;
 }
-/* line 347, ../../../sass/_tables.scss */
+/* line 321, ../../../sass/_tables.scss */
 .cn-list.temp-list-table table tbody tr td {
   padding: 15px 8px;
 }
-/* line 350, ../../../sass/_tables.scss */
+/* line 324, ../../../sass/_tables.scss */
 .cn-list.temp-list-table table tbody tr td:first-child {
   text-align: center;
   padding-left: 20px;
 }
-/* line 355, ../../../sass/_tables.scss */
+/* line 329, ../../../sass/_tables.scss */
 .cn-list.temp-list-table table tbody tr td p {
   margin: 5px 0 0 0;
 }
-/* line 359, ../../../sass/_tables.scss */
+/* line 333, ../../../sass/_tables.scss */
 .cn-list.temp-list-table table tbody tr td a {
   line-height: normal;
 }
-/* line 361, ../../../sass/_tables.scss */
+/* line 335, ../../../sass/_tables.scss */
 .cn-list.temp-list-table table tbody tr td a:focus {
   text-decoration: none;
 }
-/* line 366, ../../../sass/_tables.scss */
+/* line 340, ../../../sass/_tables.scss */
 .cn-list.temp-list-table table tbody tr td .full-width {
   width: 100%;
 }
-/* line 371, ../../../sass/_tables.scss */
+/* line 345, ../../../sass/_tables.scss */
 .cn-list.temp-list-table table tbody tr.no-items-to-show .well {
   text-align: center;
   font-weight: 300;
 }
-/* line 375, ../../../sass/_tables.scss */
+/* line 349, ../../../sass/_tables.scss */
 .cn-list.temp-list-table table tbody tr.no-items-to-show td {
   padding: 15px 8px;
 }
-/* line 386, ../../../sass/_tables.scss */
+/* line 360, ../../../sass/_tables.scss */
 .cn-list.fixed-header-table:first-child {
   overflow: auto;
   -webkit-transform: translate3d(0, 0, 0);
 }
-/* line 400, ../../../sass/_tables.scss */
+/* line 374, ../../../sass/_tables.scss */
 .cn-list.reports-list-table table th:last-child {
   min-width: 10px;
   text-align: center;
 }
-/* line 404, ../../../sass/_tables.scss */
+/* line 378, ../../../sass/_tables.scss */
 .cn-list.reports-list-table table th:nth-child(2) {
   min-width: 575px;
 }
-/* line 408, ../../../sass/_tables.scss */
+/* line 382, ../../../sass/_tables.scss */
 .cn-list.reports-list-table table th #number-selected {
   float: left;
 }
-/* line 413, ../../../sass/_tables.scss */
+/* line 387, ../../../sass/_tables.scss */
 .cn-list.reports-list-table table th #reports-context-menu a {
   font-weight: 400;
   margin-left: 15px;
 }
-/* line 417, ../../../sass/_tables.scss */
+/* line 391, ../../../sass/_tables.scss */
 .cn-list.reports-list-table table th #reports-context-menu a:hover {
   text-decoration: none;
 }
-/* line 421, ../../../sass/_tables.scss */
+/* line 395, ../../../sass/_tables.scss */
 .cn-list.reports-list-table table th #reports-context-menu a i {
   margin: 0 3px -2px 0;
 }
-/* line 428, ../../../sass/_tables.scss */
+/* line 402, ../../../sass/_tables.scss */
 .cn-list.reports-list-table table .scheduled-cell {
   text-align: center;
 }
-/* line 435, ../../../sass/_tables.scss */
+/* line 409, ../../../sass/_tables.scss */
 .cn-list.reports-list-table table tbody tr td:last-child {
   text-align: center;
 }
-/* line 439, ../../../sass/_tables.scss */
+/* line 413, ../../../sass/_tables.scss */
 .cn-list.reports-list-table table tbody tr td h5 {
   display: inline;
 }
-/* line 443, ../../../sass/_tables.scss */
+/* line 417, ../../../sass/_tables.scss */
 .cn-list.reports-list-table table tbody tr td input[type="text"],
 .cn-list.reports-list-table table tbody tr td input[type="text"]:focus {
   border: none;
@@ -3574,136 +3558,136 @@ table.fixed {
   font-weight: 800;
   padding: 0;
 }
-/* line 463, ../../../sass/_tables.scss */
+/* line 437, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table thead th:nth-child(2) {
   min-width: 10px;
 }
-/* line 466, ../../../sass/_tables.scss */
+/* line 440, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table thead th:nth-child(3) {
   width: 25%;
 }
-/* line 469, ../../../sass/_tables.scss */
+/* line 443, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table thead th:nth-child(4) {
   width: 20%;
 }
-/* line 472, ../../../sass/_tables.scss */
+/* line 446, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table thead th:nth-child(5) {
   text-align: center;
 }
-/* line 475, ../../../sass/_tables.scss */
+/* line 449, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table thead th:last-child {
   min-width: 120px;
 }
-/* line 482, ../../../sass/_tables.scss */
+/* line 456, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td:nth-child(5) {
   text-align: center;
 }
-/* line 484, ../../../sass/_tables.scss */
+/* line 458, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td:nth-child(5) i {
   color: #638A79;
 }
-/* line 489, ../../../sass/_tables.scss */
+/* line 463, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td:nth-child(7) a {
   margin-top: 5px;
   display: table;
 }
-/* line 495, ../../../sass/_tables.scss */
+/* line 469, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td .status {
   position: relative;
   padding-left: 20px;
 }
-/* line 499, ../../../sass/_tables.scss */
+/* line 473, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td .status i {
   position: absolute;
   left: 0;
   top: 4px;
 }
-/* line 505, ../../../sass/_tables.scss */
+/* line 479, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td .status p:first-of-type {
   text-transform: capitalize;
 }
-/* line 508, ../../../sass/_tables.scss */
+/* line 482, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td .status p:nth-of-type(2) {
   opacity: 0.5;
 }
-/* line 512, ../../../sass/_tables.scss */
+/* line 486, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td .status a {
   margin-top: 5px;
   display: table;
 }
-/* line 525, ../../../sass/_tables.scss */
+/* line 499, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table.card {
   border-bottom: none;
 }
-/* line 529, ../../../sass/_tables.scss */
+/* line 503, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table td.toggle-collapse {
   width: 45px;
 }
-/* line 532, ../../../sass/_tables.scss */
+/* line 506, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table .grouped-list {
   border: none;
 }
-/* line 535, ../../../sass/_tables.scss */
+/* line 509, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table .grouped-list td.toggle-collapse {
   width: 0;
   padding: 12px;
 }
-/* line 540, ../../../sass/_tables.scss */
+/* line 514, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table td.ad-set-name {
   width: 120px;
 }
-/* line 543, ../../../sass/_tables.scss */
+/* line 517, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table td.toggle-status {
   width: 72px;
 }
-/* line 546, ../../../sass/_tables.scss */
+/* line 520, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table td.delivery-status {
   width: 140px;
 }
-/* line 549, ../../../sass/_tables.scss */
+/* line 523, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table td.kpi-stat {
   width: 180px;
 }
-/* line 552, ../../../sass/_tables.scss */
+/* line 526, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table td.campaign-name {
   width: 300px;
 }
-/* line 555, ../../../sass/_tables.scss */
+/* line 529, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table td.date {
   width: 87px;
 }
-/* line 558, ../../../sass/_tables.scss */
+/* line 532, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table td.spend-breakdown {
   width: 150px;
 }
-/* line 563, ../../../sass/_tables.scss */
+/* line 537, ../../../sass/_tables.scss */
 .cn-list .label {
   display: inline;
 }
-/* line 567, ../../../sass/_tables.scss */
+/* line 541, ../../../sass/_tables.scss */
 .cn-list .media-object {
   max-width: 50px;
   display: inline;
 }
 
-/* line 573, ../../../sass/_tables.scss */
+/* line 547, ../../../sass/_tables.scss */
 .list-container {
   max-width: 85%;
   margin: auto;
   margin-top: 25px;
 }
 
-/* line 581, ../../../sass/_tables.scss */
+/* line 555, ../../../sass/_tables.scss */
 .cn-timepicker td {
   min-width: 50px;
 }
-/* line 584, ../../../sass/_tables.scss */
+/* line 558, ../../../sass/_tables.scss */
 .cn-timepicker button {
   margin: 0px 2px;
   padding: 9px;
 }
 
-/* line 590, ../../../sass/_tables.scss */
+/* line 564, ../../../sass/_tables.scss */
 .table > tbody > tr > td,
 .table > tbody > tr > th,
 .table > tfoot > tr > td,
@@ -3713,7 +3697,7 @@ table.fixed {
   vertical-align: middle;
 }
 
-/* line 599, ../../../sass/_tables.scss */
+/* line 573, ../../../sass/_tables.scss */
 .top-heavy > tbody > tr > td,
 .top-heavy > tbody > tr > th,
 .top-heavy > tfoot > tr > td,
@@ -5193,15 +5177,20 @@ table.budget-allocation .table-commission-rate {
 
 /* line 1271, ../../../sass/_forms.scss */
 .form-group .btn-options {
-  margin-left: 12px;
   margin-right: 7px;
 }
-/* line 1276, ../../../sass/_forms.scss */
+/* line 1274, ../../../sass/_forms.scss */
+.form-group .btn-options .btn + .btn {
+  margin-left: -1px;
+}
+/* line 1279, ../../../sass/_forms.scss */
 .form-group .selected-count {
   color: #0288D1;
+  width: 50px;
+  display: inline-block;
 }
 
-/* line 1281, ../../../sass/_forms.scss */
+/* line 1287, ../../../sass/_forms.scss */
 .form-control[disabled],
 fieldset[disabled] .form-control {
   cursor: default;
@@ -9671,6 +9660,10 @@ floating-action-button.fixed {
   bottom: auto;
 }
 /* line 16, ../../../sass/_fab.scss */
+floating-action-button.fixed.upper {
+  top: 154px;
+}
+/* line 21, ../../../sass/_fab.scss */
 floating-action-button > .btn {
   background-color: #00B0FF !important;
   box-shadow: 0 1px 8px rgba(28, 30, 41, 0.2);
@@ -9681,14 +9674,14 @@ floating-action-button > .btn {
   border-radius: 50%;
   border: none;
 }
-/* line 29, ../../../sass/_fab.scss */
+/* line 34, ../../../sass/_fab.scss */
 floating-action-button > .btn span {
   color: #fff;
   font-size: 30px;
   line-height: 41px;
   font-family: -webkit-pictograph;
 }
-/* line 36, ../../../sass/_fab.scss */
+/* line 41, ../../../sass/_fab.scss */
 floating-action-button > .btn:hover {
   background-color: #33c0ff;
   box-shadow: 0 1px 15px rgba(28, 30, 41, 0.3);

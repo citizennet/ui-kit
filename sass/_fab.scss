@@ -11,6 +11,11 @@ floating-action-button {
     top: 183px;
     right: 20px;
     bottom: auto;
+
+    // hack to handle moving fab
+    &.upper {
+      top: 154px;
+    }
   }
 
   > .btn {
