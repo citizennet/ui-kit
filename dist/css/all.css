@@ -5931,7 +5931,7 @@ h6 .small,
 h1, .h1,
 h2, .h2,
 h3, .h3 {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 /* line 29, ../../../sass/fonts/_type.scss */
@@ -9655,7 +9655,7 @@ floating-action-button {
 /* line 9, ../../../sass/_fab.scss */
 floating-action-button.fixed {
   position: absolute;
-  top: 183px;
+  top: 175px;
   right: 20px;
   bottom: auto;
 }
@@ -11064,47 +11064,46 @@ SUBNAV
 /* line 16, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav .group-name {
   text-decoration: none;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   display: inline-block;
 }
 /* line 21, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav .group-name h1 {
-  margin: 19px 0;
   display: inline-block;
 }
-/* line 25, ../../../sass/_sub-nav.scss */
+/* line 24, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav .group-name h1 .icn-back {
   vertical-align: bottom;
   margin-bottom: 3px;
   margin-right: 10px;
 }
-/* line 34, ../../../sass/_sub-nav.scss */
+/* line 33, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div {
   display: inline-block;
   border-bottom: 5px solid #1C1E29;
   margin-right: 50px;
 }
-/* line 39, ../../../sass/_sub-nav.scss */
+/* line 38, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div a {
   color: #999FAA;
   font-weight: 300;
   line-height: 45px;
   letter-spacing: 0.2px;
 }
-/* line 45, ../../../sass/_sub-nav.scss */
+/* line 44, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div a:hover {
   text-decoration: none;
 }
-/* line 50, ../../../sass/_sub-nav.scss */
+/* line 49, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div.active, .cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div:hover {
   cursor: pointer;
   border-bottom: 5px solid #4FC3F7;
 }
-/* line 52, ../../../sass/_sub-nav.scss */
+/* line 51, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div.active a, .cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div:hover a {
   color: #F0F0F3;
 }
-/* line 62, ../../../sass/_sub-nav.scss */
+/* line 61, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top label, .cn-sub-navbar-fixed-top .has-success .control-label, .has-success .cn-sub-navbar-fixed-top .control-label,
 .cn-sub-navbar-fixed-top .has-error .control-label,
 .has-error .cn-sub-navbar-fixed-top .control-label {
@@ -11113,7 +11112,7 @@ SUBNAV
   line-height: 65px;
   letter-spacing: .04em;
 }
-/* line 69, ../../../sass/_sub-nav.scss */
+/* line 68, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top > form > label, .has-success .cn-sub-navbar-fixed-top > form > .control-label,
 .has-error .cn-sub-navbar-fixed-top > form > .control-label, .cn-sub-navbar-fixed-top strong {
   font-size: 1em;
@@ -11122,19 +11121,19 @@ SUBNAV
   letter-spacing: .04em;
   color: #CECECE;
 }
-/* line 76, ../../../sass/_sub-nav.scss */
+/* line 75, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top > form > label:first-child, .has-success .cn-sub-navbar-fixed-top > form > .control-label:first-child,
 .has-error .cn-sub-navbar-fixed-top > form > .control-label:first-child, .cn-sub-navbar-fixed-top strong:first-child {
   color: #fff;
 }
-/* line 82, ../../../sass/_sub-nav.scss */
+/* line 81, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top > form > div.pull-right label, .cn-sub-navbar-fixed-top > form > div.pull-right .has-success .control-label, .has-success .cn-sub-navbar-fixed-top > form > div.pull-right .control-label,
 .cn-sub-navbar-fixed-top > form > div.pull-right .has-error .control-label,
 .has-error .cn-sub-navbar-fixed-top > form > div.pull-right .control-label {
   font-size: .8125em;
   font-weight: 400;
 }
-/* line 86, ../../../sass/_sub-nav.scss */
+/* line 85, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top > form > div.pull-right select {
   background: transparent;
   border: 0;
@@ -11142,28 +11141,28 @@ SUBNAV
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 94, ../../../sass/_sub-nav.scss */
+/* line 93, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .company-selection {
   height: 100px;
 }
-/* line 98, ../../../sass/_sub-nav.scss */
+/* line 97, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .company-selection a h1 {
   display: inline-block;
 }
-/* line 102, ../../../sass/_sub-nav.scss */
+/* line 101, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .company-selection a .icn-caret {
   margin-left: 15px;
   margin-top: -3px;
 }
-/* line 107, ../../../sass/_sub-nav.scss */
+/* line 106, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .company-selection a:hover {
   text-decoration: none;
 }
-/* line 112, ../../../sass/_sub-nav.scss */
+/* line 111, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .company-selection .dropdown-menu {
   top: 60px;
 }
-/* line 117, ../../../sass/_sub-nav.scss */
+/* line 116, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .groups-list-header-nav {
   width: 1220px;
   margin-left: auto;
