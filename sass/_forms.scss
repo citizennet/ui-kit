@@ -1267,6 +1267,17 @@ table {
   }
 }
 
+.form-group {
+  .btn-options {
+    margin-left: 12px;
+    margin-right: 7px;
+  }
+
+  .selected-count {
+    color: $azure;
+  }
+}
+
 .form-control[disabled],
 fieldset[disabled] .form-control {
   cursor: default;

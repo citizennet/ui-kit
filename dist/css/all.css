@@ -5191,7 +5191,17 @@ table.budget-allocation .table-commission-rate {
   padding-bottom: 6px;
 }
 
-/* line 1270, ../../../sass/_forms.scss */
+/* line 1271, ../../../sass/_forms.scss */
+.form-group .btn-options {
+  margin-left: 12px;
+  margin-right: 7px;
+}
+/* line 1276, ../../../sass/_forms.scss */
+.form-group .selected-count {
+  color: #0288D1;
+}
+
+/* line 1281, ../../../sass/_forms.scss */
 .form-control[disabled],
 fieldset[disabled] .form-control {
   cursor: default;
@@ -5207,8 +5217,11 @@ fieldset[disabled] .form-control {
   touch-action: manipulation;
   cursor: pointer;
   background-image: none;
-  border: 1px solid transparent;
   white-space: nowrap;
+  color: inherit;
+  letter-spacing: .02em;
+  height: auto;
+  padding: 9px 15px;
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857;
@@ -5218,25 +5231,25 @@ fieldset[disabled] .form-control {
   -ms-user-select: none;
   user-select: none;
 }
-/* line 25, ../../../sass/_buttons.scss */
+/* line 29, ../../../sass/_buttons.scss */
 .btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-/* line 31, ../../../sass/_buttons.scss */
+/* line 35, ../../../sass/_buttons.scss */
 .btn:hover, .btn:focus, .btn.focus {
   color: #333;
   text-decoration: none;
 }
-/* line 38, ../../../sass/_buttons.scss */
+/* line 42, ../../../sass/_buttons.scss */
 .btn:active, .btn.active {
   outline: 0;
   background-image: none;
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
-/* line 45, ../../../sass/_buttons.scss */
+/* line 49, ../../../sass/_buttons.scss */
 .btn.disabled, .btn[disabled], fieldset[disabled] .btn {
   cursor: not-allowed;
   filter: alpha(opacity=65);
@@ -5246,13 +5259,90 @@ fieldset[disabled] .form-control {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-
 /* line 57, ../../../sass/_buttons.scss */
+.btn:active, .btn.active, .btn:focus, .btn:active:focus {
+  -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.2);
+  outline: 0;
+  color: inherit;
+}
+/* line 66, ../../../sass/_buttons.scss */
+.btn:hover {
+  color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+/* line 72, ../../../sass/_buttons.scss */
+.btn.btn-default {
+  color: #1e222e;
+  background-color: #dedae0;
+  border-color: #c6c3c8;
+}
+/* line 78, ../../../sass/_buttons.scss */
+.btn.btn-default:hover, .btn.btn-default.active {
+  color: #282d3d;
+  background-color: #eae8ec;
+  border-color: #d3d0d4;
+}
+/* line 87, ../../../sass/_buttons.scss */
+.btn.btn-primary {
+  color: #fff;
+  background-color: #3ba0cc;
+  border-color: #3095c3;
+}
+/* line 93, ../../../sass/_buttons.scss */
+.btn.btn-primary:hover, .btn.btn-primary.active {
+  color: #fff;
+  background-color: #4faad1;
+  border-color: #3da2cf;
+}
+/* line 102, ../../../sass/_buttons.scss */
+.btn.btn-success {
+  color: white;
+  background-color: #5cb85c;
+  border-color: #4D4D4D;
+}
+/* line 108, ../../../sass/_buttons.scss */
+.btn.btn-success:hover, .btn.btn-success.active {
+  color: white;
+  background-color: #65C465;
+}
+/* line 116, ../../../sass/_buttons.scss */
+.btn.btn-danger {
+  color: white;
+  background-color: #d9534f;
+  border-color: #4D4D4D;
+}
+/* line 121, ../../../sass/_buttons.scss */
+.btn.btn-danger:hover, .btn.btn-danger.active {
+  color: white;
+  background-color: #E25F5B;
+}
+/* line 128, ../../../sass/_buttons.scss */
+.btn.btn-transparent {
+  background: transparent;
+  border-color: transparent;
+}
+/* line 139, ../../../sass/_buttons.scss */
+.btn[disabled] {
+  opacity: .5;
+}
+/* line 142, ../../../sass/_buttons.scss */
+.btn[disabled]:hover {
+  cursor: default;
+}
+/* line 148, ../../../sass/_buttons.scss */
+.btn i.glyphicon {
+  margin-right: 5px;
+}
+
+/* line 157, ../../../sass/_buttons.scss */
 a.btn.disabled, fieldset[disabled] a.btn {
   pointer-events: none;
 }
 
-/* line 66, ../../../sass/_buttons.scss */
+/* line 166, ../../../sass/_buttons.scss */
 .btn-default {
   color: #333;
   background-color: #fff;
@@ -5297,7 +5387,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #333;
 }
 
-/* line 70, ../../../sass/_buttons.scss */
+/* line 170, ../../../sass/_buttons.scss */
 .btn-primary {
   color: #fff;
   background-color: #337ab7;
@@ -5342,7 +5432,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #fff;
 }
 
-/* line 75, ../../../sass/_buttons.scss */
+/* line 175, ../../../sass/_buttons.scss */
 .btn-success {
   color: #fff;
   background-color: #5cb85c;
@@ -5387,7 +5477,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #fff;
 }
 
-/* line 80, ../../../sass/_buttons.scss */
+/* line 180, ../../../sass/_buttons.scss */
 .btn-info {
   color: #fff;
   background-color: #5bc0de;
@@ -5432,7 +5522,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #fff;
 }
 
-/* line 85, ../../../sass/_buttons.scss */
+/* line 185, ../../../sass/_buttons.scss */
 .btn-warning {
   color: #fff;
   background-color: #f0ad4e;
@@ -5477,7 +5567,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #fff;
 }
 
-/* line 90, ../../../sass/_buttons.scss */
+/* line 190, ../../../sass/_buttons.scss */
 .btn-danger {
   color: #fff;
   background-color: #d9534f;
@@ -5522,35 +5612,35 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #fff;
 }
 
-/* line 98, ../../../sass/_buttons.scss */
+/* line 198, ../../../sass/_buttons.scss */
 .btn-link {
   color: #337ab7;
   font-weight: normal;
   border-radius: 0;
 }
-/* line 103, ../../../sass/_buttons.scss */
+/* line 203, ../../../sass/_buttons.scss */
 .btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled], fieldset[disabled] .btn-link {
   background-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 111, ../../../sass/_buttons.scss */
+/* line 211, ../../../sass/_buttons.scss */
 .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
   border-color: transparent;
 }
-/* line 117, ../../../sass/_buttons.scss */
+/* line 217, ../../../sass/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
   color: #23527c;
   text-decoration: underline;
   background-color: transparent;
 }
-/* line 125, ../../../sass/_buttons.scss */
+/* line 225, ../../../sass/_buttons.scss */
 .btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus {
   color: #777777;
   text-decoration: none;
 }
 
-/* line 136, ../../../sass/_buttons.scss */
+/* line 236, ../../../sass/_buttons.scss */
 .btn-lg, .btn-group-lg > .btn {
   padding: 10px 16px;
   font-size: 18px;
@@ -5558,7 +5648,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   border-radius: 6px;
 }
 
-/* line 141, ../../../sass/_buttons.scss */
+/* line 241, ../../../sass/_buttons.scss */
 .btn-sm, .btn-group-sm > .btn {
   padding: 5px 10px;
   font-size: 12px;
@@ -5566,7 +5656,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   border-radius: 3px;
 }
 
-/* line 146, ../../../sass/_buttons.scss */
+/* line 246, ../../../sass/_buttons.scss */
 .btn-xs, .btn-group-xs > .btn {
   padding: 1px 5px;
   font-size: 12px;
@@ -5574,136 +5664,50 @@ a.btn.disabled, fieldset[disabled] a.btn {
   border-radius: 3px;
 }
 
-/* line 153, ../../../sass/_buttons.scss */
+/* line 253, ../../../sass/_buttons.scss */
 .btn-block {
   display: block;
   width: 100%;
 }
 
-/* line 159, ../../../sass/_buttons.scss */
+/* line 259, ../../../sass/_buttons.scss */
 .btn-block + .btn-block {
   margin-top: 5px;
 }
 
-/* line 167, ../../../sass/_buttons.scss */
+/* line 267, ../../../sass/_buttons.scss */
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
 }
 
-/* line 172, ../../../sass/_buttons.scss */
+/* line 272, ../../../sass/_buttons.scss */
 .btn, label.btn, .has-success .btn.control-label,
 .has-error .btn.control-label, select.form-control {
-  border: 1px solid #c6c3c8;
+  border: 1px solid #D6D7DB;
   -webkit-box-shadow: none;
   box-shadow: none;
+  background-color: #F9F8FA;
   font-weight: 300;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -khtml-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 179, ../../../sass/_buttons.scss */
+/* line 280, ../../../sass/_buttons.scss */
 .btn.dropdown-small, label.btn.dropdown-small, .has-success .btn.dropdown-small.control-label,
 .has-error .btn.dropdown-small.control-label, select.form-control.dropdown-small {
   font-size: 14px;
   height: 29px;
 }
-/* line 185, ../../../sass/_buttons.scss */
+/* line 286, ../../../sass/_buttons.scss */
 .btn span.ng-binding, label.btn span.ng-binding, .has-success .btn.control-label span.ng-binding,
 .has-error .btn.control-label span.ng-binding, select.form-control span.ng-binding {
   line-height: 28px;
 }
 
-/* line 190, ../../../sass/_buttons.scss */
-.btn {
-  background-color: transparent;
-  border-color: inherit;
-  color: inherit;
-  letter-spacing: .02em;
-  height: auto;
-  padding: 9px 15px;
-}
-/* line 199, ../../../sass/_buttons.scss */
-.btn:active, .btn.active, .btn:focus, .btn:active:focus {
-  -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.2);
-  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.2);
-  outline: 0;
-  color: inherit;
-}
-/* line 212, ../../../sass/_buttons.scss */
-.btn:hover {
-  color: inherit;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  background-color: rgba(255, 255, 255, 0.1);
-}
-/* line 218, ../../../sass/_buttons.scss */
-.btn.btn-default {
-  color: #1e222e;
-  background-color: #dedae0;
-  border-color: #c6c3c8;
-}
-/* line 224, ../../../sass/_buttons.scss */
-.btn.btn-default:hover, .btn.btn-default.active {
-  color: #282d3d;
-  background-color: #eae8ec;
-  border-color: #d3d0d4;
-}
-/* line 233, ../../../sass/_buttons.scss */
-.btn.btn-primary {
-  color: #fff;
-  background-color: #3ba0cc;
-  border-color: #3095c3;
-}
-/* line 239, ../../../sass/_buttons.scss */
-.btn.btn-primary:hover, .btn.btn-primary.active {
-  color: #fff;
-  background-color: #4faad1;
-  border-color: #3da2cf;
-}
-/* line 248, ../../../sass/_buttons.scss */
-.btn.btn-success {
-  color: white;
-  background-color: #5cb85c;
-  border-color: #4D4D4D;
-}
-/* line 254, ../../../sass/_buttons.scss */
-.btn.btn-success:hover, .btn.btn-success.active {
-  color: white;
-  background-color: #65C465;
-}
-/* line 262, ../../../sass/_buttons.scss */
-.btn.btn-danger {
-  color: white;
-  background-color: #d9534f;
-  border-color: #4D4D4D;
-}
-/* line 267, ../../../sass/_buttons.scss */
-.btn.btn-danger:hover, .btn.btn-danger.active {
-  color: white;
-  background-color: #E25F5B;
-}
-/* line 274, ../../../sass/_buttons.scss */
-.btn.btn-transparent {
-  background: transparent;
-  border-color: transparent;
-}
-/* line 285, ../../../sass/_buttons.scss */
-.btn[disabled] {
-  opacity: .5;
-}
-/* line 288, ../../../sass/_buttons.scss */
-.btn[disabled]:hover {
-  cursor: default;
-}
-/* line 294, ../../../sass/_buttons.scss */
-.btn i.glyphicon {
-  margin-right: 5px;
-}
-
-/* line 300, ../../../sass/_buttons.scss */
+/* line 291, ../../../sass/_buttons.scss */
 label.btn, .has-success .btn.control-label,
 .has-error .btn.control-label, select.form-control {
   color: #1e222e;
@@ -5712,9 +5716,15 @@ label.btn, .has-success .btn.control-label,
   height: 39px;
 }
 
-/* line 313, ../../../sass/_buttons.scss */
+/* line 304, ../../../sass/_buttons.scss */
 .btn.btn-xs, .btn-group-xs > .btn {
   padding: 1px 13px;
+}
+
+/* line 309, ../../../sass/_buttons.scss */
+.btn-sm .icn-caret-sm, .btn-group-sm > .btn .icn-caret-sm {
+  margin-top: -2px;
+  margin-left: 1px;
 }
 
 /*
@@ -6443,10 +6453,47 @@ address {
   background-size: 24px 15px;
 }
 
+/* line 79, ../../../sass/_icons.scss */
+.icn-analyze {
+  background: url(../../js/vendor/ui-kit/assets/light/icn-analyze.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 87, ../../../sass/_icons.scss */
+.icn-analyze.sm {
+  background: url(../../js/vendor/ui-kit/assets/dark/icn-analyze-sm.svg);
+  width: 16px;
+  height: 13px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 95, ../../../sass/_icons.scss */
+.icn-edit.dark.sm {
+  background: url(../../js/vendor/ui-kit/assets/dark/icn-settings-sm.svg);
+  width: 16px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 103, ../../../sass/_icons.scss */
+.icn-check.sm {
+  background: url(../../js/vendor/ui-kit/assets/dark/icn-check.png);
+  width: 19px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -4px;
+}
+
 /******************************************************
 * Icons for tables
 *******************************************************/
-/* line 83, ../../../sass/_icons.scss */
+/* line 117, ../../../sass/_icons.scss */
 .icn-sort-caret {
   background: url(../../js/vendor/ui-kit/assets/light/icn-sort-caret.svg);
   width: 8px;
@@ -6456,12 +6503,12 @@ address {
   margin-bottom: 3px;
   margin-left: 3px;
 }
-/* line 92, ../../../sass/_icons.scss */
+/* line 126, ../../../sass/_icons.scss */
 .icn-sort-caret.up {
   transform: rotate(180deg);
 }
 
-/* line 97, ../../../sass/_icons.scss */
+/* line 131, ../../../sass/_icons.scss */
 .icn-mini-menu {
   background: url(../../js/vendor/ui-kit/assets/light/icn-mini-menu.svg);
   width: 8px;
@@ -9608,6 +9655,45 @@ table.cards tr td {
   margin-top: 10px;
 }
 
+/* line 1, ../../../sass/_fab.scss */
+floating-action-button {
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+  z-index: 2000;
+  cursor: pointer;
+}
+/* line 9, ../../../sass/_fab.scss */
+floating-action-button.fixed {
+  position: absolute;
+  top: 183px;
+  right: 20px;
+  bottom: auto;
+}
+/* line 16, ../../../sass/_fab.scss */
+floating-action-button > .btn {
+  background-color: #00B0FF !important;
+  box-shadow: 0 1px 8px rgba(28, 30, 41, 0.2);
+  transition: .3s;
+  height: 52px;
+  width: 52px;
+  line-height: 52px;
+  border-radius: 50%;
+  border: none;
+}
+/* line 29, ../../../sass/_fab.scss */
+floating-action-button > .btn span {
+  color: #fff;
+  font-size: 30px;
+  line-height: 41px;
+  font-family: -webkit-pictograph;
+}
+/* line 36, ../../../sass/_fab.scss */
+floating-action-button > .btn:hover {
+  background-color: #33c0ff;
+  box-shadow: 0 1px 15px rgba(28, 30, 41, 0.3);
+}
+
 /* line 11, ../../../sass/_modals.scss */
 .modal-open {
   overflow: hidden;
@@ -11161,7 +11247,7 @@ TOOL BAR
 }
 /* line 66, ../../../sass/_tool-bar.scss */
 .tool-bar .btn {
-  padding: 8px 10px;
+  padding: 5px 10px;
 }
 /* line 70, ../../../sass/_tool-bar.scss */
 .tool-bar .btn-group .btn {

@@ -76,6 +76,40 @@
   }
 }
 
+.icn-analyze {
+  background: url(#{$svg-path}light/icn-analyze.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icn-analyze.sm {
+  background: url(#{$svg-path}dark/icn-analyze-sm.svg);
+  width: 16px;
+  height: 13px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icn-edit.dark.sm {
+  background: url(#{$svg-path}dark/icn-settings-sm.svg);
+  width: 16px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icn-check.sm {
+  background: url(#{$svg-path}dark/icn-check.png);
+  width: 19px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  // offset for bad img
+  margin-top: -4px;
+}
+
 /******************************************************
 * Icons for tables
 *******************************************************/
