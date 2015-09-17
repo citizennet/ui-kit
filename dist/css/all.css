@@ -9649,7 +9649,7 @@ floating-action-button {
   position: relative;
   bottom: 10px;
   right: 10px;
-  z-index: 2000;
+  z-index: 1020;
   cursor: pointer;
 }
 /* line 9, ../../../sass/_fab.scss */
