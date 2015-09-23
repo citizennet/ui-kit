@@ -36,11 +36,43 @@ module.exports = function(grunt) {
         dest: 'dist/css/all.css'
       }
     },
+    concat: {
+      options: {
+        separator: ';\n'
+      },
+      vendor: {
+        src: [
+          // I limited the JS assets to just a small list of utilities. I want each repo to have
+          // full control over the version, and possibly implementation of dependencies. Since each dependency
+          // is just a 1 line include in Bower & Grunt, it is already DRYed up
+          "bower_components/jquery/dist/jquery.min.js",
+          "bower_components/jquery-ui/ui/minified/jquery.ui.core.min.js",
+          "bower_components/jquery-ui/ui/minified/jquery.ui.widget.min.js",
+          "bower_components/jquery-ui/ui/minified/jquery.ui.mouse.min.js",
+          "bower_components/jquery-ui/ui/minified/jquery.ui.sortable.min.js",
+          "bower_components/jquery-ui/ui/minified/jquery.ui.droppable.min.js",
+          "bower_components/jquery-ui/ui/minified/jquery.ui.draggable.min.js",
+          "bower_components/jquery-ui/ui/minified/jquery.ui.resizable.min.js",
+          "dist/js/vendor/bootstrap.min.js"
+        ],
+        dest: 'dist/js/all.min.js'
+      }
+    },
     compass: {
       dist: {
         options: {
           sassDir: 'sass',
           cssDir: 'dist/css/citizennet'
+        }
+      }
+    },
+    uglify: {
+      options: {
+        sourceMap: true
+      },
+      vendor: {
+        files: {
+          'dist/js/all.js': ['dist/js/all.min.js']
         }
       }
     }
@@ -50,6 +82,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-concat-css');
+  grunt.loadNpmTasks('grunt-contrib-concat');
 
-  grunt.registerTask('default', ['compass:dist', 'concat_css:vendor', 'concat_css:all']);
+  grunt.registerTask('default', ['compass:dist', 'concat_css:vendor', 'concat_css:all', 'concat:vendor']);
 };
