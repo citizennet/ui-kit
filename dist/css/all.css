@@ -9028,14 +9028,15 @@ floating-action-button {
 floating-action-button.fixed {
   position: absolute;
   top: 175px;
-  right: 20px;
+  left: 558px;
   bottom: auto;
+  margin-left: 50%;
 }
-/* line 16, ../../../sass/_fab.scss */
+/* line 17, ../../../sass/_fab.scss */
 floating-action-button.fixed.upper {
   top: 154px;
 }
-/* line 21, ../../../sass/_fab.scss */
+/* line 22, ../../../sass/_fab.scss */
 floating-action-button > .btn {
   background-color: #00B0FF !important;
   box-shadow: 0 1px 8px rgba(28, 30, 41, 0.2);
@@ -9046,14 +9047,14 @@ floating-action-button > .btn {
   border-radius: 50%;
   border: none;
 }
-/* line 34, ../../../sass/_fab.scss */
+/* line 35, ../../../sass/_fab.scss */
 floating-action-button > .btn span {
   color: #fff;
   font-size: 30px;
   line-height: 41px;
   font-family: -webkit-pictograph;
 }
-/* line 41, ../../../sass/_fab.scss */
+/* line 42, ../../../sass/_fab.scss */
 floating-action-button > .btn:hover {
   background-color: #33c0ff;
   box-shadow: 0 1px 15px rgba(28, 30, 41, 0.3);

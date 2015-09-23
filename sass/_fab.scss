@@ -9,8 +9,9 @@ floating-action-button {
   &.fixed {
     position: absolute;
     top: 175px;
-    right: 20px;
+    left: 558px;
     bottom: auto;
+    margin-left: 50%;
 
     // hack to handle moving fab
     &.upper {
