@@ -9016,7 +9016,13 @@ table.cards tr td {
   margin-top: 10px;
 }
 
-/* line 1, ../../../sass/_fab.scss */
+/**
+* Floating Action
+* Button has 2 states
+* - top right (Manager)
+* - bottom right (QS)
+*/
+/* line 8, ../../../sass/_fab.scss */
 floating-action-button {
   position: relative;
   bottom: 10px;
@@ -9024,7 +9030,7 @@ floating-action-button {
   z-index: 1020;
   cursor: pointer;
 }
-/* line 9, ../../../sass/_fab.scss */
+/* line 16, ../../../sass/_fab.scss */
 floating-action-button.fixed {
   position: absolute;
   top: 175px;
@@ -9032,11 +9038,42 @@ floating-action-button.fixed {
   bottom: auto;
   margin-left: 50%;
 }
-/* line 17, ../../../sass/_fab.scss */
+/* line 24, ../../../sass/_fab.scss */
 floating-action-button.fixed.upper {
   top: 154px;
 }
-/* line 22, ../../../sass/_fab.scss */
+/* line 29, ../../../sass/_fab.scss */
+floating-action-button.bottom {
+  position: fixed;
+  z-index: 9;
+  cursor: pointer;
+  display: none;
+}
+/* line 40, ../../../sass/_fab.scss */
+floating-action-button.bottom > ul {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: 3px;
+  margin: 0;
+  background-color: #fff;
+  color: #000;
+  list-style-type: none;
+}
+/* line 52, ../../../sass/_fab.scss */
+floating-action-button.bottom > ul li {
+  width: 145px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 10px;
+  font-weight: 600;
+  vertical-align: middle;
+  padding-left: 27px;
+}
+/* line 62, ../../../sass/_fab.scss */
+floating-action-button.bottom > ul li:hover {
+  background-color: #2C8FBD;
+  color: #fff;
+}
+/* line 70, ../../../sass/_fab.scss */
 floating-action-button > .btn {
   background-color: #00B0FF !important;
   box-shadow: 0 1px 8px rgba(28, 30, 41, 0.2);
@@ -9047,14 +9084,14 @@ floating-action-button > .btn {
   border-radius: 50%;
   border: none;
 }
-/* line 35, ../../../sass/_fab.scss */
+/* line 83, ../../../sass/_fab.scss */
 floating-action-button > .btn span {
   color: #fff;
   font-size: 30px;
   line-height: 41px;
   font-family: -webkit-pictograph;
 }
-/* line 42, ../../../sass/_fab.scss */
+/* line 90, ../../../sass/_fab.scss */
 floating-action-button > .btn:hover {
   background-color: #33c0ff;
   box-shadow: 0 1px 15px rgba(28, 30, 41, 0.3);
