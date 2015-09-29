@@ -5881,10 +5881,20 @@ address {
   margin-top: -4px;
 }
 
+/* line 143, ../../../sass/_icons.scss */
+.icn-add {
+  background: url(../../js/vendor/ui-kit/assets/dark/icn-add.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -4px;
+}
+
 /******************************************************
 * Icons for tables
 *******************************************************/
-/* line 147, ../../../sass/_icons.scss */
+/* line 157, ../../../sass/_icons.scss */
 .icn-sort-caret {
   background: url(../../js/vendor/ui-kit/assets/light/icn-sort-caret.svg);
   width: 8px;
@@ -5894,12 +5904,12 @@ address {
   margin-bottom: 3px;
   margin-left: 3px;
 }
-/* line 156, ../../../sass/_icons.scss */
+/* line 166, ../../../sass/_icons.scss */
 .icn-sort-caret.up {
   transform: rotate(180deg);
 }
 
-/* line 161, ../../../sass/_icons.scss */
+/* line 171, ../../../sass/_icons.scss */
 .icn-mini-menu {
   background: url(../../js/vendor/ui-kit/assets/light/icn-mini-menu.svg);
   width: 8px;
