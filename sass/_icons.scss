@@ -110,6 +110,36 @@
   margin-top: -4px;
 }
 
+.icn-menu {
+  background: url(#{$svg-path}dark/icn-menu.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  // offset for bad img
+  margin-top: -4px;
+}
+
+.icn-options {
+  background: url(#{$svg-path}dark/icn-options.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  // offset for bad img
+  margin-top: -4px;
+}
+
+.icn-share {
+  background: url(#{$svg-path}dark/icn-share.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  // offset for bad img
+  margin-top: -4px;
+}
+
 /******************************************************
 * Icons for tables
 *******************************************************/
