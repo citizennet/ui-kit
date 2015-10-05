@@ -15,12 +15,14 @@
   cursor: pointer;
   background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
   white-space: nowrap;
-  color: inherit;
   letter-spacing: .02em;
-  //  font-size: 14px;
-  height: auto;
-  padding: 9px 15px;
-  @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $btn-border-radius-base);
+  background-color: rgba(white, 0.7);
+  color: $charcoal;
+  border: 1px solid #D3D4D8;
+  height: 33px;
+  padding: auto 25px;
+
+  @include button-size($padding-base-vertical, $padding-base-horizontal, inherit, $line-height-base, $btn-border-radius-base);
   @include user-select(none);
 
   &,
@@ -85,16 +87,15 @@
   }
 
   &.btn-primary {
-    color: $button-blue-text;
-    background-color: $button-blue-bg;
-    border-color: $button-blue-shadow;
-    //    @include box-shadow(0 1px 0px $button-blue-shadow);
+    color: #fff;
+    background-color: #03A9F4;
+    border-color: $capri;
+    height: 33px;
+    padding: 0 25px;
 
-    &:hover,
-    &.active {
-      color: $button-blue-text-hover;
-      background-color: $button-blue-bg-hover;
-      border-color: $button-blue-shadow-hover;
+    &:hover, &.active {
+      background-color: lighten($capri, 10);
+      box-shadow: 0 2px 4px rgba($black, 0.15);
       //      @include box-shadow(0 1px 0px $button-blue-shadow-hover);
     }
   }

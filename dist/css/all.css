@@ -4416,12 +4416,14 @@ table.budget-allocation .table-commission-rate {
   cursor: pointer;
   background-image: none;
   white-space: nowrap;
-  color: inherit;
   letter-spacing: .02em;
-  height: auto;
-  padding: 9px 15px;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #323A45;
+  border: 1px solid #D3D4D8;
+  height: 33px;
+  padding: auto 25px;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: inherit;
   line-height: 1.42857;
   border-radius: 4px;
   -webkit-user-select: none;
@@ -4429,25 +4431,25 @@ table.budget-allocation .table-commission-rate {
   -ms-user-select: none;
   user-select: none;
 }
-/* line 29, ../../../sass/_buttons.scss */
+/* line 31, ../../../sass/_buttons.scss */
 .btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-/* line 35, ../../../sass/_buttons.scss */
+/* line 37, ../../../sass/_buttons.scss */
 .btn:hover, .btn:focus, .btn.focus {
   color: #333;
   text-decoration: none;
 }
-/* line 42, ../../../sass/_buttons.scss */
+/* line 44, ../../../sass/_buttons.scss */
 .btn:active, .btn.active {
   outline: 0;
   background-image: none;
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
-/* line 49, ../../../sass/_buttons.scss */
+/* line 51, ../../../sass/_buttons.scss */
 .btn.disabled, .btn[disabled], fieldset[disabled] .btn {
   cursor: not-allowed;
   filter: alpha(opacity=65);
@@ -4457,90 +4459,91 @@ table.budget-allocation .table-commission-rate {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 57, ../../../sass/_buttons.scss */
+/* line 59, ../../../sass/_buttons.scss */
 .btn:active, .btn.active, .btn:focus, .btn:active:focus {
   -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.2);
   box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.2);
   outline: 0;
   color: inherit;
 }
-/* line 66, ../../../sass/_buttons.scss */
+/* line 68, ../../../sass/_buttons.scss */
 .btn:hover {
   color: inherit;
   -webkit-box-shadow: none;
   box-shadow: none;
   background-color: rgba(255, 255, 255, 0.1);
 }
-/* line 72, ../../../sass/_buttons.scss */
+/* line 74, ../../../sass/_buttons.scss */
 .btn.btn-default {
   color: #1e222e;
   background-color: #dedae0;
   border-color: #c6c3c8;
 }
-/* line 78, ../../../sass/_buttons.scss */
+/* line 80, ../../../sass/_buttons.scss */
 .btn.btn-default:hover, .btn.btn-default.active {
   color: #282d3d;
   background-color: #eae8ec;
   border-color: #d3d0d4;
 }
-/* line 87, ../../../sass/_buttons.scss */
+/* line 89, ../../../sass/_buttons.scss */
 .btn.btn-primary {
   color: #fff;
-  background-color: #3ba0cc;
-  border-color: #3095c3;
+  background-color: #03A9F4;
+  border-color: #03A9F4;
+  height: 33px;
+  padding: 0 25px;
 }
-/* line 93, ../../../sass/_buttons.scss */
+/* line 96, ../../../sass/_buttons.scss */
 .btn.btn-primary:hover, .btn.btn-primary.active {
-  color: #fff;
-  background-color: #4faad1;
-  border-color: #3da2cf;
+  background-color: #2ebcfc;
+  box-shadow: 0 2px 4px rgba(28, 30, 41, 0.15);
 }
-/* line 102, ../../../sass/_buttons.scss */
+/* line 103, ../../../sass/_buttons.scss */
 .btn.btn-success {
   color: white;
   background-color: #5cb85c;
   border-color: #4D4D4D;
 }
-/* line 108, ../../../sass/_buttons.scss */
+/* line 109, ../../../sass/_buttons.scss */
 .btn.btn-success:hover, .btn.btn-success.active {
   color: white;
   background-color: #65C465;
 }
-/* line 116, ../../../sass/_buttons.scss */
+/* line 117, ../../../sass/_buttons.scss */
 .btn.btn-danger {
   color: white;
   background-color: #d9534f;
   border-color: #4D4D4D;
 }
-/* line 121, ../../../sass/_buttons.scss */
+/* line 122, ../../../sass/_buttons.scss */
 .btn.btn-danger:hover, .btn.btn-danger.active {
   color: white;
   background-color: #E25F5B;
 }
-/* line 128, ../../../sass/_buttons.scss */
+/* line 129, ../../../sass/_buttons.scss */
 .btn.btn-transparent {
   background: transparent;
   border-color: transparent;
 }
-/* line 139, ../../../sass/_buttons.scss */
+/* line 140, ../../../sass/_buttons.scss */
 .btn[disabled] {
   opacity: .5;
 }
-/* line 142, ../../../sass/_buttons.scss */
+/* line 143, ../../../sass/_buttons.scss */
 .btn[disabled]:hover {
   cursor: default;
 }
-/* line 148, ../../../sass/_buttons.scss */
+/* line 149, ../../../sass/_buttons.scss */
 .btn i.glyphicon {
   margin-right: 5px;
 }
 
-/* line 157, ../../../sass/_buttons.scss */
+/* line 158, ../../../sass/_buttons.scss */
 a.btn.disabled, fieldset[disabled] a.btn {
   pointer-events: none;
 }
 
-/* line 166, ../../../sass/_buttons.scss */
+/* line 167, ../../../sass/_buttons.scss */
 .btn-default {
   color: #333;
   background-color: #fff;
@@ -4585,7 +4588,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #333;
 }
 
-/* line 170, ../../../sass/_buttons.scss */
+/* line 171, ../../../sass/_buttons.scss */
 .btn-primary {
   color: #fff;
   background-color: #337ab7;
@@ -4630,7 +4633,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #fff;
 }
 
-/* line 175, ../../../sass/_buttons.scss */
+/* line 176, ../../../sass/_buttons.scss */
 .btn-success {
   color: #fff;
   background-color: #5cb85c;
@@ -4675,7 +4678,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #fff;
 }
 
-/* line 180, ../../../sass/_buttons.scss */
+/* line 181, ../../../sass/_buttons.scss */
 .btn-info {
   color: #fff;
   background-color: #5bc0de;
@@ -4720,7 +4723,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #fff;
 }
 
-/* line 185, ../../../sass/_buttons.scss */
+/* line 186, ../../../sass/_buttons.scss */
 .btn-warning {
   color: #fff;
   background-color: #f0ad4e;
@@ -4765,7 +4768,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #fff;
 }
 
-/* line 190, ../../../sass/_buttons.scss */
+/* line 191, ../../../sass/_buttons.scss */
 .btn-danger {
   color: #fff;
   background-color: #d9534f;
@@ -4810,35 +4813,35 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #fff;
 }
 
-/* line 198, ../../../sass/_buttons.scss */
+/* line 199, ../../../sass/_buttons.scss */
 .btn-link {
   color: #337ab7;
   font-weight: normal;
   border-radius: 0;
 }
-/* line 203, ../../../sass/_buttons.scss */
+/* line 204, ../../../sass/_buttons.scss */
 .btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled], fieldset[disabled] .btn-link {
   background-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 211, ../../../sass/_buttons.scss */
+/* line 212, ../../../sass/_buttons.scss */
 .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
   border-color: transparent;
 }
-/* line 217, ../../../sass/_buttons.scss */
+/* line 218, ../../../sass/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
   color: #23527c;
   text-decoration: underline;
   background-color: transparent;
 }
-/* line 225, ../../../sass/_buttons.scss */
+/* line 226, ../../../sass/_buttons.scss */
 .btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus {
   color: #777777;
   text-decoration: none;
 }
 
-/* line 236, ../../../sass/_buttons.scss */
+/* line 237, ../../../sass/_buttons.scss */
 .btn-lg, .btn-group-lg > .btn {
   padding: 10px 16px;
   font-size: 18px;
@@ -4846,7 +4849,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   border-radius: 6px;
 }
 
-/* line 241, ../../../sass/_buttons.scss */
+/* line 242, ../../../sass/_buttons.scss */
 .btn-sm, .btn-group-sm > .btn {
   padding: 5px 10px;
   font-size: 12px;
@@ -4854,7 +4857,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   border-radius: 3px;
 }
 
-/* line 246, ../../../sass/_buttons.scss */
+/* line 247, ../../../sass/_buttons.scss */
 .btn-xs, .btn-group-xs > .btn {
   padding: 1px 5px;
   font-size: 12px;
@@ -4862,25 +4865,25 @@ a.btn.disabled, fieldset[disabled] a.btn {
   border-radius: 3px;
 }
 
-/* line 253, ../../../sass/_buttons.scss */
+/* line 254, ../../../sass/_buttons.scss */
 .btn-block {
   display: block;
   width: 100%;
 }
 
-/* line 259, ../../../sass/_buttons.scss */
+/* line 260, ../../../sass/_buttons.scss */
 .btn-block + .btn-block {
   margin-top: 5px;
 }
 
-/* line 267, ../../../sass/_buttons.scss */
+/* line 268, ../../../sass/_buttons.scss */
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
 }
 
-/* line 272, ../../../sass/_buttons.scss */
+/* line 273, ../../../sass/_buttons.scss */
 .btn, label.btn, .has-success .btn.control-label,
 .has-error .btn.control-label, select.form-control {
   border: 1px solid #D6D7DB;
@@ -4893,19 +4896,19 @@ input[type="button"].btn-block {
   -khtml-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 280, ../../../sass/_buttons.scss */
+/* line 281, ../../../sass/_buttons.scss */
 .btn.dropdown-small, label.btn.dropdown-small, .has-success .btn.dropdown-small.control-label,
 .has-error .btn.dropdown-small.control-label, select.form-control.dropdown-small {
   font-size: 14px;
   height: 29px;
 }
-/* line 286, ../../../sass/_buttons.scss */
+/* line 287, ../../../sass/_buttons.scss */
 .btn span.ng-binding, label.btn span.ng-binding, .has-success .btn.control-label span.ng-binding,
 .has-error .btn.control-label span.ng-binding, select.form-control span.ng-binding {
   line-height: 28px;
 }
 
-/* line 291, ../../../sass/_buttons.scss */
+/* line 292, ../../../sass/_buttons.scss */
 label.btn, .has-success .btn.control-label,
 .has-error .btn.control-label, select.form-control {
   color: #1e222e;
@@ -4914,57 +4917,57 @@ label.btn, .has-success .btn.control-label,
   height: 39px;
 }
 
-/* line 304, ../../../sass/_buttons.scss */
+/* line 305, ../../../sass/_buttons.scss */
 .btn.btn-xs, .btn-group-xs > .btn {
   padding: 1px 13px;
 }
 
-/* line 309, ../../../sass/_buttons.scss */
+/* line 310, ../../../sass/_buttons.scss */
 .btn-sm .icn-caret-sm, .btn-group-sm > .btn .icn-caret-sm {
   margin-top: -2px;
   margin-left: 1px;
 }
 
-/* line 316, ../../../sass/_buttons.scss */
+/* line 317, ../../../sass/_buttons.scss */
 .input-group-btn .btn {
   height: 40px;
   background-color: #fff;
   border-color: #E7E6E9;
 }
-/* line 323, ../../../sass/_buttons.scss */
+/* line 324, ../../../sass/_buttons.scss */
 .input-group-btn.open .btn {
   background-color: #D9D5DC;
 }
 
-/* line 329, ../../../sass/_buttons.scss */
+/* line 330, ../../../sass/_buttons.scss */
 .btn.btn-xs, .btn-group-xs > .btn {
   padding: 1px 13px;
 }
 
-/* line 334, ../../../sass/_buttons.scss */
+/* line 335, ../../../sass/_buttons.scss */
 .cn-radiobuttons .btn-group {
   display: block;
 }
-/* line 340, ../../../sass/_buttons.scss */
+/* line 341, ../../../sass/_buttons.scss */
 .cn-radiobuttons .btn-group .btn-facebook.active {
   background-color: #3b5998;
   border-color: #2d4373;
   color: #fff;
 }
-/* line 350, ../../../sass/_buttons.scss */
+/* line 351, ../../../sass/_buttons.scss */
 .cn-radiobuttons .btn-group .btn-twitter.active {
   background-color: #00aced;
   border-color: #0087ba;
   color: #fff;
 }
-/* line 360, ../../../sass/_buttons.scss */
+/* line 361, ../../../sass/_buttons.scss */
 .cn-radiobuttons .btn-group .btn-instagram.active {
   background-color: #675144;
   border-color: #483930;
   color: #fff;
 }
 
-/* line 369, ../../../sass/_buttons.scss */
+/* line 370, ../../../sass/_buttons.scss */
 .cn-autocomplete-list {
   margin: 1px 0;
   padding: 2px;
@@ -4974,46 +4977,46 @@ label.btn, .has-success .btn.control-label,
   -khtml-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
 }
-/* line 378, ../../../sass/_buttons.scss */
+/* line 379, ../../../sass/_buttons.scss */
 .has-success .cn-autocomplete-list + tags-input .host .input.form-control, .has-error .cn-autocomplete-list + tags-input .host .input.form-control, .has-success .cn-autocomplete-list + .host .input.form-control, .has-error .cn-autocomplete-list + .host .input.form-control {
   -webkit-border-radius: 0 0 3px 3px;
   -moz-border-radius: 0 0 3px 3px;
   -khtml-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px;
 }
-/* line 385, ../../../sass/_buttons.scss */
+/* line 386, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item {
   padding: 0 35px 0 0;
   background-color: transparent;
   border: 0;
 }
-/* line 390, ../../../sass/_buttons.scss */
+/* line 391, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item:last-child {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -khtml-border-radius: 0;
   border-radius: 0;
 }
-/* line 394, ../../../sass/_buttons.scss */
+/* line 395, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item:hover {
   background-color: #c8e4f0;
 }
-/* line 397, ../../../sass/_buttons.scss */
+/* line 398, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item:hover .close {
   opacity: 1;
 }
-/* line 402, ../../../sass/_buttons.scss */
+/* line 403, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item:first-child {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-/* line 414, ../../../sass/_buttons.scss */
+/* line 415, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item .form-control, .has-success .cn-autocomplete-list .list-group-item .form-control, .has-error .cn-autocomplete-list .list-group-item .form-control {
   min-height: 32px;
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 419, ../../../sass/_buttons.scss */
+/* line 420, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item .form-control,
 .cn-autocomplete-list .list-group-item .btn, .has-success .cn-autocomplete-list .list-group-item .form-control,
 .has-success .cn-autocomplete-list .list-group-item .btn, .has-error .cn-autocomplete-list .list-group-item .form-control,
@@ -5021,7 +5024,7 @@ label.btn, .has-success .btn.control-label,
   height: 32px;
   margin: 1px 0;
 }
-/* line 423, ../../../sass/_buttons.scss */
+/* line 424, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item .form-control[disabled],
 .cn-autocomplete-list .list-group-item .btn[disabled], .has-success .cn-autocomplete-list .list-group-item .form-control[disabled],
 .has-success .cn-autocomplete-list .list-group-item .btn[disabled], .has-error .cn-autocomplete-list .list-group-item .form-control[disabled],
@@ -5029,14 +5032,14 @@ label.btn, .has-success .btn.control-label,
   border: 0;
   background: transparent;
 }
-/* line 430, ../../../sass/_buttons.scss */
+/* line 431, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item > .tag-item {
   display: block;
   padding: 1px 8px;
   line-height: 32px;
   margin: 0;
 }
-/* line 437, ../../../sass/_buttons.scss */
+/* line 438, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item .close {
   position: absolute;
   z-index: 99;
@@ -5044,46 +5047,46 @@ label.btn, .has-success .btn.control-label,
   right: 10px;
   opacity: 0;
 }
-/* line 444, ../../../sass/_buttons.scss */
+/* line 445, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item .close:hover {
   color: #e65d6d;
 }
-/* line 449, ../../../sass/_buttons.scss */
+/* line 450, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item .form-group {
   margin-bottom: 0;
 }
-/* line 453, ../../../sass/_buttons.scss */
+/* line 454, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item .help-block {
   margin: 0;
 }
-/* line 457, ../../../sass/_buttons.scss */
+/* line 458, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item .btn {
   padding-top: 6px;
   padding-bottom: 6px;
 }
 
-/* line 464, ../../../sass/_buttons.scss */
+/* line 465, ../../../sass/_buttons.scss */
 .form-control[disabled],
 fieldset[disabled] .form-control {
   cursor: default;
 }
 
-/* line 470, ../../../sass/_buttons.scss */
+/* line 471, ../../../sass/_buttons.scss */
 .btn-input-group-start, .btn-input-group-start .form-control {
   border-radius: 3px 0 0 3px;
 }
 
-/* line 476, ../../../sass/_buttons.scss */
+/* line 477, ../../../sass/_buttons.scss */
 .btn-input-group-end, .btn-input-group-end .form-control {
   border-radius: 0 3px 3px 0;
 }
 
-/* line 481, ../../../sass/_buttons.scss */
+/* line 482, ../../../sass/_buttons.scss */
 .schema-form-array > .list-group > .list-group-item {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-/* line 488, ../../../sass/_buttons.scss */
+/* line 489, ../../../sass/_buttons.scss */
 cn-video-targeting .engagement-spec-list video {
   width: 100%;
 }
