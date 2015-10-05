@@ -9242,8 +9242,8 @@ floating-action-button > .btn:hover {
 /* line 88, ../../../sass/_modals.scss */
 .modal-header {
   min-height: 16.42857px;
-  padding: 15px;
-  height: 65px;
+  padding: 12px;
+  height: 58px;
   border-bottom: 1px solid #d8d8d8;
   background-color: #F9F9FB;
   border-top-left-radius: 5px;
@@ -9252,7 +9252,7 @@ floating-action-button > .btn:hover {
 /* line 99, ../../../sass/_modals.scss */
 .modal-header span.title {
   color: #323A45;
-  margin: 0;
+  margin: 0 0 0 7px;
   font-weight: 300;
   display: inline-block;
   font-size: 19px;

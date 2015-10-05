@@ -88,8 +88,8 @@
 .modal-header {
   min-height: ($modal-title-padding + $modal-title-line-height);
 
-  padding: 15px;
-  height: 65px;
+  padding: 12px;
+  height: 58px;
   border-bottom: 1px solid $light-grey;
 
   background-color: #F9F9FB;
@@ -98,7 +98,7 @@
 
   span.title {
     color: $charcoal;
-    margin: 0;
+    margin: 0 0 0 7px;
     font-weight: 300;
     display: inline-block;
     font-size: 19px;
@@ -365,7 +365,7 @@
 }
 
 .toast-container {
-  >div.toast {
+  > div.toast {
     background-color: $dark-grey;
 
     &.bg-primary,
