@@ -14,10 +14,13 @@ EDITOR
 
 /* new forms */
 .cn-form {
-  padding: 0 25px;
-  margin: auto;
+  @media (min-width: $break-sm) {
+    position: fixed;
+    left: 0;
+    right: 0;
+  }
   overflow: auto;
-  max-width: 1200px;
+  padding: 0 25px;
 
   &.cn-form-cols-2 {
     max-width: 1000px;
@@ -35,6 +38,11 @@ EDITOR
       }
     }
   }
+}
+
+.cn-form-inner {
+  margin: auto;
+  max-width: 1200px;
 }
 
 .cn-form-body {
@@ -112,10 +120,6 @@ section, {
   padding: 50px 25px;
   //  border-right: 1px solid $form-divider;
 
-  @media (min-width: $break-sm) {
-    position: fixed;
-  }
-
   .nav-pills {
     > li {
       margin: 0 0 10px;
@@ -162,6 +166,15 @@ section, {
   padding: 50px 25px;
 }
 
+@media (min-width: $break-sm) {
+  .cn-form-nav-inner,
+  .cn-form-meta-inner {
+    position: fixed;
+    width: 100%;
+  }
+}
+
+
 input.form-control,
 .input.form-control,
 .input-group-addon,
@@ -207,9 +220,7 @@ textarea.form-control {
   min-height: 80px;
 }
 
-.form-control-feedback {
-  display: none;
-}
+.form-control-feedback { display: none; }
 
 .input-group {
   &, .has-success &, .has-error & {
@@ -315,7 +326,7 @@ textarea.form-control {
   }
 }
 
-.date-input {
+date-input {
   color: $dropdown-text;
   font-size: 14px;
 }
@@ -348,16 +359,10 @@ textarea.form-control {
   font-weight: 300;
 
   .has-error & {
-    margin: -2px 3px 5px;
-    padding: 7px 10px 5px;
-    background: $danger-color;
-    color: $danger-text;
-    @include border-radius(0 0 $radii $radii);
-
-    a {
-      color: $white;
-      text-decoration: underline;
-    }
+    //    margin: -2px 3px 5px;
+    //    padding: 7px 10px 5px;
+    color: $danger-color;
+    font-weight: 500;
   }
 }
 
@@ -600,10 +605,178 @@ table {
   }
 }
 
-// use .col-lg-6 instead
-//@media (min-width: 1480px) {
-//  .col-md-6-date {
-//    float: left;
-//    width: 50%;
-//  }
-//}
+/* get rid of?
+
+.cn-radiobuttons {
+  .btn-group {
+    display: block;
+
+    .btn {
+      &.active {
+        background-color: #C6C3C7;
+      }
+    }
+
+    .btn-facebook {
+      //      width: 50%;
+
+      &.active {
+        background-color: $fb-blue;
+        border-color: $fb-border;
+        color: $white
+      }
+    }
+
+    .btn-twitter {
+      //      width: 50%;
+
+      &.active {
+        background-color: $tw-blue;
+        border-color: $tw-border;
+        color: $white
+      }
+    }
+
+    .btn-instagram {
+      //      width: 50%;
+
+      &.active {
+        background-color: $ig-brown;
+        border-color: $ig-border;
+        color: $white
+      }
+    }
+  }
+}
+
+.cn-autocomplete-list {
+  margin: 1px 0;
+  padding: 2px;
+  background-color: $white;
+  @include border-radius($radii $radii 0 0);
+
+  &+tags-input .host,
+  &+.host {
+    .input.form-control {
+      .has-success &,
+      .has-error & {
+        @include border-radius(0 0 $radii $radii);
+
+        .btn-group>.btn:last-child:not(:first-child) {
+          @include border-radius(0 0 $radii 0);
+        }
+      }
+    }
+  }
+
+  .list-group-item {
+    padding: 0 35px 0 0;
+    background-color: transparent;
+    border: 0;
+
+    &:last-child {
+      @include border-radius(0);
+    }
+
+    &:hover {
+      background-color: $primary-highlight;
+
+      .close {
+        opacity: 1;
+      }
+    }
+
+    &:first-child {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+    //    .label-primary {
+    //      background-color: darken($primary-highlight, 5%);
+    //    }
+
+    &,
+    .has-success &,
+    .has-error & {
+      .form-control {
+        min-height: 32px;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+      .form-control,
+      .btn {
+        height: 32px;
+        margin: 1px 0;
+        &[disabled] {
+          border: 0;
+          background: transparent;
+        }
+      }
+    }
+
+    > .tag-item {
+      display: block;
+      padding: 1px 8px;
+      line-height: 32px;
+      margin: 0;
+    }
+
+    .close {
+      position: absolute;
+      z-index: 99;
+      top: 4px;
+      right: 10px;
+      opacity: 0;
+
+      &:hover {
+        color: $danger-color;
+      }
+    }
+
+    .form-group {
+      margin-bottom: 0;
+    }
+
+    .help-block {
+      margin: 0;
+    }
+
+    .btn {
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+  }
+}
+
+.form-control[disabled],
+fieldset[disabled] .form-control  {
+  cursor: default;
+}
+
+.btn-input-group-start {
+  &, & .form-control {
+    border-radius: $radii 0 0 $radii;
+  }
+}
+
+
+.btn-input-group-end {
+  &, & .form-control {
+    border-radius: 0 $radii $radii 0;
+  }
+}
+
+.schema-form-array>.list-group>.list-group-item {
+  background-color: rgba(0, 0, 0, .05);
+}
+
+cn-video-targeting {
+  .engagement-spec-list {
+
+    video {
+      width: 100%;
+    }
+  }
+}
+
+*/
