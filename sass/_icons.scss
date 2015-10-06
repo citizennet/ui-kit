@@ -244,6 +244,7 @@ i.cn-icon {
 *******************************************************/
 
 .icn-sort-caret {
+  // defaults to down direction
   background: url(#{$svg-path}light/icn-sort-caret.svg);
   width: 8px;
   height: 5px;
@@ -254,6 +255,10 @@ i.cn-icon {
 
   &.up {
     transform: rotate(180deg);
+  }
+
+  &.right {
+    transform: rotate(270deg);
   }
 }
 
