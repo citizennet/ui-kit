@@ -20,9 +20,8 @@
   color: $charcoal;
   border: 1px solid #D3D4D8;
   height: 33px;
-  padding: auto 25px;
 
-  @include button-size($padding-base-vertical, $padding-base-horizontal, inherit, $line-height-base, $btn-border-radius-base);
+  @include button-size(6px, 25px, inherit, $line-height-base, $btn-border-radius-base);
   @include user-select(none);
 
   &,
@@ -91,7 +90,6 @@
     background-color: #03A9F4;
     border-color: $capri;
     height: 33px;
-    padding: 0 25px;
 
     &:hover, &.active {
       background-color: lighten($capri, 10);
