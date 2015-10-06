@@ -5729,7 +5729,88 @@ address {
   line-height: 1.42857;
 }
 
-/* line 1, ../../../sass/_icons.scss */
+/**
+* Old Icons
+*/
+@font-face {
+  font-family: 'cn-icons';
+  src: url(data:application/x-font-ttf;charset=utf-8;base64,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) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 12, ../../../sass/_icons.scss */
+.cni {
+  font-family: 'cn-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1.1;
+  vertical-align: middle;
+  width: 1.285714em;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.1em;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 32, ../../../sass/_icons.scss */
+.cni-audiences:before {
+  content: "\e600";
+}
+
+/* line 36, ../../../sass/_icons.scss */
+.cni-creative:before {
+  content: "\e601";
+}
+
+/* line 40, ../../../sass/_icons.scss */
+.cni-details:before {
+  content: "\e602";
+}
+
+/* line 44, ../../../sass/_icons.scss */
+.cni-spend:before {
+  content: "\e603";
+}
+
+/* line 48, ../../../sass/_icons.scss */
+.cni-targeting:before {
+  content: "\e604";
+}
+
+/* line 52, ../../../sass/_icons.scss */
+i.cn-icon {
+  background-size: cover;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+/* line 58, ../../../sass/_icons.scss */
+i.cn-icon.cn-download {
+  background-image: url("../../../../images/cn-icons/download.svg");
+}
+/* line 62, ../../../sass/_icons.scss */
+i.cn-icon.cn-edit {
+  background-image: url("../../../../images/cn-icons/rename.svg");
+}
+/* line 66, ../../../sass/_icons.scss */
+i.cn-icon.cn-delete {
+  background-image: url("../../../../images/cn-icons/delete.svg");
+  width: 13px;
+}
+/* line 71, ../../../sass/_icons.scss */
+i.cn-icon.cn-share {
+  background-image: url("../../../../images/cn-icons/share.svg");
+}
+
+/**
+* New Icons
+*/
+/* line 80, ../../../sass/_icons.scss */
 .icn-back {
   background: url(../../js/vendor/ui-kit/assets/light/icn-back.svg);
   width: 24px;
@@ -5738,7 +5819,7 @@ address {
   vertical-align: middle;
 }
 
-/* line 9, ../../../sass/_icons.scss */
+/* line 88, ../../../sass/_icons.scss */
 .icn-twitter {
   background: url(../../js/vendor/ui-kit/assets/icn-twitter.svg);
   width: 24px;
@@ -5747,7 +5828,7 @@ address {
   vertical-align: middle;
 }
 
-/* line 17, ../../../sass/_icons.scss */
+/* line 96, ../../../sass/_icons.scss */
 .icn-facebook {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/dark-active/icn-facebook.svg);
   width: 24px;
@@ -5756,7 +5837,7 @@ address {
   vertical-align: middle;
 }
 
-/* line 25, ../../../sass/_icons.scss */
+/* line 104, ../../../sass/_icons.scss */
 .icn-facebook-dark {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-facebook.svg);
   width: 24px;
@@ -5765,7 +5846,7 @@ address {
   vertical-align: middle;
 }
 
-/* line 33, ../../../sass/_icons.scss */
+/* line 112, ../../../sass/_icons.scss */
 .icn-search {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-search-darker.svg);
   width: 24px;
@@ -5774,7 +5855,7 @@ address {
   vertical-align: middle;
 }
 
-/* line 41, ../../../sass/_icons.scss */
+/* line 120, ../../../sass/_icons.scss */
 .icn-caret {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-dd.svg);
   width: 24px;
@@ -5783,7 +5864,7 @@ address {
   vertical-align: middle;
 }
 
-/* line 49, ../../../sass/_icons.scss */
+/* line 128, ../../../sass/_icons.scss */
 .icn-cog {
   background: url(../../js/vendor/ui-kit/assets/light/icn-settings.svg);
   width: 24px;
@@ -5792,7 +5873,7 @@ address {
   vertical-align: middle;
 }
 
-/* line 57, ../../../sass/_icons.scss */
+/* line 136, ../../../sass/_icons.scss */
 .icn-caret-sm {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-caret-sm.svg);
   width: 10px;
@@ -5801,7 +5882,7 @@ address {
   vertical-align: middle;
 }
 
-/* line 65, ../../../sass/_icons.scss */
+/* line 144, ../../../sass/_icons.scss */
 .icn-toggle {
   background: url(../../js/vendor/ui-kit/assets/light/switch-on.png) no-repeat;
   width: 24px;
@@ -5810,13 +5891,13 @@ address {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 73, ../../../sass/_icons.scss */
+/* line 152, ../../../sass/_icons.scss */
 .icn-toggle.disabled {
   background: url(../../js/vendor/ui-kit/assets/light/switch-off.png);
   background-size: 24px 15px;
 }
 
-/* line 79, ../../../sass/_icons.scss */
+/* line 158, ../../../sass/_icons.scss */
 .icn-analyze {
   background: url(../../js/vendor/ui-kit/assets/light/icn-analyze.svg);
   width: 24px;
@@ -5825,7 +5906,7 @@ address {
   vertical-align: middle;
 }
 
-/* line 87, ../../../sass/_icons.scss */
+/* line 166, ../../../sass/_icons.scss */
 .icn-analyze.sm {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-analyze-sm.svg);
   width: 16px;
@@ -5834,7 +5915,7 @@ address {
   vertical-align: middle;
 }
 
-/* line 95, ../../../sass/_icons.scss */
+/* line 174, ../../../sass/_icons.scss */
 .icn-edit.dark.sm {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-settings-sm.svg);
   width: 16px;
@@ -5843,7 +5924,7 @@ address {
   vertical-align: middle;
 }
 
-/* line 103, ../../../sass/_icons.scss */
+/* line 182, ../../../sass/_icons.scss */
 .icn-check.sm {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-check.png);
   width: 19px;
@@ -5853,7 +5934,7 @@ address {
   margin-top: -4px;
 }
 
-/* line 113, ../../../sass/_icons.scss */
+/* line 192, ../../../sass/_icons.scss */
 .icn-menu {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-menu.svg);
   width: 24px;
@@ -5863,7 +5944,7 @@ address {
   margin-top: -4px;
 }
 
-/* line 123, ../../../sass/_icons.scss */
+/* line 202, ../../../sass/_icons.scss */
 .icn-options {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-options.svg);
   width: 24px;
@@ -5873,7 +5954,7 @@ address {
   margin-top: -4px;
 }
 
-/* line 133, ../../../sass/_icons.scss */
+/* line 212, ../../../sass/_icons.scss */
 .icn-options-light {
   background: url(../../js/vendor/ui-kit/assets/light/icn-options.svg);
   width: 24px;
@@ -5883,7 +5964,7 @@ address {
   margin-top: -4px;
 }
 
-/* line 143, ../../../sass/_icons.scss */
+/* line 222, ../../../sass/_icons.scss */
 .icn-share {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-share.svg);
   width: 24px;
@@ -5893,7 +5974,7 @@ address {
   margin-top: -4px;
 }
 
-/* line 153, ../../../sass/_icons.scss */
+/* line 232, ../../../sass/_icons.scss */
 .icn-add {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-add.svg);
   width: 24px;
@@ -5906,7 +5987,7 @@ address {
 /******************************************************
 * Icons for tables
 *******************************************************/
-/* line 167, ../../../sass/_icons.scss */
+/* line 246, ../../../sass/_icons.scss */
 .icn-sort-caret {
   background: url(../../js/vendor/ui-kit/assets/light/icn-sort-caret.svg);
   width: 8px;
@@ -5916,12 +5997,12 @@ address {
   margin-bottom: 3px;
   margin-left: 3px;
 }
-/* line 176, ../../../sass/_icons.scss */
+/* line 255, ../../../sass/_icons.scss */
 .icn-sort-caret.up {
   transform: rotate(180deg);
 }
 
-/* line 181, ../../../sass/_icons.scss */
+/* line 260, ../../../sass/_icons.scss */
 .icn-mini-menu {
   background: url(../../js/vendor/ui-kit/assets/light/icn-mini-menu.svg);
   width: 8px;
@@ -11203,80 +11284,4 @@ TOOL BAR
 /* line 2, ../../../sass/_toast.scss */
 .container-fluid .toast-top-right {
   top: 67px;
-}
-
-@font-face {
-  font-family: 'cn-icons';
-  src: url(data:application/x-font-ttf;charset=utf-8;base64,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) format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* line 8, ../../../sass/_cn-icons.scss */
-.cni {
-  font-family: 'cn-icons';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1.1;
-  vertical-align: middle;
-  width: 1.285714em;
-  display: inline-block;
-  text-align: center;
-  font-size: 1.1em;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* line 28, ../../../sass/_cn-icons.scss */
-.cni-audiences:before {
-  content: "\e600";
-}
-
-/* line 32, ../../../sass/_cn-icons.scss */
-.cni-creative:before {
-  content: "\e601";
-}
-
-/* line 36, ../../../sass/_cn-icons.scss */
-.cni-details:before {
-  content: "\e602";
-}
-
-/* line 40, ../../../sass/_cn-icons.scss */
-.cni-spend:before {
-  content: "\e603";
-}
-
-/* line 44, ../../../sass/_cn-icons.scss */
-.cni-targeting:before {
-  content: "\e604";
-}
-
-/* legacy */
-/* line 49, ../../../sass/_cn-icons.scss */
-i.cn-icon {
-  background-size: cover;
-  display: inline-block;
-  height: 15px;
-  width: 15px;
-}
-/* line 55, ../../../sass/_cn-icons.scss */
-i.cn-icon.cn-download {
-  background-image: url("../../../../images/cn-icons/download.svg");
-}
-/* line 59, ../../../sass/_cn-icons.scss */
-i.cn-icon.cn-edit {
-  background-image: url("../../../../images/cn-icons/rename.svg");
-}
-/* line 63, ../../../sass/_cn-icons.scss */
-i.cn-icon.cn-delete {
-  background-image: url("../../../../images/cn-icons/delete.svg");
-  width: 13px;
-}
-/* line 68, ../../../sass/_cn-icons.scss */
-i.cn-icon.cn-share {
-  background-image: url("../../../../images/cn-icons/share.svg");
 }
