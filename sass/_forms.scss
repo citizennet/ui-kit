@@ -99,16 +99,11 @@ EDITOR
   }
 }
 
-.has-success .control-label,
-.has-error .control-label {
-  @extend label;
-}
-
 fieldset,
 section, {
   margin: 25px 0 0;
-  padding-top: 25px;
-  //  padding-bottom: 25px;
+  padding: 25px 0 0;
+  border: 0;
   border-top: 1px solid $form-divider;
 }
 
@@ -174,12 +169,26 @@ section, {
   }
 }
 
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+}
 
 input.form-control,
 .input.form-control,
 .input-group-addon,
 textarea.form-control {
-  &, .has-success &, .has-error & {
+//  &, .has-success &, .has-error & {
     background-color: $white;
     border: 0;
     @include box-shadow(none);
@@ -212,7 +221,7 @@ textarea.form-control {
       -webkit-box-shadow: 0 0 0px 1000px $white inset;
     }
 
-  }
+//  }
 }
 
 textarea.form-control {
@@ -223,7 +232,7 @@ textarea.form-control {
 .form-control-feedback { display: none; }
 
 .input-group {
-  &, .has-success &, .has-error & {
+//  &, .has-success &, .has-error & {
     .form-control,
     .input-group-addon,
     .input-group-btn .btn {
@@ -243,7 +252,7 @@ textarea.form-control {
         border: 1px solid $text-field-shadow;
       }
     }
-  }
+//  }
 }
 
 .form-control-static,
@@ -357,6 +366,9 @@ date-input {
   color: $supporting-text;
   //  font-size: 14px;
   font-weight: 300;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
 
   .has-error & {
     //    margin: -2px 3px 5px;
@@ -564,10 +576,6 @@ table {
     }
   }
 
-  label {
-    margin-bottom: 5px;
-  }
-
   h3 {
     font-size: 36px;
     font-weight: 200;
@@ -605,51 +613,7 @@ table {
   }
 }
 
-/* get rid of?
-
-.cn-radiobuttons {
-  .btn-group {
-    display: block;
-
-    .btn {
-      &.active {
-        background-color: #C6C3C7;
-      }
-    }
-
-    .btn-facebook {
-      //      width: 50%;
-
-      &.active {
-        background-color: $fb-blue;
-        border-color: $fb-border;
-        color: $white
-      }
-    }
-
-    .btn-twitter {
-      //      width: 50%;
-
-      &.active {
-        background-color: $tw-blue;
-        border-color: $tw-border;
-        color: $white
-      }
-    }
-
-    .btn-instagram {
-      //      width: 50%;
-
-      &.active {
-        background-color: $ig-brown;
-        border-color: $ig-border;
-        color: $white
-      }
-    }
-  }
-}
-
-.cn-autocomplete-list {
+.cn-autocomplete-list.list-group {
   margin: 1px 0;
   padding: 2px;
   background-color: $white;
@@ -695,9 +659,9 @@ table {
     //      background-color: darken($primary-highlight, 5%);
     //    }
 
-    &,
-    .has-success &,
-    .has-error & {
+//    &,
+//    .has-success &,
+//    .has-error & {
       .form-control {
         min-height: 32px;
         padding-top: 0;
@@ -712,7 +676,7 @@ table {
           background: transparent;
         }
       }
-    }
+//    }
 
     > .tag-item {
       display: block;
@@ -744,6 +708,50 @@ table {
     .btn {
       padding-top: 6px;
       padding-bottom: 6px;
+    }
+  }
+}
+
+/* get rid of?
+
+.cn-radiobuttons {
+  .btn-group {
+    display: block;
+
+    .btn {
+      &.active {
+        background-color: #C6C3C7;
+      }
+    }
+
+    .btn-facebook {
+      //      width: 50%;
+
+      &.active {
+        background-color: $fb-blue;
+        border-color: $fb-border;
+        color: $white
+      }
+    }
+
+    .btn-twitter {
+      //      width: 50%;
+
+      &.active {
+        background-color: $tw-blue;
+        border-color: $tw-border;
+        color: $white
+      }
+    }
+
+    .btn-instagram {
+      //      width: 50%;
+
+      &.active {
+        background-color: $ig-brown;
+        border-color: $ig-border;
+        color: $white
+      }
     }
   }
 }
