@@ -5,7 +5,7 @@ SUBNAV
 .cn-sub-navbar-fixed-top {
   background-color: $top-sub-nav-bg;
   width: 100%;
-  padding: 0;
+  padding: 25px 0 0;
   z-index: 1020;
 
   .sub-sub-nav {
@@ -91,7 +91,7 @@ SUBNAV
   }
 
   .company-selection {
-    height: 100px;
+    padding-bottom: 25px;
 
     a {
       h1 {
