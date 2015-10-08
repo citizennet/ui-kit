@@ -8,9 +8,8 @@
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: $headings-font-family;
-  font-weight: 100;
   line-height: $headings-line-height;
-  color: $quartz;
+//  color: $quartz;
 
   small,
   .small {
@@ -25,6 +24,7 @@ h2, .h2,
 h3, .h3 {
   margin-top: 10px;
   margin-bottom: 10px;
+  font-weight: 100;
 
   small,
   .small {
