@@ -75,7 +75,7 @@
   border-radius: 0;
 }
 
-.btn-group > .btn:not(:last-child) {
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
   border-right: 0;
 }
 
@@ -263,7 +263,6 @@
     //      &:last-child {
     //        border-right-width: 1px;
     //      }
-    border: 0;
 
     &[disabled] {
       border: 1px solid $text-field-shadow;
@@ -274,9 +273,11 @@
 
 .input-group-btn {
   .btn {
-    height: 40px;
+//    height: 40px;
     background-color: $white;
-    border-color: $text-field-shadow;
+//    border-color: $text-field-shadow;
+    border: 0;
+    padding: 7px 15px;
   }
 
   &.open {
