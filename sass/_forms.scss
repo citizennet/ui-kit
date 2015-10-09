@@ -49,10 +49,6 @@ EDITOR
   padding: 25px;
 }
 
-.cn-form-body.cn-list {
-  padding: 25px 0;
-}
-
 .cn-editor,
 .cn-modal,
 .cn-form {
@@ -170,6 +166,18 @@ section, {
   .cn-form-meta-inner {
     position: fixed;
     width: 100%;
+  }
+}
+
+// right now only used in budget reallocation page
+.cn-form.cn-list {
+  .cn-form-body {
+    border-top: 1px solid $form-divider;
+    padding: 0 0 25px;
+  }
+
+  .cn-form-meta {
+    padding-top: 0;
   }
 }
 
