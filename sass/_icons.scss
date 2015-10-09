@@ -56,20 +56,20 @@ i.cn-icon {
   width: 15px;
 
   &.cn-download {
-    background-image: url('../../../../images/cn-icons/download.svg');
+    background-image: url(#{$svg-path}cn-icons/download.svg);
   }
 
   &.cn-edit {
-    background-image: url('../../../../images/cn-icons/rename.svg');
+    background-image: url(#{$svg-path}cn-icons/rename.svg);
   }
 
   &.cn-delete {
-    background-image: url('../../../../images/cn-icons/delete.svg');
+    background-image: url(#{$svg-path}cn-icons/delete.svg);
     width: 13px;
   }
 
   &.cn-share {
-    background-image: url('../../../../images/cn-icons/share.svg');
+    background-image: url(#{$svg-path}cn-icons/share.svg);
   }
 }
 
@@ -167,6 +167,14 @@ i.cn-icon {
   background: url(#{$svg-path}dark/icn-analyze-sm.svg);
   width: 16px;
   height: 13px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icn-edit {
+  background: url(#{$svg-path}dark/icn-settings-sm.svg);
+  width: 24px;
+  height: 24px;
   display: inline-block;
   vertical-align: middle;
 }
