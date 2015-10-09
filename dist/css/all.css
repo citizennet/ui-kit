@@ -6436,54 +6436,59 @@ tbody.collapse.in {
   border-radius: 0;
 }
 
-/* line 79, ../../../sass/_button-groups.scss */
+/* line 78, ../../../sass/_button-groups.scss */
+.btn-group > .btn:not(:last-child) {
+  border-right: 0;
+}
+
+/* line 83, ../../../sass/_button-groups.scss */
 .btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child,
 .btn-group > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
 
-/* line 85, ../../../sass/_button-groups.scss */
+/* line 89, ../../../sass/_button-groups.scss */
 .btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
 
-/* line 90, ../../../sass/_button-groups.scss */
+/* line 94, ../../../sass/_button-groups.scss */
 .btn-group .dropdown-toggle:active,
 .btn-group.open .dropdown-toggle {
   outline: 0;
 }
 
-/* line 115, ../../../sass/_button-groups.scss */
+/* line 119, ../../../sass/_button-groups.scss */
 .btn-group > .btn + .dropdown-toggle {
   padding-left: 8px;
   padding-right: 8px;
 }
 
-/* line 120, ../../../sass/_button-groups.scss */
+/* line 124, ../../../sass/_button-groups.scss */
 .btn-group > .btn-lg + .dropdown-toggle, .btn-group-lg.btn-group > .btn + .dropdown-toggle {
   padding-left: 12px;
   padding-right: 12px;
 }
 
-/* line 126, ../../../sass/_button-groups.scss */
+/* line 130, ../../../sass/_button-groups.scss */
 .btn .caret {
   margin-left: 0;
 }
 
-/* line 131, ../../../sass/_button-groups.scss */
+/* line 135, ../../../sass/_button-groups.scss */
 .btn-lg .caret, .btn-group-lg > .btn .caret {
   border-width: 5px 5px 0;
   border-bottom-width: 0;
 }
 
-/* line 137, ../../../sass/_button-groups.scss */
+/* line 141, ../../../sass/_button-groups.scss */
 .dropup .btn-lg .caret, .dropup .btn-group-lg > .btn .caret {
   border-width: 0 5px 5px;
 }
 
-/* line 145, ../../../sass/_button-groups.scss */
+/* line 149, ../../../sass/_button-groups.scss */
 .btn-group-vertical > .btn,
 .btn-group-vertical > .btn-group,
 .btn-group-vertical > .btn-group > .btn {
@@ -6501,11 +6506,11 @@ tbody.collapse.in {
 .btn-group-vertical > .btn-group:after {
   clear: both;
 }
-/* line 157, ../../../sass/_button-groups.scss */
+/* line 161, ../../../sass/_button-groups.scss */
 .btn-group-vertical > .btn-group > .btn {
   float: none;
 }
-/* line 162, ../../../sass/_button-groups.scss */
+/* line 166, ../../../sass/_button-groups.scss */
 .btn-group-vertical > .btn + .btn,
 .btn-group-vertical > .btn + .btn-group,
 .btn-group-vertical > .btn-group + .btn,
@@ -6514,65 +6519,65 @@ tbody.collapse.in {
   margin-left: 0;
 }
 
-/* line 172, ../../../sass/_button-groups.scss */
+/* line 176, ../../../sass/_button-groups.scss */
 .btn-group-vertical > .btn:not(:first-child):not(:last-child) {
   border-radius: 0;
 }
-/* line 175, ../../../sass/_button-groups.scss */
+/* line 179, ../../../sass/_button-groups.scss */
 .btn-group-vertical > .btn:first-child:not(:last-child) {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-/* line 179, ../../../sass/_button-groups.scss */
+/* line 183, ../../../sass/_button-groups.scss */
 .btn-group-vertical > .btn:last-child:not(:first-child) {
   border-bottom-left-radius: 3px;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
 
-/* line 185, ../../../sass/_button-groups.scss */
+/* line 189, ../../../sass/_button-groups.scss */
 .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
   border-radius: 0;
 }
 
-/* line 190, ../../../sass/_button-groups.scss */
+/* line 194, ../../../sass/_button-groups.scss */
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
-/* line 196, ../../../sass/_button-groups.scss */
+/* line 200, ../../../sass/_button-groups.scss */
 .btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
 
-/* line 203, ../../../sass/_button-groups.scss */
+/* line 207, ../../../sass/_button-groups.scss */
 .btn-group-justified {
   display: table;
   width: 100%;
   table-layout: fixed;
   border-collapse: separate;
 }
-/* line 208, ../../../sass/_button-groups.scss */
+/* line 212, ../../../sass/_button-groups.scss */
 .btn-group-justified > .btn,
 .btn-group-justified > .btn-group {
   float: none;
   display: table-cell;
   width: 1%;
 }
-/* line 214, ../../../sass/_button-groups.scss */
+/* line 218, ../../../sass/_button-groups.scss */
 .btn-group-justified > .btn-group .btn {
   width: 100%;
 }
-/* line 218, ../../../sass/_button-groups.scss */
+/* line 222, ../../../sass/_button-groups.scss */
 .btn-group-justified > .btn-group .dropdown-menu {
   left: auto;
 }
 
-/* line 238, ../../../sass/_button-groups.scss */
+/* line 242, ../../../sass/_button-groups.scss */
 [data-toggle="buttons"] > .btn input[type="radio"],
 [data-toggle="buttons"] > .btn input[type="checkbox"],
 [data-toggle="buttons"] > .btn-group > .btn input[type="radio"],
@@ -6582,57 +6587,57 @@ tbody.collapse.in {
   pointer-events: none;
 }
 
-/* line 249, ../../../sass/_button-groups.scss */
+/* line 253, ../../../sass/_button-groups.scss */
 .input-group .form-control,
 .input-group .input-group-addon,
 .input-group .input-group-btn .btn {
   border: 0;
 }
-/* line 264, ../../../sass/_button-groups.scss */
+/* line 268, ../../../sass/_button-groups.scss */
 .input-group .form-control[disabled],
 .input-group .input-group-addon[disabled],
 .input-group .input-group-btn .btn[disabled] {
   border: 1px solid #E7E6E9;
 }
 
-/* line 272, ../../../sass/_button-groups.scss */
+/* line 276, ../../../sass/_button-groups.scss */
 .input-group-btn .btn {
   height: 40px;
   background-color: #fff;
   border-color: #E7E6E9;
 }
-/* line 279, ../../../sass/_button-groups.scss */
+/* line 283, ../../../sass/_button-groups.scss */
 .input-group-btn.open .btn {
   background-color: #D9D5DC;
 }
 
-/* line 286, ../../../sass/_button-groups.scss */
+/* line 290, ../../../sass/_button-groups.scss */
 .btn-input-group-start, .btn-input-group-start .form-control {
   border-radius: 3px 0 0 3px;
 }
 
-/* line 292, ../../../sass/_button-groups.scss */
+/* line 296, ../../../sass/_button-groups.scss */
 .btn-input-group-end, .btn-input-group-end .form-control {
   border-radius: 0 3px 3px 0;
 }
 
-/* line 298, ../../../sass/_button-groups.scss */
+/* line 302, ../../../sass/_button-groups.scss */
 .cn-radiobuttons .btn-group {
   display: block;
 }
-/* line 304, ../../../sass/_button-groups.scss */
+/* line 308, ../../../sass/_button-groups.scss */
 .cn-radiobuttons .btn-group .btn-facebook.active {
   background-color: #3b5998;
   border-color: #2d4373;
   color: #fff;
 }
-/* line 314, ../../../sass/_button-groups.scss */
+/* line 318, ../../../sass/_button-groups.scss */
 .cn-radiobuttons .btn-group .btn-twitter.active {
   background-color: #00aced;
   border-color: #0087ba;
   color: #fff;
 }
-/* line 324, ../../../sass/_button-groups.scss */
+/* line 328, ../../../sass/_button-groups.scss */
 .cn-radiobuttons .btn-group .btn-instagram.active {
   background-color: #675144;
   border-color: #483930;
@@ -11188,6 +11193,11 @@ TOOL BAR
 /* line 142, ../../../sass/_tool-bar.scss */
 .ad-sets-tool-bar .dropdown-menu .tooltip {
   margin-left: -30px;
+}
+
+/* line 148, ../../../sass/_tool-bar.scss */
+.selected-count {
+  margin-right: 10px;
 }
 
 /* line 2, ../../../sass/_sidebar.scss */
