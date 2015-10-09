@@ -17,12 +17,14 @@ div.card {
 
 // table card is broken out into _cards.scss
 .cn-list {
-  > table.card {
+  > table.card,
+  > table.card-flex {
     // fake box shadow, since it (part 1/2)
     border-bottom: 2px solid #DEDEDE;
   }
 
-  table.card {
+  table.card,
+  table.card-flex {
     tbody {
       background-color: #fff;
 
@@ -36,7 +38,8 @@ div.card {
   }
 }
 
-table.cards {
+table.cards,
+table.cards-flex {
   tr {
     border-radius: 10px;
     // fake box shadow

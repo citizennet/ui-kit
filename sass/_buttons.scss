@@ -17,11 +17,13 @@
   white-space: nowrap;
   letter-spacing: .02em;
 //  background-color: rgba(white, 0.7);
+  background-color: transparent;
   color: $charcoal;
   border: 1px solid #D3D4D8;
-  height: 33px;
+//  height: 33px;
 
-  @include button-size(6px, 25px, inherit, $line-height-base, $btn-border-radius-base);
+//  @include button-size(6px, 25px, inherit, $line-height-base, $btn-border-radius-base);
+  @include button-size(6px, 25px, inherit, 1.9, $btn-border-radius-base);
   @include user-select(none);
 
   &,
@@ -90,7 +92,7 @@
     color: #fff;
     background-color: #03A9F4;
     border-color: $capri;
-    height: 33px;
+//    height: 33px;
 
     &:hover, &.active {
       background-color: lighten($capri, 10);
