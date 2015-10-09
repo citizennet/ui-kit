@@ -169,6 +169,18 @@ section, {
   }
 }
 
+// right now only used in budget reallocation page
+.cn-form.cn-list {
+  .cn-form-body {
+    border-top: 1px solid $form-divider;
+    padding: 0 0 25px;
+  }
+
+  .cn-form-meta {
+    padding-top: 0;
+  }
+}
+
 .form-group {
   margin-bottom: 15px;
 }
@@ -188,40 +200,58 @@ input.form-control,
 .input.form-control,
 .input-group-addon,
 textarea.form-control {
-//  &, .has-success &, .has-error & {
-    background-color: $white;
-    border: 0;
+  background-color: $white;
+  border: 0;
+  @include box-shadow(none);
+  color: inherit;
+  @include border-radius($radii);
+  padding: 7px 12px;
+  //    height: 40px;
+  position: relative;
+
+  .cn-list table td &,
+  &[disabled] {
+    border: 1px solid $text-field-shadow;
+    padding: 6px 11px;
+  }
+
+  &[disabled] {
+    background-color: $text-field-disabled;
+  }
+
+  &.date-input {
+    display: inline-block;
+    width: 100px;
+  }
+
+  &:focus,
+  &.focused {
+    //    outline: 1px solid $form-focused-outline;
+    outline: 0;
+    border-color: $text-field-shadow;
     @include box-shadow(none);
-    color: inherit;
-    @include border-radius($radii);
-    padding: 5px 8px;
-    height: 40px;
-    position: relative;
+  }
 
-    &[disabled] {
-      background-color: $text-field-disabled;
-      border: 1px solid $text-field-shadow;
+  &:-webkit-autofill {
+    background-color: $white !important;
+    -webkit-box-shadow: 0 0 0px 1000px $white inset;
+  }
+
+}
+
+.input-group,
+.cn-list table td .input-group {
+  .input-group-addon,
+  .form-control {
+    &:not(:first-child) {
+      border-left: 0;
+      padding-left: 6px;
     }
-
-    &.date-input {
-      display: inline-block;
-      width: 100px;
+    &:not(:last-child) {
+      border-right: 0;
+      padding-right: 6px;
     }
-
-    &:focus,
-    &.focused {
-      //    outline: 1px solid $form-focused-outline;
-      outline: 0;
-      border-color: $text-field-shadow;
-      @include box-shadow(none);
-    }
-
-    &:-webkit-autofill {
-      background-color: $white !important;
-      -webkit-box-shadow: 0 0 0px 1000px $white inset;
-    }
-
-//  }
+  }
 }
 
 textarea.form-control {
@@ -229,8 +259,9 @@ textarea.form-control {
   min-height: 80px;
 }
 
-.form-control-feedback { display: none; }
-
+.form-control-feedback {
+  display: none;
+}
 
 .form-control-static,
 .cn-editor p.form-control-static {
@@ -312,6 +343,18 @@ textarea.form-control {
   }
 }
 
+.radio-inline, .checkbox-inline {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+
+  &:first-of-type {
+    padding-left: 0;
+  }
+}
+
 date-input {
   color: $dropdown-text;
   font-size: 14px;
@@ -375,56 +418,56 @@ date-input {
   margin-top: 30px;
 }
 
-table {
-  &.budget-allocation {
-    @include border-radius($radii);
-    border-collapse: inherit;
-    border-spacing: 2px;
-    border: 3px solid $form-bg;
-
-    tr {
-      &:first-child td:first-child {
-        @include border-top-left-radius(6px);
-      }
-
-      &:first-child td:last-child {
-        @include border-top-right-radius(6px);
-      }
-
-      &:last-child td:first-child {
-        @include border-bottom-left-radius(6px);
-      }
-
-      &:last-child td:last-child {
-        @include border-bottom-right-radius(6px);
-      }
-
-      td {
-        background-color: $white;
-        padding: 5px 5px 5px 20px;
-        font-size: 16px;
-        height: 50px;
-
-        &:last-child {
-          text-align: right;
-          width: 35%;
-        }
-
-        input {
-          border-width: 0;
-          background-color: $white;
-          box-shadow: none;
-          text-align: right;
-          padding: 0;
-        }
-      }
-    }
-
-    .table-commission-rate {
-      padding-right: 13px;
-    }
-  }
-}
+//table {
+//  &.budget-allocation {
+//    @include border-radius($radii);
+//    border-collapse: inherit;
+//    border-spacing: 2px;
+//    border: 3px solid $form-bg;
+//
+//    tr {
+//      &:first-child td:first-child {
+//        @include border-top-left-radius(6px);
+//      }
+//
+//      &:first-child td:last-child {
+//        @include border-top-right-radius(6px);
+//      }
+//
+//      &:last-child td:first-child {
+//        @include border-bottom-left-radius(6px);
+//      }
+//
+//      &:last-child td:last-child {
+//        @include border-bottom-right-radius(6px);
+//      }
+//
+//      td {
+//        background-color: $white;
+//        padding: 5px 5px 5px 20px;
+//        font-size: 16px;
+//        height: 50px;
+//
+//        &:last-child {
+//          text-align: right;
+//          width: 35%;
+//        }
+//
+//        input {
+//          border-width: 0;
+//          background-color: $white;
+//          box-shadow: none;
+//          text-align: right;
+//          padding: 0;
+//        }
+//      }
+//    }
+//
+//    .table-commission-rate {
+//      padding-right: 13px;
+//    }
+//  }
+//}
 
 .panel {
   border: 0;
@@ -596,14 +639,14 @@ table {
   background-color: $white;
   @include border-radius($radii $radii 0 0);
 
-  &+tags-input .host,
-  &+.host {
+  & + tags-input .host,
+  & + .host {
     .input.form-control {
       .has-success &,
       .has-error & {
         @include border-radius(0 0 $radii $radii);
 
-        .btn-group>.btn:last-child:not(:first-child) {
+        .btn-group > .btn:last-child:not(:first-child) {
           @include border-radius(0 0 $radii 0);
         }
       }
@@ -636,24 +679,24 @@ table {
     //      background-color: darken($primary-highlight, 5%);
     //    }
 
-//    &,
-//    .has-success &,
-//    .has-error & {
-      .form-control {
-        min-height: 32px;
-        padding-top: 0;
-        padding-bottom: 0;
+    //    &,
+    //    .has-success &,
+    //    .has-error & {
+    .form-control {
+      min-height: 32px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .form-control,
+    .btn {
+      height: 32px;
+      margin: 1px 0;
+      &[disabled] {
+        border: 0;
+        background: transparent;
       }
-      .form-control,
-      .btn {
-        height: 32px;
-        margin: 1px 0;
-        &[disabled] {
-          border: 0;
-          background: transparent;
-        }
-      }
-//    }
+    }
+    //    }
 
     > .tag-item {
       display: block;

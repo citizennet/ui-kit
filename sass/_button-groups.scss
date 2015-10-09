@@ -75,6 +75,10 @@
   border-radius: 0;
 }
 
+.btn-group > .btn:not(:last-child) {
+  border-right: 0;
+}
+
 .btn-group > .btn-group:first-child:not(:last-child) {
   > .btn:last-child,
   > .dropdown-toggle {
