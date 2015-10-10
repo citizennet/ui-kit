@@ -164,13 +164,22 @@ table {
   padding: 0;
 
   table {
-    &.empty {
-      background-color: transparent;
-      border-bottom: none;
+    &.empty.card {
 
-      tr:hover {
-        background: transparent;
+      &, tbody {
+        background-color: transparent;
+        border-bottom: none;
       }
+
+      tr {
+        border: none;
+        text-align: center;
+
+        &:hover {
+          background: transparent;
+        }
+      }
+
     }
   }
 
