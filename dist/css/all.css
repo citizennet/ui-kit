@@ -9670,7 +9670,7 @@ floating-action-button {
 floating-action-button.fixed {
   position: absolute;
   top: 200px;
-  left: 558px;
+  left: 549px;
   bottom: auto;
   margin-left: 50%;
 }
@@ -9732,6 +9732,12 @@ floating-action-button > .btn span {
 floating-action-button > .btn:hover {
   background-color: #33c0ff;
   box-shadow: 0 1px 15px rgba(28, 30, 41, 0.3);
+}
+/* line 98, ../../../sass/_fab.scss */
+floating-action-button .dropdown-menu.open {
+  display: inline-block;
+  left: -117px;
+  top: -1px;
 }
 
 /* line 11, ../../../sass/_modals.scss */
