@@ -356,7 +356,7 @@ table {
           &:nth-child(5) {
             text-align: center;
           }
-          &:last-child {
+          &:nth-child(11) {
             min-width: 120px;
           }
         }

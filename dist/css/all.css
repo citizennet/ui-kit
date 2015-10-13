@@ -3490,7 +3490,7 @@ table.fixed {
   text-align: center;
 }
 /* line 359, ../../../sass/_tables.scss */
-.cn-list.requests-list-table table thead th:last-child {
+.cn-list.requests-list-table table thead th:nth-child(11) {
   min-width: 120px;
 }
 /* line 366, ../../../sass/_tables.scss */
@@ -9676,14 +9676,19 @@ floating-action-button.fixed {
 floating-action-button.fixed.upper {
   top: 155px;
 }
-/* line 29, ../../../sass/_fab.scss */
+/* line 28, ../../../sass/_fab.scss */
+floating-action-button.fixed.requests-upper {
+  top: 82px;
+  z-index: -2;
+}
+/* line 34, ../../../sass/_fab.scss */
 floating-action-button.bottom {
   position: fixed;
   z-index: 9;
   cursor: pointer;
   display: none;
 }
-/* line 40, ../../../sass/_fab.scss */
+/* line 45, ../../../sass/_fab.scss */
 floating-action-button.bottom > ul {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   padding: 3px;
@@ -9692,7 +9697,7 @@ floating-action-button.bottom > ul {
   color: #000;
   list-style-type: none;
 }
-/* line 52, ../../../sass/_fab.scss */
+/* line 57, ../../../sass/_fab.scss */
 floating-action-button.bottom > ul li {
   width: 145px;
   height: 40px;
@@ -9702,12 +9707,12 @@ floating-action-button.bottom > ul li {
   vertical-align: middle;
   padding-left: 27px;
 }
-/* line 62, ../../../sass/_fab.scss */
+/* line 67, ../../../sass/_fab.scss */
 floating-action-button.bottom > ul li:hover {
   background-color: #2C8FBD;
   color: #fff;
 }
-/* line 70, ../../../sass/_fab.scss */
+/* line 75, ../../../sass/_fab.scss */
 floating-action-button > .btn {
   background-color: #00B0FF !important;
   box-shadow: 0 1px 8px rgba(28, 30, 41, 0.2);
@@ -9719,19 +9724,19 @@ floating-action-button > .btn {
   padding: 5px 18px;
   border: none;
 }
-/* line 85, ../../../sass/_fab.scss */
+/* line 90, ../../../sass/_fab.scss */
 floating-action-button > .btn span {
   color: #fff;
   font-size: 30px;
   line-height: 41px;
   font-family: -webkit-pictograph;
 }
-/* line 92, ../../../sass/_fab.scss */
+/* line 97, ../../../sass/_fab.scss */
 floating-action-button > .btn:hover {
   background-color: #33c0ff;
   box-shadow: 0 1px 15px rgba(28, 30, 41, 0.3);
 }
-/* line 98, ../../../sass/_fab.scss */
+/* line 103, ../../../sass/_fab.scss */
 floating-action-button .dropdown-menu.open {
   display: inline-block;
   left: -117px;
