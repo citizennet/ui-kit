@@ -163,6 +163,26 @@ table {
 .cn-list {
   padding: 0;
 
+  table {
+    &.empty.card {
+
+      &, tbody {
+        background-color: transparent;
+        border-bottom: none;
+      }
+
+      tr {
+        border: none;
+        text-align: center;
+
+        &:hover {
+          background: transparent;
+        }
+      }
+
+    }
+  }
+
   thead {
     tr {
       height: 55px;
@@ -184,14 +204,48 @@ table {
       border-top-width: 1px;
     }
 
+    tr {
+      &.no-items-to-show {
+        .well {
+          text-align: center;
+          font-weight: 300;
+        }
+        td {
+          padding: 15px 8px;
+        }
+      }
+    }
+
     td {
       border-width: 0 0 2px;
       border-color: $list-border;
       padding: 10px;
       vertical-align: middle;
 
+      cn-edit-in-place {
+        h5 {
+          display: inline-block;
+        }
+
+        input[type="text"],
+        input[type="text"]:focus {
+          border: none;
+          box-shadow: none;
+          width: 100%;
+          background: transparent;
+          font-weight: 800;
+          padding: 0;
+          outline: none;
+          font-size: 15px;
+        }
+      }
+
       .modal-content & {
         vertical-align: top;
+      }
+
+      .full-width {
+        width: 100%;
       }
 
       &:first-child {
@@ -273,88 +327,6 @@ table {
     color: $list-selected-bg;
   }
 
-  // temp holder for styles to be merged into .cn-list
-  &.temp-list-table {
-    table {
-      &.empty {
-        background-color: transparent;
-        border-bottom: none;
-
-        tr:hover {
-          background: transparent;
-        }
-      }
-      .form-group {
-        margin: 0;
-
-        .checkbox {
-          margin: 0;
-          text-align: center;
-
-          label {
-            margin: 0 8px 0 0;
-            padding: 0;
-
-            span {
-              margin: 0;
-            }
-          }
-        }
-      }
-
-      th {
-        min-width: 100px;
-        background: #f0eff2;
-
-        &:first-child {
-          min-width: 10px;
-          text-align: center;
-        }
-        span {
-          cursor: pointer;
-          font-weight: 400;
-        }
-      }
-
-      tbody {
-        tr {
-          td {
-            padding: 15px 8px;
-
-            &:first-child {
-              text-align: center;
-              padding-left: 20px;
-            }
-
-            p {
-              margin: 5px 0 0 0;
-            }
-
-            a {
-              line-height: normal;
-              &:focus {
-                text-decoration: none;
-              }
-            }
-
-            .full-width {
-              width: 100%;
-            }
-          }
-          &.no-items-to-show {
-            .well {
-              text-align: center;
-              font-weight: 300;
-            }
-            td {
-              padding: 15px 8px;
-            }
-          }
-        }
-      }
-    }
-  }
-
   &.fixed-header-table {
     // required for fixed-header/scrolling feature
     &:first-child {
@@ -366,68 +338,6 @@ table {
   /*
    * Specific CSS Targeting Per List Type
    */
-
-  //reports list
-  &.reports-list-table {
-    table {
-      th {
-        &:last-child {
-          min-width: 10px;
-          text-align: center;
-        }
-        &:nth-child(2) {
-          min-width: 575px;
-        }
-
-        #number-selected {
-          float: left;
-        }
-
-        #reports-context-menu {
-          a {
-            font-weight: 400;
-            margin-left: 15px;
-
-            &:hover {
-              text-decoration: none;
-            }
-
-            i {
-              margin: 0 3px -2px 0;
-            }
-          }
-        }
-      }
-
-      .scheduled-cell {
-        text-align: center;
-      }
-
-      tbody {
-        tr {
-          td {
-            &:last-child {
-              text-align: center;
-            }
-
-            h5 {
-              display: inline;
-            }
-
-            input[type="text"],
-            input[type="text"]:focus {
-              border: none;
-              box-shadow: none;
-              width: 100%;
-              background: transparent;
-              font-weight: 800;
-              padding: 0;
-            }
-          }
-        }
-      }
-    }
-  }
 
   // requests list
   &.requests-list-table {

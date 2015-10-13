@@ -16,7 +16,7 @@ floating-action-button {
   &.fixed {
     position: absolute;
     top: 200px;
-    left: 558px;
+    left: 549px;
     bottom: auto;
     margin-left: 50%;
 
@@ -93,5 +93,11 @@ floating-action-button {
       background-color: lighten($vivid, 10);
       box-shadow: 0 1px 15px rgba($black, 0.3);
     }
+  }
+
+  .dropdown-menu.open {
+    display: inline-block;
+    left: -117px;
+    top: -1px;
   }
 }

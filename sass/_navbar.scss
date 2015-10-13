@@ -152,6 +152,11 @@
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
+
+  &.tool-bar {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 
 .navbar-fixed-bottom {
