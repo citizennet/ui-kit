@@ -9877,8 +9877,12 @@ floating-action-button .dropdown-menu.open {
 .modal-body input[type=checkbox], .modal-body input[type=radio] {
   opacity: 1;
 }
+/* line 136, ../../../sass/_modals.scss */
+.modal-body ul.dropdown-menu {
+  left: auto;
+}
 
-/* line 138, ../../../sass/_modals.scss */
+/* line 142, ../../../sass/_modals.scss */
 .modal-footer {
   padding: 15px;
   text-align: right;
@@ -9893,21 +9897,21 @@ floating-action-button .dropdown-menu.open {
 .modal-footer:after {
   clear: both;
 }
-/* line 145, ../../../sass/_modals.scss */
+/* line 149, ../../../sass/_modals.scss */
 .modal-footer .btn + .btn {
   margin-left: 5px;
   margin-bottom: 0;
 }
-/* line 150, ../../../sass/_modals.scss */
+/* line 154, ../../../sass/_modals.scss */
 .modal-footer .btn-group .btn + .btn {
   margin-left: -1px;
 }
-/* line 154, ../../../sass/_modals.scss */
+/* line 158, ../../../sass/_modals.scss */
 .modal-footer .btn-block + .btn-block {
   margin-left: 0;
 }
 
-/* line 160, ../../../sass/_modals.scss */
+/* line 164, ../../../sass/_modals.scss */
 .modal-scrollbar-measure {
   position: absolute;
   top: -9999px;
@@ -9917,101 +9921,101 @@ floating-action-button .dropdown-menu.open {
 }
 
 @media (min-width: 768px) {
-  /* line 171, ../../../sass/_modals.scss */
+  /* line 175, ../../../sass/_modals.scss */
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
   }
 
-  /* line 175, ../../../sass/_modals.scss */
+  /* line 179, ../../../sass/_modals.scss */
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
 
-  /* line 180, ../../../sass/_modals.scss */
+  /* line 184, ../../../sass/_modals.scss */
   .modal-sm {
     width: 300px;
   }
 }
 @media (min-width: 992px) {
-  /* line 186, ../../../sass/_modals.scss */
+  /* line 190, ../../../sass/_modals.scss */
   .modal-lg {
     width: 900px;
   }
 }
-/* line 192, ../../../sass/_modals.scss */
+/* line 196, ../../../sass/_modals.scss */
 .modal-md {
   width: 800px;
 }
 
-/* line 196, ../../../sass/_modals.scss */
+/* line 200, ../../../sass/_modals.scss */
 .cn-modal {
   /** END TEMP STYLES **/
 }
-/* line 198, ../../../sass/_modals.scss */
+/* line 202, ../../../sass/_modals.scss */
 .cn-modal .modal-header {
   border-color: #d8d8d8;
   /** TEMP STYLES UNTIL WE STANDARDIZE MODALS **/
 }
-/* line 206, ../../../sass/_modals.scss */
+/* line 210, ../../../sass/_modals.scss */
 .cn-modal .modal-header h5 {
   margin-top: 0;
   font-weight: 300;
   font-size: 12px;
 }
 
-/* line 224, ../../../sass/_modals.scss */
+/* line 228, ../../../sass/_modals.scss */
 .modal-body.cn-list {
   overflow: auto;
 }
-/* line 228, ../../../sass/_modals.scss */
+/* line 232, ../../../sass/_modals.scss */
 .modal-body h4 {
   margin: 0 0 20px;
   font-weight: 300;
 }
-/* line 233, ../../../sass/_modals.scss */
+/* line 237, ../../../sass/_modals.scss */
 .modal-body .label {
   font-size: 100%;
 }
-/* line 237, ../../../sass/_modals.scss */
+/* line 241, ../../../sass/_modals.scss */
 .modal-body label {
   display: block;
 }
 
-/* line 242, ../../../sass/_modals.scss */
+/* line 246, ../../../sass/_modals.scss */
 .modal-content {
   background-color: #EDEAEF;
   font-size: 13px;
   border-radius: 7px;
 }
-/* line 247, ../../../sass/_modals.scss */
+/* line 251, ../../../sass/_modals.scss */
 .modal-content .dropdown-toggle {
   width: 100%;
   text-align: left;
 }
-/* line 251, ../../../sass/_modals.scss */
+/* line 255, ../../../sass/_modals.scss */
 .modal-content .dropdown-toggle span {
   float: right;
   margin-top: 7px;
 }
-/* line 257, ../../../sass/_modals.scss */
+/* line 261, ../../../sass/_modals.scss */
 .modal-content section {
   margin-top: 0;
 }
-/* line 261, ../../../sass/_modals.scss */
+/* line 265, ../../../sass/_modals.scss */
 .modal-content h1 {
   margin-top: 0;
   color: #302A37;
 }
-/* line 266, ../../../sass/_modals.scss */
+/* line 270, ../../../sass/_modals.scss */
 .modal-content h2 {
   color: #302A37;
   font-weight: 300;
   line-height: 18px;
   margin: 0 0 20px;
 }
-/* line 273, ../../../sass/_modals.scss */
+/* line 277, ../../../sass/_modals.scss */
 .modal-content textarea {
   margin: 0;
   width: 100%;
@@ -10020,29 +10024,29 @@ floating-action-button .dropdown-menu.open {
   padding: 10px;
   display: block;
 }
-/* line 281, ../../../sass/_modals.scss */
+/* line 285, ../../../sass/_modals.scss */
 .modal-content textarea:focus {
   outline: none;
 }
-/* line 287, ../../../sass/_modals.scss */
+/* line 291, ../../../sass/_modals.scss */
 .modal-content .modal-header h5 {
   text-transform: uppercase;
 }
-/* line 290, ../../../sass/_modals.scss */
+/* line 294, ../../../sass/_modals.scss */
 .modal-content .modal-header h5 img {
   height: 31px;
 }
-/* line 297, ../../../sass/_modals.scss */
+/* line 301, ../../../sass/_modals.scss */
 .modal-content .modal-body.cn-list {
   padding: 0;
   border-bottom: 0;
 }
-/* line 303, ../../../sass/_modals.scss */
+/* line 307, ../../../sass/_modals.scss */
 .modal-content .modal-footer {
   margin-top: 0;
   border-color: #d8d8d8;
 }
-/* line 307, ../../../sass/_modals.scss */
+/* line 311, ../../../sass/_modals.scss */
 .modal-content .modal-footer .btn {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -10052,67 +10056,67 @@ floating-action-button .dropdown-menu.open {
   height: 60px;
   text-transform: uppercase;
 }
-/* line 314, ../../../sass/_modals.scss */
+/* line 318, ../../../sass/_modals.scss */
 .modal-content .modal-footer.no-padding .btn {
   border-width: 0;
   border-left-width: 1px;
 }
-/* line 318, ../../../sass/_modals.scss */
+/* line 322, ../../../sass/_modals.scss */
 .modal-content .modal-footer.no-padding .btn:first-child {
   border-left-width: 0;
 }
-/* line 324, ../../../sass/_modals.scss */
+/* line 328, ../../../sass/_modals.scss */
 .modal-content, .modal-content p {
   font-size: 12px;
 }
 
 /* The modal backdrop wasn't showing up because the height was always 0 */
-/* line 331, ../../../sass/_modals.scss */
+/* line 335, ../../../sass/_modals.scss */
 .modal-backdrop.height-fix {
   height: 100%;
 }
 
-/* line 336, ../../../sass/_modals.scss */
+/* line 340, ../../../sass/_modals.scss */
 .modal-errors {
   margin-top: 15px;
 }
-/* line 339, ../../../sass/_modals.scss */
+/* line 343, ../../../sass/_modals.scss */
 .modal-errors .list-group-item-danger {
   text-align: left;
   border-color: #A94442;
 }
 
-/* line 345, ../../../sass/_modals.scss */
+/* line 349, ../../../sass/_modals.scss */
 .modal-list {
   margin-top: 15px;
 }
-/* line 348, ../../../sass/_modals.scss */
+/* line 352, ../../../sass/_modals.scss */
 .modal-list .list-group-item-info {
   text-align: left;
   border-color: #31708F;
 }
-/* line 353, ../../../sass/_modals.scss */
+/* line 357, ../../../sass/_modals.scss */
 .modal-list i.glyphicon {
   font-size: 18px;
   cursor: pointer;
 }
 
-/* line 360, ../../../sass/_modals.scss */
+/* line 364, ../../../sass/_modals.scss */
 .post-attachment-pagination .label-primary {
   top: 40px;
   position: absolute;
   margin-left: 15px;
 }
 
-/* line 368, ../../../sass/_modals.scss */
+/* line 372, ../../../sass/_modals.scss */
 .toast-container > div.toast {
   background-color: #1e222e;
 }
-/* line 371, ../../../sass/_modals.scss */
+/* line 375, ../../../sass/_modals.scss */
 .toast-container > div.toast.bg-primary, .toast-container > div.toast.bg-info {
   color: #c8e4f0;
 }
-/* line 376, ../../../sass/_modals.scss */
+/* line 380, ../../../sass/_modals.scss */
 .toast-container > div.toast.bg-danger, .toast-container > div.toast.bg-warning, .toast-container > div.toast.bg-error {
   color: #e65d6d;
 }

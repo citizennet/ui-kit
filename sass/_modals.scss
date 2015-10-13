@@ -132,6 +132,10 @@
   input[type=checkbox], input[type=radio] {
     opacity: 1;
   }
+
+  ul.dropdown-menu {
+    left: auto;
+  }
 }
 
 // Footer (for actions)
