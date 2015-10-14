@@ -3575,34 +3575,38 @@ table.fixed {
 .cn-list table.ad-sets-list-table td.spend-breakdown {
   width: 150px;
 }
-/* line 447, ../../../sass/_tables.scss */
+/* line 445, ../../../sass/_tables.scss */
+.cn-list table.ad-sets-list-table td.edit-btn {
+  width: 66px;
+}
+/* line 450, ../../../sass/_tables.scss */
 .cn-list .label {
   display: inline;
 }
-/* line 451, ../../../sass/_tables.scss */
+/* line 454, ../../../sass/_tables.scss */
 .cn-list .media-object {
   max-width: 50px;
   display: inline;
 }
 
-/* line 457, ../../../sass/_tables.scss */
+/* line 460, ../../../sass/_tables.scss */
 .list-container {
   max-width: 85%;
   margin: auto;
   margin-top: 25px;
 }
 
-/* line 465, ../../../sass/_tables.scss */
+/* line 468, ../../../sass/_tables.scss */
 .cn-timepicker td {
   min-width: 50px;
 }
-/* line 468, ../../../sass/_tables.scss */
+/* line 471, ../../../sass/_tables.scss */
 .cn-timepicker button {
   margin: 0px 2px;
   padding: 9px;
 }
 
-/* line 474, ../../../sass/_tables.scss */
+/* line 477, ../../../sass/_tables.scss */
 .table > tbody > tr > td,
 .table > tbody > tr > th,
 .table > tfoot > tr > td,
@@ -3612,7 +3616,7 @@ table.fixed {
   vertical-align: middle;
 }
 
-/* line 483, ../../../sass/_tables.scss */
+/* line 486, ../../../sass/_tables.scss */
 .top-heavy > tbody > tr > td,
 .top-heavy > tbody > tr > th,
 .top-heavy > tfoot > tr > td,
@@ -9600,7 +9604,7 @@ div.card {
 /* line 43, ../../../sass/_cards.scss */
 table.cards tr,
 table.cards-flex tr {
-  border-radius: 10px;
+  border-radius: 5px;
   border-left: 1px solid #E7E6EB;
   border-right: 1px solid #E7E6EB;
   border-bottom: 2px solid #DEDEDE;
