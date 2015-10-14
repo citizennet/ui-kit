@@ -24,6 +24,11 @@ floating-action-button {
     &.upper {
       top: 155px;
     }
+
+    &.requests-upper {
+      top: 82px;
+      z-index: -2;
+    }
   }
 
   &.bottom {
