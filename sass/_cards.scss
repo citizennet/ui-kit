@@ -41,7 +41,7 @@ div.card {
 table.cards,
 table.cards-flex {
   tr {
-    border-radius: 10px;
+    border-radius: $border-radius-large;
     // fake box shadow
     border-left: 1px solid #E7E6EB;
     border-right: 1px solid #E7E6EB;

@@ -86,7 +86,15 @@ i.cn-icon {
 }
 
 .icn-twitter {
-  background: url(#{$svg-path}icn-twitter.svg);
+  background: url(#{$svg-path}socialmedia/dark-active/icn-twitter.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icn-twitter-dark {
+  background: url(#{$svg-path}socialmedia/light/icn-twitter.svg);
   width: 24px;
   height: 24px;
   display: inline-block;
@@ -103,6 +111,14 @@ i.cn-icon {
 
 .icn-facebook-dark {
   background: url(#{$svg-path}socialmedia/light/icn-facebook.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icn-instagram-dark {
+  background: url(#{$svg-path}socialmedia/light/icn-instagram.svg);
   width: 24px;
   height: 24px;
   display: inline-block;
@@ -156,7 +172,7 @@ i.cn-icon {
 }
 
 .icn-analyze {
-  background: url(#{$svg-path}light/icn-analyze.svg);
+  background: url(#{$svg-path}light/icn-analyze.svg) 50% 50%;
   width: 24px;
   height: 24px;
   display: inline-block;
@@ -172,14 +188,14 @@ i.cn-icon {
 }
 
 .icn-edit {
-  background: url(#{$svg-path}dark/icn-settings-sm.svg);
+  background: url(#{$svg-path}dark/icn-settings.svg) 50% 50%;
   width: 24px;
   height: 24px;
   display: inline-block;
   vertical-align: middle;
 }
 
-.icn-edit.dark.sm {
+.icn-edit.sm {
   background: url(#{$svg-path}dark/icn-settings-sm.svg);
   width: 16px;
   height: 15px;

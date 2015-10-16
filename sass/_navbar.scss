@@ -17,9 +17,9 @@
   // Prevent floats from breaking the navbar
   @include clearfix;
 
-  @media (min-width: $grid-float-breakpoint) {
-    border-radius: $navbar-border-radius;
-  }
+//  @media (min-width: $grid-float-breakpoint) {
+//    border-radius: $navbar-border-radius;
+//  }
 
   > .container-fluid {
     width: $page-width;
@@ -666,16 +666,22 @@ NAVBAR
   background: $top-main-nav-bg;
   border: 0;
 
-  ul.navbar-nav > li a {
-    padding: 17px 20px;
+  ul.navbar-nav {
+    > li a {
+      padding: 17px 20px;
 
-    &.btn {
-      padding: 9px 8px;
+      &.btn {
+        padding: 9px 8px;
+      }
+    }
+
+    &:last-child > li a:last-of-type {
+      padding-right: 0;
     }
   }
 
   li li a {
-    padding: 14px 20px;
+    padding: 10px 15px;
   }
 
   .navbar-nav > li > a, .navbar-text {

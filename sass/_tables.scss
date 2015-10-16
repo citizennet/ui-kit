@@ -183,6 +183,18 @@ table {
     }
   }
 
+  .table {
+    >thead,
+    >tbody {
+      >tr:not(.grouped-list) {
+        >th,
+        >td {
+          padding: 15px;
+        }
+      }
+    }
+  }
+
   thead {
     tr {
       height: 55px;
@@ -210,16 +222,12 @@ table {
           text-align: center;
           font-weight: 300;
         }
-        td {
-          padding: 15px 8px;
-        }
       }
     }
 
     td {
       border-width: 0 0 2px;
       border-color: $list-border;
-      padding: 10px;
       vertical-align: middle;
 
       cn-edit-in-place {
@@ -356,7 +364,7 @@ table {
           &:nth-child(5) {
             text-align: center;
           }
-          &:last-child {
+          &:nth-child(11) {
             min-width: 120px;
           }
         }
@@ -441,6 +449,9 @@ table {
     }
     td.spend-breakdown {
       width: 150px;
+    }
+    td.edit-btn {
+      width: 66px;
     }
   }
 
