@@ -10894,7 +10894,7 @@ input[type="text"]:focus:-ms-input-placeholder {
 
 /* line 142, ../../../sass/_utilities.scss */
 .no-padding {
-  padding: 0;
+  padding: 0 !important;
 }
 
 /* line 146, ../../../sass/_utilities.scss */
