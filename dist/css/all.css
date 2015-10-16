@@ -5832,7 +5832,7 @@ i.cn-icon.cn-share {
 
 /* line 88, ../../../sass/_icons.scss */
 .icn-twitter {
-  background: url(../../js/vendor/ui-kit/assets/icn-twitter.svg);
+  background: url(../../js/vendor/ui-kit/assets/socialmedia/dark-active/icn-twitter.svg);
   width: 24px;
   height: 24px;
   display: inline-block;
@@ -5840,6 +5840,15 @@ i.cn-icon.cn-share {
 }
 
 /* line 96, ../../../sass/_icons.scss */
+.icn-twitter-dark {
+  background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-twitter.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 104, ../../../sass/_icons.scss */
 .icn-facebook {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/dark-active/icn-facebook.svg);
   width: 24px;
@@ -5848,7 +5857,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 104, ../../../sass/_icons.scss */
+/* line 112, ../../../sass/_icons.scss */
 .icn-facebook-dark {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-facebook.svg);
   width: 24px;
@@ -5857,7 +5866,16 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 112, ../../../sass/_icons.scss */
+/* line 120, ../../../sass/_icons.scss */
+.icn-instagram-dark {
+  background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-instagram.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 128, ../../../sass/_icons.scss */
 .icn-search {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-search-darker.svg);
   width: 24px;
@@ -5866,7 +5884,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 120, ../../../sass/_icons.scss */
+/* line 136, ../../../sass/_icons.scss */
 .icn-caret {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-dd.svg);
   width: 24px;
@@ -5875,7 +5893,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 128, ../../../sass/_icons.scss */
+/* line 144, ../../../sass/_icons.scss */
 .icn-cog {
   background: url(../../js/vendor/ui-kit/assets/light/icn-settings.svg);
   width: 24px;
@@ -5884,7 +5902,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 136, ../../../sass/_icons.scss */
+/* line 152, ../../../sass/_icons.scss */
 .icn-caret-sm {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-caret-sm.svg);
   width: 10px;
@@ -5893,7 +5911,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 144, ../../../sass/_icons.scss */
+/* line 160, ../../../sass/_icons.scss */
 .icn-toggle {
   background: url(../../js/vendor/ui-kit/assets/light/switch-on.png) no-repeat;
   width: 24px;
@@ -5902,13 +5920,13 @@ i.cn-icon.cn-share {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 152, ../../../sass/_icons.scss */
+/* line 168, ../../../sass/_icons.scss */
 .icn-toggle.disabled {
   background: url(../../js/vendor/ui-kit/assets/light/switch-off.png);
   background-size: 24px 15px;
 }
 
-/* line 158, ../../../sass/_icons.scss */
+/* line 174, ../../../sass/_icons.scss */
 .icn-analyze {
   background: url(../../js/vendor/ui-kit/assets/light/icn-analyze.svg) 50% 50%;
   width: 24px;
@@ -5917,7 +5935,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 166, ../../../sass/_icons.scss */
+/* line 182, ../../../sass/_icons.scss */
 .icn-analyze.sm {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-analyze-sm.svg);
   width: 16px;
@@ -5926,7 +5944,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 174, ../../../sass/_icons.scss */
+/* line 190, ../../../sass/_icons.scss */
 .icn-edit {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-settings.svg) 50% 50%;
   width: 24px;
@@ -5935,7 +5953,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 182, ../../../sass/_icons.scss */
+/* line 198, ../../../sass/_icons.scss */
 .icn-edit.sm {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-settings-sm.svg);
   width: 16px;
@@ -5944,7 +5962,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 190, ../../../sass/_icons.scss */
+/* line 206, ../../../sass/_icons.scss */
 .icn-check.sm {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-check.png);
   width: 19px;
@@ -5954,7 +5972,7 @@ i.cn-icon.cn-share {
   margin-top: -4px;
 }
 
-/* line 200, ../../../sass/_icons.scss */
+/* line 216, ../../../sass/_icons.scss */
 .icn-menu {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-menu.svg);
   width: 24px;
@@ -5964,7 +5982,7 @@ i.cn-icon.cn-share {
   margin-top: -4px;
 }
 
-/* line 210, ../../../sass/_icons.scss */
+/* line 226, ../../../sass/_icons.scss */
 .icn-options {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-options.svg);
   width: 24px;
@@ -5974,7 +5992,7 @@ i.cn-icon.cn-share {
   margin-top: -4px;
 }
 
-/* line 220, ../../../sass/_icons.scss */
+/* line 236, ../../../sass/_icons.scss */
 .icn-options-light {
   background: url(../../js/vendor/ui-kit/assets/light/icn-options.svg);
   width: 24px;
@@ -5984,7 +6002,7 @@ i.cn-icon.cn-share {
   margin-top: -4px;
 }
 
-/* line 230, ../../../sass/_icons.scss */
+/* line 246, ../../../sass/_icons.scss */
 .icn-share {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-share.svg);
   width: 24px;
@@ -5994,7 +6012,7 @@ i.cn-icon.cn-share {
   margin-top: -4px;
 }
 
-/* line 240, ../../../sass/_icons.scss */
+/* line 256, ../../../sass/_icons.scss */
 .icn-add {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-add.svg);
   width: 24px;
@@ -6007,7 +6025,7 @@ i.cn-icon.cn-share {
 /******************************************************
 * Icons for tables
 *******************************************************/
-/* line 254, ../../../sass/_icons.scss */
+/* line 270, ../../../sass/_icons.scss */
 .icn-sort-caret {
   background: url(../../js/vendor/ui-kit/assets/light/icn-sort-caret.svg);
   width: 8px;
@@ -6017,16 +6035,16 @@ i.cn-icon.cn-share {
   margin-bottom: 3px;
   margin-left: 3px;
 }
-/* line 264, ../../../sass/_icons.scss */
+/* line 280, ../../../sass/_icons.scss */
 .icn-sort-caret.up {
   transform: rotate(180deg);
 }
-/* line 268, ../../../sass/_icons.scss */
+/* line 284, ../../../sass/_icons.scss */
 .icn-sort-caret.right {
   transform: rotate(270deg);
 }
 
-/* line 273, ../../../sass/_icons.scss */
+/* line 289, ../../../sass/_icons.scss */
 .icn-mini-menu {
   background: url(../../js/vendor/ui-kit/assets/light/icn-mini-menu.svg);
   width: 8px;
@@ -6661,15 +6679,39 @@ tbody.collapse.in {
 .dropdown-menu .divider {
   margin: 5px 0;
 }
+/* line 100, ../../../sass/_dropdowns.scss */
+.dropdown-menu.dropdown-menu-filters {
+  max-height: 400px;
+  padding-bottom: 20px;
+}
+/* line 104, ../../../sass/_dropdowns.scss */
+.dropdown-menu.dropdown-menu-filters a {
+  display: block;
+  color: #3F3F41;
+  font-weight: 400;
+}
+/* line 108, ../../../sass/_dropdowns.scss */
+.dropdown-menu.dropdown-menu-filters a:hover {
+  text-decoration: none;
+  background-color: #F0F0F3;
+}
+/* line 112, ../../../sass/_dropdowns.scss */
+.dropdown-menu.dropdown-menu-filters a.selected {
+  font-weight: bold;
+}
+/* line 118, ../../../sass/_dropdowns.scss */
+.dropdown-menu.dropdown-menu-wide {
+  width: 800px;
+}
 
-/* line 103, ../../../sass/_dropdowns.scss */
+/* line 125, ../../../sass/_dropdowns.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #262626;
   background-color: #F0F1F5;
 }
 
-/* line 113, ../../../sass/_dropdowns.scss */
+/* line 135, ../../../sass/_dropdowns.scss */
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
   color: #fff;
   text-decoration: none;
@@ -6677,11 +6719,11 @@ tbody.collapse.in {
   background-color: #337ab7;
 }
 
-/* line 128, ../../../sass/_dropdowns.scss */
+/* line 150, ../../../sass/_dropdowns.scss */
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
   color: #777777;
 }
-/* line 135, ../../../sass/_dropdowns.scss */
+/* line 157, ../../../sass/_dropdowns.scss */
 .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
   text-decoration: none;
   background-color: transparent;
@@ -6690,28 +6732,28 @@ tbody.collapse.in {
   cursor: not-allowed;
 }
 
-/* line 148, ../../../sass/_dropdowns.scss */
+/* line 170, ../../../sass/_dropdowns.scss */
 .open > .dropdown-menu {
   display: block;
 }
-/* line 153, ../../../sass/_dropdowns.scss */
+/* line 175, ../../../sass/_dropdowns.scss */
 .open > a {
   outline: 0;
 }
 
-/* line 162, ../../../sass/_dropdowns.scss */
+/* line 184, ../../../sass/_dropdowns.scss */
 .dropdown-menu-right {
   left: auto;
   right: 0;
 }
 
-/* line 173, ../../../sass/_dropdowns.scss */
+/* line 195, ../../../sass/_dropdowns.scss */
 .dropdown-menu-left {
   left: 0;
   right: auto;
 }
 
-/* line 179, ../../../sass/_dropdowns.scss */
+/* line 201, ../../../sass/_dropdowns.scss */
 .dropdown-header {
   display: block;
   padding: 3px 20px;
@@ -6721,7 +6763,7 @@ tbody.collapse.in {
   white-space: nowrap;
 }
 
-/* line 189, ../../../sass/_dropdowns.scss */
+/* line 211, ../../../sass/_dropdowns.scss */
 .dropdown-backdrop {
   position: fixed;
   left: 0;
@@ -6731,13 +6773,13 @@ tbody.collapse.in {
   z-index: 990;
 }
 
-/* line 199, ../../../sass/_dropdowns.scss */
+/* line 221, ../../../sass/_dropdowns.scss */
 .pull-right > .dropdown-menu {
   right: 0;
   left: auto;
 }
 
-/* line 212, ../../../sass/_dropdowns.scss */
+/* line 234, ../../../sass/_dropdowns.scss */
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
   border-top: 0;
@@ -6745,7 +6787,7 @@ tbody.collapse.in {
   border-bottom: 4px solid \9;
   content: "";
 }
-/* line 219, ../../../sass/_dropdowns.scss */
+/* line 241, ../../../sass/_dropdowns.scss */
 .dropup .dropdown-menu,
 .navbar-fixed-bottom .dropdown .dropdown-menu {
   top: auto;
@@ -6754,12 +6796,12 @@ tbody.collapse.in {
 }
 
 @media (min-width: 768px) {
-  /* line 232, ../../../sass/_dropdowns.scss */
+  /* line 254, ../../../sass/_dropdowns.scss */
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
   }
-  /* line 238, ../../../sass/_dropdowns.scss */
+  /* line 260, ../../../sass/_dropdowns.scss */
   .navbar-right .dropdown-menu-left {
     left: 0;
     right: auto;
@@ -11372,62 +11414,66 @@ SUBNAV
 .cn-sub-navbar-fixed-top .btn-options {
   margin: 15px 0;
 }
-/* line 15, ../../../sass/_sub-nav.scss */
+/* line 14, ../../../sass/_sub-nav.scss */
+.cn-sub-navbar-fixed-top .btn-options .btn-transparent:last-child {
+  padding-right: 0;
+}
+/* line 19, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav {
   width: 1220px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 20, ../../../sass/_sub-nav.scss */
+/* line 24, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav .group-name {
   text-decoration: none;
   margin-bottom: 20px;
   display: inline-block;
 }
-/* line 25, ../../../sass/_sub-nav.scss */
+/* line 29, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav .group-name h1 {
   display: inline-block;
 }
-/* line 28, ../../../sass/_sub-nav.scss */
+/* line 32, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav .group-name h1 .icn-back {
   vertical-align: bottom;
   margin-bottom: 3px;
   margin-right: 10px;
 }
-/* line 37, ../../../sass/_sub-nav.scss */
+/* line 41, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div {
   display: inline-block;
   border-bottom: 5px solid #1C1E29;
   margin-right: 50px;
 }
-/* line 42, ../../../sass/_sub-nav.scss */
+/* line 46, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div a {
   color: #999FAA;
   font-weight: 300;
   line-height: 45px;
   letter-spacing: 0.2px;
 }
-/* line 48, ../../../sass/_sub-nav.scss */
+/* line 52, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div a:hover {
   text-decoration: none;
 }
-/* line 53, ../../../sass/_sub-nav.scss */
+/* line 57, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div.active, .cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div:hover {
   cursor: pointer;
   border-bottom: 5px solid #4FC3F7;
 }
-/* line 55, ../../../sass/_sub-nav.scss */
+/* line 59, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div.active a, .cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div:hover a {
   color: #F0F0F3;
 }
-/* line 65, ../../../sass/_sub-nav.scss */
+/* line 69, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top label {
   color: #fff;
   font-weight: 300;
   line-height: 65px;
   letter-spacing: .04em;
 }
-/* line 72, ../../../sass/_sub-nav.scss */
+/* line 76, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top > form > label, .cn-sub-navbar-fixed-top strong {
   font-size: 1em;
   line-height: 1.9;
@@ -11435,16 +11481,16 @@ SUBNAV
   letter-spacing: .04em;
   color: #CECECE;
 }
-/* line 79, ../../../sass/_sub-nav.scss */
+/* line 83, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top > form > label:first-child, .cn-sub-navbar-fixed-top strong:first-child {
   color: #fff;
 }
-/* line 85, ../../../sass/_sub-nav.scss */
+/* line 89, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top > form > div.pull-right label {
   font-size: .8125em;
   font-weight: 400;
 }
-/* line 89, ../../../sass/_sub-nav.scss */
+/* line 93, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top > form > div.pull-right select {
   background: transparent;
   border: 0;
@@ -11452,28 +11498,28 @@ SUBNAV
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 97, ../../../sass/_sub-nav.scss */
+/* line 101, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .company-selection {
   padding-bottom: 25px;
 }
-/* line 101, ../../../sass/_sub-nav.scss */
+/* line 105, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .company-selection a h1 {
   display: inline-block;
 }
-/* line 105, ../../../sass/_sub-nav.scss */
+/* line 109, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .company-selection a .icn-caret {
   margin-left: 15px;
   margin-top: -3px;
 }
-/* line 110, ../../../sass/_sub-nav.scss */
+/* line 114, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .company-selection a:hover {
   text-decoration: none;
 }
-/* line 115, ../../../sass/_sub-nav.scss */
+/* line 119, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .company-selection .dropdown-menu {
   top: 60px;
 }
-/* line 120, ../../../sass/_sub-nav.scss */
+/* line 124, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .groups-list-header-nav {
   width: 1220px;
   margin-left: auto;
@@ -11562,44 +11608,23 @@ TOOL BAR
   margin-left: -28px;
   margin-top: 30px;
 }
-/* line 90, ../../../sass/_tool-bar.scss */
-.tool-bar .dropdown-menu.dropdown-menu-wide {
-  width: 1000px;
-  max-height: 600px;
-  font-size: 80%;
-  padding-bottom: 20px;
-}
-/* line 96, ../../../sass/_tool-bar.scss */
-.tool-bar .dropdown-menu.dropdown-menu-wide a {
-  display: block;
-  color: #3F3F41;
-  font-weight: 400;
-}
-/* line 100, ../../../sass/_tool-bar.scss */
-.tool-bar .dropdown-menu.dropdown-menu-wide a:hover {
-  text-decoration: none;
-}
-/* line 103, ../../../sass/_tool-bar.scss */
-.tool-bar .dropdown-menu.dropdown-menu-wide a.selected {
-  font-weight: bold;
-}
-/* line 110, ../../../sass/_tool-bar.scss */
+/* line 91, ../../../sass/_tool-bar.scss */
 .tool-bar label.spyglass {
   color: #535353;
   float: left;
   margin: 7px 0 7px 10px;
   cursor: pointer;
 }
-/* line 117, ../../../sass/_tool-bar.scss */
+/* line 98, ../../../sass/_tool-bar.scss */
 .tool-bar tags-input {
   float: left;
 }
-/* line 120, ../../../sass/_tool-bar.scss */
+/* line 101, ../../../sass/_tool-bar.scss */
 .tool-bar tags-input .tags {
   box-shadow: none;
   background: transparent;
 }
-/* line 126, ../../../sass/_tool-bar.scss */
+/* line 107, ../../../sass/_tool-bar.scss */
 .tool-bar .input.form-control,
 .tool-bar .input.form-control:focus {
   background: transparent;
@@ -11608,18 +11633,18 @@ TOOL BAR
   box-shadow: none;
 }
 
-/* line 134, ../../../sass/_tool-bar.scss */
+/* line 115, ../../../sass/_tool-bar.scss */
 .tool-bar-text {
   color: #ffffff;
   font-size: 25px;
 }
 
-/* line 141, ../../../sass/_tool-bar.scss */
+/* line 122, ../../../sass/_tool-bar.scss */
 .ad-sets-tool-bar .dropdown-menu .tooltip {
   margin-left: -30px;
 }
 
-/* line 147, ../../../sass/_tool-bar.scss */
+/* line 128, ../../../sass/_tool-bar.scss */
 .selected-count {
   margin-right: 10px;
 }

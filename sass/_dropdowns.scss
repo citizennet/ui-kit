@@ -96,6 +96,28 @@
   .divider {
     margin: 5px 0;
   }
+
+  &.dropdown-menu-filters {
+    max-height: 400px;
+    padding-bottom: 20px;
+
+    a {
+      display: block;
+      color: #3F3F41;
+      font-weight: 400;
+      &:hover {
+        text-decoration: none;
+        background-color: $quartz;
+      }
+      &.selected {
+        font-weight: bold;
+      }
+    }
+  }
+
+  &.dropdown-menu-wide {
+    width: 800px;
+  }
 }
 
 // Hover/Focus state

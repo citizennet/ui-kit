@@ -86,25 +86,6 @@ TOOL BAR
       margin-left: -28px;
       margin-top: 30px;
     }
-
-    &.dropdown-menu-wide {
-      width: 1000px;
-      max-height: 600px;
-      font-size: 80%;
-      padding-bottom: 20px;
-
-      a {
-        display: block;
-        color: #3F3F41;
-        font-weight: 400;
-        &:hover {
-          text-decoration: none;
-        }
-        &.selected {
-          font-weight: bold;
-        }
-      }
-    }
   }
 
   label.spyglass {
