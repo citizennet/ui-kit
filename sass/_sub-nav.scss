@@ -118,6 +118,10 @@ SUBNAV
 
     .dropdown-menu {
       top: 60px;
+
+      &.reports-company-menu {
+        left: 320px;
+      }
     }
   }
 
