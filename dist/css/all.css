@@ -166,7 +166,7 @@ abbr[title] {
 /* line 118, ../../../sass/_normalize.scss */
 b,
 strong {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 /* line 127, ../../../sass/_normalize.scss */
@@ -6684,34 +6684,34 @@ tbody.collapse.in {
   max-height: 400px;
   padding-bottom: 20px;
 }
-/* line 104, ../../../sass/_dropdowns.scss */
+/* line 109, ../../../sass/_dropdowns.scss */
 .dropdown-menu.dropdown-menu-filters a {
   display: block;
   color: #3F3F41;
   font-weight: 400;
 }
-/* line 108, ../../../sass/_dropdowns.scss */
+/* line 113, ../../../sass/_dropdowns.scss */
 .dropdown-menu.dropdown-menu-filters a:hover {
   text-decoration: none;
   background-color: #F0F0F3;
 }
-/* line 112, ../../../sass/_dropdowns.scss */
+/* line 117, ../../../sass/_dropdowns.scss */
 .dropdown-menu.dropdown-menu-filters a.selected {
   font-weight: bold;
 }
-/* line 118, ../../../sass/_dropdowns.scss */
+/* line 123, ../../../sass/_dropdowns.scss */
 .dropdown-menu.dropdown-menu-wide {
   width: 800px;
 }
 
-/* line 125, ../../../sass/_dropdowns.scss */
+/* line 130, ../../../sass/_dropdowns.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #262626;
   background-color: #F0F1F5;
 }
 
-/* line 135, ../../../sass/_dropdowns.scss */
+/* line 140, ../../../sass/_dropdowns.scss */
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
   color: #fff;
   text-decoration: none;
@@ -6719,11 +6719,11 @@ tbody.collapse.in {
   background-color: #337ab7;
 }
 
-/* line 150, ../../../sass/_dropdowns.scss */
+/* line 155, ../../../sass/_dropdowns.scss */
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
   color: #777777;
 }
-/* line 157, ../../../sass/_dropdowns.scss */
+/* line 162, ../../../sass/_dropdowns.scss */
 .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
   text-decoration: none;
   background-color: transparent;
@@ -6732,28 +6732,28 @@ tbody.collapse.in {
   cursor: not-allowed;
 }
 
-/* line 170, ../../../sass/_dropdowns.scss */
+/* line 175, ../../../sass/_dropdowns.scss */
 .open > .dropdown-menu {
   display: block;
 }
-/* line 175, ../../../sass/_dropdowns.scss */
+/* line 180, ../../../sass/_dropdowns.scss */
 .open > a {
   outline: 0;
 }
 
-/* line 184, ../../../sass/_dropdowns.scss */
+/* line 189, ../../../sass/_dropdowns.scss */
 .dropdown-menu-right {
   left: auto;
   right: 0;
 }
 
-/* line 195, ../../../sass/_dropdowns.scss */
+/* line 200, ../../../sass/_dropdowns.scss */
 .dropdown-menu-left {
   left: 0;
   right: auto;
 }
 
-/* line 201, ../../../sass/_dropdowns.scss */
+/* line 206, ../../../sass/_dropdowns.scss */
 .dropdown-header {
   display: block;
   padding: 3px 20px;
@@ -6763,7 +6763,7 @@ tbody.collapse.in {
   white-space: nowrap;
 }
 
-/* line 211, ../../../sass/_dropdowns.scss */
+/* line 216, ../../../sass/_dropdowns.scss */
 .dropdown-backdrop {
   position: fixed;
   left: 0;
@@ -6773,13 +6773,13 @@ tbody.collapse.in {
   z-index: 990;
 }
 
-/* line 221, ../../../sass/_dropdowns.scss */
+/* line 226, ../../../sass/_dropdowns.scss */
 .pull-right > .dropdown-menu {
   right: 0;
   left: auto;
 }
 
-/* line 234, ../../../sass/_dropdowns.scss */
+/* line 239, ../../../sass/_dropdowns.scss */
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
   border-top: 0;
@@ -6787,7 +6787,7 @@ tbody.collapse.in {
   border-bottom: 4px solid \9;
   content: "";
 }
-/* line 241, ../../../sass/_dropdowns.scss */
+/* line 246, ../../../sass/_dropdowns.scss */
 .dropup .dropdown-menu,
 .navbar-fixed-bottom .dropdown .dropdown-menu {
   top: auto;
@@ -6796,12 +6796,12 @@ tbody.collapse.in {
 }
 
 @media (min-width: 768px) {
-  /* line 254, ../../../sass/_dropdowns.scss */
+  /* line 259, ../../../sass/_dropdowns.scss */
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
   }
-  /* line 260, ../../../sass/_dropdowns.scss */
+  /* line 265, ../../../sass/_dropdowns.scss */
   .navbar-right .dropdown-menu-left {
     left: 0;
     right: auto;
@@ -11369,13 +11369,25 @@ a.disabled {
 .modal-content .modal-header.cn-heading .vertical-child-right {
   right: 25px;
 }
-/* line 14, ../../../sass/_heading.scss */
+/* line 13, ../../../sass/_heading.scss */
+.cn-heading .vertical-child-right p,
+.modal-content .modal-header.cn-heading .vertical-child-right p {
+  margin: 0;
+  line-height: 1.1;
+}
+/* line 19, ../../../sass/_heading.scss */
+.cn-heading a,
+.modal-content .modal-header.cn-heading a {
+  font-weight: 500;
+  color: #999FAA;
+}
+/* line 24, ../../../sass/_heading.scss */
 .cn-heading h1,
 .modal-content .modal-header.cn-heading h1 {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-/* line 19, ../../../sass/_heading.scss */
+/* line 29, ../../../sass/_heading.scss */
 .cn-heading h5,
 .modal-content .modal-header.cn-heading h5 {
   margin: 0;
@@ -11384,7 +11396,7 @@ a.disabled {
   font-size: 10px;
   letter-spacing: 1px;
 }
-/* line 27, ../../../sass/_heading.scss */
+/* line 37, ../../../sass/_heading.scss */
 .cn-heading h1, .cn-heading h2, .cn-heading h3, .cn-heading h4, .cn-heading h5,
 .modal-content .modal-header.cn-heading h1,
 .modal-content .modal-header.cn-heading h2,
@@ -11393,11 +11405,17 @@ a.disabled {
 .modal-content .modal-header.cn-heading h5 {
   color: #F0F0F3;
 }
-/* line 31, ../../../sass/_heading.scss */
+/* line 41, ../../../sass/_heading.scss */
+.cn-heading .btn-options,
+.modal-content .modal-header.cn-heading .btn-options {
+  margin: 15px 0;
+}
+/* line 45, ../../../sass/_heading.scss */
 .cn-heading .btn,
 .modal-content .modal-header.cn-heading .btn {
   margin-left: 10px;
   color: #F0F0F3;
+  text-decoration: none;
 }
 
 /************************************************************************
