@@ -3366,11 +3366,7 @@ table.fixed {
   border-color: #FAFAFA;
   vertical-align: middle;
 }
-/* line 234, ../../../sass/_tables.scss */
-.cn-list tbody td cn-edit-in-place h5 {
-  display: inline-block;
-}
-/* line 238, ../../../sass/_tables.scss */
+/* line 235, ../../../sass/_tables.scss */
 .cn-list tbody td cn-edit-in-place input[type="text"],
 .cn-list tbody td cn-edit-in-place input[type="text"]:focus {
   border: none;
@@ -3382,58 +3378,54 @@ table.fixed {
   outline: none;
   font-size: 15px;
 }
-/* line 251, ../../../sass/_tables.scss */
+/* line 248, ../../../sass/_tables.scss */
 .modal-content .cn-list tbody td {
   vertical-align: top;
 }
-/* line 255, ../../../sass/_tables.scss */
-.cn-list tbody td .full-width {
-  width: 100%;
-}
-/* line 259, ../../../sass/_tables.scss */
+/* line 252, ../../../sass/_tables.scss */
 .cn-list tbody td:first-child {
   padding-left: 20px;
 }
-/* line 263, ../../../sass/_tables.scss */
+/* line 256, ../../../sass/_tables.scss */
 .cn-list tbody td:last-child {
   padding-right: 20px;
 }
-/* line 269, ../../../sass/_tables.scss */
+/* line 262, ../../../sass/_tables.scss */
 .cn-list tbody .grouped-list .collapse {
   border-top: 1px solid #d8d8d8;
 }
-/* line 272, ../../../sass/_tables.scss */
+/* line 265, ../../../sass/_tables.scss */
 .cn-list tbody .grouped-list > td {
   padding: 0;
   border: 0;
 }
-/* line 276, ../../../sass/_tables.scss */
+/* line 269, ../../../sass/_tables.scss */
 .cn-list tbody .grouped-list > td:first-child {
   padding-left: 0;
 }
-/* line 280, ../../../sass/_tables.scss */
+/* line 273, ../../../sass/_tables.scss */
 .cn-list tbody .grouped-list > td:last-child {
   padding-right: 0;
 }
-/* line 285, ../../../sass/_tables.scss */
+/* line 278, ../../../sass/_tables.scss */
 .cn-list tbody .grouped-list table {
   border: 0;
   border-left: 20px solid #f0eff2;
   border-bottom: 1px solid #f0eff2;
 }
-/* line 291, ../../../sass/_tables.scss */
+/* line 284, ../../../sass/_tables.scss */
 .cn-list tbody .grouped-list td {
   border-color: #f0eff2;
 }
-/* line 296, ../../../sass/_tables.scss */
+/* line 289, ../../../sass/_tables.scss */
 .cn-list tbody small {
   color: #ADADAD;
 }
-/* line 300, ../../../sass/_tables.scss */
+/* line 293, ../../../sass/_tables.scss */
 .cn-list tbody a.link {
   font-weight: 500;
 }
-/* line 308, ../../../sass/_tables.scss */
+/* line 301, ../../../sass/_tables.scss */
 .cn-list .disabled td, .cn-list .disabled .grouped-list td, .cn-list .disabled.selected td, .cn-list .disabled.selected .grouped-list td,
 .cn-list .disabled:hover td,
 .cn-list .disabled:hover .grouped-list td,
@@ -3441,7 +3433,7 @@ table.fixed {
 .cn-list .disabled:hover.selected .grouped-list td {
   background: #fff;
 }
-/* line 312, ../../../sass/_tables.scss */
+/* line 305, ../../../sass/_tables.scss */
 .cn-list .disabled td, .cn-list .disabled td *, .cn-list .disabled .grouped-list td, .cn-list .disabled .grouped-list td *, .cn-list .disabled.selected td, .cn-list .disabled.selected td *, .cn-list .disabled.selected .grouped-list td, .cn-list .disabled.selected .grouped-list td *,
 .cn-list .disabled:hover td,
 .cn-list .disabled:hover td *,
@@ -3453,162 +3445,162 @@ table.fixed {
 .cn-list .disabled:hover.selected .grouped-list td * {
   color: #939196;
 }
-/* line 320, ../../../sass/_tables.scss */
+/* line 313, ../../../sass/_tables.scss */
 .cn-list .kpi-stat span {
   display: block;
 }
-/* line 324, ../../../sass/_tables.scss */
+/* line 317, ../../../sass/_tables.scss */
 .cn-list .kpi-stat p {
   text-align: center;
 }
-/* line 329, ../../../sass/_tables.scss */
+/* line 322, ../../../sass/_tables.scss */
 .cn-list a.popover-preview {
   display: block;
   height: 100%;
 }
-/* line 334, ../../../sass/_tables.scss */
+/* line 327, ../../../sass/_tables.scss */
 .cn-list .highlighted {
   color: #D6EEFA;
 }
-/* line 340, ../../../sass/_tables.scss */
+/* line 333, ../../../sass/_tables.scss */
 .cn-list.fixed-header-table:first-child {
   overflow: auto;
   -webkit-transform: translate3d(0, 0, 0);
 }
-/* line 355, ../../../sass/_tables.scss */
+/* line 348, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table thead th:nth-child(2) {
   min-width: 10px;
 }
-/* line 358, ../../../sass/_tables.scss */
+/* line 351, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table thead th:nth-child(3) {
   width: 25%;
 }
-/* line 361, ../../../sass/_tables.scss */
+/* line 354, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table thead th:nth-child(4) {
   width: 20%;
 }
-/* line 364, ../../../sass/_tables.scss */
+/* line 357, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table thead th:nth-child(5) {
   text-align: center;
 }
-/* line 367, ../../../sass/_tables.scss */
+/* line 360, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table thead th:nth-child(11) {
   min-width: 120px;
 }
-/* line 374, ../../../sass/_tables.scss */
+/* line 367, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td:nth-child(5) {
   text-align: center;
 }
-/* line 376, ../../../sass/_tables.scss */
+/* line 369, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td:nth-child(5) i {
   color: #638A79;
 }
-/* line 381, ../../../sass/_tables.scss */
+/* line 374, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td:nth-child(7) a {
   margin-top: 5px;
   display: table;
 }
-/* line 387, ../../../sass/_tables.scss */
+/* line 380, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td .status {
   position: relative;
   padding-left: 20px;
 }
-/* line 391, ../../../sass/_tables.scss */
+/* line 384, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td .status i {
   position: absolute;
   left: 0;
   top: 4px;
 }
-/* line 397, ../../../sass/_tables.scss */
+/* line 390, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td .status p:first-of-type {
   text-transform: capitalize;
 }
-/* line 400, ../../../sass/_tables.scss */
+/* line 393, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td .status p:nth-of-type(2) {
   opacity: 0.5;
 }
-/* line 404, ../../../sass/_tables.scss */
+/* line 397, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td .status a {
   margin-top: 5px;
   display: table;
 }
-/* line 417, ../../../sass/_tables.scss */
+/* line 410, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table.card {
   border-bottom: none;
 }
-/* line 421, ../../../sass/_tables.scss */
+/* line 414, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table td.toggle-collapse {
   width: 45px;
 }
-/* line 424, ../../../sass/_tables.scss */
+/* line 417, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table .grouped-list {
   border: none;
 }
-/* line 427, ../../../sass/_tables.scss */
+/* line 420, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table .grouped-list td.toggle-collapse {
   width: 0;
   padding: 12px;
 }
-/* line 432, ../../../sass/_tables.scss */
+/* line 425, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table td.ad-set-name {
   width: 120px;
 }
-/* line 435, ../../../sass/_tables.scss */
+/* line 428, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table td.toggle-status {
   width: 72px;
 }
-/* line 438, ../../../sass/_tables.scss */
+/* line 431, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table td.delivery-status {
   width: 140px;
 }
-/* line 441, ../../../sass/_tables.scss */
+/* line 434, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table td.kpi-stat {
   width: 180px;
 }
-/* line 444, ../../../sass/_tables.scss */
+/* line 437, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table td.campaign-name {
   width: 300px;
 }
-/* line 447, ../../../sass/_tables.scss */
+/* line 440, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table td.date {
   width: 87px;
 }
-/* line 450, ../../../sass/_tables.scss */
+/* line 443, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table td.spend-breakdown {
   width: 150px;
 }
-/* line 453, ../../../sass/_tables.scss */
+/* line 446, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table td.edit-btn {
   width: 66px;
 }
-/* line 458, ../../../sass/_tables.scss */
+/* line 451, ../../../sass/_tables.scss */
 .cn-list .label {
   display: inline;
 }
-/* line 462, ../../../sass/_tables.scss */
+/* line 455, ../../../sass/_tables.scss */
 .cn-list .media-object {
   max-width: 50px;
   display: inline;
 }
 
-/* line 468, ../../../sass/_tables.scss */
+/* line 461, ../../../sass/_tables.scss */
 .list-container {
   max-width: 85%;
   margin: auto;
   margin-top: 25px;
 }
 
-/* line 476, ../../../sass/_tables.scss */
+/* line 469, ../../../sass/_tables.scss */
 .cn-timepicker td {
   min-width: 50px;
 }
-/* line 479, ../../../sass/_tables.scss */
+/* line 472, ../../../sass/_tables.scss */
 .cn-timepicker button {
   margin: 0px 2px;
   padding: 9px;
 }
 
-/* line 485, ../../../sass/_tables.scss */
+/* line 478, ../../../sass/_tables.scss */
 .table > tbody > tr > td,
 .table > tbody > tr > th,
 .table > tfoot > tr > td,
@@ -3618,7 +3610,7 @@ table.fixed {
   vertical-align: middle;
 }
 
-/* line 494, ../../../sass/_tables.scss */
+/* line 487, ../../../sass/_tables.scss */
 .top-heavy > tbody > tr > td,
 .top-heavy > tbody > tr > th,
 .top-heavy > tfoot > tr > td,
@@ -10894,7 +10886,7 @@ input[type="text"]:focus:-ms-input-placeholder {
 
 /* line 142, ../../../sass/_utilities.scss */
 .no-padding {
-  padding: 0;
+  padding: 0 !important;
 }
 
 /* line 146, ../../../sass/_utilities.scss */
@@ -11537,7 +11529,11 @@ SUBNAV
 .cn-sub-navbar-fixed-top .company-selection .dropdown-menu {
   top: 60px;
 }
-/* line 124, ../../../sass/_sub-nav.scss */
+/* line 122, ../../../sass/_sub-nav.scss */
+.cn-sub-navbar-fixed-top .company-selection .dropdown-menu.reports-company-menu {
+  left: 320px;
+}
+/* line 128, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .groups-list-header-nav {
   width: 1220px;
   margin-left: auto;

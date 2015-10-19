@@ -231,9 +231,6 @@ table {
       vertical-align: middle;
 
       cn-edit-in-place {
-        h5 {
-          display: inline-block;
-        }
 
         input[type="text"],
         input[type="text"]:focus {
@@ -250,10 +247,6 @@ table {
 
       .modal-content & {
         vertical-align: top;
-      }
-
-      .full-width {
-        width: 100%;
       }
 
       &:first-child {
