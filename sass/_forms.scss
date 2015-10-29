@@ -14,35 +14,13 @@ EDITOR
 
 /* new forms */
 .cn-form {
-  @media (min-width: $break-sm) {
-    position: fixed;
-    left: 0;
-    right: 0;
-  }
+  margin: 0 auto;
+  width: $page-width;
   overflow: auto;
-  padding: 0 25px;
 
   &.cn-form-cols-2 {
     max-width: 1000px;
-
-    @media screen and (min-width: $break-lg) {
-      fieldset {
-        padding-top: 25px;
-        padding-left: 30%;
-
-        legend {
-          width: 30%;
-          position: absolute;
-          left: 0;
-        }
-      }
-    }
   }
-}
-
-.cn-form-inner {
-  margin: auto;
-  max-width: 1200px;
 }
 
 .cn-form-body {
@@ -159,6 +137,11 @@ section, {
 
 .cn-form-meta {
   padding: 50px 25px;
+
+  &.offset {
+    margin-right: -26px;
+    padding-left: 30px;
+  }
 }
 
 @media (min-width: $break-sm) {

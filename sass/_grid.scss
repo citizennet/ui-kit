@@ -28,6 +28,10 @@
 .container-fluid {
   @include container-fixed;
   margin-bottom: 10px;
+
+  &.max-width {
+    width: $page-width;
+  }
 }
 
 // Row
@@ -74,4 +78,13 @@
 
 @media (min-width: $screen-lg-min) {
   @include make-grid(lg);
+}
+
+.col-sm-7-half {
+  width: 735px;
+}
+
+.w300 {
+  width: 300px;
+  max-width: 300px;
 }
