@@ -31,6 +31,8 @@
 
   &.max-width {
     width: $page-width;
+    // ideally we would get rid of the above margin-bottom
+    margin-bottom: 0;
   }
 }
 

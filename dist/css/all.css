@@ -2030,9 +2030,10 @@ pre code {
 /* line 32, ../../../sass/_grid.scss */
 .container-fluid.max-width {
   width: 1220px;
+  margin-bottom: 0;
 }
 
-/* line 41, ../../../sass/_grid.scss */
+/* line 43, ../../../sass/_grid.scss */
 .row {
   margin-left: -15px;
   margin-right: -15px;
@@ -3098,12 +3099,12 @@ pre code {
     margin-left: 100%;
   }
 }
-/* line 83, ../../../sass/_grid.scss */
+/* line 85, ../../../sass/_grid.scss */
 .col-sm-7-half {
   width: 735px;
 }
 
-/* line 87, ../../../sass/_grid.scss */
+/* line 89, ../../../sass/_grid.scss */
 .w300 {
   width: 300px;
   max-width: 300px;
