@@ -9,6 +9,16 @@
 
   .vertical-child-right {
     right: 25px;
+
+    p {
+      margin: 0;
+      line-height: 1.1;
+    }
+  }
+
+  a {
+    font-weight: 500;
+    color: $silver;
   }
 
   h1 {
@@ -28,9 +38,14 @@
     color: $quartz;
   }
 
+  .btn-options {
+    margin: 15px 0;
+  }
+
   .btn {
     margin-left: 10px;
     color: $quartz;
+    text-decoration: none;
   }
 
   .page-action-btns {
