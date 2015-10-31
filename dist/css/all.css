@@ -8082,43 +8082,39 @@ NAVBAR
 .navbar-default ul.navbar-nav > li a.btn {
   padding: 9px 8px;
 }
-/* line 682, ../../../sass/_navbar.scss */
-.navbar-default ul.navbar-nav:last-child > li a:last-of-type {
-  padding-right: 0;
-}
-/* line 687, ../../../sass/_navbar.scss */
+/* line 683, ../../../sass/_navbar.scss */
 .navbar-default li li a {
   padding: 10px 15px;
 }
-/* line 691, ../../../sass/_navbar.scss */
+/* line 687, ../../../sass/_navbar.scss */
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
   color: #939196;
   font-weight: 400;
 }
-/* line 695, ../../../sass/_navbar.scss */
+/* line 691, ../../../sass/_navbar.scss */
 .navbar-default .navbar-nav > li > a.active, .navbar-default .navbar-text.active {
   color: #F0F0F3;
 }
-/* line 703, ../../../sass/_navbar.scss */
+/* line 699, ../../../sass/_navbar.scss */
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a.active {
   color: #fff;
   background-color: transparent;
 }
-/* line 709, ../../../sass/_navbar.scss */
+/* line 705, ../../../sass/_navbar.scss */
 .navbar-default .navbar-nav > .disabled > a {
   color: #555;
   background-color: transparent;
 }
-/* line 713, ../../../sass/_navbar.scss */
+/* line 709, ../../../sass/_navbar.scss */
 .navbar-default .navbar-nav > .disabled > a:focus, .navbar-default .navbar-nav > .disabled > a:hover {
   color: #555;
   background-color: transparent;
 }
-/* line 720, ../../../sass/_navbar.scss */
+/* line 716, ../../../sass/_navbar.scss */
 .navbar-default form {
   display: inline;
 }
-/* line 724, ../../../sass/_navbar.scss */
+/* line 720, ../../../sass/_navbar.scss */
 .navbar-default a.btn-default,
 .navbar-default .open a.btn-default,
 .navbar-default .open a.btn-default:hover {
@@ -8126,34 +8122,34 @@ NAVBAR
   border: 1px solid #939196;
   box-shadow: none;
 }
-/* line 731, ../../../sass/_navbar.scss */
+/* line 727, ../../../sass/_navbar.scss */
 .navbar-default .open a.btn-default,
 .navbar-default .open a.btn-default:hover {
   color: #fff;
 }
-/* line 736, ../../../sass/_navbar.scss */
+/* line 732, ../../../sass/_navbar.scss */
 .navbar-default tags-input .host,
 .navbar-default .btn {
   margin: 7px 5px;
 }
-/* line 742, ../../../sass/_navbar.scss */
+/* line 738, ../../../sass/_navbar.scss */
 .navbar-default tags-input .host .input {
   margin: 0;
   -webkit-transition: all 500ms;
   -o-transition: all 500ms;
   transition: all 500ms;
 }
-/* line 746, ../../../sass/_navbar.scss */
+/* line 742, ../../../sass/_navbar.scss */
 .navbar-default tags-input .host .input.focused, .navbar-default tags-input .host .input:focus {
   min-width: 300px;
 }
-/* line 752, ../../../sass/_navbar.scss */
+/* line 748, ../../../sass/_navbar.scss */
 .navbar-default tags-input .host .form-control {
   min-height: 25px;
   margin-top: 13px;
 }
 
-/* line 760, ../../../sass/_navbar.scss */
+/* line 756, ../../../sass/_navbar.scss */
 #listen-nav-li {
   display: none;
 }
