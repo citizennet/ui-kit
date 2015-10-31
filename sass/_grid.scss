@@ -28,6 +28,12 @@
 .container-fluid {
   @include container-fixed;
   margin-bottom: 10px;
+
+  &.max-width {
+    width: $page-width;
+    // ideally we would get rid of the above margin-bottom
+    margin-bottom: 0;
+  }
 }
 
 // Row
@@ -74,4 +80,13 @@
 
 @media (min-width: $screen-lg-min) {
   @include make-grid(lg);
+}
+
+.col-sm-7-half {
+  width: 735px;
+}
+
+.w300 {
+  width: 300px;
+  max-width: 300px;
 }
