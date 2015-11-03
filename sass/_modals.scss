@@ -89,7 +89,7 @@
   min-height: ($modal-title-padding + $modal-title-line-height);
 
   padding: 12px;
-  height: 58px;
+//  height: 58px;
   border-bottom: 1px solid #DEDEDE;
 
   background-color: #F9F9FB;
@@ -106,7 +106,9 @@
   }
 
   .btn {
-    float: right;
+    // maybe make more specific or add .pull-right, as not needed for all
+    // modal buttons (see creative choose post modal)
+//    float: right;
     margin-left: 10px;
   }
 }
@@ -135,6 +137,10 @@
 
   ul.dropdown-menu {
     left: auto;
+  }
+
+  .row {
+    position: relative;
   }
 }
 
