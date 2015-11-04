@@ -10716,6 +10716,172 @@ floating-action-button .dropdown-menu.open {
     bottom: 20px;
   }
 }
+/* line 2, ../../../sass/_cn-tags-input.scss */
+tags-input *, tags-input *:before, tags-input *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 8, ../../../sass/_cn-tags-input.scss */
+tags-input.flex .tags.form-control {
+  float: left;
+  width: auto;
+  min-width: 50%;
+}
+/* line 14, ../../../sass/_cn-tags-input.scss */
+tags-input .host {
+  position: relative;
+  margin: 0;
+}
+/* line 18, ../../../sass/_cn-tags-input.scss */
+tags-input .host:active {
+  outline: none;
+}
+/* line 22, ../../../sass/_cn-tags-input.scss */
+tags-input .host .btn {
+  padding: 7px 15px;
+}
+/* line 27, ../../../sass/_cn-tags-input.scss */
+tags-input .form-control-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  border-radius: 0 3px 3px 0;
+  background-color: transparent;
+}
+/* line 35, ../../../sass/_cn-tags-input.scss */
+tags-input .form-control-icon.active, tags-input .form-control-icon:active {
+  background-color: transparent;
+}
+/* line 42, ../../../sass/_cn-tags-input.scss */
+tags-input .autocomplete {
+  width: 100%;
+}
+/* line 47, ../../../sass/_cn-tags-input.scss */
+tags-input .help-block {
+  margin-bottom: 0;
+}
+/* line 50, ../../../sass/_cn-tags-input.scss */
+.has-error tags-input .help-block {
+  font-weight: 300;
+}
+
+/* line 58, ../../../sass/_cn-tags-input.scss */
+.host .tags.form-control {
+  overflow: hidden;
+  word-wrap: break-word;
+  height: auto;
+  padding: 1px 6px;
+}
+/* line 67, ../../../sass/_cn-tags-input.scss */
+.host .tags.focused {
+  outline: none;
+}
+/* line 71, ../../../sass/_cn-tags-input.scss */
+.host .tags .input {
+  background-color: inherit;
+  border: 0;
+  outline: none;
+  margin: 6px 2px;
+  padding: 0 0 0 5px;
+  line-height: 1.8em;
+  display: inline-block;
+  min-width: 150px;
+}
+/* line 81, ../../../sass/_cn-tags-input.scss */
+.host .tags .input.invalid-tag {
+  color: red;
+}
+/* line 85, ../../../sass/_cn-tags-input.scss */
+.host .tags .input::-ms-clear {
+  display: none;
+}
+/* line 90, ../../../sass/_cn-tags-input.scss */
+.host .tags .fa {
+  font-size: 10px;
+}
+
+/* line 98, ../../../sass/_cn-tags-input.scss */
+.cn-autocomplete-list .list-group-item .schema-form-section .form-control .btn {
+  height: auto;
+}
+
+/* line 105, ../../../sass/_cn-tags-input.scss */
+.tag-list {
+  margin: 2px 0 -2px;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 110, ../../../sass/_cn-tags-input.scss */
+tags-input .tag-list {
+  display: inline-block;
+  max-width: 100%;
+  float: left;
+}
+
+/* line 117, ../../../sass/_cn-tags-input.scss */
+.tag-item {
+  margin: 2px;
+  padding: 3px 20px 3px 4px;
+  font-size: 12px;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+/* line 127, ../../../sass/_cn-tags-input.scss */
+.tag-list .tag-item {
+  float: left;
+}
+/* line 131, ../../../sass/_cn-tags-input.scss */
+.tag-item.selected {
+  opacity: .5;
+}
+/* line 135, ../../../sass/_cn-tags-input.scss */
+.tag-item.tag-item-read-only {
+  padding-right: 4px;
+}
+/* line 139, ../../../sass/_cn-tags-input.scss */
+tags-input .tag-item {
+  margin: 0 4px 4px 0;
+  padding: 9px 24px 8px 8px;
+}
+/* line 145, ../../../sass/_cn-tags-input.scss */
+tags-input .tag-item.tag-item-read-only {
+  padding-right: 8px;
+}
+/* line 150, ../../../sass/_cn-tags-input.scss */
+.tag-item .remove-button {
+  cursor: pointer;
+  color: inherit;
+  position: absolute;
+  top: 3px;
+  right: 5px;
+}
+/* line 158, ../../../sass/_cn-tags-input.scss */
+.host .tag-item .remove-button {
+  top: 8px;
+  right: 8px;
+}
+/* line 164, ../../../sass/_cn-tags-input.scss */
+.tag-item.label-block {
+  display: block;
+  text-align: left;
+  width: 100%;
+  margin: 2px 0;
+  padding: 9px 6px;
+}
+/* line 171, ../../../sass/_cn-tags-input.scss */
+[disabled] .tag-item.label-block {
+  background: transparent;
+}
+
+/* line 177, ../../../sass/_cn-tags-input.scss */
+.tag-list + .input {
+  padding-left: 0;
+}
+
 /* line 14, ../../../sass/mixins/_clearfix.scss */
 .clearfix:before, .clearfix:after {
   content: " ";
