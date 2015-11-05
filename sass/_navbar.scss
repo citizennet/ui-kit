@@ -17,9 +17,9 @@
   // Prevent floats from breaking the navbar
   @include clearfix;
 
-//  @media (min-width: $grid-float-breakpoint) {
-//    border-radius: $navbar-border-radius;
-//  }
+  //  @media (min-width: $grid-float-breakpoint) {
+  //    border-radius: $navbar-border-radius;
+  //  }
 
   > .container-fluid {
     width: $page-width;
@@ -460,8 +460,8 @@
       &,
       &:hover,
       &:focus {
-//        background-color: $navbar-default-link-active-bg;
-//        color: $navbar-default-link-active-color;
+        //        background-color: $navbar-default-link-active-bg;
+        //        color: $navbar-default-link-active-color;
         background-color: $top-main-nav-bg-active;
         color: $white;
       }
@@ -595,8 +595,8 @@
       &,
       &:hover,
       &:focus {
-//        background-color: $navbar-inverse-link-active-bg;
-//        color: $navbar-inverse-link-active-color;
+        //        background-color: $navbar-inverse-link-active-bg;
+        //        color: $navbar-inverse-link-active-color;
         background-color: $navbar-default-bg;
         color: $white;
       }
@@ -755,4 +755,30 @@ NAVBAR
 // remove listen
 #listen-nav-li {
   display: none;
+}
+
+.navbar-slim {
+  padding: 0 !important;
+
+  .navbar-header {
+    background: linear-gradient(90deg, #232531, #303242);
+
+    a {
+      display: inline-block;
+      margin: 10px;
+    }
+  }
+
+  .title {
+    font-size: 14px;
+    color: #A1A3AF;
+    line-height: 50px;
+
+    // center txt
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
 }

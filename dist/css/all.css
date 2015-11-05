@@ -8149,6 +8149,31 @@ NAVBAR
   display: none;
 }
 
+/* line 760, ../../../sass/_navbar.scss */
+.navbar-slim {
+  padding: 0 !important;
+}
+/* line 763, ../../../sass/_navbar.scss */
+.navbar-slim .navbar-header {
+  background: linear-gradient(90deg, #232531, #303242);
+}
+/* line 766, ../../../sass/_navbar.scss */
+.navbar-slim .navbar-header a {
+  display: inline-block;
+  margin: 10px;
+}
+/* line 772, ../../../sass/_navbar.scss */
+.navbar-slim .title {
+  font-size: 14px;
+  color: #A1A3AF;
+  line-height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
 /* line 5, ../../../sass/_breadcrumbs.scss */
 .breadcrumb {
   padding: 8px 15px;
@@ -9745,6 +9770,13 @@ floating-action-button.bottom > ul li:hover {
   color: #fff;
 }
 /* line 75, ../../../sass/_fab.scss */
+floating-action-button.planner-btn {
+  top: 25px;
+  float: right;
+  z-index: 9999;
+  position: fixed;
+}
+/* line 82, ../../../sass/_fab.scss */
 floating-action-button > .btn {
   background-color: #00B0FF !important;
   box-shadow: 0 1px 8px rgba(28, 30, 41, 0.2);
@@ -9756,19 +9788,19 @@ floating-action-button > .btn {
   padding: 5px 18px;
   border: none;
 }
-/* line 90, ../../../sass/_fab.scss */
+/* line 97, ../../../sass/_fab.scss */
 floating-action-button > .btn span {
   color: #fff;
   font-size: 30px;
   line-height: 41px;
   font-family: -webkit-pictograph;
 }
-/* line 97, ../../../sass/_fab.scss */
+/* line 104, ../../../sass/_fab.scss */
 floating-action-button > .btn:hover {
   background-color: #33c0ff;
   box-shadow: 0 1px 15px rgba(28, 30, 41, 0.3);
 }
-/* line 103, ../../../sass/_fab.scss */
+/* line 110, ../../../sass/_fab.scss */
 floating-action-button .dropdown-menu.open {
   display: inline-block;
   left: -117px;

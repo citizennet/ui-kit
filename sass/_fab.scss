@@ -72,6 +72,13 @@ floating-action-button {
     }
   }
 
+  &.planner-btn {
+    top: 25px;
+    float: right;
+    z-index: 9999;
+    position: fixed;
+  }
+
   > .btn {
     background-color: $vivid !important;
     // for drop shadow
