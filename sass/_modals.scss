@@ -36,6 +36,10 @@
   &.in .modal-dialog {
     @include translate(0, 0)
   }
+
+  .card {
+    width: auto;
+  }
 }
 
 .modal-open .modal {
@@ -141,6 +145,7 @@
 
 // Footer (for actions)
 .modal-footer {
+  clear: both;
   padding: $modal-inner-padding;
   text-align: right; // right align buttons
   border-top: 1px solid $modal-footer-border-color;
