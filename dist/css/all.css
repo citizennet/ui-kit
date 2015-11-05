@@ -11592,7 +11592,7 @@ a.disabled {
 /* line 41, ../../../sass/_heading.scss */
 .cn-heading .btn-options,
 .modal-content .modal-header.cn-heading .btn-options {
-  margin: 15px 0;
+  margin: 0 0 15px;
 }
 /* line 45, ../../../sass/_heading.scss */
 .cn-heading .btn,
