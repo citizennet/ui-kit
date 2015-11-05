@@ -130,11 +130,6 @@
   position: relative;
   padding: 15px;
 
-  // not sure why these were hidden
-  input[type=checkbox], input[type=radio] {
-    opacity: 1;
-  }
-
   ul.dropdown-menu {
     left: auto;
   }
