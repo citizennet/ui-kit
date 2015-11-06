@@ -85,6 +85,16 @@ i.cn-icon {
   vertical-align: middle;
 }
 
+.icn-forward {
+  background: url(#{$svg-path}light/icn-back.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+
+  transform: rotate(180deg);
+}
+
 .icn-twitter {
   background: url(#{$svg-path}socialmedia/dark-active/icn-twitter.svg);
   width: 24px;
@@ -263,7 +273,6 @@ i.cn-icon {
   margin-top: -4px;
 }
 
-
 .icn-audience {
   background: url(#{$svg-path}light/audience.svg);
   width: 22px;
@@ -276,6 +285,22 @@ i.cn-icon {
   background: url(#{$svg-path}light/mark.svg);
   width: 31px;
   height: 31px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icn-knobs {
+  background: url(#{$svg-path}light/icn-campaign.svg);
+  width: 19px;
+  height: 17px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icn-summary {
+  background: url(#{$svg-path}light/icn-summary.svg);
+  width: 17px;
+  height: 19px;
   display: inline-block;
   vertical-align: middle;
 }
