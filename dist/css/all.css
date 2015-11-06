@@ -8177,11 +8177,13 @@ NAVBAR
   font-size: 14px;
   color: #A1A3AF;
   line-height: 50px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  margin-left: 20px;
+}
+/* line 779, ../../../sass/_navbar.scss */
+.navbar-slim .save-container {
+  color: #90929E;
+  margin-left: 20px;
+  text-decoration: underline;
 }
 
 /* line 5, ../../../sass/_breadcrumbs.scss */

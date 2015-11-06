@@ -773,12 +773,12 @@ NAVBAR
     font-size: 14px;
     color: #A1A3AF;
     line-height: 50px;
+    margin-left: 20px;
+  }
 
-    // center txt
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+  .save-container {
+    color: #90929E;
+    margin-left: 20px;
+    text-decoration: underline;
   }
 }
