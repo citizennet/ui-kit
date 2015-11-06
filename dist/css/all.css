@@ -6009,10 +6009,20 @@ i.cn-icon.cn-share {
   margin-top: -4px;
 }
 
+/* line 267, ../../../sass/_icons.scss */
+.icn-audience {
+  background: url(../../js/vendor/ui-kit/assets/light/audience.svg);
+  width: 22px;
+  height: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -4px;
+}
+
 /******************************************************
 * Icons for tables
 *******************************************************/
-/* line 270, ../../../sass/_icons.scss */
+/* line 281, ../../../sass/_icons.scss */
 .icn-sort-caret {
   background: url(../../js/vendor/ui-kit/assets/light/icn-sort-caret.svg);
   width: 8px;
@@ -6022,16 +6032,16 @@ i.cn-icon.cn-share {
   margin-bottom: 3px;
   margin-left: 3px;
 }
-/* line 280, ../../../sass/_icons.scss */
+/* line 291, ../../../sass/_icons.scss */
 .icn-sort-caret.up {
   transform: rotate(180deg);
 }
-/* line 284, ../../../sass/_icons.scss */
+/* line 295, ../../../sass/_icons.scss */
 .icn-sort-caret.right {
   transform: rotate(270deg);
 }
 
-/* line 289, ../../../sass/_icons.scss */
+/* line 300, ../../../sass/_icons.scss */
 .icn-mini-menu {
   background: url(../../js/vendor/ui-kit/assets/light/icn-mini-menu.svg);
   width: 8px;
@@ -9796,13 +9806,18 @@ floating-action-button .dropdown-menu.open {
   border: none;
 }
 /* line 104, ../../../sass/_fab.scss */
+.circle-btn .icn-audience, floating-action-button > .btn .icn-audience {
+  margin-top: -12px;
+  margin-left: -2px;
+}
+/* line 110, ../../../sass/_fab.scss */
 .circle-btn span, floating-action-button > .btn span {
   color: #fff;
   font-size: 30px;
   line-height: 41px;
   font-family: -webkit-pictograph;
 }
-/* line 111, ../../../sass/_fab.scss */
+/* line 117, ../../../sass/_fab.scss */
 .circle-btn:hover, floating-action-button > .btn:hover {
   background-color: #33c0ff;
   box-shadow: 0 1px 15px rgba(28, 30, 41, 0.3);

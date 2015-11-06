@@ -101,6 +101,12 @@ floating-action-button {
 
   border: none;
 
+  .icn-audience {
+    // center image
+    margin-top: -12px;
+    margin-left: -2px;
+  }
+
   span {
     color: #fff;
     font-size: 30px;

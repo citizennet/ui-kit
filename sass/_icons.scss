@@ -263,6 +263,17 @@ i.cn-icon {
   margin-top: -4px;
 }
 
+
+.icn-audience {
+  background: url(#{$svg-path}light/audience.svg);
+  width: 22px;
+  height: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  // offset for bad img
+  margin-top: -4px;
+}
+
 /******************************************************
 * Icons for tables
 *******************************************************/
