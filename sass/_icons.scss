@@ -270,8 +270,14 @@ i.cn-icon {
   height: 14px;
   display: inline-block;
   vertical-align: middle;
-  // offset for bad img
-  margin-top: -4px;
+}
+
+.icn-cn-short {
+  background: url(#{$svg-path}light/mark.svg);
+  width: 31px;
+  height: 31px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /******************************************************

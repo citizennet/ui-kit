@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>mark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="using" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Planning---Audience-1" sketch:type="MSArtboardGroup" transform="translate(-12.000000, -10.000000)">
+            <g id="mark" sketch:type="MSLayerGroup" transform="translate(12.128315, 10.000000)">
+                <path d="M19.6378879,0.172279659 L19.4966867,8.63959208 L26.799753,4.2829344 L22.4205656,11.5485574 L30.9332035,11.4088712 L23.4904962,15.52069 L30.9332035,19.6325088 L22.4205656,19.4912705 L26.799753,26.7557294 L19.4966867,22.3998478 L19.6378879,30.8691003 L15.5032673,23.4661192 L11.3690366,30.8691003 L11.5106279,22.3998478 L4.20834173,26.7557294 L8.58635893,19.4912705 L0.0737210665,19.6325088 L7.51681838,15.52069 L0.0737210665,11.4088712 L8.58635893,11.5485574 L4.20834173,4.2829344 L11.5106279,8.63959208 L11.3690366,0.172279659 L15.5032673,7.57681283 L19.6378879,0.172279659 Z" id="Fill-1" fill="#2DC1F9" sketch:type="MSShapeGroup"></path>
+                <path d="M7.51681838,15.52069 L15.5032673,15.52069 L8.58635893,11.5485574 L0.0737210665,11.4088712 L7.51681838,15.52069" id="Fill-2" fill="#00A8E5" sketch:type="MSShapeGroup"></path>
+                <path d="M11.5106279,8.63959208 L11.3690366,0.172279659 L15.5032673,7.57681283 L15.5032673,15.52069 L11.5106279,8.63959208" id="Fill-3" fill="#00A8E5" sketch:type="MSShapeGroup"></path>
+                <path d="M15.5032673,15.52069 L19.4966867,8.63959208 L26.799753,4.28603854" id="Fill-4" fill="#00A8E5" sketch:type="MSShapeGroup"></path>
+                <path d="M4.20834173,26.7557294 L8.58635893,19.4912705 L15.5032673,15.52069" id="Fill-5" fill="#00A8E5" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
