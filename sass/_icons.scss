@@ -305,6 +305,22 @@ i.cn-icon {
   vertical-align: middle;
 }
 
+.icn-waiting {
+  background: url(#{$svg-path}light/icn-waiting.svg);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icn-alert {
+  background: url(#{$svg-path}light/icn-alert.svg);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /******************************************************
 * Icons for tables
 *******************************************************/
