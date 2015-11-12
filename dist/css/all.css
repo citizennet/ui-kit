@@ -2016,7 +2016,6 @@ pre code {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 10px;
 }
 /* line 14, ../../../sass/mixins/_clearfix.scss */
 .container-fluid:before, .container-fluid:after {
@@ -4540,24 +4539,46 @@ cn-video-targeting {
   box-shadow: none;
 }
 /* line 145, ../../../sass/_buttons.scss */
+.btn.btn-facebook:not(label) {
+  background-color: #3b5998;
+  border-color: #2d4373;
+  color: #fff;
+}
+/* line 150, ../../../sass/_buttons.scss */
+.btn.btn-facebook:not(label):hover, .btn.btn-facebook:not(label).active {
+  background-color: #4c70ba;
+  box-shadow: 0 2px 4px rgba(28, 30, 41, 0.15);
+}
+/* line 158, ../../../sass/_buttons.scss */
+.btn.btn-twitter:not(label) {
+  background-color: #00aced;
+  border-color: #0087ba;
+  color: #fff;
+}
+/* line 163, ../../../sass/_buttons.scss */
+.btn.btn-twitter:not(label):hover, .btn.btn-twitter:not(label).active {
+  background-color: #21c2ff;
+  box-shadow: 0 2px 4px rgba(28, 30, 41, 0.15);
+}
+/* line 171, ../../../sass/_buttons.scss */
 .btn[disabled] {
   opacity: .5;
 }
-/* line 148, ../../../sass/_buttons.scss */
+/* line 174, ../../../sass/_buttons.scss */
 .btn[disabled]:hover {
   cursor: default;
 }
-/* line 154, ../../../sass/_buttons.scss */
+/* line 180, ../../../sass/_buttons.scss */
 .btn i.glyphicon {
   margin-right: 5px;
 }
 
-/* line 163, ../../../sass/_buttons.scss */
+/* line 189, ../../../sass/_buttons.scss */
 a.btn.disabled, fieldset[disabled] a.btn {
   pointer-events: none;
 }
 
-/* line 172, ../../../sass/_buttons.scss */
+/* line 198, ../../../sass/_buttons.scss */
 .btn-default {
   color: #333;
   background-color: #fff;
@@ -4602,7 +4623,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #333;
 }
 
-/* line 176, ../../../sass/_buttons.scss */
+/* line 202, ../../../sass/_buttons.scss */
 .btn-primary {
   color: #fff;
   background-color: #337ab7;
@@ -4647,7 +4668,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #fff;
 }
 
-/* line 181, ../../../sass/_buttons.scss */
+/* line 207, ../../../sass/_buttons.scss */
 .btn-success {
   color: #fff;
   background-color: #5cb85c;
@@ -4692,7 +4713,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #fff;
 }
 
-/* line 186, ../../../sass/_buttons.scss */
+/* line 212, ../../../sass/_buttons.scss */
 .btn-info {
   color: #fff;
   background-color: #5bc0de;
@@ -4737,7 +4758,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #fff;
 }
 
-/* line 191, ../../../sass/_buttons.scss */
+/* line 217, ../../../sass/_buttons.scss */
 .btn-warning {
   color: #fff;
   background-color: #f0ad4e;
@@ -4782,7 +4803,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #fff;
 }
 
-/* line 196, ../../../sass/_buttons.scss */
+/* line 222, ../../../sass/_buttons.scss */
 .btn-danger {
   color: #fff;
   background-color: #d9534f;
@@ -4827,35 +4848,35 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #fff;
 }
 
-/* line 204, ../../../sass/_buttons.scss */
+/* line 230, ../../../sass/_buttons.scss */
 .btn-link {
   color: #337ab7;
   font-weight: normal;
   border-radius: 0;
 }
-/* line 209, ../../../sass/_buttons.scss */
+/* line 235, ../../../sass/_buttons.scss */
 .btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled], fieldset[disabled] .btn-link {
   background-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 217, ../../../sass/_buttons.scss */
+/* line 243, ../../../sass/_buttons.scss */
 .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
   border-color: transparent;
 }
-/* line 223, ../../../sass/_buttons.scss */
+/* line 249, ../../../sass/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
   color: #23527c;
   text-decoration: underline;
   background-color: transparent;
 }
-/* line 231, ../../../sass/_buttons.scss */
+/* line 257, ../../../sass/_buttons.scss */
 .btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus {
   color: #777777;
   text-decoration: none;
 }
 
-/* line 242, ../../../sass/_buttons.scss */
+/* line 268, ../../../sass/_buttons.scss */
 .btn-lg, .btn-group-lg > .btn {
   padding: 10px 16px;
   font-size: 18px;
@@ -4863,7 +4884,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   border-radius: 5px;
 }
 
-/* line 247, ../../../sass/_buttons.scss */
+/* line 273, ../../../sass/_buttons.scss */
 .btn-sm, .btn-group-sm > .btn {
   padding: 5px 10px;
   font-size: 12px;
@@ -4871,7 +4892,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   border-radius: 2px;
 }
 
-/* line 252, ../../../sass/_buttons.scss */
+/* line 278, ../../../sass/_buttons.scss */
 .btn-xs, .btn-group-xs > .btn {
   padding: 1px 5px;
   font-size: 12px;
@@ -4879,25 +4900,25 @@ a.btn.disabled, fieldset[disabled] a.btn {
   border-radius: 2px;
 }
 
-/* line 259, ../../../sass/_buttons.scss */
+/* line 285, ../../../sass/_buttons.scss */
 .btn-block {
   display: block;
   width: 100%;
 }
 
-/* line 265, ../../../sass/_buttons.scss */
+/* line 291, ../../../sass/_buttons.scss */
 .btn-block + .btn-block {
   margin-top: 5px;
 }
 
-/* line 273, ../../../sass/_buttons.scss */
+/* line 299, ../../../sass/_buttons.scss */
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
 }
 
-/* line 278, ../../../sass/_buttons.scss */
+/* line 304, ../../../sass/_buttons.scss */
 .btn, label.btn, select.form-control {
   border: 1px solid #D6D7DB;
   -webkit-box-shadow: none;
@@ -4908,17 +4929,17 @@ input[type="button"].btn-block {
   -khtml-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 287, ../../../sass/_buttons.scss */
+/* line 313, ../../../sass/_buttons.scss */
 .btn.dropdown-small, label.btn.dropdown-small, select.form-control.dropdown-small {
   font-size: 14px;
   height: 29px;
 }
-/* line 293, ../../../sass/_buttons.scss */
+/* line 319, ../../../sass/_buttons.scss */
 .btn span.ng-binding, label.btn span.ng-binding, select.form-control span.ng-binding {
   line-height: 28px;
 }
 
-/* line 298, ../../../sass/_buttons.scss */
+/* line 324, ../../../sass/_buttons.scss */
 label.btn, select.form-control {
   color: #1e222e;
   background-color: #fff;
@@ -4926,46 +4947,46 @@ label.btn, select.form-control {
   height: 39px;
 }
 
-/* line 311, ../../../sass/_buttons.scss */
+/* line 337, ../../../sass/_buttons.scss */
 .btn.btn-xs, .btn-group-xs > .btn {
   padding: 1px 13px;
 }
 
-/* line 316, ../../../sass/_buttons.scss */
+/* line 342, ../../../sass/_buttons.scss */
 .btn-sm .icn-caret-sm, .btn-group-sm > .btn .icn-caret-sm {
   margin-top: -2px;
   margin-left: 1px;
 }
 
-/* line 322, ../../../sass/_buttons.scss */
+/* line 348, ../../../sass/_buttons.scss */
 .btn.btn-xs, .btn-group-xs > .btn {
   padding: 1px 13px;
 }
 
-/* line 327, ../../../sass/_buttons.scss */
+/* line 353, ../../../sass/_buttons.scss */
 .cn-radiobuttons .btn-group {
   display: block;
 }
-/* line 333, ../../../sass/_buttons.scss */
+/* line 359, ../../../sass/_buttons.scss */
 .cn-radiobuttons .btn-group .btn-facebook.active {
   background-color: #3b5998;
   border-color: #2d4373;
   color: #fff;
 }
-/* line 343, ../../../sass/_buttons.scss */
+/* line 369, ../../../sass/_buttons.scss */
 .cn-radiobuttons .btn-group .btn-twitter.active {
   background-color: #00aced;
   border-color: #0087ba;
   color: #fff;
 }
-/* line 353, ../../../sass/_buttons.scss */
+/* line 379, ../../../sass/_buttons.scss */
 .cn-radiobuttons .btn-group .btn-instagram.active {
   background-color: #675144;
   border-color: #483930;
   color: #fff;
 }
 
-/* line 362, ../../../sass/_buttons.scss */
+/* line 388, ../../../sass/_buttons.scss */
 .cn-autocomplete-list {
   margin: 1px 0;
   padding: 2px;
@@ -4975,46 +4996,46 @@ label.btn, select.form-control {
   -khtml-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
 }
-/* line 371, ../../../sass/_buttons.scss */
+/* line 397, ../../../sass/_buttons.scss */
 .has-success .cn-autocomplete-list + tags-input .host .input.form-control, .has-error .cn-autocomplete-list + tags-input .host .input.form-control, .has-success .cn-autocomplete-list + .host .input.form-control, .has-error .cn-autocomplete-list + .host .input.form-control {
   -webkit-border-radius: 0 0 3px 3px;
   -moz-border-radius: 0 0 3px 3px;
   -khtml-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px;
 }
-/* line 378, ../../../sass/_buttons.scss */
+/* line 404, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item {
   padding: 0 35px 0 0;
   background-color: transparent;
   border: 0;
 }
-/* line 383, ../../../sass/_buttons.scss */
+/* line 409, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item:last-child {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -khtml-border-radius: 0;
   border-radius: 0;
 }
-/* line 387, ../../../sass/_buttons.scss */
+/* line 413, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item:hover {
   background-color: #c8e4f0;
 }
-/* line 390, ../../../sass/_buttons.scss */
+/* line 416, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item:hover .close {
   opacity: 1;
 }
-/* line 395, ../../../sass/_buttons.scss */
+/* line 421, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item:first-child {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-/* line 407, ../../../sass/_buttons.scss */
+/* line 433, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item .form-control, .has-success .cn-autocomplete-list .list-group-item .form-control, .has-error .cn-autocomplete-list .list-group-item .form-control {
   min-height: 32px;
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 412, ../../../sass/_buttons.scss */
+/* line 438, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item .form-control,
 .cn-autocomplete-list .list-group-item .btn, .has-success .cn-autocomplete-list .list-group-item .form-control,
 .has-success .cn-autocomplete-list .list-group-item .btn, .has-error .cn-autocomplete-list .list-group-item .form-control,
@@ -5022,7 +5043,7 @@ label.btn, select.form-control {
   height: 32px;
   margin: 1px 0;
 }
-/* line 416, ../../../sass/_buttons.scss */
+/* line 442, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item .form-control[disabled],
 .cn-autocomplete-list .list-group-item .btn[disabled], .has-success .cn-autocomplete-list .list-group-item .form-control[disabled],
 .has-success .cn-autocomplete-list .list-group-item .btn[disabled], .has-error .cn-autocomplete-list .list-group-item .form-control[disabled],
@@ -5030,14 +5051,14 @@ label.btn, select.form-control {
   border: 0;
   background: transparent;
 }
-/* line 423, ../../../sass/_buttons.scss */
+/* line 449, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item > .tag-item {
   display: block;
   padding: 1px 8px;
   line-height: 32px;
   margin: 0;
 }
-/* line 430, ../../../sass/_buttons.scss */
+/* line 456, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item .close {
   position: absolute;
   z-index: 99;
@@ -5045,46 +5066,46 @@ label.btn, select.form-control {
   right: 10px;
   opacity: 0;
 }
-/* line 437, ../../../sass/_buttons.scss */
+/* line 463, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item .close:hover {
   color: #e65d6d;
 }
-/* line 442, ../../../sass/_buttons.scss */
+/* line 468, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item .form-group {
   margin-bottom: 0;
 }
-/* line 446, ../../../sass/_buttons.scss */
+/* line 472, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item .help-block {
   margin: 0;
 }
-/* line 450, ../../../sass/_buttons.scss */
+/* line 476, ../../../sass/_buttons.scss */
 .cn-autocomplete-list .list-group-item .btn {
   padding-top: 6px;
   padding-bottom: 6px;
 }
 
-/* line 457, ../../../sass/_buttons.scss */
+/* line 483, ../../../sass/_buttons.scss */
 .form-control[disabled],
 fieldset[disabled] .form-control {
   cursor: default;
 }
 
-/* line 463, ../../../sass/_buttons.scss */
+/* line 489, ../../../sass/_buttons.scss */
 .btn-input-group-start, .btn-input-group-start .form-control {
   border-radius: 3px 0 0 3px;
 }
 
-/* line 469, ../../../sass/_buttons.scss */
+/* line 495, ../../../sass/_buttons.scss */
 .btn-input-group-end, .btn-input-group-end .form-control {
   border-radius: 0 3px 3px 0;
 }
 
-/* line 474, ../../../sass/_buttons.scss */
+/* line 500, ../../../sass/_buttons.scss */
 .schema-form-array > .list-group > .list-group-item {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-/* line 481, ../../../sass/_buttons.scss */
+/* line 507, ../../../sass/_buttons.scss */
 cn-video-targeting .engagement-spec-list video {
   width: 100%;
 }
@@ -11162,37 +11183,38 @@ a.disabled {
 
 /* line 239, ../../../sass/_utilities.scss */
 .offscreen {
-  position: absolute;
-  top: -999%;
-  left: -999%;
+  position: fixed;
+  top: -9999%;
+  left: -9999%;
+  z-index: -999;
 }
 
-/* line 246, ../../../sass/_utilities.scss */
+/* line 247, ../../../sass/_utilities.scss */
 .hide-below {
   position: absolute;
   z-index: -999;
   opacity: .01;
 }
 
-/* line 252, ../../../sass/_utilities.scss */
+/* line 253, ../../../sass/_utilities.scss */
 .boost {
   z-index: 99;
 }
 
-/* line 256, ../../../sass/_utilities.scss */
+/* line 257, ../../../sass/_utilities.scss */
 .text-muted {
   color: inherit;
   opacity: .5;
 }
 
 @media screen and (min-width: 992px) {
-  /* line 262, ../../../sass/_utilities.scss */
+  /* line 263, ../../../sass/_utilities.scss */
   .vertical-parent {
     position: relative;
     z-index: 1;
   }
 
-  /* line 267, ../../../sass/_utilities.scss */
+  /* line 268, ../../../sass/_utilities.scss */
   .vertical-child {
     position: absolute;
     top: 50%;
@@ -11200,7 +11222,7 @@ a.disabled {
     max-width: 100%;
   }
 
-  /* line 274, ../../../sass/_utilities.scss */
+  /* line 275, ../../../sass/_utilities.scss */
   .vertical-child-right {
     right: 0;
   }
@@ -11734,8 +11756,13 @@ TOOL BAR
 
 /* line 25, ../../../sass/_tool-bar.scss */
 .tool-bar {
-  background: #fff;
   width: 1220px;
+}
+
+/* line 29, ../../../sass/_tool-bar.scss */
+.tool-bar,
+.tool-bar-flex {
+  background: #fff;
   margin-left: auto;
   margin-right: auto;
   top: 0;
@@ -11744,87 +11771,102 @@ TOOL BAR
   z-index: 11;
   margin-top: 15px;
 }
-/* line 36, ../../../sass/_tool-bar.scss */
-.tool-bar .border-right {
+/* line 40, ../../../sass/_tool-bar.scss */
+.tool-bar .border-right,
+.tool-bar-flex .border-right {
   border-right: 1px solid #D8DAE1;
   padding-right: 20px;
 }
-/* line 43, ../../../sass/_tool-bar.scss */
-.tool-bar .filter-types .dropdown-toggle {
+/* line 47, ../../../sass/_tool-bar.scss */
+.tool-bar .filter-types .dropdown-toggle,
+.tool-bar-flex .filter-types .dropdown-toggle {
   font-weight: 500;
 }
-/* line 47, ../../../sass/_tool-bar.scss */
-.tool-bar .filter-types .dropdown-toggle .meta {
+/* line 51, ../../../sass/_tool-bar.scss */
+.tool-bar .filter-types .dropdown-toggle .meta,
+.tool-bar-flex .filter-types .dropdown-toggle .meta {
   font-weight: 300;
 }
-/* line 56, ../../../sass/_tool-bar.scss */
-.tool-bar .filter-types .dropdown-toggle:hover {
+/* line 60, ../../../sass/_tool-bar.scss */
+.tool-bar .filter-types .dropdown-toggle:hover,
+.tool-bar-flex .filter-types .dropdown-toggle:hover {
   text-decoration: none;
 }
-/* line 62, ../../../sass/_tool-bar.scss */
-.tool-bar button {
+/* line 66, ../../../sass/_tool-bar.scss */
+.tool-bar button,
+.tool-bar-flex button {
   margin-right: .25em;
 }
-/* line 66, ../../../sass/_tool-bar.scss */
-.tool-bar .btn {
+/* line 70, ../../../sass/_tool-bar.scss */
+.tool-bar .btn,
+.tool-bar-flex .btn {
   padding: 5px 10px;
 }
-/* line 69, ../../../sass/_tool-bar.scss */
-.tool-bar .btn.btn-transparent {
+/* line 73, ../../../sass/_tool-bar.scss */
+.tool-bar .btn.btn-transparent,
+.tool-bar-flex .btn.btn-transparent {
   padding: 5px 0;
 }
-/* line 74, ../../../sass/_tool-bar.scss */
-.tool-bar .btn-group .btn {
+/* line 78, ../../../sass/_tool-bar.scss */
+.tool-bar .btn-group .btn,
+.tool-bar-flex .btn-group .btn {
   margin: 0;
 }
-/* line 78, ../../../sass/_tool-bar.scss */
-.tool-bar .right-hand-side-nav {
+/* line 82, ../../../sass/_tool-bar.scss */
+.tool-bar .right-hand-side-nav,
+.tool-bar-flex .right-hand-side-nav {
   position: absolute;
   right: 0;
   top: 10px;
 }
-/* line 85, ../../../sass/_tool-bar.scss */
-.tool-bar .dropdown-menu .tooltip {
+/* line 89, ../../../sass/_tool-bar.scss */
+.tool-bar .dropdown-menu .tooltip,
+.tool-bar-flex .dropdown-menu .tooltip {
   margin-left: -28px;
   margin-top: 30px;
 }
-/* line 91, ../../../sass/_tool-bar.scss */
-.tool-bar label.spyglass {
+/* line 95, ../../../sass/_tool-bar.scss */
+.tool-bar label.spyglass,
+.tool-bar-flex label.spyglass {
   color: #535353;
   float: left;
   margin: 7px 0 7px 10px;
   cursor: pointer;
 }
-/* line 98, ../../../sass/_tool-bar.scss */
-.tool-bar tags-input {
+/* line 102, ../../../sass/_tool-bar.scss */
+.tool-bar tags-input,
+.tool-bar-flex tags-input {
   float: left;
 }
-/* line 101, ../../../sass/_tool-bar.scss */
-.tool-bar tags-input .tags {
+/* line 105, ../../../sass/_tool-bar.scss */
+.tool-bar tags-input .tags,
+.tool-bar-flex tags-input .tags {
   box-shadow: none;
   background: transparent;
 }
-/* line 107, ../../../sass/_tool-bar.scss */
+/* line 111, ../../../sass/_tool-bar.scss */
 .tool-bar .input.form-control,
-.tool-bar .input.form-control:focus {
+.tool-bar .input.form-control:focus,
+.tool-bar-flex .input.form-control,
+.tool-bar-flex .input.form-control:focus {
   background: transparent;
   border: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 115, ../../../sass/_tool-bar.scss */
+/* line 119, ../../../sass/_tool-bar.scss */
 .tool-bar-text {
   color: #ffffff;
   font-size: 25px;
 }
 
-/* line 122, ../../../sass/_tool-bar.scss */
+/* line 126, ../../../sass/_tool-bar.scss */
 .ad-sets-tool-bar .dropdown-menu .tooltip {
   margin-left: -30px;
 }
 
-/* line 128, ../../../sass/_tool-bar.scss */
+/* line 132, ../../../sass/_tool-bar.scss */
 .selected-count {
   margin-right: 10px;
 }

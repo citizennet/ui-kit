@@ -238,9 +238,10 @@ a.disabled {
 
 .offscreen {
   // offscreen but still able to focus on (for tabbing to and from)
-  position: absolute;
-  top: -999%;
-  left: -999%;
+  position: fixed;
+  top: -9999%;
+  left: -9999%;
+  z-index: -999;
 }
 
 .hide-below {
