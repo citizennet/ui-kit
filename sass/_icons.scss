@@ -95,6 +95,13 @@ i.cn-icon {
   transform: rotate(180deg);
 }
 
+.icn-space {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .icn-twitter {
   background: url(#{$svg-path}socialmedia/dark-active/icn-twitter.svg);
   width: 24px;
