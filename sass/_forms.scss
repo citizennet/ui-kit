@@ -27,41 +27,28 @@ EDITOR
   padding: 25px;
 }
 
-.cn-editor,
-.cn-modal,
-.cn-form {
-  h1 + h2, .h1 + .h2 {
-    font-size: 14px;
-    font-weight: 300;
-    color: $sub-heading;
-    margin: 0 0 15px;
-  }
+fieldset,
+section, {
+  margin: 25px 0 0;
+  border: 0;
+  border-top: 1px solid $form-divider;
+}
 
-  fieldset {
-    padding-top: 55px;
-    position: relative;
+section {
+  padding: 25px 0 0;
+}
 
-    legend {
-      position: absolute;
-      top: 17px;
+fieldset {
+  padding: 55px 0 0;
+  position: relative;
 
-      &.collapsible {
-        cursor: pointer;
-      }
-    }
-  }
-
-  h3/*.section-heading*/,
   legend {
-    font-size: 12px;
-    font-weight: 500;
-    color: $heading;
-    border: 0;
-    text-transform: uppercase;
-  }
+    position: absolute;
+    top: 17px;
 
-  &, p {
-    font-size: 12px;
+    &.collapsible {
+      cursor: pointer;
+    }
   }
 
   label {
@@ -77,12 +64,31 @@ EDITOR
   }
 }
 
-fieldset,
-section, {
-  margin: 25px 0 0;
-  padding: 25px 0 0;
+legend {
+  font-size: 12px;
+  font-weight: 500;
+  color: $heading;
   border: 0;
-  border-top: 1px solid $form-divider;
+  text-transform: uppercase;
+}
+
+.cn-editor,
+.cn-modal,
+.cn-form {
+  h1 + h2, .h1 + .h2 {
+    font-size: 14px;
+    font-weight: 300;
+    color: $sub-heading;
+    margin: 0 0 15px;
+  }
+
+  h3/*.section-heading*/ {
+    @extend legend;
+  }
+
+  &, p {
+    font-size: 12px;
+  }
 }
 
 .cn-form-head {
