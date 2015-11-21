@@ -6745,65 +6745,66 @@ tbody.collapse.in {
   font-weight: normal;
   line-height: 1.42857;
   color: #333333;
+  min-height: 28px;
   white-space: nowrap;
 }
-/* line 74, ../../../sass/_dropdowns.scss */
+/* line 75, ../../../sass/_dropdowns.scss */
 .dropdown-menu h6 {
   color: #747276;
   padding-left: 15px;
 }
-/* line 80, ../../../sass/_dropdowns.scss */
+/* line 81, ../../../sass/_dropdowns.scss */
 .dropdown-menu > li.selected {
   background-color: #f5f5f5;
 }
-/* line 84, ../../../sass/_dropdowns.scss */
+/* line 85, ../../../sass/_dropdowns.scss */
 .dropdown-menu > li > a {
   padding: 4px 20px;
   white-space: inherit;
 }
-/* line 89, ../../../sass/_dropdowns.scss */
+/* line 90, ../../../sass/_dropdowns.scss */
 .dropdown-menu > li > a:hover {
   background-color: #c8e4f0;
   color: #1e222e;
 }
-/* line 96, ../../../sass/_dropdowns.scss */
+/* line 97, ../../../sass/_dropdowns.scss */
 .dropdown-menu .divider {
   margin: 5px 0;
 }
-/* line 100, ../../../sass/_dropdowns.scss */
+/* line 101, ../../../sass/_dropdowns.scss */
 .dropdown-menu.dropdown-menu-filters {
   max-height: 400px;
   padding-bottom: 20px;
   min-width: 500px;
 }
-/* line 110, ../../../sass/_dropdowns.scss */
+/* line 111, ../../../sass/_dropdowns.scss */
 .dropdown-menu.dropdown-menu-filters a {
   display: block;
   color: #3F3F41;
   font-weight: 400;
 }
-/* line 114, ../../../sass/_dropdowns.scss */
+/* line 115, ../../../sass/_dropdowns.scss */
 .dropdown-menu.dropdown-menu-filters a:hover {
   text-decoration: none;
   background-color: #F0F0F3;
 }
-/* line 118, ../../../sass/_dropdowns.scss */
+/* line 119, ../../../sass/_dropdowns.scss */
 .dropdown-menu.dropdown-menu-filters a.selected {
   font-weight: bold;
 }
-/* line 124, ../../../sass/_dropdowns.scss */
+/* line 125, ../../../sass/_dropdowns.scss */
 .dropdown-menu.dropdown-menu-wide {
   width: 800px;
 }
 
-/* line 131, ../../../sass/_dropdowns.scss */
+/* line 132, ../../../sass/_dropdowns.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #262626;
   background-color: #F0F1F5;
 }
 
-/* line 141, ../../../sass/_dropdowns.scss */
+/* line 142, ../../../sass/_dropdowns.scss */
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
   color: #fff;
   text-decoration: none;
@@ -6811,11 +6812,11 @@ tbody.collapse.in {
   background-color: #337ab7;
 }
 
-/* line 156, ../../../sass/_dropdowns.scss */
+/* line 157, ../../../sass/_dropdowns.scss */
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
   color: #777777;
 }
-/* line 163, ../../../sass/_dropdowns.scss */
+/* line 164, ../../../sass/_dropdowns.scss */
 .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
   text-decoration: none;
   background-color: transparent;
@@ -6824,28 +6825,28 @@ tbody.collapse.in {
   cursor: not-allowed;
 }
 
-/* line 176, ../../../sass/_dropdowns.scss */
+/* line 177, ../../../sass/_dropdowns.scss */
 .open > .dropdown-menu {
   display: block;
 }
-/* line 181, ../../../sass/_dropdowns.scss */
+/* line 182, ../../../sass/_dropdowns.scss */
 .open > a {
   outline: 0;
 }
 
-/* line 190, ../../../sass/_dropdowns.scss */
+/* line 191, ../../../sass/_dropdowns.scss */
 .dropdown-menu-right {
   left: auto;
   right: 0;
 }
 
-/* line 201, ../../../sass/_dropdowns.scss */
+/* line 202, ../../../sass/_dropdowns.scss */
 .dropdown-menu-left {
   left: 0;
   right: auto;
 }
 
-/* line 207, ../../../sass/_dropdowns.scss */
+/* line 208, ../../../sass/_dropdowns.scss */
 .dropdown-header {
   display: block;
   padding: 3px 20px;
@@ -6855,7 +6856,7 @@ tbody.collapse.in {
   white-space: nowrap;
 }
 
-/* line 217, ../../../sass/_dropdowns.scss */
+/* line 218, ../../../sass/_dropdowns.scss */
 .dropdown-backdrop {
   position: fixed;
   left: 0;
@@ -6865,13 +6866,13 @@ tbody.collapse.in {
   z-index: 990;
 }
 
-/* line 227, ../../../sass/_dropdowns.scss */
+/* line 228, ../../../sass/_dropdowns.scss */
 .pull-right > .dropdown-menu {
   right: 0;
   left: auto;
 }
 
-/* line 240, ../../../sass/_dropdowns.scss */
+/* line 241, ../../../sass/_dropdowns.scss */
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
   border-top: 0;
@@ -6879,7 +6880,7 @@ tbody.collapse.in {
   border-bottom: 4px solid \9;
   content: "";
 }
-/* line 247, ../../../sass/_dropdowns.scss */
+/* line 248, ../../../sass/_dropdowns.scss */
 .dropup .dropdown-menu,
 .navbar-fixed-bottom .dropdown .dropdown-menu {
   top: auto;
@@ -6888,12 +6889,12 @@ tbody.collapse.in {
 }
 
 @media (min-width: 768px) {
-  /* line 260, ../../../sass/_dropdowns.scss */
+  /* line 261, ../../../sass/_dropdowns.scss */
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
   }
-  /* line 266, ../../../sass/_dropdowns.scss */
+  /* line 267, ../../../sass/_dropdowns.scss */
   .navbar-right .dropdown-menu-left {
     left: 0;
     right: auto;
