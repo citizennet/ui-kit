@@ -1783,6 +1783,154 @@ th {
   content: "\e260";
 }
 
+/* line 2, ../../../sass/_angular-animations.scss */
+.fade-in-container {
+  position: relative;
+}
+
+/* line 6, ../../../sass/_angular-animations.scss */
+.fade-in-animation.ng-enter, .fade-in-animation.ng-leave {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+}
+
+/* line 16, ../../../sass/_angular-animations.scss */
+.fade-in-animation.ng-enter {
+  -webkit-animation: 0.5s fade-in-animation-enter;
+  animation: 0.5s fade-in-animation-enter;
+}
+
+/* line 21, ../../../sass/_angular-animations.scss */
+.fade-in-animation.ng-leave {
+  -webkit-animation: fade-in-animation-leave;
+  animation: fade-in-animation-leave;
+}
+
+/* standard */
+@keyframes fade-in-animation-enter {
+  from {
+    z-index: 100;
+    opacity: 0;
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+  }
+}
+@keyframes fade-in-animation-leave {
+  from {
+    z-index: 101;
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/* web kit */
+@-webkit-keyframes fade-in-animation-enter {
+  from {
+    z-index: 100;
+    opacity: 0;
+    -webkit-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes fade-in-animation-leave {
+  from {
+    z-index: 101;
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/* line 79, ../../../sass/_angular-animations.scss */
+.cn-repeat-animation.ng-enter,
+.cn-repeat-animation.ng-leave,
+.cn-repeat-animation.ng-move {
+  position: relative;
+}
+
+/* line 85, ../../../sass/_angular-animations.scss */
+.cn-repeat-animation.ng-enter {
+  -webkit-animation: 0.25s repeat-animation-enter;
+  animation: 0.25s repeat-animation-enter;
+}
+
+/* line 90, ../../../sass/_angular-animations.scss */
+.cn-repeat-animation.ng-leave {
+  -webkit-animation: 0.25s repeat-animation-leave;
+  animation: 0.25s repeat-animation-leave;
+}
+
+/* line 95, ../../../sass/_angular-animations.scss */
+.cn-repeat-animation.ng-move {
+  -webkit-animation: 0.25s repeat-animation-move;
+  animation: 0.25s repeat-animation-move;
+}
+
+@keyframes repeat-animation-enter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes repeat-animation-enter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes repeat-animation-leave {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes repeat-animation-leave {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes repeat-animation-move {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes repeat-animation-move {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /* line 10, ../../../sass/_scaffolding.scss */
 * {
   -webkit-box-sizing: border-box;
