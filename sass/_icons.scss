@@ -328,6 +328,13 @@ i.cn-icon {
   vertical-align: middle;
 }
 
+.icn-img-chart {
+  background: url(#{$svg-path}dark/icn-img-chart@2x.png) no-repeat;
+  width: 80px;
+  height: 80px;
+  background-size: 100%;
+}
+
 /******************************************************
 * Icons for tables
 *******************************************************/
