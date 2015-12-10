@@ -2065,6 +2065,12 @@ hr {
   cursor: pointer;
 }
 
+/* line 156, ../../../sass/_scaffolding.scss */
+iframe.iframe {
+  border: 0;
+  width: 100%;
+}
+
 /* line 6, ../../../sass/_code.scss */
 code,
 kbd,
@@ -8621,8 +8627,8 @@ NAVBAR
 /* line 5, ../../../sass/_labels.scss */
 .label {
   display: inline;
-  padding: .2em .6em .3em;
-  font-size: 75%;
+  padding: .3em .6em;
+  font-size: 90%;
   font-weight: bold;
   line-height: 1;
   color: #fff;
@@ -9888,29 +9894,31 @@ button.close {
 }
 
 /* line 13, ../../../sass/_cards.scss */
-div.card {
+div.card,
+div.card-flex {
   border: 1px solid #E7E6EB;
   background-color: #fff;
+  border-radius: 5px;
 }
 
-/* line 20, ../../../sass/_cards.scss */
+/* line 22, ../../../sass/_cards.scss */
 .cn-list > table.card,
 .cn-list > table.card-flex {
   border-bottom: 2px solid #DEDEDE;
 }
-/* line 28, ../../../sass/_cards.scss */
+/* line 30, ../../../sass/_cards.scss */
 .cn-list table.card tbody,
 .cn-list table.card-flex tbody {
   background-color: #fff;
 }
-/* line 33, ../../../sass/_cards.scss */
+/* line 35, ../../../sass/_cards.scss */
 .cn-list table.card tbody tr,
 .cn-list table.card-flex tbody tr {
   border-left: 1px solid #E7E6EB;
   border-right: 1px solid #E7E6EB;
 }
 
-/* line 43, ../../../sass/_cards.scss */
+/* line 45, ../../../sass/_cards.scss */
 table.cards tr,
 table.cards-flex tr {
   border-radius: 5px;
@@ -9921,7 +9929,7 @@ table.cards-flex tr {
   margin-bottom: 20px;
   display: block;
 }
-/* line 54, ../../../sass/_cards.scss */
+/* line 56, ../../../sass/_cards.scss */
 table.cards tr td,
 table.cards-flex tr td {
   border: none;
@@ -12400,28 +12408,25 @@ SUBNAV
   font-weight: 300;
   line-height: 45px;
   letter-spacing: 0.2px;
+  padding: 15px 0;
 }
-/* line 52, ../../../sass/_sub-nav.scss */
+/* line 53, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div a:hover {
   text-decoration: none;
-}
-/* line 57, ../../../sass/_sub-nav.scss */
-.cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div.active, .cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div:hover {
-  cursor: pointer;
-  border-bottom: 5px solid #4FC3F7;
 }
 /* line 59, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div.active a, .cn-sub-navbar-fixed-top .sub-sub-nav .tabs > div:hover a {
   color: #F0F0F3;
+  border-bottom: 5px solid #4FC3F7;
 }
-/* line 69, ../../../sass/_sub-nav.scss */
+/* line 68, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top label {
   color: #fff;
   font-weight: 300;
   line-height: 65px;
   letter-spacing: .04em;
 }
-/* line 76, ../../../sass/_sub-nav.scss */
+/* line 75, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top > form > label, .cn-sub-navbar-fixed-top strong {
   font-size: 1em;
   line-height: 1.9;
@@ -12429,16 +12434,16 @@ SUBNAV
   letter-spacing: .04em;
   color: #CECECE;
 }
-/* line 83, ../../../sass/_sub-nav.scss */
+/* line 82, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top > form > label:first-child, .cn-sub-navbar-fixed-top strong:first-child {
   color: #fff;
 }
-/* line 89, ../../../sass/_sub-nav.scss */
+/* line 88, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top > form > div.pull-right label {
   font-size: .8125em;
   font-weight: 400;
 }
-/* line 93, ../../../sass/_sub-nav.scss */
+/* line 92, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top > form > div.pull-right select {
   background: transparent;
   border: 0;
@@ -12446,32 +12451,32 @@ SUBNAV
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 101, ../../../sass/_sub-nav.scss */
+/* line 100, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .company-selection {
   padding-bottom: 25px;
 }
-/* line 105, ../../../sass/_sub-nav.scss */
+/* line 104, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .company-selection a h1 {
   display: inline-block;
 }
-/* line 109, ../../../sass/_sub-nav.scss */
+/* line 108, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .company-selection a .icn-caret {
   margin-left: 15px;
   margin-top: -3px;
 }
-/* line 114, ../../../sass/_sub-nav.scss */
+/* line 113, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .company-selection a:hover {
   text-decoration: none;
 }
-/* line 119, ../../../sass/_sub-nav.scss */
+/* line 118, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .company-selection .dropdown-menu {
   top: 60px;
 }
-/* line 122, ../../../sass/_sub-nav.scss */
+/* line 121, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .company-selection .dropdown-menu.reports-company-menu {
   left: 320px;
 }
-/* line 128, ../../../sass/_sub-nav.scss */
+/* line 127, ../../../sass/_sub-nav.scss */
 .cn-sub-navbar-fixed-top .groups-list-header-nav {
   width: 1220px;
   margin-left: auto;

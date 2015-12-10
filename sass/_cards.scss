@@ -10,9 +10,11 @@
   margin: 2px auto;
 }
 
-div.card {
+div.card,
+div.card-flex {
   border: 1px solid #E7E6EB;
   background-color: #fff;
+  border-radius: $border-radius-large;
 }
 
 // table card is broken out into _cards.scss
