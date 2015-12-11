@@ -40,9 +40,9 @@ div.card-flex {
   }
 }
 
-table.cards,
-table.cards-flex {
-  tr {
+.cards,
+.cards-flex {
+  tr, .card {
     border-radius: $border-radius-large;
     // fake box shadow
     border-left: 1px solid #E7E6EB;

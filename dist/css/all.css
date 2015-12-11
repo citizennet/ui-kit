@@ -9919,8 +9919,9 @@ div.card-flex {
 }
 
 /* line 45, ../../../sass/_cards.scss */
-table.cards tr,
-table.cards-flex tr {
+.cards tr, .cards .card,
+.cards-flex tr,
+.cards-flex .card {
   border-radius: 5px;
   border-left: 1px solid #E7E6EB;
   border-right: 1px solid #E7E6EB;
@@ -9930,8 +9931,9 @@ table.cards-flex tr {
   display: block;
 }
 /* line 56, ../../../sass/_cards.scss */
-table.cards tr td,
-table.cards-flex tr td {
+.cards tr td, .cards .card td,
+.cards-flex tr td,
+.cards-flex .card td {
   border: none;
 }
 
@@ -12530,57 +12532,62 @@ TOOL BAR
 .tool-bar .border-right,
 .tool-bar-flex .border-right {
   border-right: 1px solid #D8DAE1;
-  padding-right: 20px;
+  padding: 0 20px;
 }
-/* line 47, ../../../sass/_tool-bar.scss */
+/* line 44, ../../../sass/_tool-bar.scss */
+.tool-bar .border-right:first-child,
+.tool-bar-flex .border-right:first-child {
+  border-left: 0;
+}
+/* line 51, ../../../sass/_tool-bar.scss */
 .tool-bar .filter-types .dropdown-toggle,
 .tool-bar-flex .filter-types .dropdown-toggle {
   font-weight: 500;
 }
-/* line 51, ../../../sass/_tool-bar.scss */
+/* line 55, ../../../sass/_tool-bar.scss */
 .tool-bar .filter-types .dropdown-toggle .meta,
 .tool-bar-flex .filter-types .dropdown-toggle .meta {
   font-weight: 300;
 }
-/* line 60, ../../../sass/_tool-bar.scss */
+/* line 64, ../../../sass/_tool-bar.scss */
 .tool-bar .filter-types .dropdown-toggle:hover,
 .tool-bar-flex .filter-types .dropdown-toggle:hover {
   text-decoration: none;
 }
-/* line 66, ../../../sass/_tool-bar.scss */
+/* line 70, ../../../sass/_tool-bar.scss */
 .tool-bar button,
 .tool-bar-flex button {
   margin-right: .25em;
 }
-/* line 70, ../../../sass/_tool-bar.scss */
+/* line 74, ../../../sass/_tool-bar.scss */
 .tool-bar .btn,
 .tool-bar-flex .btn {
   padding: 5px 10px;
 }
-/* line 73, ../../../sass/_tool-bar.scss */
+/* line 77, ../../../sass/_tool-bar.scss */
 .tool-bar .btn.btn-transparent,
 .tool-bar-flex .btn.btn-transparent {
   padding: 5px 0;
 }
-/* line 78, ../../../sass/_tool-bar.scss */
+/* line 82, ../../../sass/_tool-bar.scss */
 .tool-bar .btn-group .btn,
 .tool-bar-flex .btn-group .btn {
   margin: 0;
 }
-/* line 82, ../../../sass/_tool-bar.scss */
+/* line 86, ../../../sass/_tool-bar.scss */
 .tool-bar .right-hand-side-nav,
 .tool-bar-flex .right-hand-side-nav {
   position: absolute;
   right: 0;
   top: 10px;
 }
-/* line 89, ../../../sass/_tool-bar.scss */
+/* line 93, ../../../sass/_tool-bar.scss */
 .tool-bar .dropdown-menu .tooltip,
 .tool-bar-flex .dropdown-menu .tooltip {
   margin-left: -28px;
   margin-top: 30px;
 }
-/* line 95, ../../../sass/_tool-bar.scss */
+/* line 99, ../../../sass/_tool-bar.scss */
 .tool-bar label.spyglass,
 .tool-bar-flex label.spyglass {
   color: #535353;
@@ -12588,18 +12595,18 @@ TOOL BAR
   margin: 7px 0 7px 10px;
   cursor: pointer;
 }
-/* line 102, ../../../sass/_tool-bar.scss */
+/* line 106, ../../../sass/_tool-bar.scss */
 .tool-bar tags-input,
 .tool-bar-flex tags-input {
   float: left;
 }
-/* line 105, ../../../sass/_tool-bar.scss */
+/* line 109, ../../../sass/_tool-bar.scss */
 .tool-bar tags-input .tags,
 .tool-bar-flex tags-input .tags {
   box-shadow: none;
   background: transparent;
 }
-/* line 111, ../../../sass/_tool-bar.scss */
+/* line 115, ../../../sass/_tool-bar.scss */
 .tool-bar .input.form-control,
 .tool-bar .input.form-control:focus,
 .tool-bar-flex .input.form-control,
@@ -12610,18 +12617,18 @@ TOOL BAR
   box-shadow: none;
 }
 
-/* line 119, ../../../sass/_tool-bar.scss */
+/* line 123, ../../../sass/_tool-bar.scss */
 .tool-bar-text {
   color: #ffffff;
   font-size: 25px;
 }
 
-/* line 126, ../../../sass/_tool-bar.scss */
+/* line 130, ../../../sass/_tool-bar.scss */
 .ad-sets-tool-bar .dropdown-menu .tooltip {
   margin-left: -30px;
 }
 
-/* line 132, ../../../sass/_tool-bar.scss */
+/* line 136, ../../../sass/_tool-bar.scss */
 .selected-count {
   margin-right: 10px;
 }
