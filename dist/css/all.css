@@ -5992,6 +5992,15 @@ i.cn-icon.cn-share {
 }
 
 /* line 223, ../../../sass/_icons.scss */
+.icn-edit-pencil {
+  background: url(../../js/vendor/ui-kit/assets/light/icn-edit-pencil.svg);
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 231, ../../../sass/_icons.scss */
 .icn-check.sm {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-check.png);
   width: 19px;
@@ -6001,7 +6010,7 @@ i.cn-icon.cn-share {
   margin-top: -4px;
 }
 
-/* line 233, ../../../sass/_icons.scss */
+/* line 241, ../../../sass/_icons.scss */
 .icn-menu {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-menu.svg);
   width: 24px;
@@ -6011,7 +6020,7 @@ i.cn-icon.cn-share {
   margin-top: -4px;
 }
 
-/* line 243, ../../../sass/_icons.scss */
+/* line 251, ../../../sass/_icons.scss */
 .icn-options {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-options.svg);
   width: 24px;
@@ -6021,7 +6030,7 @@ i.cn-icon.cn-share {
   margin-top: -4px;
 }
 
-/* line 253, ../../../sass/_icons.scss */
+/* line 261, ../../../sass/_icons.scss */
 .icn-options-light {
   background: url(../../js/vendor/ui-kit/assets/light/icn-options.svg);
   width: 24px;
@@ -6031,7 +6040,7 @@ i.cn-icon.cn-share {
   margin-top: -4px;
 }
 
-/* line 263, ../../../sass/_icons.scss */
+/* line 271, ../../../sass/_icons.scss */
 .icn-share {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-share.svg);
   width: 24px;
@@ -6041,7 +6050,7 @@ i.cn-icon.cn-share {
   margin-top: -4px;
 }
 
-/* line 273, ../../../sass/_icons.scss */
+/* line 281, ../../../sass/_icons.scss */
 .icn-add {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-add.svg);
   width: 24px;
@@ -6051,7 +6060,7 @@ i.cn-icon.cn-share {
   margin-top: -4px;
 }
 
-/* line 283, ../../../sass/_icons.scss */
+/* line 291, ../../../sass/_icons.scss */
 .icn-audience {
   background: url(../../js/vendor/ui-kit/assets/light/audience.svg);
   width: 22px;
@@ -6060,7 +6069,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 291, ../../../sass/_icons.scss */
+/* line 299, ../../../sass/_icons.scss */
 .icn-cn-short {
   background: url(../../js/vendor/ui-kit/assets/light/mark.svg);
   width: 31px;
@@ -6069,7 +6078,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 299, ../../../sass/_icons.scss */
+/* line 307, ../../../sass/_icons.scss */
 .icn-knobs {
   background: url(../../js/vendor/ui-kit/assets/light/icn-campaign.svg);
   width: 19px;
@@ -6078,7 +6087,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 307, ../../../sass/_icons.scss */
+/* line 315, ../../../sass/_icons.scss */
 .icn-summary {
   background: url(../../js/vendor/ui-kit/assets/light/icn-summary.svg);
   width: 17px;
@@ -6087,7 +6096,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 315, ../../../sass/_icons.scss */
+/* line 323, ../../../sass/_icons.scss */
 .icn-waiting {
   background: url(../../js/vendor/ui-kit/assets/light/icn-waiting.svg);
   width: 20px;
@@ -6096,7 +6105,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 323, ../../../sass/_icons.scss */
+/* line 331, ../../../sass/_icons.scss */
 .icn-alert {
   background: url(../../js/vendor/ui-kit/assets/light/icn-alert.svg);
   width: 20px;
@@ -6105,7 +6114,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 331, ../../../sass/_icons.scss */
+/* line 339, ../../../sass/_icons.scss */
 .icn-img-chart {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-img-chart@2x.png) no-repeat;
   width: 80px;
@@ -6116,7 +6125,7 @@ i.cn-icon.cn-share {
 /******************************************************
 * Icons for tables
 *******************************************************/
-/* line 342, ../../../sass/_icons.scss */
+/* line 350, ../../../sass/_icons.scss */
 .icn-sort-caret {
   background: url(../../js/vendor/ui-kit/assets/light/icn-sort-caret.svg);
   width: 8px;
@@ -6126,16 +6135,16 @@ i.cn-icon.cn-share {
   margin-bottom: 3px;
   margin-left: 3px;
 }
-/* line 352, ../../../sass/_icons.scss */
+/* line 360, ../../../sass/_icons.scss */
 .icn-sort-caret.up {
   transform: rotate(180deg);
 }
-/* line 356, ../../../sass/_icons.scss */
+/* line 364, ../../../sass/_icons.scss */
 .icn-sort-caret.right {
   transform: rotate(270deg);
 }
 
-/* line 361, ../../../sass/_icons.scss */
+/* line 369, ../../../sass/_icons.scss */
 .icn-mini-menu {
   background: url(../../js/vendor/ui-kit/assets/light/icn-mini-menu.svg);
   width: 8px;
