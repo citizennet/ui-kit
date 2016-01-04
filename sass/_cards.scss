@@ -10,9 +10,11 @@
   margin: 2px auto;
 }
 
-div.card {
+div.card,
+div.card-flex {
   border: 1px solid #E7E6EB;
   background-color: #fff;
+  border-radius: $border-radius-large;
 }
 
 // table card is broken out into _cards.scss
@@ -38,9 +40,9 @@ div.card {
   }
 }
 
-table.cards,
-table.cards-flex {
-  tr {
+.cards,
+.cards-flex {
+  tr, .card {
     border-radius: $border-radius-large;
     // fake box shadow
     border-left: 1px solid #E7E6EB;

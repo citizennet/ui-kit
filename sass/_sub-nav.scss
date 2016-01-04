@@ -48,6 +48,7 @@ SUBNAV
           font-weight: 300;
           line-height: 45px;
           letter-spacing: 0.2px;
+          padding: 15px 0;
 
           &:hover {
             text-decoration: none;
@@ -55,12 +56,10 @@ SUBNAV
         }
 
         &.active, &:hover {
-          cursor: pointer;
           a {
             color: $quartz;
+            border-bottom: 5px solid $maya;
           }
-
-          border-bottom: 5px solid $maya;
         }
       }
     }

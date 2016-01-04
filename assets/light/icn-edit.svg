@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="using" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Planning---Audience-1---chart-hover" sketch:type="MSArtboardGroup" transform="translate(-539.000000, -93.000000)" fill="#999FAA">
+            <path d="M539,102.497847 L539,104.9975 L541.499653,104.9975 L548.871962,97.6251906 L546.372309,95.1255378 L539,102.497847 L539,102.497847 Z M550.805027,95.6921257 C551.064991,95.4321619 551.064991,95.0122202 550.805027,94.7522563 L549.245244,93.1924729 C548.98528,92.932509 548.565338,92.932509 548.305374,93.1924729 L547.085544,94.4123035 L549.585197,96.9119563 L550.805027,95.6921257 L550.805027,95.6921257 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
