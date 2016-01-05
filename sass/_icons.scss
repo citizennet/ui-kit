@@ -343,6 +343,16 @@ i.cn-icon {
   background-size: 100%;
 }
 
+.cn-delete.sm {
+  background: url(#{$svg-path}dark/icn-delete-small.svg);
+  width: 11px;
+  height: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  // offset for bad img
+//  margin-top: -4px;
+}
+
 /******************************************************
 * Icons for tables
 *******************************************************/

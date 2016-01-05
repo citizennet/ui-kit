@@ -6285,10 +6285,19 @@ i.cn-icon.cn-share {
   background-size: 100%;
 }
 
+/* line 346, ../../../sass/_icons.scss */
+.cn-delete.sm {
+  background: url(../../js/vendor/ui-kit/assets/dark/icn-delete-small.svg);
+  width: 11px;
+  height: 12px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /******************************************************
 * Icons for tables
 *******************************************************/
-/* line 350, ../../../sass/_icons.scss */
+/* line 360, ../../../sass/_icons.scss */
 .icn-sort-caret {
   background: url(../../js/vendor/ui-kit/assets/light/icn-sort-caret.svg);
   width: 8px;
@@ -6298,16 +6307,16 @@ i.cn-icon.cn-share {
   margin-bottom: 3px;
   margin-left: 3px;
 }
-/* line 360, ../../../sass/_icons.scss */
+/* line 370, ../../../sass/_icons.scss */
 .icn-sort-caret.up {
   transform: rotate(180deg);
 }
-/* line 364, ../../../sass/_icons.scss */
+/* line 374, ../../../sass/_icons.scss */
 .icn-sort-caret.right {
   transform: rotate(270deg);
 }
 
-/* line 369, ../../../sass/_icons.scss */
+/* line 379, ../../../sass/_icons.scss */
 .icn-mini-menu {
   background: url(../../js/vendor/ui-kit/assets/light/icn-mini-menu.svg);
   width: 8px;
