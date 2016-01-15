@@ -220,6 +220,14 @@ i.cn-icon {
   vertical-align: middle;
 }
 
+.icn-edit-pencil {
+  background: url(#{$svg-path}light/icn-edit-pencil.svg);
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .icn-check.sm {
   background: url(#{$svg-path}dark/icn-check.png);
   width: 19px;
@@ -333,6 +341,16 @@ i.cn-icon {
   width: 80px;
   height: 80px;
   background-size: 100%;
+}
+
+.cn-delete.sm {
+  background: url(#{$svg-path}dark/icn-delete-small.svg);
+  width: 11px;
+  height: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  // offset for bad img
+//  margin-top: -4px;
 }
 
 /******************************************************

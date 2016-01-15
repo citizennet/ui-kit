@@ -399,12 +399,6 @@ date-input {
     visibility: hidden;
     outline: 0;
   }
-
-  .btn {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
 }
 
 .form-inline {
@@ -660,7 +654,7 @@ date-input {
     background: url('/images/icn-camera.svg') no-repeat 50% 50%;
   }
 
-  img {
+  img, video {
     max-width: 100%;
   }
 }
