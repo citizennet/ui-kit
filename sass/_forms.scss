@@ -671,6 +671,13 @@ date-input {
   background-color: $white;
   @include border-radius($radii $radii 0 0);
 
+  [disabled] & {
+    background-color: transparent;
+    border: 1px solid $text-field-shadow;
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+
   & + tags-input .host,
   & + .host {
     .input.form-control {
@@ -696,6 +703,10 @@ date-input {
 
     &:hover {
       background-color: $primary-highlight;
+
+      [disabled] & {
+        background-color: transparent;
+      }
 
       .close {
         opacity: 1;
@@ -764,6 +775,17 @@ date-input {
   }
 }
 
+
+.schema-form-array > .list-group > .list-group-item {
+  background-color: rgba(0, 0, 0, .05);
+  border-left: 1px solid #D7D6DB;
+  border-right: 1px solid #D7D6DB;
+  border-bottom: 2px solid #CECECE;
+  border-radius: $border-radius-base;
+  margin-bottom: 15px;
+}
+
+
 /* get rid of?
 
 .cn-radiobuttons {
@@ -826,9 +848,6 @@ fieldset[disabled] .form-control  {
   }
 }
 
-.schema-form-array>.list-group>.list-group-item {
-  background-color: rgba(0, 0, 0, .05);
-}
 
 cn-video-targeting {
   .engagement-spec-list {

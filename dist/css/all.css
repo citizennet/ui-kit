@@ -4413,72 +4413,83 @@ date-input {
   -khtml-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
 }
-/* line 677, ../../../sass/_forms.scss */
+/* line 674, ../../../sass/_forms.scss */
+[disabled] .cn-autocomplete-list.list-group {
+  background-color: transparent;
+  border: 1px solid #E7E6E9;
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+/* line 684, ../../../sass/_forms.scss */
 .has-success .cn-autocomplete-list.list-group + tags-input .host .input.form-control, .has-error .cn-autocomplete-list.list-group + tags-input .host .input.form-control, .has-success .cn-autocomplete-list.list-group + .host .input.form-control, .has-error .cn-autocomplete-list.list-group + .host .input.form-control {
   -webkit-border-radius: 0 0 3px 3px;
   -moz-border-radius: 0 0 3px 3px;
   -khtml-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px;
 }
-/* line 681, ../../../sass/_forms.scss */
+/* line 688, ../../../sass/_forms.scss */
 .has-success .cn-autocomplete-list.list-group + tags-input .host .input.form-control .btn-group > .btn:last-child:not(:first-child), .has-error .cn-autocomplete-list.list-group + tags-input .host .input.form-control .btn-group > .btn:last-child:not(:first-child), .has-success .cn-autocomplete-list.list-group + .host .input.form-control .btn-group > .btn:last-child:not(:first-child), .has-error .cn-autocomplete-list.list-group + .host .input.form-control .btn-group > .btn:last-child:not(:first-child) {
   -webkit-border-radius: 0 0 3px 0;
   -moz-border-radius: 0 0 3px 0;
   -khtml-border-radius: 0 0 3px 0;
   border-radius: 0 0 3px 0;
 }
-/* line 688, ../../../sass/_forms.scss */
+/* line 695, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item {
   padding: 0 35px 0 0;
   background-color: transparent;
   border: 0;
 }
-/* line 693, ../../../sass/_forms.scss */
+/* line 700, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item:last-child {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -khtml-border-radius: 0;
   border-radius: 0;
 }
-/* line 697, ../../../sass/_forms.scss */
+/* line 704, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item:hover {
   background-color: #c8e4f0;
 }
-/* line 700, ../../../sass/_forms.scss */
+/* line 707, ../../../sass/_forms.scss */
+[disabled] .cn-autocomplete-list.list-group .list-group-item:hover {
+  background-color: transparent;
+}
+/* line 711, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item:hover .close {
   opacity: 1;
 }
-/* line 705, ../../../sass/_forms.scss */
+/* line 716, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item:first-child {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-/* line 717, ../../../sass/_forms.scss */
+/* line 728, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .form-control {
   min-height: 32px;
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 722, ../../../sass/_forms.scss */
+/* line 733, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .form-control,
 .cn-autocomplete-list.list-group .list-group-item .btn {
   height: 32px;
   margin: 1px 0;
 }
-/* line 726, ../../../sass/_forms.scss */
+/* line 737, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .form-control[disabled],
 .cn-autocomplete-list.list-group .list-group-item .btn[disabled] {
   border: 0;
   background: transparent;
 }
-/* line 733, ../../../sass/_forms.scss */
+/* line 744, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item > .tag-item {
   display: block;
   padding: 1px 8px;
   line-height: 32px;
   margin: 0;
 }
-/* line 740, ../../../sass/_forms.scss */
+/* line 751, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .close {
   position: absolute;
   z-index: 99;
@@ -4486,22 +4497,32 @@ date-input {
   right: 10px;
   opacity: 0;
 }
-/* line 747, ../../../sass/_forms.scss */
+/* line 758, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .close:hover {
   color: #e65d6d;
 }
-/* line 752, ../../../sass/_forms.scss */
+/* line 763, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .form-group {
   margin-bottom: 0;
 }
-/* line 756, ../../../sass/_forms.scss */
+/* line 767, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .help-block {
   margin: 0;
 }
-/* line 760, ../../../sass/_forms.scss */
+/* line 771, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .btn {
   padding-top: 6px;
   padding-bottom: 6px;
+}
+
+/* line 779, ../../../sass/_forms.scss */
+.schema-form-array > .list-group > .list-group-item {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-left: 1px solid #D7D6DB;
+  border-right: 1px solid #D7D6DB;
+  border-bottom: 2px solid #CECECE;
+  border-radius: 3px;
+  margin-bottom: 15px;
 }
 
 /* get rid of?
@@ -4566,9 +4587,6 @@ fieldset[disabled] .form-control  {
   }
 }
 
-.schema-form-array>.list-group>.list-group-item {
-  background-color: rgba(0, 0, 0, .05);
-}
 
 cn-video-targeting {
   .engagement-spec-list {
@@ -5257,12 +5275,7 @@ fieldset[disabled] .form-control {
   border-radius: 0 3px 3px 0;
 }
 
-/* line 500, ../../../sass/_buttons.scss */
-.schema-form-array > .list-group > .list-group-item {
-  background-color: rgba(0, 0, 0, 0.05);
-}
-
-/* line 507, ../../../sass/_buttons.scss */
+/* line 503, ../../../sass/_buttons.scss */
 cn-video-targeting .engagement-spec-list video {
   width: 100%;
 }
