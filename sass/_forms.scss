@@ -780,6 +780,18 @@ date-input {
 }
 
 
+.cn-reusable {
+  position: relative;
+
+  p.toggle-view {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+
+
 /* get rid of?
 
 .cn-radiobuttons {
