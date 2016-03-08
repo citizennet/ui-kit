@@ -811,9 +811,7 @@ date-input {
 .cn-batch-options {
   padding: 10px 20px;
   //border: 1px solid $light-grey;
-  background-color: rgba(0, 0, 0, .025);
-  border: 1px solid $light-grey;
-  border-top: 2px solid $mid-light-grey;
+  background-color: rgba(0, 0, 0, .05);
   border-radius: $border-radius-base;
   position: relative;
   clear: both;
@@ -821,27 +819,17 @@ date-input {
   //margin-top: 11px;
   //display: inline-block;
 
-  &::before, &::after {
+  &::before/*, &::after*/ {
     content: ' ';
     position: absolute;
     left: 50%;
+    top: -22px;
+    border-width: 11px;
+    margin-left: -11px;
     background: transparent;
     border-color: transparent;
     border-style: solid;
-  }
-
-  &::before {
-    top: -24px;
-    border-width: 11px;
-    margin-left: -11px;
-    border-bottom-color: $mid-light-grey;
-  }
-
-  &::after {
-    top: -20px;
-    margin-left: -10px;
-    border-width: 10px;
-    border-bottom-color: rgba(255,255,255,.525);
+    border-bottom-color: rgba(0, 0, 0, .05);
   }
 }
 

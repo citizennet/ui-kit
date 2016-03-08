@@ -4566,36 +4566,24 @@ date-input {
 /* line 811, ../../../sass/_forms.scss */
 .cn-batch-options {
   padding: 10px 20px;
-  background-color: rgba(0, 0, 0, 0.025);
-  border: 1px solid #d8d8d8;
-  border-top: 2px solid #cecece;
+  background-color: rgba(0, 0, 0, 0.05);
   border-radius: 3px;
   position: relative;
   clear: both;
   margin-top: 21px;
 }
-/* line 824, ../../../sass/_forms.scss */
-.cn-batch-options::before, .cn-batch-options::after {
+/* line 822, ../../../sass/_forms.scss */
+.cn-batch-options::before {
   content: ' ';
   position: absolute;
   left: 50%;
+  top: -22px;
+  border-width: 11px;
+  margin-left: -11px;
   background: transparent;
   border-color: transparent;
   border-style: solid;
-}
-/* line 833, ../../../sass/_forms.scss */
-.cn-batch-options::before {
-  top: -24px;
-  border-width: 11px;
-  margin-left: -11px;
-  border-bottom-color: #cecece;
-}
-/* line 840, ../../../sass/_forms.scss */
-.cn-batch-options::after {
-  top: -20px;
-  margin-left: -10px;
-  border-width: 10px;
-  border-bottom-color: rgba(255, 255, 255, 0.525);
+  border-bottom-color: rgba(0, 0, 0, 0.05);
 }
 
 /* get rid of?
