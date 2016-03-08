@@ -772,9 +772,9 @@ date-input {
 
 .schema-form-array > .list-group > .list-group-item {
   background-color: rgba(0, 0, 0, .05);
-  border-left: 1px solid #D7D6DB;
-  border-right: 1px solid #D7D6DB;
-  border-bottom: 2px solid #CECECE;
+  border-left: 1px solid $light-grey;
+  border-right: 1px solid $light-grey;
+  border-bottom: 2px solid $mid-light-grey;
   border-radius: $border-radius-base;
   margin-bottom: 15px;
 }
@@ -790,7 +790,48 @@ date-input {
   }
 }
 
+.cn-batch-wrapper {
+  position: relative;
 
+  .cn-batch-field {
+    margin-right: 40px;
+  }
+
+  .cn-dirty-check {
+    position: absolute;
+    top: 34px;
+    right: 0;
+
+    &.notitle {
+      top: 6px;
+    }
+  }
+}
+
+.cn-batch-options {
+  padding: 10px 20px;
+  //border: 1px solid $light-grey;
+  background-color: rgba(0, 0, 0, .05);
+  border-radius: $border-radius-base;
+  position: relative;
+  clear: both;
+  margin-top: 21px;
+  //margin-top: 11px;
+  //display: inline-block;
+
+  &::before/*, &::after*/ {
+    content: ' ';
+    position: absolute;
+    left: 50%;
+    top: -22px;
+    border-width: 11px;
+    margin-left: -11px;
+    background: transparent;
+    border-color: transparent;
+    border-style: solid;
+    border-bottom-color: rgba(0, 0, 0, .05);
+  }
+}
 
 /* get rid of?
 

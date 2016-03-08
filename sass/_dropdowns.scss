@@ -74,7 +74,7 @@
 
   h6 {
     color: $supporting-text;
-    padding-left: 15px;
+    padding: 10px;
   }
 
   > li {
@@ -112,18 +112,21 @@
       display: block;
       color: #3F3F41;
       font-weight: 400;
+      padding: 8px 0;
       &:hover {
         text-decoration: none;
-        background-color: $quartz;
+        color: $primary-color;
+        background-color: $light-quartz;
       }
       &.selected {
         font-weight: bold;
+        background-color: $quartz;
       }
     }
   }
 
   &.dropdown-menu-wide {
-    width: 800px;
+    width: 900px;
   }
 }
 

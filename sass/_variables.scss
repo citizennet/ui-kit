@@ -498,19 +498,19 @@ $jumbotron-heading-font-size: ceil(($font-size-base * 4.5)) !default;
 //
 //## Define colors for form feedback states and, by default, alerts.
 
-$state-success-text: #3c763d !default;
+$state-success-text: $brand-success !default;
 $state-success-bg: #dff0d8 !default;
 $state-success-border: darken(adjust-hue($state-success-bg, -10), 5%) !default;
 
-$state-info-text: #31708f !default;
+$state-info-text: $brand-info !default;
 $state-info-bg: #d9edf7 !default;
 $state-info-border: darken(adjust-hue($state-info-bg, -10), 7%) !default;
 
-$state-warning-text: #8a6d3b !default;
+$state-warning-text: $brand-warning !default;
 $state-warning-bg: #fcf8e3 !default;
 $state-warning-border: darken(adjust-hue($state-warning-bg, -10), 5%) !default;
 
-$state-danger-text: #a94442 !default;
+$state-danger-text: $brand-danger !default;
 $state-danger-bg: #f2dede !default;
 $state-danger-border: darken(adjust-hue($state-danger-bg, -10), 5%) !default;
 
@@ -868,11 +868,13 @@ $black: #1C1E29;
 $danger: #e65d6d;
 $lighter-grey: #f0eff2;
 $light-grey: #d8d8d8;
+$mid-light-grey: #cecece;
 $mid-grey: #939196;
 $dark-grey: #1e222e;
 $darker-grey: $black;
 $charcoal: #323A45;
 $grey: #747C83;
+$light-quartz: #f6f6f9;
 $quartz: #F0F0F3;
 $slate: #46535D;
 $silver: #999FAA;
