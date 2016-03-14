@@ -15,18 +15,18 @@ floating-action-button {
 
   &.fixed {
     position: absolute;
-    top: 200px;
+    top: 170px;
     left: 549px;
     bottom: auto;
     margin-left: 50%;
 
     // hack to handle moving fab
     &.upper {
-      top: 155px;
+      top: 138px;
     }
 
     &.requests-upper {
-      top: 82px;
+      top: 65px;
       z-index: -2;
     }
   }

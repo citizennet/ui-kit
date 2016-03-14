@@ -5,8 +5,9 @@ SUBNAV
 .cn-sub-navbar-fixed-top {
   background-color: $top-sub-nav-bg;
   width: 100%;
-  padding: 25px 0 0;
+  padding: 0;
   z-index: 1020;
+  min-height: 92px;
 
   .btn-options {
     margin: 15px 0;
@@ -14,6 +15,10 @@ SUBNAV
     .btn-transparent:last-child {
       padding-right: 0;
     }
+  }
+
+  h1 {
+    margin: 10px 0;
   }
 
   .sub-sub-nav {
