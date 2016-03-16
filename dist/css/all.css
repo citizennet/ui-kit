@@ -8581,7 +8581,7 @@ tbody.collapse.in {
 }
 /* line 101, ../../../sass/_dropdowns.scss */
 .dropdown-menu.dropdown-menu-filters {
-  max-height: 400px;
+  max-height: none;
   padding-bottom: 20px;
   min-width: 500px;
 }
