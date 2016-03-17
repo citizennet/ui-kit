@@ -41,6 +41,8 @@ section {
 fieldset {
   padding: 55px 0 0;
   position: relative;
+  //fucking browser sets min-width: min-content by default
+  min-width: inherit;
 
   legend {
     position: absolute;
@@ -832,77 +834,3 @@ date-input {
     border-bottom-color: rgba(0, 0, 0, .05);
   }
 }
-
-/* get rid of?
-
-.cn-radiobuttons {
-  .btn-group {
-    display: block;
-
-    .btn {
-      &.active {
-        background-color: #C6C3C7;
-      }
-    }
-
-    .btn-facebook {
-      //      width: 50%;
-
-      &.active {
-        background-color: $fb-blue;
-        border-color: $fb-border;
-        color: $white
-      }
-    }
-
-    .btn-twitter {
-      //      width: 50%;
-
-      &.active {
-        background-color: $tw-blue;
-        border-color: $tw-border;
-        color: $white
-      }
-    }
-
-    .btn-instagram {
-      //      width: 50%;
-
-      &.active {
-        background-color: $ig-brown;
-        border-color: $ig-border;
-        color: $white
-      }
-    }
-  }
-}
-
-.form-control[disabled],
-fieldset[disabled] .form-control  {
-  cursor: default;
-}
-
-.btn-input-group-start {
-  &, & .form-control {
-    border-radius: $radii 0 0 $radii;
-  }
-}
-
-
-.btn-input-group-end {
-  &, & .form-control {
-    border-radius: 0 $radii $radii 0;
-  }
-}
-
-
-cn-video-targeting {
-  .engagement-spec-list {
-
-    video {
-      width: 100%;
-    }
-  }
-}
-
-*/
