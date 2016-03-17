@@ -4587,18 +4587,6 @@ date-input {
   border-bottom-color: rgba(0, 0, 0, 0.05);
 }
 
-/* directives */
-/* line 839, ../../../sass/_forms.scss */
-ui-view,
-cn-form,
-cn-flex-form,
-ng-form,
-bootstrap-decorator,
-sf-decorator,
-tags-input {
-  display: block;
-}
-
 /* line 8, ../../../sass/_buttons.scss */
 .btn {
   display: inline-block;
@@ -11210,16 +11198,16 @@ tags-input .tag-item.tag-item-read-only {
 .tag-item.label-block {
   display: block;
   text-align: left;
-  width: 100%;
   margin: 2px 0;
   padding: 9px 6px;
+  margin-right: 30px;
 }
-/* line 171, ../../../sass/_cn-tags-input.scss */
+/* line 172, ../../../sass/_cn-tags-input.scss */
 [disabled] .tag-item.label-block {
   background: transparent;
 }
 
-/* line 177, ../../../sass/_cn-tags-input.scss */
+/* line 178, ../../../sass/_cn-tags-input.scss */
 .tag-list + .input {
   padding-left: 0;
 }
