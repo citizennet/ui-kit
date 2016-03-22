@@ -4527,44 +4527,41 @@ date-input {
 /* line 775, ../../../sass/_forms.scss */
 .schema-form-array > .list-group > .list-group-item {
   background-color: rgba(0, 0, 0, 0.05);
-  border-left: 1px solid #d8d8d8;
-  border-right: 1px solid #d8d8d8;
-  border-bottom: 2px solid #cecece;
   border-radius: 3px;
   margin-bottom: 15px;
 }
 
-/* line 785, ../../../sass/_forms.scss */
+/* line 782, ../../../sass/_forms.scss */
 .cn-reusable {
   position: relative;
 }
-/* line 788, ../../../sass/_forms.scss */
+/* line 785, ../../../sass/_forms.scss */
 .cn-reusable p.toggle-view {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-/* line 795, ../../../sass/_forms.scss */
+/* line 792, ../../../sass/_forms.scss */
 .cn-batch-wrapper {
   position: relative;
 }
-/* line 798, ../../../sass/_forms.scss */
+/* line 795, ../../../sass/_forms.scss */
 .cn-batch-wrapper .cn-batch-field {
   margin-right: 40px;
 }
-/* line 802, ../../../sass/_forms.scss */
+/* line 799, ../../../sass/_forms.scss */
 .cn-batch-wrapper .cn-dirty-check {
   position: absolute;
   top: 34px;
   right: 0;
 }
-/* line 807, ../../../sass/_forms.scss */
+/* line 804, ../../../sass/_forms.scss */
 .cn-batch-wrapper .cn-dirty-check.notitle {
   top: 6px;
 }
 
-/* line 813, ../../../sass/_forms.scss */
+/* line 810, ../../../sass/_forms.scss */
 .cn-batch-options {
   padding: 10px 20px;
   background-color: rgba(0, 0, 0, 0.05);
@@ -4573,7 +4570,7 @@ date-input {
   clear: both;
   margin-top: 21px;
 }
-/* line 824, ../../../sass/_forms.scss */
+/* line 821, ../../../sass/_forms.scss */
 .cn-batch-options::before {
   content: ' ';
   position: absolute;
