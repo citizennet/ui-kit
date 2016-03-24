@@ -343,12 +343,18 @@ i.cn-icon {
   background-size: 100%;
 }
 
-.cn-delete.sm {
+.cn-delete {
   background: url(#{$svg-path}dark/icn-delete-small.svg);
-  width: 11px;
-  height: 12px;
+  width: 20px;
+  height:  21px;
   display: inline-block;
   vertical-align: middle;
+  background-size: 100%;
+
+  &.sm {
+    width: 11px;
+    height: 12px;
+  }
   // offset for bad img
 //  margin-top: -4px;
 }
