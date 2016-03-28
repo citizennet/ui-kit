@@ -90,29 +90,34 @@
 // Modal header
 // Top section of the modal w/ title and dismiss
 .modal-header {
-  min-height: ($modal-title-padding + $modal-title-line-height);
 
+  min-height: ($modal-title-padding + $modal-title-line-height);
   padding: 12px;
-//  height: 58px;
   border-bottom: 1px solid #DEDEDE;
 
   background-color: #F9F9FB;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 
-  span.title {
+  span.title,
+  h1 {
     color: $charcoal;
-    margin: 0 0 0 7px;
+    margin: 10px 0 10px 7px;
     font-weight: 300;
     display: inline-block;
     font-size: 19px;
     line-height: 35px;
   }
 
+  .page-action-btns {
+    float: right;
+    margin: 10px 7px 10px 0;
+  }
+
   .btn {
     // maybe make more specific or add .pull-right, as not needed for all
     // modal buttons (see creative `choose` post modal)
-//    float: right;
+    //    float: right;
     margin-left: 10px;
   }
 }
@@ -252,7 +257,10 @@
 .modal-content {
   background-color: $modal-bg;
   font-size: 13px;
-  border-radius: 7px;
+  border-radius: $border-radius-large;
+  // lazy way to maintain border radius, if gets in the way, look at
+  // modal for duplicating ad sets across campaigns
+  overflow: hidden;
 
   .dropdown-toggle {
     width: 100%;
@@ -268,10 +276,10 @@
     margin-top: 0;
   }
 
-  h1 {
-    margin-top: 0;
-    color: $modal-text;
-  }
+  //h1 {
+  //  margin-top: 0;
+  //  color: $modal-text;
+  //}
 
   h2 {
     color: $modal-text;
@@ -307,6 +315,11 @@
     &.cn-list {
       padding: 0;
       border-bottom: 0;
+    }
+
+    &:last-child {
+      border-bottom-left-radius: $border-radius-large;
+      border-bottom-right-radius: $border-radius-large;
     }
   }
 
