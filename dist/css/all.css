@@ -10358,7 +10358,7 @@ floating-action-button .dropdown-menu.open {
 
 /* line 257, ../../../sass/_modals.scss */
 .modal-content {
-  background-color: #EDEAEF;
+  background-color: #f0eff2;
   font-size: 13px;
   border-radius: 5px;
   overflow: hidden;
@@ -12637,8 +12637,12 @@ TOOL BAR
   background: transparent;
 }
 /* line 115, ../../../sass/_tool-bar.scss */
+.tool-bar input.form-control,
+.tool-bar input.form-control:focus,
 .tool-bar .input.form-control,
 .tool-bar .input.form-control:focus,
+.tool-bar-flex input.form-control,
+.tool-bar-flex input.form-control:focus,
 .tool-bar-flex .input.form-control,
 .tool-bar-flex .input.form-control:focus {
   background: transparent;
@@ -12647,18 +12651,18 @@ TOOL BAR
   box-shadow: none;
 }
 
-/* line 123, ../../../sass/_tool-bar.scss */
+/* line 125, ../../../sass/_tool-bar.scss */
 .tool-bar-text {
   color: #ffffff;
   font-size: 25px;
 }
 
-/* line 130, ../../../sass/_tool-bar.scss */
+/* line 132, ../../../sass/_tool-bar.scss */
 .ad-sets-tool-bar .dropdown-menu .tooltip {
   margin-left: -30px;
 }
 
-/* line 136, ../../../sass/_tool-bar.scss */
+/* line 138, ../../../sass/_tool-bar.scss */
 .selected-count {
   margin-right: 10px;
 }
