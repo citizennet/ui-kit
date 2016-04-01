@@ -326,6 +326,11 @@ label.btn, select.form-control {
   background-color: $dropdown-bg;
   padding: 5px 15px;
   height: 39px;
+
+  &.btn-sm {
+    padding: 2px 10px;
+    height: 33px;
+  }
 }
 
 //input[type="text"]:focus {
