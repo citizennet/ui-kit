@@ -5634,13 +5634,13 @@ mark,
 
 /* line 5, ../../../sass/mixins/_text-emphasis.scss */
 .text-primary {
-  color: #337ab7;
+  color: #03A9F4;
 }
 
 /* line 8, ../../../sass/mixins/_text-emphasis.scss */
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #286090;
+  color: #0286c2;
 }
 
 /* line 5, ../../../sass/mixins/_text-emphasis.scss */
