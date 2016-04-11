@@ -186,6 +186,12 @@ i.cn-icon {
     background: url(#{$svg-path}light/switch-off.png);
     background-size: 24px 15px;
   }
+
+  &.undefined,
+  &.schrodinger {
+    background: url(#{$svg-path}light/switch-undefined.png);
+    background-size: 24px 15px;
+  }
 }
 
 .icn-analyze {

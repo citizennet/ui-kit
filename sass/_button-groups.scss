@@ -18,6 +18,13 @@
     &.active {
       z-index: 2;
     }
+
+    // move to .cn-radiobuttons below if more specificity needed
+    &:active,
+    &.active {
+      background-color: $grey;
+      color: $white;
+    }
   }
 }
 
