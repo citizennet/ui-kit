@@ -4573,8 +4573,9 @@ date-input {
   border-radius: 3px;
   position: relative;
   clear: both;
+  margin-bottom: 25px;
 }
-/* line 825, ../../../sass/_forms.scss */
+/* line 826, ../../../sass/_forms.scss */
 .cn-batch-options::before {
   content: ' ';
   position: absolute;
