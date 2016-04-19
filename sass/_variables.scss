@@ -19,6 +19,7 @@ $gray-light: lighten($gray-base, 46.7%) !default;
 $gray-lighter: lighten($gray-base, 93.5%) !default;
 // #eee
 
+//$brand-primary: darken(#428bca, 6.5%) !default;
 $brand-primary: darken(#428bca, 6.5%) !default;
 // #337ab7
 $brand-success: #5cb85c !default;
@@ -1011,7 +1012,7 @@ $cn-definition-small: #545157;
 $cn-definition-divider: #D8D8D8;
 
 // modal
-$modal-bg: #EDEAEF;
+$modal-bg: $lighter-grey;
 $modal-text: #302A37;
 $modal-text-light: #808080;
 

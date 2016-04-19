@@ -41,6 +41,8 @@ section {
 fieldset {
   padding: 55px 0 0;
   position: relative;
+  //fucking browser sets min-width: min-content by default
+  min-width: inherit;
 
   legend {
     position: absolute;
@@ -772,9 +774,6 @@ date-input {
 
 .schema-form-array > .list-group > .list-group-item {
   background-color: rgba(0, 0, 0, .05);
-  border-left: 1px solid $light-grey;
-  border-right: 1px solid $light-grey;
-  border-bottom: 2px solid $mid-light-grey;
   border-radius: $border-radius-base;
   margin-bottom: 15px;
 }
@@ -808,6 +807,10 @@ date-input {
   }
 }
 
+.form-group .cn-toggle {
+  margin: 6px 0;
+}
+
 .cn-batch-options {
   padding: 10px 20px;
   //border: 1px solid $light-grey;
@@ -815,7 +818,8 @@ date-input {
   border-radius: $border-radius-base;
   position: relative;
   clear: both;
-  margin-top: 21px;
+  margin-bottom: 25px;
+  //margin-top: 21px;
   //margin-top: 11px;
   //display: inline-block;
 
@@ -832,77 +836,3 @@ date-input {
     border-bottom-color: rgba(0, 0, 0, .05);
   }
 }
-
-/* get rid of?
-
-.cn-radiobuttons {
-  .btn-group {
-    display: block;
-
-    .btn {
-      &.active {
-        background-color: #C6C3C7;
-      }
-    }
-
-    .btn-facebook {
-      //      width: 50%;
-
-      &.active {
-        background-color: $fb-blue;
-        border-color: $fb-border;
-        color: $white
-      }
-    }
-
-    .btn-twitter {
-      //      width: 50%;
-
-      &.active {
-        background-color: $tw-blue;
-        border-color: $tw-border;
-        color: $white
-      }
-    }
-
-    .btn-instagram {
-      //      width: 50%;
-
-      &.active {
-        background-color: $ig-brown;
-        border-color: $ig-border;
-        color: $white
-      }
-    }
-  }
-}
-
-.form-control[disabled],
-fieldset[disabled] .form-control  {
-  cursor: default;
-}
-
-.btn-input-group-start {
-  &, & .form-control {
-    border-radius: $radii 0 0 $radii;
-  }
-}
-
-
-.btn-input-group-end {
-  &, & .form-control {
-    border-radius: 0 $radii $radii 0;
-  }
-}
-
-
-cn-video-targeting {
-  .engagement-spec-list {
-
-    video {
-      width: 100%;
-    }
-  }
-}
-
-*/
