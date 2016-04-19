@@ -118,6 +118,14 @@ i.cn-icon {
   vertical-align: middle;
 }
 
+.icn-youtube-dark {
+  background: url(#{$svg-path}socialmedia/light/icn-youtube.svg);
+  width: 20px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .icn-facebook {
   background: url(#{$svg-path}socialmedia/dark-active/icn-facebook.svg);
   width: 24px;
