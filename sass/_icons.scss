@@ -150,6 +150,14 @@ i.cn-icon {
   vertical-align: middle;
 }
 
+.icn-avatar-person-light {
+  background: url(#{$svg-path}/light/icn-avatar-person.svg);
+  width: 33px;
+  height: 33px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .icn-search {
   background: url(#{$svg-path}dark/icn-search-darker.svg);
   width: 24px;
