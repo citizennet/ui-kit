@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>icn-avatar-person</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="16" cy="16" r="16"></circle>
+    </defs>
+    <g id="influencers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="influencers---results-copy" transform="translate(-622.000000, -227.000000)">
+            <g id="Group-17" transform="translate(555.000000, 207.000000)">
+                <g id="Group-25" transform="translate(67.000000, 20.000000)">
+                    <g id="icn-avatar-person">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Oval-105" fill="#E6E9F0" xlink:href="#path-1"></use>
+                        <path d="M16,16 C17.93375,16 19.5,14.43375 19.5,12.5 C19.5,10.56625 17.93375,9 16,9 C14.06625,9 12.5,10.56625 12.5,12.5 C12.5,14.43375 14.06625,16 16,16 L16,16 Z M16,17.75 C13.66375,17.75 9,18.9225 9,21.25 L9,23 L23,23 L23,21.25 C23,18.9225 18.33625,17.75 16,17.75 L16,17.75 Z" id="Shape" fill="#B9BCCB" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
