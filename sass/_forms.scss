@@ -776,6 +776,13 @@ date-input {
   background-color: rgba(0, 0, 0, .05);
   border-radius: $border-radius-base;
   margin-bottom: 15px;
+
+  > button.close {
+    position: absolute;
+    top: 7px;
+    right: 14px;
+    z-index: 20;
+  }
 }
 
 
