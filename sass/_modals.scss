@@ -260,7 +260,8 @@
   border-radius: $border-radius-large;
   // lazy way to maintain border radius, if gets in the way, look at
   // modal for duplicating ad sets across campaigns
-  overflow: hidden;
+  // @update April 27, 2016 - this partially hides dropdowns at the bottom of a modal. :/
+  // overflow: hidden;
 
   .dropdown-toggle {
     width: 100%;
