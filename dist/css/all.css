@@ -5391,6 +5391,32 @@ table.fixed {
   vertical-align: top;
 }
 
+/* line 506, ../../../sass/_tables.scss */
+.cn-ff-table .row {
+  border-top: 1px solid #d8d8d8;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 507, ../../../sass/_tables.scss */
+.cn-ff-table .row:first-of-type {
+  border-top: none;
+}
+/* line 509, ../../../sass/_tables.scss */
+.cn-ff-table .row:first-of-type p.column-header {
+  color: #97949A;
+  font-size: 0.90em;
+  font-weight: 200;
+}
+/* line 515, ../../../sass/_tables.scss */
+.cn-ff-table .row p:first-of-type {
+  font-weight: 800;
+  margin-bottom: 0;
+}
+/* line 522, ../../../sass/_tables.scss */
+.cn-ff-table .row div:first-child {
+  padding-left: 0;
+}
+
 /************************************************************************
 EDITOR
 ************************************************************************/
