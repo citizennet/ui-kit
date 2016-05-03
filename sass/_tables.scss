@@ -415,42 +415,6 @@ table {
     &.card {
       border-bottom: none;
     }
-
-    td.toggle-collapse {
-      width: 45px;
-    }
-    .grouped-list {
-      border: none;
-
-      td.toggle-collapse {
-        width: 0;
-        padding: 12px;
-      }
-    }
-    td.ad-set-name {
-      width: 120px;
-    }
-    td.toggle-status {
-      width: 72px;
-    }
-    td.delivery-status {
-      width: 140px;
-    }
-    td.kpi-stat {
-      width: 180px;
-    }
-    td.campaign-name {
-      width: 300px;
-    }
-    td.date {
-      width: 87px;
-    }
-    td.spend-breakdown {
-      width: 150px;
-    }
-    td.edit-btn {
-      width: 66px;
-    }
   }
 
   .label {
