@@ -501,3 +501,26 @@ table {
 .top-heavy > thead > tr > th {
   vertical-align: top;
 }
+
+.cn-ff-table {
+  .row {
+    &:first-of-type {
+      border-top: none;
+      p.column-header {
+        color: #97949A;
+        font-size: 0.90em;
+        font-weight: 200;
+      }
+    }
+    p:first-of-type {
+      font-weight: 800;
+      margin-bottom: 0;
+    }
+    border-top: 1px solid #d8d8d8;
+    margin-left: 0;
+    margin-right: 0;
+    div:first-child {
+      padding-left: 0;
+    }
+  }
+}
