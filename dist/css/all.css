@@ -7703,8 +7703,8 @@ i.cn-icon.cn-share {
 /* line 153, ../../../sass/_icons.scss */
 .icn-avatar-person-light {
   background: url(../../js/vendor/ui-kit/assets//light/icn-avatar-person.svg);
-  width: 33px;
-  height: 33px;
+  width: 32px;
+  height: 32px;
   display: inline-block;
   vertical-align: middle;
 }
