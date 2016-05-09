@@ -7673,6 +7673,14 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
+.icn-google-dark {
+  background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-google-plus.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /* line 129, ../../../sass/_icons.scss */
 .icn-facebook {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/dark-active/icn-facebook.svg);
