@@ -126,6 +126,14 @@ i.cn-icon {
   vertical-align: middle;
 }
 
+.icn-google-dark {
+  background: url(#{$svg-path}socialmedia/light/icn-google-plus.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .icn-facebook {
   background: url(#{$svg-path}socialmedia/dark-active/icn-facebook.svg);
   width: 24px;
