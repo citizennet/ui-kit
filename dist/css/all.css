@@ -7626,12 +7626,12 @@ i.cn-icon.cn-share {
 
 .icn-google-dark {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-google-plus.svg);
-  width: 18px;
+  width: 24px;
   height: 14px;
   display: inline-block;
   vertical-align: middle;
   background-repeat: no-repeat;
-  margin-left: 7px; 
+  margin-left: 4px; 
 }
 
 /* line 129, ../../../sass/_icons.scss */
