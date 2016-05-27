@@ -7884,6 +7884,15 @@ i.cn-icon.cn-share {
 }
 
 /* line 363, ../../../sass/_icons.scss */
+.icn-filter {
+  background: url(../../js/vendor/ui-kit/assets/light/icn-filter.svg);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 371, ../../../sass/_icons.scss */
 .icn-alert {
   background: url(../../js/vendor/ui-kit/assets/light/icn-alert.svg);
   width: 20px;
@@ -7892,7 +7901,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 371, ../../../sass/_icons.scss */
+/* line 379, ../../../sass/_icons.scss */
 .icn-img-chart {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-img-chart@2x.png) no-repeat;
   width: 179px;
@@ -7900,7 +7909,7 @@ i.cn-icon.cn-share {
   background-size: 100%;
 }
 
-/* line 378, ../../../sass/_icons.scss */
+/* line 386, ../../../sass/_icons.scss */
 .cn-delete {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-delete-small.svg);
   width: 20px;
@@ -7909,7 +7918,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
   background-size: 100%;
 }
-/* line 386, ../../../sass/_icons.scss */
+/* line 394, ../../../sass/_icons.scss */
 .cn-delete.sm {
   width: 11px;
   height: 12px;
@@ -7918,7 +7927,7 @@ i.cn-icon.cn-share {
 /******************************************************
 * Icons for tables
 *******************************************************/
-/* line 398, ../../../sass/_icons.scss */
+/* line 406, ../../../sass/_icons.scss */
 .icn-sort-caret {
   background: url(../../js/vendor/ui-kit/assets/light/icn-sort-caret.svg);
   width: 8px;
@@ -7928,16 +7937,16 @@ i.cn-icon.cn-share {
   margin-bottom: 3px;
   margin-left: 3px;
 }
-/* line 408, ../../../sass/_icons.scss */
+/* line 416, ../../../sass/_icons.scss */
 .icn-sort-caret.up {
   transform: rotate(180deg);
 }
-/* line 412, ../../../sass/_icons.scss */
+/* line 420, ../../../sass/_icons.scss */
 .icn-sort-caret.right {
   transform: rotate(270deg);
 }
 
-/* line 417, ../../../sass/_icons.scss */
+/* line 425, ../../../sass/_icons.scss */
 .icn-mini-menu {
   background: url(../../js/vendor/ui-kit/assets/light/icn-mini-menu.svg);
   width: 8px;

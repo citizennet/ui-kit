@@ -133,7 +133,7 @@ i.cn-icon {
   display: inline-block;
   vertical-align: middle;
   background-repeat: no-repeat;
-  margin-left: 4px; 
+  margin-left: 4px;
 }
 
 .icn-facebook {
@@ -356,6 +356,14 @@ i.cn-icon {
   background: url(#{$svg-path}light/icn-waiting.svg);
   width: 20px;
   height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icn-filter {
+  background: url(#{$svg-path}light/icn-filter.svg);
+  width: 10px;
+  height: 8px;
   display: inline-block;
   vertical-align: middle;
 }
