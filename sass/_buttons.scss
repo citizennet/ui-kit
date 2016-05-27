@@ -147,6 +147,10 @@
     border-color: $fb-border;
     color: $white;
 
+    .cn-form-head & {
+      border-color: darken($fb-border, 25)
+    }
+
     &:hover,
     &.active {
       background-color: lighten($fb-blue, 10);
@@ -159,6 +163,10 @@
     background-color: $tw-blue;
     border-color: $tw-border;
     color: $white;
+
+    .cn-form-head & {
+      border-color: darken($tw-border, 25)
+    }
 
     &:hover,
     &.active {
