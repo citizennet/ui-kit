@@ -195,6 +195,23 @@ table {
     }
   }
 
+  .table-condensed {
+    >thead,
+    >tbody {
+      >tr:not(.grouped-list) {
+        >th,
+        >td {
+          padding: 15px 5px 15px 5px;
+        }
+
+        >th:first-child,
+        >td:first-child {
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+
   thead {
     tr {
       height: 55px;
