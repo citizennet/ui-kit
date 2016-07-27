@@ -2,26 +2,129 @@
 SUBNAV
 ************************************************************************/
 
+// cn-sub-navbar-fixed-top is an ugly name
+// let's switch to cn-mast-head
 .cn-sub-navbar-fixed-top {
+  min-height: 92px;
+}
+
+.cn-mast-head {
+  min-height: 82px;
+}
+
+.cn-sub-navbar-fixed-top,
+.cn-mast-head {
   background-color: $top-sub-nav-bg;
   width: 100%;
   padding: 0;
   z-index: 1020;
-  min-height: 92px;
 
   .btn-options {
-    margin: 15px 0;
+    margin: 10px 0;
 
     .btn-transparent:last-child {
       padding-right: 0;
     }
   }
 
-  h1 {
-    margin: 10px 0;
+  .cn-mast-head-main {
+    min-height: 72px;
   }
 
-  .sub-sub-nav {
+  .cn-heading-back,
+  h1 {
+    float: left;
+    padding: 10px 6px 0 0;
+    margin: 0;
+    line-height: 29px;
+  }
+
+  .cn-heading-title {
+    float: left;
+    position: relative;
+  }
+
+  .cn-mast-head-inner {
+    position: relative;
+  }
+
+  .cn-mast-head-sub {
+    background-color: lighten($top-sub-nav-bg, 5%);
+  }
+
+  .cn-actions {
+    position: absolute;
+    right: -20px;
+    top: 100%;
+    margin-top: -17px;
+    width: 300px;
+
+    //floating-action-button {
+    //  display: block;
+    //}
+
+    floating-action-button {
+      clear: both;
+      padding-bottom: 15px;
+      float: right;
+    }
+
+    .cn-floaters {
+      transition: .1s height;
+      overflow: hidden;
+      margin: -25px -10px;
+      clear: both;
+      float: right;
+      width: 100%;
+
+      .cn-floaters-inner {
+        padding: 25px 10px;
+        float: right;
+      }
+    }
+
+    .tooltip {
+      width: auto!important;
+      margin-right: 15px;
+    }
+
+    .tooltip-inner {
+      white-space: nowrap;
+      padding: 10px 15px
+    }
+  }
+
+  .dropdown-menu {
+    max-height: none;
+    //padding-bottom: 20px;
+
+    > div {
+      float: left;
+      max-height: 500px;
+      overflow: auto;
+    }
+
+    a {
+      display: block;
+      color: #3F3F41;
+      font-weight: 400;
+      padding: 6px 12px;
+
+      &:hover {
+        text-decoration: none;
+        //color: $primary-color;
+        background-color: $light-quartz;
+      }
+
+      &.selected {
+        font-weight: bold;
+        background-color: $quartz;
+      }
+    }
+  }
+
+  .sub-sub-nav,
+  .cn-mast-head-inner {
     width: $page-width;
     margin-left: auto;
     margin-right: auto;
@@ -41,30 +144,38 @@ SUBNAV
         }
       }
     }
+  }
 
-    .tabs {
-      > div {
+  .tabs {
+    clear: both;
+    list-style: none;
+    padding: 0;
+
+    > div,
+    li {
+      display: inline-block;
+      margin-right: 50px;
+      line-height: 26px;
+
+      a {
+        color: $silver;
+        font-weight: 300;
+        font-size: 10px;
+        letter-spacing: 1px;
+        padding: 15px 0;
+        text-transform: uppercase;
         display: inline-block;
-        border-bottom: 5px solid $black;
-        margin-right: 50px;
 
-        a {
-          color: $silver;
-          font-weight: 300;
-          line-height: 45px;
-          letter-spacing: 0.2px;
-          padding: 15px 0;
-
-          &:hover {
-            text-decoration: none;
-          }
+        &:hover {
+          text-decoration: none;
         }
+      }
 
-        &.active, &:hover {
-          a {
-            color: $quartz;
-            border-bottom: 5px solid $maya;
-          }
+      &.active, &:hover {
+        a {
+          color: $quartz;
+          padding: 15px 0 10px;
+          border-bottom: 5px solid $maya;
         }
       }
     }
