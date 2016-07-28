@@ -11,6 +11,7 @@
   position: relative;
   top: 0;
   min-height: $navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
+  font-size: 11px;
 
   border: 1px solid transparent;
 
@@ -672,7 +673,7 @@ NAVBAR
 
   ul.navbar-nav {
     > li a {
-      padding: 17px 20px;
+      padding: 15px 20px;
 
       &.btn {
         padding: 9px 8px;

@@ -9,6 +9,7 @@ SUBNAV
 }
 
 .cn-mast-head {
+  position: relative;
   min-height: 82px;
 }
 
@@ -24,6 +25,15 @@ SUBNAV
 
     .btn-transparent:last-child {
       padding-right: 0;
+    }
+
+    a {
+      opacity: .75;
+      transition: .1s opacity;
+
+      &:hover {
+        opacity: 1;
+      }
     }
   }
 
@@ -50,6 +60,12 @@ SUBNAV
 
   .cn-mast-head-sub {
     background-color: lighten($top-sub-nav-bg, 5%);
+  }
+
+  .cn-mast-actions {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 
   .cn-actions {
@@ -150,6 +166,7 @@ SUBNAV
     clear: both;
     list-style: none;
     padding: 0;
+    margin: 0;
 
     > div,
     li {
