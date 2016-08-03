@@ -427,6 +427,16 @@ table {
     }
   }
 
+  // diff table
+  &.diff-table {
+    .group {
+      background: #f7f7f7;
+    }
+    .sub-group {
+      background: #dfeef5;
+    }
+  }
+
   // Ad Sets List
   table.ad-sets-list-table {
     &.card {
