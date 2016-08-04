@@ -1,6 +1,6 @@
 .cn-heading {
   background: $top-sub-nav-bg;
-  padding: 25px;
+  padding: 10px 25px;
   margin: 0;
   color: $top-sub-nav-text;
   border-top: 0;
@@ -64,6 +64,7 @@
   .page-action-btns {
     float: right;
     margin-top: 20px;
+    padding-right: 15px;
   }
 }
 
