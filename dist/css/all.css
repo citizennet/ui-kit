@@ -13647,7 +13647,7 @@ input[type="text"]:focus:-ms-input-placeholder {
 }
 
 /* line 229, ../../../sass/_utilities.scss */
-a.disabled {
+a.disabled, div.readonly {
   pointer-events: none;
   opacity: .65;
 }

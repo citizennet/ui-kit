@@ -225,8 +225,8 @@ input[type="text"]:focus:-ms-input-placeholder {
   pointer-events: none;
 }
 
-// allow non-btn anchor tags to use disabled class
-a.disabled {
+// allow non-btns to use disabled class
+a.disabled, div.readonly {
   pointer-events: none;
   opacity: .65;
 }
