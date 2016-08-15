@@ -53,9 +53,14 @@
 
   .btn-options {
     margin: 0 0 15px;
+
+    .dropdown-menu {
+      min-width: 100%;
+    }
   }
 
-  .btn {
+  .btn,
+  .btn-group {
     margin-left: 10px;
     color: $quartz;
     text-decoration: none;
