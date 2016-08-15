@@ -243,8 +243,8 @@ $sizes: 5 10 15 20 25 30 35 40 45 50;
   pointer-events: none;
 }
 
-// allow non-btn anchor tags to use disabled class
-a.disabled {
+// allow non-btns to use disabled class
+a.disabled, div.readonly {
   pointer-events: none;
   opacity: .65;
 }
