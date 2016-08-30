@@ -11614,19 +11614,24 @@ div.card-flex {
 .cn-list > table.card-flex {
   border-bottom: 2px solid #DEDEDE;
 }
-/* line 30, ../../../sass/_cards.scss */
-.cn-list table.card tbody,
-.cn-list table.card-flex tbody {
+/* line 28, ../../../sass/_cards.scss */
+.cn-list table.card,
+.cn-list table.card-flex {
   background-color: #fff;
 }
-/* line 35, ../../../sass/_cards.scss */
-.cn-list table.card tbody tr,
-.cn-list table.card-flex tbody tr {
+/* line 32, ../../../sass/_cards.scss */
+.cn-list table.card thead > tr > th,
+.cn-list table.card-flex thead > tr > th {
+  border-bottom: 0;
+}
+/* line 36, ../../../sass/_cards.scss */
+.cn-list table.card tr,
+.cn-list table.card-flex tr {
   border-left: 1px solid #E7E6EB;
   border-right: 1px solid #E7E6EB;
 }
 
-/* line 45, ../../../sass/_cards.scss */
+/* line 46, ../../../sass/_cards.scss */
 .cards tr, .cards .card,
 .cards-flex tr,
 .cards-flex .card {
@@ -11638,7 +11643,7 @@ div.card-flex {
   margin-bottom: 20px;
   display: block;
 }
-/* line 56, ../../../sass/_cards.scss */
+/* line 57, ../../../sass/_cards.scss */
 .cards tr td, .cards .card td,
 .cards-flex tr td,
 .cards-flex .card td {
