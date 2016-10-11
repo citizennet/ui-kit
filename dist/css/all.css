@@ -3756,34 +3756,37 @@ table.fixed {
   border-bottom: none;
 }
 /* line 447, ../../../sass/_tables.scss */
-.cn-list .label {
-  display: inline;
-  max-width: 180px;
+.cn-list .label,
+.cn-list label.control-label {
+  display: inline-block;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-/* line 452, ../../../sass/_tables.scss */
+/* line 455, ../../../sass/_tables.scss */
 .cn-list .media-object {
   max-width: 50px;
   display: inline;
 }
 
-/* line 458, ../../../sass/_tables.scss */
+/* line 461, ../../../sass/_tables.scss */
 .list-container {
   max-width: 85%;
   margin: auto;
   margin-top: 25px;
 }
 
-/* line 466, ../../../sass/_tables.scss */
+/* line 469, ../../../sass/_tables.scss */
 .cn-timepicker td {
   min-width: 50px;
 }
-/* line 469, ../../../sass/_tables.scss */
+/* line 472, ../../../sass/_tables.scss */
 .cn-timepicker button {
   margin: 0px 2px;
   padding: 9px;
 }
 
-/* line 475, ../../../sass/_tables.scss */
+/* line 478, ../../../sass/_tables.scss */
 .table > tbody > tr > td,
 .table > tbody > tr > th,
 .table > tfoot > tr > td,
@@ -3793,7 +3796,7 @@ table.fixed {
   vertical-align: middle;
 }
 
-/* line 484, ../../../sass/_tables.scss */
+/* line 487, ../../../sass/_tables.scss */
 .top-heavy > tbody > tr > td,
 .top-heavy > tbody > tr > th,
 .top-heavy > tfoot > tr > td,
@@ -3803,32 +3806,32 @@ table.fixed {
   vertical-align: top;
 }
 
-/* line 494, ../../../sass/_tables.scss */
+/* line 497, ../../../sass/_tables.scss */
 .cn-ff-table .row {
   border-top: 1px solid #d8d8d8;
   margin-left: 0;
   margin-right: 0;
 }
-/* line 495, ../../../sass/_tables.scss */
+/* line 498, ../../../sass/_tables.scss */
 .cn-ff-table .row:first-of-type {
   border-top: none;
 }
-/* line 497, ../../../sass/_tables.scss */
+/* line 500, ../../../sass/_tables.scss */
 .cn-ff-table .row:first-of-type p.column-header {
   color: #97949A;
   font-size: 0.90em;
   font-weight: 200;
 }
-/* line 503, ../../../sass/_tables.scss */
+/* line 506, ../../../sass/_tables.scss */
 .cn-ff-table .row p:first-of-type {
   font-weight: 800;
   margin-bottom: 0;
 }
-/* line 510, ../../../sass/_tables.scss */
+/* line 513, ../../../sass/_tables.scss */
 .cn-ff-table .row div:first-child {
   padding-left: 0;
 }
-/* line 514, ../../../sass/_tables.scss */
+/* line 517, ../../../sass/_tables.scss */
 .cn-ff-table h6 {
   text-transform: uppercase;
   font-size: 90%;

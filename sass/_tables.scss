@@ -444,9 +444,12 @@ table {
     }
   }
 
-  .label {
-    display: inline;
-    max-width: 180px;
+  .label,
+  label.control-label {
+    display: inline-block;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .media-object {
