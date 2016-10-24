@@ -3756,37 +3756,33 @@ table.fixed {
   border-bottom: none;
 }
 /* line 447, ../../../sass/_tables.scss */
-.cn-list .label,
-.cn-list label.control-label {
-  display: inline-block;
-  max-width: 200px;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.cn-list .label {
+  display: inline;
 }
-/* line 455, ../../../sass/_tables.scss */
+/* line 451, ../../../sass/_tables.scss */
 .cn-list .media-object {
   max-width: 50px;
   display: inline;
 }
 
-/* line 461, ../../../sass/_tables.scss */
+/* line 457, ../../../sass/_tables.scss */
 .list-container {
   max-width: 85%;
   margin: auto;
   margin-top: 25px;
 }
 
-/* line 469, ../../../sass/_tables.scss */
+/* line 465, ../../../sass/_tables.scss */
 .cn-timepicker td {
   min-width: 50px;
 }
-/* line 472, ../../../sass/_tables.scss */
+/* line 468, ../../../sass/_tables.scss */
 .cn-timepicker button {
   margin: 0px 2px;
   padding: 9px;
 }
 
-/* line 478, ../../../sass/_tables.scss */
+/* line 474, ../../../sass/_tables.scss */
 .table > tbody > tr > td,
 .table > tbody > tr > th,
 .table > tfoot > tr > td,
@@ -3796,7 +3792,7 @@ table.fixed {
   vertical-align: middle;
 }
 
-/* line 487, ../../../sass/_tables.scss */
+/* line 483, ../../../sass/_tables.scss */
 .top-heavy > tbody > tr > td,
 .top-heavy > tbody > tr > th,
 .top-heavy > tfoot > tr > td,
@@ -3806,32 +3802,32 @@ table.fixed {
   vertical-align: top;
 }
 
-/* line 497, ../../../sass/_tables.scss */
+/* line 493, ../../../sass/_tables.scss */
 .cn-ff-table .row {
   border-top: 1px solid #d8d8d8;
   margin-left: 0;
   margin-right: 0;
 }
-/* line 498, ../../../sass/_tables.scss */
+/* line 494, ../../../sass/_tables.scss */
 .cn-ff-table .row:first-of-type {
   border-top: none;
 }
-/* line 500, ../../../sass/_tables.scss */
+/* line 496, ../../../sass/_tables.scss */
 .cn-ff-table .row:first-of-type p.column-header {
   color: #97949A;
   font-size: 0.90em;
   font-weight: 200;
 }
-/* line 506, ../../../sass/_tables.scss */
+/* line 502, ../../../sass/_tables.scss */
 .cn-ff-table .row p:first-of-type {
   font-weight: 800;
   margin-bottom: 0;
 }
-/* line 513, ../../../sass/_tables.scss */
+/* line 509, ../../../sass/_tables.scss */
 .cn-ff-table .row div:first-child {
   padding-left: 0;
 }
-/* line 517, ../../../sass/_tables.scss */
+/* line 513, ../../../sass/_tables.scss */
 .cn-ff-table h6 {
   text-transform: uppercase;
   font-size: 90%;
@@ -4065,7 +4061,7 @@ textarea.form-control {
 textarea.form-control,
 textarea.form-control[disabled] {
   border: 1px solid #E7E6E9;
-  padding: 6px;
+  padding: 6px 11px;
 }
 /* line 209, ../../../sass/_forms.scss */
 input.form-control[disabled],
@@ -4110,7 +4106,7 @@ textarea.form-control:-webkit-autofill {
 .cn-list table td .input-group .input-group-addon:not(:first-child),
 .cn-list table td .input-group .form-control:not(:first-child) {
   border-left: 0;
-  padding-left: 3px;
+  padding-left: 6px;
 }
 /* line 241, ../../../sass/_forms.scss */
 .input-group .input-group-addon:not(:last-child),
@@ -4118,7 +4114,7 @@ textarea.form-control:-webkit-autofill {
 .cn-list table td .input-group .input-group-addon:not(:last-child),
 .cn-list table td .input-group .form-control:not(:last-child) {
   border-right: 0;
-  padding-right: 3px;
+  padding-right: 6px;
 }
 
 /* line 248, ../../../sass/_forms.scss */
@@ -10056,24 +10052,19 @@ div.card-flex {
 .cn-list > table.card-flex {
   border-bottom: 2px solid #DEDEDE;
 }
-/* line 28, ../../../sass/_cards.scss */
-.cn-list table.card,
-.cn-list table.card-flex {
+/* line 30, ../../../sass/_cards.scss */
+.cn-list table.card tbody,
+.cn-list table.card-flex tbody {
   background-color: #fff;
 }
-/* line 32, ../../../sass/_cards.scss */
-.cn-list table.card thead > tr > th,
-.cn-list table.card-flex thead > tr > th {
-  border-bottom: 0;
-}
-/* line 36, ../../../sass/_cards.scss */
-.cn-list table.card tr,
-.cn-list table.card-flex tr {
+/* line 35, ../../../sass/_cards.scss */
+.cn-list table.card tbody tr,
+.cn-list table.card-flex tbody tr {
   border-left: 1px solid #E7E6EB;
   border-right: 1px solid #E7E6EB;
 }
 
-/* line 46, ../../../sass/_cards.scss */
+/* line 45, ../../../sass/_cards.scss */
 .cards tr, .cards .card,
 .cards-flex tr,
 .cards-flex .card {
@@ -10085,7 +10076,7 @@ div.card-flex {
   margin-bottom: 20px;
   display: block;
 }
-/* line 57, ../../../sass/_cards.scss */
+/* line 56, ../../../sass/_cards.scss */
 .cards tr td, .cards .card td,
 .cards-flex tr td,
 .cards-flex .card td {
@@ -10135,22 +10126,18 @@ div.card-flex {
 * - bottom right (QS)
 */
 /* line 8, ../../../sass/_fab.scss */
-.cn-mast-actions floating-action-button {
-  height: 72px;
-  width: 72px;
-}
-
-/* line 13, ../../../sass/_fab.scss */
 floating-action-button {
   position: relative;
   bottom: 10px;
   right: 10px;
   display: block;
+  height: 72px;
+  width: 72px;
   line-height: 52px;
   z-index: 1020;
   cursor: pointer;
 }
-/* line 23, ../../../sass/_fab.scss */
+/* line 20, ../../../sass/_fab.scss */
 floating-action-button.fixed {
   position: absolute;
   top: 170px;
@@ -10158,23 +10145,23 @@ floating-action-button.fixed {
   bottom: auto;
   margin-left: 50%;
 }
-/* line 31, ../../../sass/_fab.scss */
+/* line 28, ../../../sass/_fab.scss */
 floating-action-button.fixed.upper {
   top: 138px;
 }
-/* line 35, ../../../sass/_fab.scss */
+/* line 32, ../../../sass/_fab.scss */
 floating-action-button.fixed.requests-upper {
   top: 65px;
   z-index: -2;
 }
-/* line 41, ../../../sass/_fab.scss */
+/* line 38, ../../../sass/_fab.scss */
 floating-action-button.bottom {
   position: fixed;
   z-index: 9;
   cursor: pointer;
   display: none;
 }
-/* line 52, ../../../sass/_fab.scss */
+/* line 49, ../../../sass/_fab.scss */
 floating-action-button.bottom > ul {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   padding: 3px;
@@ -10183,7 +10170,7 @@ floating-action-button.bottom > ul {
   color: #000;
   list-style-type: none;
 }
-/* line 64, ../../../sass/_fab.scss */
+/* line 61, ../../../sass/_fab.scss */
 floating-action-button.bottom > ul li {
   width: 145px;
   height: 40px;
@@ -10193,18 +10180,18 @@ floating-action-button.bottom > ul li {
   vertical-align: middle;
   padding-left: 27px;
 }
-/* line 74, ../../../sass/_fab.scss */
+/* line 71, ../../../sass/_fab.scss */
 floating-action-button.bottom > ul li:hover {
   background-color: #2C8FBD;
   color: #fff;
 }
-/* line 82, ../../../sass/_fab.scss */
+/* line 79, ../../../sass/_fab.scss */
 floating-action-button .dropdown-menu.open {
   display: inline-block;
   left: -117px;
   top: -1px;
 }
-/* line 88, ../../../sass/_fab.scss */
+/* line 85, ../../../sass/_fab.scss */
 floating-action-button .fab-title {
   position: absolute;
   top: 13px;
@@ -10219,14 +10206,14 @@ floating-action-button .fab-title {
   line-height: 20px;
 }
 
-/* line 104, ../../../sass/_fab.scss */
+/* line 101, ../../../sass/_fab.scss */
 .circle-btn {
   position: fixed;
   bottom: 10px;
   right: 10px;
 }
 
-/* line 110, ../../../sass/_fab.scss */
+/* line 107, ../../../sass/_fab.scss */
 .circle-btn, floating-action-button > .btn {
   background-color: #00B0FF;
   box-shadow: 0 1px 8px rgba(28, 30, 41, 0.2);
@@ -10239,48 +10226,48 @@ floating-action-button .fab-title {
   padding: 5px;
   border: none;
 }
-/* line 123, ../../../sass/_fab.scss */
+/* line 120, ../../../sass/_fab.scss */
 .circle-btn.btn-facebook, floating-action-button > .btn.btn-facebook {
   background-color: #3b5998;
   border-color: #2d4373;
 }
-/* line 128, ../../../sass/_fab.scss */
+/* line 125, ../../../sass/_fab.scss */
 .circle-btn.btn-twitter, floating-action-button > .btn.btn-twitter {
   background-color: #00aced;
   border-color: #0087ba;
 }
-/* line 133, ../../../sass/_fab.scss */
+/* line 130, ../../../sass/_fab.scss */
 .circle-btn.btn-instagram, floating-action-button > .btn.btn-instagram {
   background-color: #675144;
   border-color: #483930;
 }
-/* line 138, ../../../sass/_fab.scss */
+/* line 135, ../../../sass/_fab.scss */
 .circle-btn .icn-audience, floating-action-button > .btn .icn-audience {
   margin-top: -12px;
   margin-left: -2px;
 }
-/* line 144, ../../../sass/_fab.scss */
+/* line 141, ../../../sass/_fab.scss */
 .circle-btn span, .circle-btn i, floating-action-button > .btn span, floating-action-button > .btn i {
   color: #fff;
 }
-/* line 148, ../../../sass/_fab.scss */
+/* line 145, ../../../sass/_fab.scss */
 .circle-btn i, floating-action-button > .btn i {
   font-size: 22px;
   line-height: 3px;
 }
-/* line 153, ../../../sass/_fab.scss */
+/* line 150, ../../../sass/_fab.scss */
 .circle-btn span, floating-action-button > .btn span {
   font-size: 30px;
   line-height: 41px;
   font-family: -webkit-pictograph;
 }
-/* line 158, ../../../sass/_fab.scss */
+/* line 155, ../../../sass/_fab.scss */
 .circle-btn span.text, floating-action-button > .btn span.text {
   font-family: inherit;
   font-size: 16px;
   font-weight: 100;
 }
-/* line 165, ../../../sass/_fab.scss */
+/* line 162, ../../../sass/_fab.scss */
 .circle-btn:hover, floating-action-button > .btn:hover {
   background-color: #33c0ff;
   box-shadow: 0 1px 15px rgba(28, 30, 41, 0.3) !important;
