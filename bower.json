@@ -9,8 +9,8 @@
   "private": true,
   "dependencies": {
     "font-awesome": "4.1.0",
-    "jquery-ui": "1.10.4",
-    "jquery": "2.1.4",
+    "jquery-ui": ">=1.12.x",
+    "jquery": ">=3.1.x",
     "ngAnimate-animate.css": "0.1.1",
     "modernizr": "2.5.3",
     "angular-chosen-localytics": "~1.0.6",
