@@ -328,6 +328,14 @@ i.cn-icon {
   vertical-align: middle;
 }
 
+.icn-company.dark {
+  background: url(#{$svg-path}dark/icn-company.svg);
+  width: 22px;
+  height: 14px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .icn-cn-short {
   background: url(#{$svg-path}light/mark.svg);
   width: 31px;
