@@ -393,6 +393,23 @@ textarea.form-control {
   }
 }
 
+.radio-block,
+.checkbox-block {
+  align-items: center;
+  display: flex;
+  margin: 10px 0 10px 0;
+  width: 100%;
+
+  input[type=radio] {
+    margin-right: 10px;
+  }
+
+  .radio-block-icon {
+    width: 10px;
+    margin-right: 10px;
+  }
+}
+
 date-input {
   color: $dropdown-text;
   font-size: 14px;
