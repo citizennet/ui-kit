@@ -53,7 +53,7 @@ module.exports = function(grunt) {
           "bower_components/jquery-ui/ui/minified/jquery.ui.droppable.min.js",
           "bower_components/jquery-ui/ui/minified/jquery.ui.draggable.min.js",
           "bower_components/jquery-ui/ui/minified/jquery.ui.resizable.min.js",
-          "dist/js/vendor/bootstrap.min.js"
+          "bower_components/bootstrap/dist/js/bootstrap.min.js"
         ],
         dest: 'dist/js/all.min.js'
       }
