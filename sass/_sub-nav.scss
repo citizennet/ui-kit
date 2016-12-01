@@ -59,7 +59,7 @@ SUBNAV
   }
 
   .cn-mast-head-sub {
-    background-color: lighten($top-sub-nav-bg, 5%);
+    background-color: $top-sub-nav-bg;
   }
 
   .cn-mast-actions {
