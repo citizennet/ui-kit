@@ -1,8 +1,8 @@
 .cn-heading {
-  background: $top-sub-nav-bg;
-  padding: 10px 25px 25px;
+  background: $cn-black-1;
+  padding: 0 25px 15px;
   margin: 0;
-  color: $top-sub-nav-text;
+  color: $cn-aluminum;
   border-top: 0;
   z-index: 12;
 
@@ -62,8 +62,7 @@
   .btn,
   .btn-group {
     margin-left: 10px;
-    color: $quartz;
-    text-decoration: none;
+    //text-decoration: none;
   }
 
   .page-action-btns {

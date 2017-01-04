@@ -870,12 +870,18 @@ $cn-grey-1:   #404040;
 $cn-grey-2:   #666666;
 $cn-silver:   #F2F2F2;
 $cn-white:    #FFFFFF;
+$cn-good:     #F75771;
+$cn-bad:      #60BF9F;
 $fb-blue:     #3b5998;
 $fb-border:   darken($fb-blue, 10%);
 $ig-brown:    #675144;
 $ig-border:   darken($ig-brown, 10%);
 $tw-blue:     #00aced;
 $tw-border:   darken($tw-blue, 10%);
+$cn-semi-lite: rgba(0, 0, 0, .07);
+$cn-semi-lite-hover: rgba(0, 0, 0, .1);
+$cn-semi-dark: rgba(230, 230, 230, .15);
+$cn-semi-dark-hover: rgba(230, 230, 230, .12);
 
 $white: #fff;
 $black: #1C1E29;
