@@ -21,7 +21,7 @@
   //color: $grey-1;
 
   @include button-variant($cn-grey-1, transparent);
-  @include button-size(6px, 20px, inherit, 1.9, $btn-border-radius-base);
+  @include button-size(6px, 12px, inherit, 1.9, $btn-border-radius-base);
   @include user-select(none);
 
 //  &,
