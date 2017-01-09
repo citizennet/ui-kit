@@ -391,6 +391,14 @@ i.cn-icon {
   background-size: 100%;
 }
 
+.icn-info {
+  background: url(#{$svg-path}light/icn-info.svg);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .cn-delete {
   background: url(#{$svg-path}dark/icn-delete-small.svg);
   width: 20px;

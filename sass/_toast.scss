@@ -1,5 +1,58 @@
-.container-fluid {
-  .toast-top-right {
-    top: 67px;
+#toast-container {
+  position: fixed;
+  z-index: 9000;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+
+  span {
+    color: $cn-silver;
+    font-weight: 500;
   }
+
+  &.toast-bottom-center {
+    width: 40%;
+  
+    a {
+      color: $cn-aluminum;
+      float: right;
+    }
+  }
+
+  &.action-toast-bottom-center {
+    width: 60%;
+
+    .btn-options span {
+      float: right;
+    }
+  }
+
+  > div {
+    padding: 20px;
+    background: $cn-black-1;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+}
+
+
+:not(.no-enter)#toast-container > div.ng-enter,
+:not(.no-leave)#toast-container > div.ng-leave
+{ 
+    -webkit-transition: 1000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -moz-transition: 1000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -ms-transition: 1000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -o-transition: 1000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    transition: 1000ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+} 
+
+:not(.no-enter)#toast-container > div.ng-enter.ng-enter-active, 
+:not(.no-leave)#toast-container > div.ng-leave {
+    opacity: 0.8;
+}
+
+:not(.no-leave)#toast-container > div.ng-leave.ng-leave-active,
+:not(.no-enter)#toast-container > div.ng-enter {
+    opacity: 0;
 }
