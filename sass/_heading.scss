@@ -21,8 +21,8 @@
   }
 
   h1 {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 
     a {
       font-weight: inherit;
@@ -32,11 +32,6 @@
         text-decoration: none;
       }
     }
-  }
-
-  h5 + h1 {
-    margin-top: 15px;
-    margin-bottom: 15px;
   }
 
   h5 {
@@ -51,27 +46,27 @@
     color: $quartz;
   }
 
+  .btn,
+  .btn-group {
+    margin-left: 10px;
+    //text-decoration: none;
+  }
+}
+
+.page-action-btns {
+  float: right;
+  margin-top: 10px;
+  padding-right: 15px;
+
   .btn-options {
-    margin: 0 0 15px;
+    margin: 0 0 10px;
 
     .dropdown-menu {
       min-width: 100%;
     }
   }
 
-  .btn,
-  .btn-group {
-    margin-left: 10px;
-    //text-decoration: none;
-  }
-
-  .page-action-btns {
-    float: right;
-    margin-top: 20px;
-    padding-right: 15px;
-
-    p {
-      margin-bottom: 0;
-    }
+  p {
+    margin-bottom: 0;
   }
 }

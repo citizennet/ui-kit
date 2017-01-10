@@ -10290,12 +10290,12 @@ floating-action-button .fab-title {
   background-color: #F0F0F0;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+  border-radius: 3px;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
   outline: 0;
-  border-radius: 7px;
+  border-radius: 3px;
 }
 
 /* line 73, ../../../sass/_modals.scss */
@@ -10327,10 +10327,10 @@ floating-action-button .fab-title {
 .modal-header {
   min-height: 16.42857px;
   padding: 12px;
-  border-bottom: 1px solid #DEDEDE;
-  background-color: #F9F9FB;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-bottom: 1px solid #AAAEB3;
+  background-color: #F2F2F2;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 /* line 102, ../../../sass/_modals.scss */
 .modal-header span.title,
@@ -10343,41 +10343,36 @@ floating-action-button .fab-title {
   line-height: 35px;
 }
 /* line 112, ../../../sass/_modals.scss */
-.modal-header .page-action-btns {
-  float: right;
-  margin: 10px 7px 10px 0;
-}
-/* line 117, ../../../sass/_modals.scss */
 .modal-header .btn {
   margin-left: 10px;
 }
 
-/* line 126, ../../../sass/_modals.scss */
+/* line 121, ../../../sass/_modals.scss */
 .modal-header .close {
   margin-top: -2px;
 }
 
-/* line 131, ../../../sass/_modals.scss */
+/* line 126, ../../../sass/_modals.scss */
 .modal-title {
   margin: 0;
   line-height: 1.42857;
 }
 
-/* line 138, ../../../sass/_modals.scss */
+/* line 133, ../../../sass/_modals.scss */
 .modal-body {
   position: relative;
   padding: 15px;
 }
-/* line 142, ../../../sass/_modals.scss */
+/* line 137, ../../../sass/_modals.scss */
 .modal-body ul.dropdown-menu {
   left: auto;
 }
-/* line 146, ../../../sass/_modals.scss */
+/* line 141, ../../../sass/_modals.scss */
 .modal-body .row {
   position: relative;
 }
 
-/* line 152, ../../../sass/_modals.scss */
+/* line 147, ../../../sass/_modals.scss */
 .modal-footer {
   clear: both;
   padding: 15px;
@@ -10393,21 +10388,21 @@ floating-action-button .fab-title {
 .modal-footer:after {
   clear: both;
 }
-/* line 160, ../../../sass/_modals.scss */
+/* line 155, ../../../sass/_modals.scss */
 .modal-footer .btn + .btn {
   margin-left: 5px;
   margin-bottom: 0;
 }
-/* line 165, ../../../sass/_modals.scss */
+/* line 160, ../../../sass/_modals.scss */
 .modal-footer .btn-group .btn + .btn {
   margin-left: -1px;
 }
-/* line 169, ../../../sass/_modals.scss */
+/* line 164, ../../../sass/_modals.scss */
 .modal-footer .btn-block + .btn-block {
   margin-left: 0;
 }
 
-/* line 175, ../../../sass/_modals.scss */
+/* line 170, ../../../sass/_modals.scss */
 .modal-scrollbar-measure {
   position: absolute;
   top: -9999px;
@@ -10417,91 +10412,91 @@ floating-action-button .fab-title {
 }
 
 @media (min-width: 768px) {
-  /* line 186, ../../../sass/_modals.scss */
+  /* line 181, ../../../sass/_modals.scss */
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
   }
 
-  /* line 190, ../../../sass/_modals.scss */
+  /* line 185, ../../../sass/_modals.scss */
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
 
-  /* line 195, ../../../sass/_modals.scss */
+  /* line 190, ../../../sass/_modals.scss */
   .modal-sm {
     width: 300px;
   }
 }
 @media (min-width: 992px) {
-  /* line 201, ../../../sass/_modals.scss */
+  /* line 196, ../../../sass/_modals.scss */
   .modal-lg {
     width: 900px;
   }
 }
-/* line 207, ../../../sass/_modals.scss */
+/* line 202, ../../../sass/_modals.scss */
 .modal-md {
   width: 800px;
 }
 
-/* line 211, ../../../sass/_modals.scss */
+/* line 206, ../../../sass/_modals.scss */
 .cn-modal {
   /** END TEMP STYLES **/
 }
-/* line 213, ../../../sass/_modals.scss */
+/* line 208, ../../../sass/_modals.scss */
 .cn-modal .modal-header {
   border-color: #d8d8d8;
   /** TEMP STYLES UNTIL WE STANDARDIZE MODALS **/
 }
-/* line 221, ../../../sass/_modals.scss */
+/* line 216, ../../../sass/_modals.scss */
 .cn-modal .modal-header h5 {
   margin-top: 0;
   font-weight: 300;
   font-size: 12px;
 }
 
-/* line 239, ../../../sass/_modals.scss */
+/* line 234, ../../../sass/_modals.scss */
 .modal-body.cn-list {
   overflow: auto;
 }
-/* line 243, ../../../sass/_modals.scss */
+/* line 238, ../../../sass/_modals.scss */
 .modal-body h4 {
   margin: 0 0 20px;
   font-weight: 300;
 }
-/* line 248, ../../../sass/_modals.scss */
+/* line 243, ../../../sass/_modals.scss */
 .modal-body .label {
   font-size: 100%;
 }
-/* line 252, ../../../sass/_modals.scss */
+/* line 247, ../../../sass/_modals.scss */
 .modal-body label:not(.input-group-addon) {
   display: block;
 }
 
-/* line 257, ../../../sass/_modals.scss */
+/* line 252, ../../../sass/_modals.scss */
 .modal-content {
   background-color: #f0eff2;
   font-size: 13px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
-/* line 266, ../../../sass/_modals.scss */
+/* line 261, ../../../sass/_modals.scss */
 .modal-content .dropdown-toggle {
   width: 100%;
   text-align: left;
 }
-/* line 271, ../../../sass/_modals.scss */
+/* line 266, ../../../sass/_modals.scss */
 .modal-content section {
   margin-top: 0;
 }
-/* line 280, ../../../sass/_modals.scss */
+/* line 275, ../../../sass/_modals.scss */
 .modal-content h2 {
   color: #302A37;
   font-weight: 300;
   line-height: 18px;
   margin: 0 0 20px;
 }
-/* line 287, ../../../sass/_modals.scss */
+/* line 282, ../../../sass/_modals.scss */
 .modal-content textarea {
   margin: 0;
   width: 100%;
@@ -10510,34 +10505,34 @@ floating-action-button .fab-title {
   padding: 10px;
   display: block;
 }
-/* line 295, ../../../sass/_modals.scss */
+/* line 290, ../../../sass/_modals.scss */
 .modal-content textarea:focus {
   outline: none;
 }
-/* line 301, ../../../sass/_modals.scss */
+/* line 296, ../../../sass/_modals.scss */
 .modal-content .modal-header h5 {
   text-transform: uppercase;
 }
-/* line 304, ../../../sass/_modals.scss */
+/* line 299, ../../../sass/_modals.scss */
 .modal-content .modal-header h5 img {
   height: 31px;
 }
-/* line 311, ../../../sass/_modals.scss */
+/* line 306, ../../../sass/_modals.scss */
 .modal-content .modal-body.cn-list {
   padding: 0;
   border-bottom: 0;
 }
-/* line 316, ../../../sass/_modals.scss */
+/* line 311, ../../../sass/_modals.scss */
 .modal-content .modal-body:last-child {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
-/* line 322, ../../../sass/_modals.scss */
+/* line 317, ../../../sass/_modals.scss */
 .modal-content .modal-footer {
   margin-top: 0;
   border-color: #d8d8d8;
 }
-/* line 326, ../../../sass/_modals.scss */
+/* line 321, ../../../sass/_modals.scss */
 .modal-content .modal-footer .btn {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -10547,67 +10542,67 @@ floating-action-button .fab-title {
   height: 60px;
   text-transform: uppercase;
 }
-/* line 333, ../../../sass/_modals.scss */
+/* line 328, ../../../sass/_modals.scss */
 .modal-content .modal-footer.no-padding .btn {
   border-width: 0;
   border-left-width: 1px;
 }
-/* line 337, ../../../sass/_modals.scss */
+/* line 332, ../../../sass/_modals.scss */
 .modal-content .modal-footer.no-padding .btn:first-child {
   border-left-width: 0;
 }
-/* line 343, ../../../sass/_modals.scss */
+/* line 338, ../../../sass/_modals.scss */
 .modal-content, .modal-content p {
   font-size: 12px;
 }
 
 /* The modal backdrop wasn't showing up because the height was always 0 */
-/* line 350, ../../../sass/_modals.scss */
+/* line 345, ../../../sass/_modals.scss */
 .modal-backdrop.height-fix {
   height: 100%;
 }
 
-/* line 355, ../../../sass/_modals.scss */
+/* line 350, ../../../sass/_modals.scss */
 .modal-errors {
   margin-top: 15px;
 }
-/* line 358, ../../../sass/_modals.scss */
+/* line 353, ../../../sass/_modals.scss */
 .modal-errors .list-group-item-danger {
   text-align: left;
   border-color: #A94442;
 }
 
-/* line 364, ../../../sass/_modals.scss */
+/* line 359, ../../../sass/_modals.scss */
 .modal-list {
   margin-top: 15px;
 }
-/* line 367, ../../../sass/_modals.scss */
+/* line 362, ../../../sass/_modals.scss */
 .modal-list .list-group-item-info {
   text-align: left;
   border-color: #31708F;
 }
-/* line 372, ../../../sass/_modals.scss */
+/* line 367, ../../../sass/_modals.scss */
 .modal-list i.glyphicon {
   font-size: 18px;
   cursor: pointer;
 }
 
-/* line 379, ../../../sass/_modals.scss */
+/* line 374, ../../../sass/_modals.scss */
 .post-attachment-pagination .label-primary {
   top: 40px;
   position: absolute;
   margin-left: 15px;
 }
 
-/* line 387, ../../../sass/_modals.scss */
+/* line 382, ../../../sass/_modals.scss */
 .toast-container > div.toast {
   background-color: #1e222e;
 }
-/* line 390, ../../../sass/_modals.scss */
+/* line 385, ../../../sass/_modals.scss */
 .toast-container > div.toast.bg-primary, .toast-container > div.toast.bg-info {
   color: #c8e4f0;
 }
-/* line 395, ../../../sass/_modals.scss */
+/* line 390, ../../../sass/_modals.scss */
 .toast-container > div.toast.bg-danger, .toast-container > div.toast.bg-warning, .toast-container > div.toast.bg-error {
   color: #e65d6d;
 }
@@ -12988,8 +12983,8 @@ a.disabled, div.readonly {
 }
 /* line 23, ../../../sass/_heading.scss */
 .cn-heading h1 {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 /* line 27, ../../../sass/_heading.scss */
 .cn-heading h1 a {
@@ -13001,11 +12996,6 @@ a.disabled, div.readonly {
   text-decoration: none;
 }
 /* line 37, ../../../sass/_heading.scss */
-.cn-heading h5 + h1 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-/* line 42, ../../../sass/_heading.scss */
 .cn-heading h5 {
   margin: 0;
   font-weight: 200;
@@ -13013,31 +13003,32 @@ a.disabled, div.readonly {
   font-size: 10px;
   letter-spacing: 1px;
 }
-/* line 50, ../../../sass/_heading.scss */
+/* line 45, ../../../sass/_heading.scss */
 .cn-heading h1, .cn-heading h2, .cn-heading h3, .cn-heading h4, .cn-heading h5 {
   color: #F0F0F3;
 }
-/* line 54, ../../../sass/_heading.scss */
-.cn-heading .btn-options {
-  margin: 0 0 15px;
-}
-/* line 57, ../../../sass/_heading.scss */
-.cn-heading .btn-options .dropdown-menu {
-  min-width: 100%;
-}
-/* line 62, ../../../sass/_heading.scss */
+/* line 49, ../../../sass/_heading.scss */
 .cn-heading .btn,
 .cn-heading .btn-group {
   margin-left: 10px;
 }
-/* line 68, ../../../sass/_heading.scss */
-.cn-heading .page-action-btns {
+
+/* line 56, ../../../sass/_heading.scss */
+.page-action-btns {
   float: right;
-  margin-top: 20px;
+  margin-top: 10px;
   padding-right: 15px;
 }
-/* line 73, ../../../sass/_heading.scss */
-.cn-heading .page-action-btns p {
+/* line 61, ../../../sass/_heading.scss */
+.page-action-btns .btn-options {
+  margin: 0 0 10px;
+}
+/* line 64, ../../../sass/_heading.scss */
+.page-action-btns .btn-options .dropdown-menu {
+  min-width: 100%;
+}
+/* line 69, ../../../sass/_heading.scss */
+.page-action-btns p {
   margin-bottom: 0;
 }
 
