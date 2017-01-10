@@ -6291,6 +6291,15 @@ i.cn-icon.cn-share {
 }
 
 /* line 394, ../../../sass/_icons.scss */
+.icn-info {
+  background: url(../../js/vendor/ui-kit/assets/light/icn-info.svg);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 402, ../../../sass/_icons.scss */
 .cn-delete {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-delete-small.svg);
   width: 20px;
@@ -6299,7 +6308,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
   background-size: 100%;
 }
-/* line 402, ../../../sass/_icons.scss */
+/* line 410, ../../../sass/_icons.scss */
 .cn-delete.sm {
   width: 11px;
   height: 12px;
@@ -6308,7 +6317,7 @@ i.cn-icon.cn-share {
 /******************************************************
 * Icons for tables
 *******************************************************/
-/* line 414, ../../../sass/_icons.scss */
+/* line 422, ../../../sass/_icons.scss */
 .icn-sort-caret {
   background: url(../../js/vendor/ui-kit/assets/light/icn-sort-caret.svg);
   width: 8px;
@@ -6318,16 +6327,16 @@ i.cn-icon.cn-share {
   margin-bottom: 3px;
   margin-left: 3px;
 }
-/* line 424, ../../../sass/_icons.scss */
+/* line 432, ../../../sass/_icons.scss */
 .icn-sort-caret.up {
   transform: rotate(180deg);
 }
-/* line 428, ../../../sass/_icons.scss */
+/* line 436, ../../../sass/_icons.scss */
 .icn-sort-caret.right {
   transform: rotate(270deg);
 }
 
-/* line 433, ../../../sass/_icons.scss */
+/* line 441, ../../../sass/_icons.scss */
 .icn-mini-menu {
   background: url(../../js/vendor/ui-kit/assets/light/icn-mini-menu.svg);
   width: 8px;
@@ -13680,7 +13689,63 @@ TOOL BAR
   padding: 0 30px;
 }
 
-/* line 2, ../../../sass/_toast.scss */
-.container-fluid .toast-top-right {
-  top: 67px;
+/* line 1, ../../../sass/_toast.scss */
+#toast-container {
+  position: fixed;
+  z-index: 9000;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+/* line 9, ../../../sass/_toast.scss */
+#toast-container span {
+  color: #F2F2F2;
+  font-weight: 500;
+}
+/* line 14, ../../../sass/_toast.scss */
+#toast-container.toast-bottom-center {
+  width: 40%;
+}
+/* line 17, ../../../sass/_toast.scss */
+#toast-container.toast-bottom-center a {
+  color: #AAAEB3;
+  float: right;
+}
+/* line 23, ../../../sass/_toast.scss */
+#toast-container.action-toast-bottom-center {
+  width: 60%;
+}
+/* line 26, ../../../sass/_toast.scss */
+#toast-container.action-toast-bottom-center .btn-options span {
+  float: right;
+}
+/* line 31, ../../../sass/_toast.scss */
+#toast-container > div {
+  padding: 20px;
+  background: #111111;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+/* line 40, ../../../sass/_toast.scss */
+:not(.no-enter)#toast-container > div.ng-enter,
+:not(.no-leave)#toast-container > div.ng-leave {
+  -webkit-transition: 1000ms cubic-bezier(0.25, 0.25, 0.75, 0.75) all;
+  -moz-transition: 1000ms cubic-bezier(0.25, 0.25, 0.75, 0.75) all;
+  -ms-transition: 1000ms cubic-bezier(0.25, 0.25, 0.75, 0.75) all;
+  -o-transition: 1000ms cubic-bezier(0.25, 0.25, 0.75, 0.75) all;
+  transition: 1000ms cubic-bezier(0.25, 0.25, 0.75, 0.75) all;
+}
+
+/* line 50, ../../../sass/_toast.scss */
+:not(.no-enter)#toast-container > div.ng-enter.ng-enter-active,
+:not(.no-leave)#toast-container > div.ng-leave {
+  opacity: 0.8;
+}
+
+/* line 55, ../../../sass/_toast.scss */
+:not(.no-leave)#toast-container > div.ng-leave.ng-leave-active,
+:not(.no-enter)#toast-container > div.ng-enter {
+  opacity: 0;
 }
