@@ -10346,9 +10346,9 @@ floating-action-button .fab-title {
 .modal-header h1 {
   color: #323A45;
   margin: 10px 0 10px 7px;
-  font-weight: 300;
+  font-weight: 400;
   display: inline-block;
-  font-size: 19px;
+  font-size: 14px;
   line-height: 35px;
 }
 /* line 112, ../../../sass/_modals.scss */
