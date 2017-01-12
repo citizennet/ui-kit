@@ -21,11 +21,6 @@
   float: left !important;
 }
 
-.flex-center {
-  display: flex;
-  justify-content: center;
-}
-
 // Toggling content
 // -------------------------
 
@@ -302,4 +297,26 @@ a.disabled, div.readonly {
 
 .semi-transparent {
   opacity: .5;
+}
+
+// FLEXBOX CLASSES
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-box {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+$flex-sizes: 1 2 3 4 5 6 7 8 9 10;
+@each $size in $flex-sizes {
+  .flex-#{$size} {
+    flex: #{$size}
+  }
 }
