@@ -13798,10 +13798,23 @@ TOOL BAR
   box-shadow: 0px 10px 20px 0px #111111;
 }
 /* line 36, ../../../sass/_toast.scss */
+#toast-container.full-width-toast-bottom a:not(.btn) {
+  color: #AAAEB3;
+}
+/* line 40, ../../../sass/_toast.scss */
 #toast-container.full-width-toast-bottom span {
   color: #111111;
 }
-/* line 41, ../../../sass/_toast.scss */
+/* line 42, ../../../sass/_toast.scss */
+#toast-container.full-width-toast-bottom span.label {
+  background-color: #1FABD9;
+  padding: 10px;
+  margin-right: 10px;
+  color: #F2F2F2;
+  font-weight: 100;
+  min-width: 30px;
+}
+/* line 53, ../../../sass/_toast.scss */
 #toast-container > div {
   position: absolute;
   z-index: 9000;
@@ -13815,7 +13828,7 @@ TOOL BAR
   border-top-right-radius: 3px;
 }
 
-/* line 56, ../../../sass/_toast.scss */
+/* line 68, ../../../sass/_toast.scss */
 :not(.no-enter)#toast-container > div.ng-enter,
 :not(.no-leave)#toast-container > div.ng-leave {
   -webkit-transition: 500ms cubic-bezier(0.44, 0.01, 0.56, 1) all;
@@ -13825,13 +13838,13 @@ TOOL BAR
   transition: 500ms cubic-bezier(0.44, 0.01, 0.56, 1) all;
 }
 
-/* line 66, ../../../sass/_toast.scss */
+/* line 78, ../../../sass/_toast.scss */
 :not(.no-enter)#toast-container > div.ng-enter.ng-enter-active,
 :not(.no-leave)#toast-container > div.ng-leave {
   bottom: 0px;
 }
 
-/* line 71, ../../../sass/_toast.scss */
+/* line 83, ../../../sass/_toast.scss */
 :not(.no-leave)#toast-container > div.ng-leave.ng-leave-active,
 :not(.no-enter)#toast-container > div.ng-enter {
   bottom: -370px;
