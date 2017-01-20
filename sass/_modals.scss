@@ -57,15 +57,12 @@
 // Actual modal
 .modal-content {
   position: relative;
-  background-color: #F0F0F0;
-  border: 1px solid $modal-content-fallback-border-color; //old browsers fallback (ie8 etc)
-  border: 1px solid $modal-content-border-color;
+  background-color: $cn-silver;
   border-radius: $radii;
-  @include box-shadow(0 3px 9px rgba(0, 0, 0, .5));
+  @include box-shadow(0 1px 10px rgba(0, 0, 0, .15));
   background-clip: padding-box;
   // Remove focus outline from opened modal
   outline: 0;
-
   border-radius: $radii;
 }
 
@@ -90,12 +87,10 @@
 // Modal header
 // Top section of the modal w/ title and dismiss
 .modal-header {
-
   min-height: ($modal-title-padding + $modal-title-line-height);
   padding: 12px;
   border-bottom: 1px solid $cn-aluminum;
-
-  background-color: $cn-silver;
+  background-color: $cn-sterling;
   border-top-left-radius: $radii;
   border-top-right-radius: $radii;
 
@@ -380,7 +375,7 @@
 
 .toast-container {
   > div.toast {
-    background-color: $dark-grey;
+    background-color: $cn-black-2;
 
     &.bg-primary,
     &.bg-info {
@@ -390,7 +385,7 @@
     &.bg-danger,
     &.bg-warning,
     &.bg-error {
-      color: $danger;
+      color: $cn-bad;
     }
   }
 }

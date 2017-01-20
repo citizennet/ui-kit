@@ -593,9 +593,9 @@ $modal-content-border-color: rgba(0, 0, 0, .2) !default;
 $modal-content-fallback-border-color: #999 !default;
 
 //** Modal backdrop background color
-$modal-backdrop-bg: #000 !default;
+$modal-backdrop-bg: #11181B;
 //** Modal backdrop opacity
-$modal-backdrop-opacity: .5 !default;
+$modal-backdrop-opacity: .85;
 //** Modal header border color
 $modal-header-border-color: #e5e5e5 !default;
 //** Modal footer border color
@@ -869,6 +869,7 @@ $cn-blue-3:   #238FB3;
 $cn-grey-1:   #404040;
 $cn-grey-2:   #666666;
 $cn-silver:   #F2F2F2;
+$cn-sterling: #F8F8F8;
 $cn-white:    #FFFFFF;
 $cn-good:     #F75771;
 $cn-bad:      #60BF9F;
@@ -883,10 +884,11 @@ $cn-semi-lite-hover: rgba(0, 0, 0, .1);
 $cn-semi-dark: rgba(230, 230, 230, .15);
 $cn-semi-dark-hover: rgba(230, 230, 230, .12);
 
+/* deprecate */
 $white: #fff;
 $black: #1C1E29;
 $danger: #e65d6d;
-$lighter-grey: #f0eff2;
+$lighter-grey: $cn-silver;
 $light-grey: #d8d8d8;
 $mid-light-grey: #cecece;
 $mid-grey: #939196;
