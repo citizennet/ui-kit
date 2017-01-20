@@ -11826,28 +11826,22 @@ tags-input .tag-item.tag-item-read-only {
   float: left !important;
 }
 
-/* line 24, ../../../sass/_utilities.scss */
-.flex-center {
-  display: flex;
-  justify-content: center;
-}
-
-/* line 33, ../../../sass/_utilities.scss */
+/* line 28, ../../../sass/_utilities.scss */
 .hide {
   display: none !important;
 }
 
-/* line 37, ../../../sass/_utilities.scss */
+/* line 32, ../../../sass/_utilities.scss */
 .show {
   display: block !important;
 }
 
-/* line 41, ../../../sass/_utilities.scss */
+/* line 36, ../../../sass/_utilities.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 45, ../../../sass/_utilities.scss */
+/* line 40, ../../../sass/_utilities.scss */
 .text-hide {
   font: 0/0 a;
   color: transparent;
@@ -11856,12 +11850,12 @@ tags-input .tag-item.tag-item-read-only {
   border: 0;
 }
 
-/* line 53, ../../../sass/_utilities.scss */
+/* line 48, ../../../sass/_utilities.scss */
 .hidden {
   display: none !important;
 }
 
-/* line 60, ../../../sass/_utilities.scss */
+/* line 55, ../../../sass/_utilities.scss */
 .affix {
   position: fixed;
 }
@@ -11869,7 +11863,7 @@ tags-input .tag-item.tag-item-read-only {
 /************************************************************************
 COMMON
 ************************************************************************/
-/* line 68, ../../../sass/_utilities.scss */
+/* line 63, ../../../sass/_utilities.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -11879,36 +11873,36 @@ COMMON
 /************************************************************************
 GENERAL
 ************************************************************************/
-/* line 76, ../../../sass/_utilities.scss */
+/* line 71, ../../../sass/_utilities.scss */
 .label, .close {
   font-weight: inherit;
 }
 
-/* line 80, ../../../sass/_utilities.scss */
+/* line 75, ../../../sass/_utilities.scss */
 hr {
   border-color: #d8d8d8;
 }
 
-/* line 84, ../../../sass/_utilities.scss */
+/* line 79, ../../../sass/_utilities.scss */
 body > .container-fluid {
   padding: 0;
 }
 
-/* line 88, ../../../sass/_utilities.scss */
+/* line 83, ../../../sass/_utilities.scss */
 dl.list-inline {
   margin-left: 0;
 }
-/* line 91, ../../../sass/_utilities.scss */
+/* line 86, ../../../sass/_utilities.scss */
 dl.list-inline dt, dl.list-inline dd {
   display: inline-block;
 }
 
-/* line 96, ../../../sass/_utilities.scss */
+/* line 91, ../../../sass/_utilities.scss */
 .bg-warning {
   background-color: #f2cece;
 }
 
-/* line 102, ../../../sass/_utilities.scss */
+/* line 97, ../../../sass/_utilities.scss */
 .navbar-brand > img {
   height: 27px;
   position: relative;
@@ -11916,13 +11910,13 @@ dl.list-inline dt, dl.list-inline dd {
   margin-right: 1em;
 }
 
-/* line 111, ../../../sass/_utilities.scss */
+/* line 106, ../../../sass/_utilities.scss */
 select.form-control {
   height: 26px;
   cursor: pointer;
 }
 
-/* line 117, ../../../sass/_utilities.scss */
+/* line 112, ../../../sass/_utilities.scss */
 input[type="text"]:focus::-webkit-input-placeholder {
   color: #ccc;
   -webkit-transition: all 0.3s ease;
@@ -11930,7 +11924,7 @@ input[type="text"]:focus::-webkit-input-placeholder {
   transition: all 0.3s ease;
 }
 
-/* line 122, ../../../sass/_utilities.scss */
+/* line 117, ../../../sass/_utilities.scss */
 input[type="text"]:focus::-moz-placeholder {
   /* Firefox 18- */
   color: #ccc;
@@ -11939,7 +11933,7 @@ input[type="text"]:focus::-moz-placeholder {
   transition: all 0.3s ease;
 }
 
-/* line 128, ../../../sass/_utilities.scss */
+/* line 123, ../../../sass/_utilities.scss */
 input[type="text"]:focus::-moz-placeholder {
   /* Firefox 19+ */
   color: #ccc;
@@ -11948,7 +11942,7 @@ input[type="text"]:focus::-moz-placeholder {
   transition: all 0.3s ease;
 }
 
-/* line 134, ../../../sass/_utilities.scss */
+/* line 129, ../../../sass/_utilities.scss */
 input[type="text"]:focus:-ms-input-placeholder {
   color: #ccc;
   -webkit-transition: all 0.3s ease;
@@ -11956,607 +11950,607 @@ input[type="text"]:focus:-ms-input-placeholder {
   transition: all 0.3s ease;
 }
 
-/* line 141, ../../../sass/_utilities.scss */
+/* line 136, ../../../sass/_utilities.scss */
 .gutterless {
   margin: 0;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .margin-5 {
   margin: 5px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-top-5 {
   margin-top: 5px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-right-5 {
   margin-right: 5px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-bottom-5 {
   margin-bottom: 5px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-left-5 {
   margin-left: 5px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .margin-10 {
   margin: 10px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-top-10 {
   margin-top: 10px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-right-10 {
   margin-right: 10px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-bottom-10 {
   margin-bottom: 10px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-left-10 {
   margin-left: 10px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .margin-15 {
   margin: 15px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-top-15 {
   margin-top: 15px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-right-15 {
   margin-right: 15px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-bottom-15 {
   margin-bottom: 15px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-left-15 {
   margin-left: 15px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .margin-20 {
   margin: 20px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-top-20 {
   margin-top: 20px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-right-20 {
   margin-right: 20px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-bottom-20 {
   margin-bottom: 20px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-left-20 {
   margin-left: 20px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .margin-25 {
   margin: 25px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-top-25 {
   margin-top: 25px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-right-25 {
   margin-right: 25px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-bottom-25 {
   margin-bottom: 25px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-left-25 {
   margin-left: 25px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .margin-30 {
   margin: 30px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-top-30 {
   margin-top: 30px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-right-30 {
   margin-right: 30px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-bottom-30 {
   margin-bottom: 30px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-left-30 {
   margin-left: 30px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .margin-35 {
   margin: 35px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-top-35 {
   margin-top: 35px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-right-35 {
   margin-right: 35px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-bottom-35 {
   margin-bottom: 35px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-left-35 {
   margin-left: 35px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .margin-40 {
   margin: 40px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-top-40 {
   margin-top: 40px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-right-40 {
   margin-right: 40px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-bottom-40 {
   margin-bottom: 40px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-left-40 {
   margin-left: 40px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .margin-45 {
   margin: 45px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-top-45 {
   margin-top: 45px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-right-45 {
   margin-right: 45px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-bottom-45 {
   margin-bottom: 45px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-left-45 {
   margin-left: 45px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .margin-50 {
   margin: 50px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-top-50 {
   margin-top: 50px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-right-50 {
   margin-right: 50px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-bottom-50 {
   margin-bottom: 50px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .margin-left-50 {
   margin-left: 50px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .padding-5 {
   padding: 5px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-top-5 {
   padding-top: 5px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-right-5 {
   padding-right: 5px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-bottom-5 {
   padding-bottom: 5px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-left-5 {
   padding-left: 5px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .padding-10 {
   padding: 10px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-top-10 {
   padding-top: 10px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-right-10 {
   padding-right: 10px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-bottom-10 {
   padding-bottom: 10px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-left-10 {
   padding-left: 10px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .padding-15 {
   padding: 15px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-top-15 {
   padding-top: 15px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-right-15 {
   padding-right: 15px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-bottom-15 {
   padding-bottom: 15px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-left-15 {
   padding-left: 15px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .padding-20 {
   padding: 20px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-top-20 {
   padding-top: 20px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-right-20 {
   padding-right: 20px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-bottom-20 {
   padding-bottom: 20px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-left-20 {
   padding-left: 20px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .padding-25 {
   padding: 25px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-top-25 {
   padding-top: 25px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-right-25 {
   padding-right: 25px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-bottom-25 {
   padding-bottom: 25px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-left-25 {
   padding-left: 25px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .padding-30 {
   padding: 30px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-top-30 {
   padding-top: 30px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-right-30 {
   padding-right: 30px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-bottom-30 {
   padding-bottom: 30px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-left-30 {
   padding-left: 30px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .padding-35 {
   padding: 35px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-top-35 {
   padding-top: 35px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-right-35 {
   padding-right: 35px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-bottom-35 {
   padding-bottom: 35px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-left-35 {
   padding-left: 35px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .padding-40 {
   padding: 40px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-top-40 {
   padding-top: 40px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-right-40 {
   padding-right: 40px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-bottom-40 {
   padding-bottom: 40px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-left-40 {
   padding-left: 40px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .padding-45 {
   padding: 45px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-top-45 {
   padding-top: 45px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-right-45 {
   padding-right: 45px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-bottom-45 {
   padding-bottom: 45px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-left-45 {
   padding-left: 45px;
 }
 
-/* line 150, ../../../sass/_utilities.scss */
+/* line 145, ../../../sass/_utilities.scss */
 .padding-50 {
   padding: 50px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-top-50 {
   padding-top: 50px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-right-50 {
   padding-right: 50px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-bottom-50 {
   padding-bottom: 50px;
 }
 
-/* line 155, ../../../sass/_utilities.scss */
+/* line 150, ../../../sass/_utilities.scss */
 .padding-left-50 {
   padding-left: 50px;
 }
 
-/* line 163, ../../../sass/_utilities.scss */
+/* line 158, ../../../sass/_utilities.scss */
 .no-border {
   border: 0 !important;
 }
 
-/* line 168, ../../../sass/_utilities.scss */
+/* line 163, ../../../sass/_utilities.scss */
 .no-border-top {
   border-top: 0;
 }
 
-/* line 168, ../../../sass/_utilities.scss */
+/* line 163, ../../../sass/_utilities.scss */
 .no-border-right {
   border-right: 0;
 }
 
-/* line 168, ../../../sass/_utilities.scss */
+/* line 163, ../../../sass/_utilities.scss */
 .no-border-bottom {
   border-bottom: 0;
 }
 
-/* line 168, ../../../sass/_utilities.scss */
+/* line 163, ../../../sass/_utilities.scss */
 .no-border-left {
   border-left: 0;
 }
 
-/* line 163, ../../../sass/_utilities.scss */
+/* line 158, ../../../sass/_utilities.scss */
 .no-margin {
   margin: 0 !important;
 }
 
-/* line 168, ../../../sass/_utilities.scss */
+/* line 163, ../../../sass/_utilities.scss */
 .no-margin-top {
   margin-top: 0;
 }
 
-/* line 168, ../../../sass/_utilities.scss */
+/* line 163, ../../../sass/_utilities.scss */
 .no-margin-right {
   margin-right: 0;
 }
 
-/* line 168, ../../../sass/_utilities.scss */
+/* line 163, ../../../sass/_utilities.scss */
 .no-margin-bottom {
   margin-bottom: 0;
 }
 
-/* line 168, ../../../sass/_utilities.scss */
+/* line 163, ../../../sass/_utilities.scss */
 .no-margin-left {
   margin-left: 0;
 }
 
-/* line 163, ../../../sass/_utilities.scss */
+/* line 158, ../../../sass/_utilities.scss */
 .no-padding {
   padding: 0 !important;
 }
 
-/* line 168, ../../../sass/_utilities.scss */
+/* line 163, ../../../sass/_utilities.scss */
 .no-padding-top {
   padding-top: 0;
 }
 
-/* line 168, ../../../sass/_utilities.scss */
+/* line 163, ../../../sass/_utilities.scss */
 .no-padding-right {
   padding-right: 0;
 }
 
-/* line 168, ../../../sass/_utilities.scss */
+/* line 163, ../../../sass/_utilities.scss */
 .no-padding-bottom {
   padding-bottom: 0;
 }
 
-/* line 168, ../../../sass/_utilities.scss */
+/* line 163, ../../../sass/_utilities.scss */
 .no-padding-left {
   padding-left: 0;
 }
 
-/* line 181, ../../../sass/_utilities.scss */
+/* line 176, ../../../sass/_utilities.scss */
 .island {
   padding: 40px;
 }
 
-/* line 185, ../../../sass/_utilities.scss */
+/* line 180, ../../../sass/_utilities.scss */
 .island-md {
   padding: 30px;
 }
 
-/* line 189, ../../../sass/_utilities.scss */
+/* line 184, ../../../sass/_utilities.scss */
 .island-sm {
   padding: 20px;
 }
 
-/* line 193, ../../../sass/_utilities.scss */
+/* line 188, ../../../sass/_utilities.scss */
 .island-xs {
   padding: 10px;
 }
 
-/* line 197, ../../../sass/_utilities.scss */
+/* line 192, ../../../sass/_utilities.scss */
 .island + .island:not(.bordered),
 .island-md + .island-md:not(.bordered),
 .island-sm + .island-sm:not(.bordered),
@@ -12564,7 +12558,7 @@ input[type="text"]:focus:-ms-input-placeholder {
   padding-top: 0;
 }
 
-/* line 204, ../../../sass/_utilities.scss */
+/* line 199, ../../../sass/_utilities.scss */
 .label {
   margin: 1px;
   display: inline-block;
@@ -12575,42 +12569,42 @@ input[type="text"]:focus:-ms-input-placeholder {
   -khtml-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 211, ../../../sass/_utilities.scss */
+/* line 206, ../../../sass/_utilities.scss */
 .label.label-block {
   display: block;
 }
-/* line 215, ../../../sass/_utilities.scss */
+/* line 210, ../../../sass/_utilities.scss */
 .label.label-primary {
   background-color: #c8e4f0;
 }
 
-/* line 221, ../../../sass/_utilities.scss */
+/* line 216, ../../../sass/_utilities.scss */
 .flex {
   width: auto;
   min-width: 50%;
 }
 
-/* line 226, ../../../sass/_utilities.scss */
+/* line 221, ../../../sass/_utilities.scss */
 .cn-error {
   color: #e65d6d;
 }
 
-/* line 230, ../../../sass/_utilities.scss */
+/* line 225, ../../../sass/_utilities.scss */
 [truncate-show=click] {
   cursor: pointer;
 }
 
-/* line 234, ../../../sass/_utilities.scss */
+/* line 229, ../../../sass/_utilities.scss */
 .text-break {
   word-break: break-all;
 }
 
-/* line 238, ../../../sass/_utilities.scss */
+/* line 233, ../../../sass/_utilities.scss */
 .disabled-events {
   pointer-events: none;
 }
 
-/* line 243, ../../../sass/_utilities.scss */
+/* line 238, ../../../sass/_utilities.scss */
 a.disabled, div.readonly {
   pointer-events: none;
   opacity: .65;
@@ -12621,13 +12615,13 @@ a.disabled, div.readonly {
  * element is hidden. add class "instant-hide" to any element with ng-hide
  * that needs to be hidden instantly.
 */
-/* line 253, ../../../sass/_utilities.scss */
+/* line 248, ../../../sass/_utilities.scss */
 .instant-hide {
   transition: 0s linear all !important;
   -webkit-transition: 0s linear all !important;
 }
 
-/* line 258, ../../../sass/_utilities.scss */
+/* line 253, ../../../sass/_utilities.scss */
 .offscreen {
   position: fixed;
   top: -9999%;
@@ -12635,32 +12629,32 @@ a.disabled, div.readonly {
   z-index: -999;
 }
 
-/* line 266, ../../../sass/_utilities.scss */
+/* line 261, ../../../sass/_utilities.scss */
 .hide-below {
   position: absolute;
   z-index: -999;
   opacity: .01;
 }
 
-/* line 272, ../../../sass/_utilities.scss */
+/* line 267, ../../../sass/_utilities.scss */
 .boost {
   z-index: 99;
 }
 
-/* line 276, ../../../sass/_utilities.scss */
+/* line 271, ../../../sass/_utilities.scss */
 .text-muted {
   color: inherit;
   opacity: .5;
 }
 
 @media screen and (min-width: 992px) {
-  /* line 282, ../../../sass/_utilities.scss */
+  /* line 277, ../../../sass/_utilities.scss */
   .vertical-parent {
     position: relative;
     z-index: 1;
   }
 
-  /* line 287, ../../../sass/_utilities.scss */
+  /* line 282, ../../../sass/_utilities.scss */
   .vertical-child {
     position: absolute;
     top: 50%;
@@ -12668,14 +12662,80 @@ a.disabled, div.readonly {
     max-width: 100%;
   }
 
-  /* line 294, ../../../sass/_utilities.scss */
+  /* line 289, ../../../sass/_utilities.scss */
   .vertical-child-right {
     right: 0;
   }
 }
-/* line 299, ../../../sass/_utilities.scss */
+/* line 294, ../../../sass/_utilities.scss */
 .semi-transparent {
   opacity: .5;
+}
+
+/* line 300, ../../../sass/_utilities.scss */
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 305, ../../../sass/_utilities.scss */
+.flex-box {
+  display: flex;
+}
+
+/* line 309, ../../../sass/_utilities.scss */
+.align-items-center {
+  align-items: center;
+}
+
+/* line 315, ../../../sass/_utilities.scss */
+.flex-1 {
+  flex: 1;
+}
+
+/* line 315, ../../../sass/_utilities.scss */
+.flex-2 {
+  flex: 2;
+}
+
+/* line 315, ../../../sass/_utilities.scss */
+.flex-3 {
+  flex: 3;
+}
+
+/* line 315, ../../../sass/_utilities.scss */
+.flex-4 {
+  flex: 4;
+}
+
+/* line 315, ../../../sass/_utilities.scss */
+.flex-5 {
+  flex: 5;
+}
+
+/* line 315, ../../../sass/_utilities.scss */
+.flex-6 {
+  flex: 6;
+}
+
+/* line 315, ../../../sass/_utilities.scss */
+.flex-7 {
+  flex: 7;
+}
+
+/* line 315, ../../../sass/_utilities.scss */
+.flex-8 {
+  flex: 8;
+}
+
+/* line 315, ../../../sass/_utilities.scss */
+.flex-9 {
+  flex: 9;
+}
+
+/* line 315, ../../../sass/_utilities.scss */
+.flex-10 {
+  flex: 10;
 }
 
 @-ms-viewport {
@@ -13723,27 +13783,32 @@ TOOL BAR
 #toast-container.action-toast-bottom-center > div {
   width: 60%;
 }
-/* line 25, ../../../sass/_toast.scss */
-#toast-container.action-toast-bottom-center .btn-options span {
-  float: right;
-}
 /* line 28, ../../../sass/_toast.scss */
-#toast-container.action-toast-bottom-center * {
-  background-color: #111111;
-}
-/* line 34, ../../../sass/_toast.scss */
 #toast-container.full-width-toast-bottom > div {
   width: 100%;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
   background: #FFFFFF;
   box-shadow: 0px 10px 20px 0px #111111;
 }
-/* line 42, ../../../sass/_toast.scss */
+/* line 36, ../../../sass/_toast.scss */
+#toast-container.full-width-toast-bottom a:not(.btn) {
+  color: #AAAEB3;
+}
+/* line 40, ../../../sass/_toast.scss */
 #toast-container.full-width-toast-bottom span {
   color: #111111;
 }
-/* line 47, ../../../sass/_toast.scss */
+/* line 42, ../../../sass/_toast.scss */
+#toast-container.full-width-toast-bottom span.label {
+  background-color: #1FABD9;
+  padding: 10px;
+  margin-right: 10px;
+  color: #F2F2F2;
+  font-weight: 100;
+  min-width: 30px;
+}
+/* line 53, ../../../sass/_toast.scss */
 #toast-container > div {
   position: absolute;
   z-index: 9000;
@@ -13757,7 +13822,7 @@ TOOL BAR
   border-top-right-radius: 3px;
 }
 
-/* line 62, ../../../sass/_toast.scss */
+/* line 68, ../../../sass/_toast.scss */
 :not(.no-enter)#toast-container > div.ng-enter,
 :not(.no-leave)#toast-container > div.ng-leave {
   -webkit-transition: 500ms cubic-bezier(0.44, 0.01, 0.56, 1) all;
@@ -13767,13 +13832,13 @@ TOOL BAR
   transition: 500ms cubic-bezier(0.44, 0.01, 0.56, 1) all;
 }
 
-/* line 72, ../../../sass/_toast.scss */
+/* line 78, ../../../sass/_toast.scss */
 :not(.no-enter)#toast-container > div.ng-enter.ng-enter-active,
 :not(.no-leave)#toast-container > div.ng-leave {
   bottom: 0px;
 }
 
-/* line 77, ../../../sass/_toast.scss */
+/* line 83, ../../../sass/_toast.scss */
 :not(.no-leave)#toast-container > div.ng-leave.ng-leave-active,
 :not(.no-enter)#toast-container > div.ng-enter {
   bottom: -370px;
