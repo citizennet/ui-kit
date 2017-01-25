@@ -3976,7 +3976,7 @@ legend, .cn-editor h3,
 }
 
 /* line 181, ../../../sass/_forms.scss */
-.form-group {
+.form-group:not(.schema-form-hidden) {
   margin-bottom: 15px;
 }
 
