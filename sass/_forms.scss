@@ -33,9 +33,12 @@ EDITOR
 
 fieldset,
 section {
-  margin: 25px 0 0;
   border: 0;
-  border-top: 1px solid $form-divider;
+
+  &:not(:first-child) {
+    margin: 25px 0 0;
+    border-top: 1px solid $form-divider;
+  }
 }
 
 section {
@@ -107,12 +110,11 @@ legend {
 
   .nav-pills {
     > li {
-      margin: 0 0 10px;
+      margin: 0;
 
       > a {
         @include border-radius(0);
-        font-size: 14px;
-        padding: 5px 25px;
+        padding: 13px 35px;
         color: $dark-grey;
 
         &:hover {
@@ -129,8 +131,8 @@ legend {
         > a {
           background: transparent;
           color: $black;
-          border-left: 4px solid $primary-color;
-          padding-left: 21px;
+          border-left: 4px solid $cn-blue-1;
+          padding-left: 31px;
           font-weight: 500;
 
           &:hover {
@@ -176,7 +178,7 @@ legend {
   }
 }
 
-.form-group {
+.form-group:not(.schema-form-hidden) {
   margin-bottom: 15px;
 }
 

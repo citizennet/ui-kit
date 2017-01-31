@@ -57,16 +57,13 @@
 // Actual modal
 .modal-content {
   position: relative;
-  background-color: #F0F0F0;
-  border: 1px solid $modal-content-fallback-border-color; //old browsers fallback (ie8 etc)
-  border: 1px solid $modal-content-border-color;
-  border-radius: $border-radius-large;
-  @include box-shadow(0 3px 9px rgba(0, 0, 0, .5));
+  background-color: $cn-silver;
+  border-radius: $radii;
+  @include box-shadow(0 1px 10px rgba(0, 0, 0, .15));
   background-clip: padding-box;
   // Remove focus outline from opened modal
   outline: 0;
-
-  border-radius: 7px;
+  border-radius: $radii;
 }
 
 // Modal background
@@ -90,28 +87,21 @@
 // Modal header
 // Top section of the modal w/ title and dismiss
 .modal-header {
-
   min-height: ($modal-title-padding + $modal-title-line-height);
   padding: 12px;
-  border-bottom: 1px solid #DEDEDE;
-
-  background-color: #F9F9FB;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-bottom: 1px solid $cn-aluminum;
+  background-color: $cn-sterling;
+  border-top-left-radius: $radii;
+  border-top-right-radius: $radii;
 
   span.title,
   h1 {
     color: $charcoal;
     margin: 10px 0 10px 7px;
-    font-weight: 300;
+    font-weight: 400;
     display: inline-block;
-    font-size: 19px;
+    font-size: 14px;
     line-height: 35px;
-  }
-
-  .page-action-btns {
-    float: right;
-    margin: 10px 7px 10px 0;
   }
 
   .btn {
@@ -257,7 +247,7 @@
 .modal-content {
   background-color: $modal-bg;
   font-size: 13px;
-  border-radius: $border-radius-large;
+  border-radius: $radii;
   // lazy way to maintain border radius, if gets in the way, look at
   // modal for duplicating ad sets across campaigns
   // @update April 27, 2016 - this partially hides dropdowns at the bottom of a modal. :/
@@ -314,8 +304,8 @@
     }
 
     &:last-child {
-      border-bottom-left-radius: $border-radius-large;
-      border-bottom-right-radius: $border-radius-large;
+      border-bottom-left-radius: $radii;
+      border-bottom-right-radius: $radii;
     }
   }
 
@@ -385,7 +375,7 @@
 
 .toast-container {
   > div.toast {
-    background-color: $dark-grey;
+    background-color: $cn-black-2;
 
     &.bg-primary,
     &.bg-info {
@@ -395,7 +385,7 @@
     &.bg-danger,
     &.bg-warning,
     &.bg-error {
-      color: $danger;
+      color: $cn-bad;
     }
   }
 }

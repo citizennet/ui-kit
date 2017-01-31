@@ -1,31 +1,21 @@
-$bootstrap-sass-asset-helper: false !default;
 //
 // Variables
 // --------------------------------------------------
 
-//== Colors
-//
-//## Gray and brand colors for use across Bootstrap.
+$bootstrap-sass-asset-helper: false !default;
 
-$gray-base: #000 !default;
-$gray-darker: lighten($gray-base, 13.5%) !default;
-// #222
-$gray-dark: lighten($gray-base, 20%) !default;
-// #333
-$gray: lighten($gray-base, 33.5%) !default;
-// #555
-$gray-light: lighten($gray-base, 46.7%) !default;
-// #777
-$gray-lighter: lighten($gray-base, 93.5%) !default;
-// #eee
+$gray-base:    #000 !default;
+$gray-light:   lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter: lighten($gray-base, 93.5%) !default; // #eee
+$gray:         lighten($gray-base, 33.5%) !default; // #555
+$gray-dark:    lighten($gray-base, 20%)   !default; // #333
+$gray-darker:  lighten($gray-base, 13.5%) !default; // #222
 
-//$brand-primary: darken(#428bca, 6.5%) !default;
-$brand-primary: darken(#428bca, 6.5%) !default;
-// #337ab7
+$brand-danger:  #d9534f !default;
+$brand-info:    #5bc0de !default;
+$brand-primary: darken(#428bca, 6.5%) !default; // #337ab7
 $brand-success: #5cb85c !default;
-$brand-info: #5bc0de !default;
 $brand-warning: #f0ad4e !default;
-$brand-danger: #d9534f !default;
 
 //== Scaffolding
 //
@@ -375,7 +365,7 @@ $navbar-padding-vertical: (($navbar-height - $line-height-computed) / 2) !defaul
 $navbar-collapse-max-height: 340px !default;
 
 $navbar-default-color: #777 !default;
-$navbar-default-bg: #f8f8f8 !default;
+$navbar-default-bg: #FFF !default;
 $navbar-default-border: darken($navbar-default-bg, 6.5%) !default;
 
 // Navbar links
@@ -603,9 +593,9 @@ $modal-content-border-color: rgba(0, 0, 0, .2) !default;
 $modal-content-fallback-border-color: #999 !default;
 
 //** Modal backdrop background color
-$modal-backdrop-bg: #000 !default;
+$modal-backdrop-bg: #11181B;
 //** Modal backdrop opacity
-$modal-backdrop-opacity: .5 !default;
+$modal-backdrop-opacity: .85;
 //** Modal header border color
 $modal-header-border-color: #e5e5e5 !default;
 //** Modal footer border color
@@ -865,10 +855,40 @@ $break-sm: 768px;
 $break-md: 992px;
 $break-lg: 1200px;
 
+
+// +--------------+
+// |    COLORS    |
+// +--------------+
+
+$cn-aluminum: #AAAEB3;
+$cn-black-1:  #111111;
+$cn-black-2:  #1B1B1B;
+$cn-blue-1:   #24BFF3;
+$cn-blue-2:   #1FABD9;
+$cn-blue-3:   #238FB3;
+$cn-grey-1:   #404040;
+$cn-grey-2:   #666666;
+$cn-silver:   #F2F2F2;
+$cn-sterling: #F8F8F8;
+$cn-white:    #FFFFFF;
+$cn-good:     #F75771;
+$cn-bad:      #60BF9F;
+$fb-blue:     #3b5998;
+$fb-border:   darken($fb-blue, 10%);
+$ig-brown:    #675144;
+$ig-border:   darken($ig-brown, 10%);
+$tw-blue:     #00aced;
+$tw-border:   darken($tw-blue, 10%);
+$cn-semi-lite: rgba(0, 0, 0, .07);
+$cn-semi-lite-hover: rgba(0, 0, 0, .1);
+$cn-semi-dark: rgba(230, 230, 230, .15);
+$cn-semi-dark-hover: rgba(230, 230, 230, .12);
+
+/* deprecate */
 $white: #fff;
 $black: #1C1E29;
 $danger: #e65d6d;
-$lighter-grey: #f0eff2;
+$lighter-grey: $cn-silver;
 $light-grey: #d8d8d8;
 $mid-light-grey: #cecece;
 $mid-grey: #939196;
@@ -890,36 +910,34 @@ $scarlet: #FF1744;
 $teal: #00897B;
 $persian: #26A69A;
 
-
 $primary-highlight: #c8e4f0;
 $primary-color: #3ba0cc;
 $primary-shadow: #3095c3;
 $primary-text: $white;
 $danger-color: $danger;
 $danger-text: $white;
-//$info-color: #D6EEFA;
-//$info-shadow: #bed7e2;
 
-$fb-blue: #3b5998;
-$fb-border: darken($fb-blue, 10%);
-$tw-blue: #00aced;
-$tw-border: darken($tw-blue, 10%);
-$ig-brown: #675144;
-$ig-border: darken($ig-brown, 10%);
-
-// global
-
-$default-color: $dark-grey;
-$default-bg: #dedae0;
+$default-color:  $dark-grey;
+$default-bg:     #dedae0;
 $default-shadow: #c6c3c8;
 
-$top-main-nav-bg: $darker-grey;
-$top-main-nav-bg-active: $dark-grey;
-$top-sub-nav-bg: $black;
-$top-nav-text: $mid-grey;
-$top-sub-nav-text: $light-grey;
+// +--------------+
+// |    NAVBAR    |
+// +--------------+
 
-$top-sub-nav-secondary-text: #CECECE;
+$top-main-nav-bg:        $cn-black-1;
+$top-main-nav-bg-active: $grey;
+$top-nav-text:           $cn-aluminum;
+
+// +-----------------+
+// |    SUBNAVBAR    |
+// +-----------------+
+
+$top-sub-nav-bg:             $cn-black-2;
+$top-sub-nav-text:           $cn-aluminum;
+$top-sub-nav-secondary-text: $cn-silver;
+
+
 
 $bg-inner-main: $dark-grey;
 
