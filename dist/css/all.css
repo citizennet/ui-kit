@@ -2035,11 +2035,12 @@ iframe.iframe {
 code,
 kbd,
 pre,
-samp {
+samp,
+.angular-json-explorer {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-/* line 14, ../../../sass/_code.scss */
+/* line 15, ../../../sass/_code.scss */
 code {
   padding: 2px 4px;
   font-size: 90%;
@@ -2048,7 +2049,7 @@ code {
   border-radius: 3px;
 }
 
-/* line 23, ../../../sass/_code.scss */
+/* line 24, ../../../sass/_code.scss */
 kbd {
   padding: 2px 4px;
   font-size: 90%;
@@ -2057,7 +2058,7 @@ kbd {
   border-radius: 2px;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
-/* line 31, ../../../sass/_code.scss */
+/* line 32, ../../../sass/_code.scss */
 kbd kbd {
   padding: 0;
   font-size: 100%;
@@ -2065,8 +2066,9 @@ kbd kbd {
   box-shadow: none;
 }
 
-/* line 41, ../../../sass/_code.scss */
-pre {
+/* line 42, ../../../sass/_code.scss */
+pre,
+.angular-json-explorer {
   outline: 1px solid #e9e9e9;
   display: block;
   padding: 9.5px;
@@ -2075,12 +2077,13 @@ pre {
   line-height: 1.42857;
   word-break: break-all;
   word-wrap: break-word;
-  color: #333333;
+  color: #666666;
   background-color: #fff;
   border-radius: 3px;
 }
-/* line 56, ../../../sass/_code.scss */
-pre code {
+/* line 58, ../../../sass/_code.scss */
+pre code,
+.angular-json-explorer code {
   padding: 0;
   font-size: inherit;
   color: inherit;
@@ -2088,28 +2091,31 @@ pre code {
   background-color: transparent;
   border-radius: 0;
 }
-/* line 65, ../../../sass/_code.scss */
-pre .string {
-  color: #26A69A;
-}
-/* line 66, ../../../sass/_code.scss */
-pre .number {
-  color: #4FC3F7;
-}
 /* line 67, ../../../sass/_code.scss */
-pre .boolean {
-  color: #0288D1;
+pre .string,
+.angular-json-explorer .string {
+  color: #60BF9F;
 }
 /* line 68, ../../../sass/_code.scss */
-pre .null {
-  color: #e65d6d;
+pre .number, pre .num,
+.angular-json-explorer .number,
+.angular-json-explorer .num {
+  color: #24BFF3;
 }
 /* line 69, ../../../sass/_code.scss */
-pre .key {
-  color: #46535D;
+pre .boolean, pre .bool,
+.angular-json-explorer .boolean,
+.angular-json-explorer .bool {
+  color: #1FABD9;
+}
+/* line 70, ../../../sass/_code.scss */
+pre .null, pre .collapser,
+.angular-json-explorer .null,
+.angular-json-explorer .collapser {
+  color: #F75771;
 }
 
-/* line 73, ../../../sass/_code.scss */
+/* line 75, ../../../sass/_code.scss */
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
@@ -3826,8 +3832,8 @@ section {
   border: 0;
 }
 /* line 38, ../../../sass/_forms.scss */
-fieldset:not(:first-child),
-section:not(:first-child) {
+sf-decorator:not(:first-child) fieldset, sf-decorator:not(:first-child)
+section {
   margin: 25px 0 0;
   border-top: 1px solid #d8d8d8;
 }
@@ -4808,27 +4814,27 @@ date-input {
 /* line 75, ../../../sass/_buttons.scss */
 .btn.btn-success {
   color: #FFFFFF;
-  background-color: #F75771;
+  background-color: #60BF9F;
 }
 /* line 11, ../../../sass/mixins/_buttons.scss */
 .btn.btn-success:focus, .btn.btn-success.focus {
   color: #FFFFFF;
-  background-color: #f52648;
+  background-color: #44a886;
 }
 /* line 17, ../../../sass/mixins/_buttons.scss */
 .btn.btn-success:hover {
   color: #FFFFFF;
-  background-color: #f52648;
+  background-color: #44a886;
 }
 /* line 22, ../../../sass/mixins/_buttons.scss */
 .btn.btn-success:active, .btn.btn-success.active, .open > .btn.btn-success.dropdown-toggle {
   color: #FFFFFF;
-  background-color: #f52648;
+  background-color: #44a886;
 }
 /* line 29, ../../../sass/mixins/_buttons.scss */
 .btn.btn-success:active:hover, .btn.btn-success:active:focus, .btn.btn-success:active.focus, .btn.btn-success.active:hover, .btn.btn-success.active:focus, .btn.btn-success.active.focus, .open > .btn.btn-success.dropdown-toggle:hover, .open > .btn.btn-success.dropdown-toggle:focus, .open > .btn.btn-success.dropdown-toggle.focus {
   color: #FFFFFF;
-  background-color: #ec0b30;
+  background-color: #398f72;
 }
 /* line 37, ../../../sass/mixins/_buttons.scss */
 .btn.btn-success:active, .btn.btn-success.active, .open > .btn.btn-success.dropdown-toggle {
@@ -4836,37 +4842,37 @@ date-input {
 }
 /* line 45, ../../../sass/mixins/_buttons.scss */
 .btn.btn-success.disabled, .btn.btn-success.disabled:hover, .btn.btn-success.disabled:focus, .btn.btn-success.disabled.focus, .btn.btn-success.disabled:active, .btn.btn-success.disabled.active, .btn.btn-success[disabled], .btn.btn-success[disabled]:hover, .btn.btn-success[disabled]:focus, .btn.btn-success[disabled].focus, .btn.btn-success[disabled]:active, .btn.btn-success[disabled].active, fieldset[disabled] .btn.btn-success, fieldset[disabled] .btn.btn-success:hover, fieldset[disabled] .btn.btn-success:focus, fieldset[disabled] .btn.btn-success.focus, fieldset[disabled] .btn.btn-success:active, fieldset[disabled] .btn.btn-success.active {
-  background-color: #F75771;
+  background-color: #60BF9F;
 }
 /* line 56, ../../../sass/mixins/_buttons.scss */
 .btn.btn-success .badge {
-  color: #F75771;
+  color: #60BF9F;
   background-color: #FFFFFF;
 }
 /* line 79, ../../../sass/_buttons.scss */
 .btn.btn-danger {
   color: #FFFFFF;
-  background-color: #60BF9F;
+  background-color: #F75771;
 }
 /* line 11, ../../../sass/mixins/_buttons.scss */
 .btn.btn-danger:focus, .btn.btn-danger.focus {
   color: #FFFFFF;
-  background-color: #44a886;
+  background-color: #f52648;
 }
 /* line 17, ../../../sass/mixins/_buttons.scss */
 .btn.btn-danger:hover {
   color: #FFFFFF;
-  background-color: #44a886;
+  background-color: #f52648;
 }
 /* line 22, ../../../sass/mixins/_buttons.scss */
 .btn.btn-danger:active, .btn.btn-danger.active, .open > .btn.btn-danger.dropdown-toggle {
   color: #FFFFFF;
-  background-color: #44a886;
+  background-color: #f52648;
 }
 /* line 29, ../../../sass/mixins/_buttons.scss */
 .btn.btn-danger:active:hover, .btn.btn-danger:active:focus, .btn.btn-danger:active.focus, .btn.btn-danger.active:hover, .btn.btn-danger.active:focus, .btn.btn-danger.active.focus, .open > .btn.btn-danger.dropdown-toggle:hover, .open > .btn.btn-danger.dropdown-toggle:focus, .open > .btn.btn-danger.dropdown-toggle.focus {
   color: #FFFFFF;
-  background-color: #398f72;
+  background-color: #ec0b30;
 }
 /* line 37, ../../../sass/mixins/_buttons.scss */
 .btn.btn-danger:active, .btn.btn-danger.active, .open > .btn.btn-danger.dropdown-toggle {
@@ -4874,11 +4880,11 @@ date-input {
 }
 /* line 45, ../../../sass/mixins/_buttons.scss */
 .btn.btn-danger.disabled, .btn.btn-danger.disabled:hover, .btn.btn-danger.disabled:focus, .btn.btn-danger.disabled.focus, .btn.btn-danger.disabled:active, .btn.btn-danger.disabled.active, .btn.btn-danger[disabled], .btn.btn-danger[disabled]:hover, .btn.btn-danger[disabled]:focus, .btn.btn-danger[disabled].focus, .btn.btn-danger[disabled]:active, .btn.btn-danger[disabled].active, fieldset[disabled] .btn.btn-danger, fieldset[disabled] .btn.btn-danger:hover, fieldset[disabled] .btn.btn-danger:focus, fieldset[disabled] .btn.btn-danger.focus, fieldset[disabled] .btn.btn-danger:active, fieldset[disabled] .btn.btn-danger.active {
-  background-color: #60BF9F;
+  background-color: #F75771;
 }
 /* line 56, ../../../sass/mixins/_buttons.scss */
 .btn.btn-danger .badge {
-  color: #60BF9F;
+  color: #F75771;
   background-color: #FFFFFF;
 }
 /* line 83, ../../../sass/_buttons.scss */
@@ -10630,7 +10636,7 @@ floating-action-button .fab-title {
 }
 /* line 385, ../../../sass/_modals.scss */
 .toast-container > div.toast.bg-danger, .toast-container > div.toast.bg-warning, .toast-container > div.toast.bg-error {
-  color: #60BF9F;
+  color: #F75771;
 }
 
 /* line 6, ../../../sass/_tooltip.scss */
