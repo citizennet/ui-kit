@@ -26,6 +26,7 @@
 
   &.full-width-toast-bottom {
     > div {
+      z-index: 1000;
       width: 100%;
       border-top-left-radius: 0px;
       border-top-right-radius: 0px;
