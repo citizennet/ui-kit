@@ -34,11 +34,12 @@ EDITOR
 fieldset,
 section {
   border: 0;
+}
 
-  sf-decorator:not(:first-child) & {
-    margin: 25px 0 0;
-    border-top: 1px solid $form-divider;
-  }
+section,
+fieldset:not(.borderless) {
+  margin: 25px 0 0;
+  border-top: 1px solid $form-divider;
 }
 
 section {
