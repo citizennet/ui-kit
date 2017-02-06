@@ -15,7 +15,6 @@ SUBNAV
 
 .cn-sub-navbar-fixed-top,
 .cn-mast-head {
-  background-color: $top-sub-nav-bg;
   width: 100%;
   padding: 0;
   z-index: 1020;
@@ -56,10 +55,6 @@ SUBNAV
 
   .cn-mast-head-inner {
     position: relative;
-  }
-
-  .cn-mast-head-sub {
-    background-color: lighten($top-sub-nav-bg, 5%);
   }
 
   .cn-mast-actions {
