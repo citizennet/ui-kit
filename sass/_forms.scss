@@ -36,6 +36,11 @@ section {
   border: 0;
 }
 
+fieldset[disabled] .form-group,
+.form-group [disabled] {
+  pointer-events: none;
+}
+
 section,
 fieldset:not(.borderless) {
   margin: 25px 0 0;
@@ -208,12 +213,14 @@ textarea.form-control {
   position: relative;
 
   .cn-list table td &,
-  &[disabled] {
+  &[disabled],
+  [disabled] &{
     border: 1px solid $text-field-shadow;
     padding: 6px;
   }
 
-  &[disabled] {
+  &[disabled],
+  [disabled] & {
     background-color: $text-field-disabled;
   }
 
@@ -750,11 +757,14 @@ date-input {
       padding-top: 0;
       padding-bottom: 0;
     }
+
     .form-control,
     .btn {
       height: 32px;
       margin: 1px 0;
-      &[disabled] {
+      
+      &[disabled],
+      [disabled] & {
         border: 0;
         background: transparent;
       }
