@@ -286,6 +286,13 @@
 //    border-color: $text-field-shadow;
     border: 0;
     padding: 7px 15px;
+
+    &[disabled],
+    [disabled] &,
+    .well & {
+      border: 1px solid $text-field-shadow;
+      padding: 6px;
+    }
   }
 
   &.open {
