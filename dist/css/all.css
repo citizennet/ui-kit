@@ -11820,6 +11820,7 @@ tags-input .tag-item.tag-item-read-only {
 .cn-datetimepicker-dropdown {
   width: 100%;
   max-width: 300px;
+  min-width: 220px;
 }
 
 /* line 14, ../../../sass/mixins/_clearfix.scss */
