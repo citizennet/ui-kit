@@ -3642,72 +3642,43 @@ table.fixed {
 .cn-list.requests-list-table table thead th:nth-child(2) {
   min-width: 10px;
 }
-/* line 373, ../../../sass/_tables.scss */
-.cn-list.requests-list-table table thead th:nth-child(3) {
-  width: 25%;
-}
-/* line 376, ../../../sass/_tables.scss */
-.cn-list.requests-list-table table thead th:nth-child(4) {
-  width: 20%;
-}
-/* line 379, ../../../sass/_tables.scss */
-.cn-list.requests-list-table table thead th:nth-child(5) {
-  text-align: center;
-}
-/* line 382, ../../../sass/_tables.scss */
-.cn-list.requests-list-table table thead th:nth-child(11) {
-  min-width: 120px;
-}
-/* line 389, ../../../sass/_tables.scss */
-.cn-list.requests-list-table table tbody td:nth-child(5) {
-  text-align: center;
-}
-/* line 391, ../../../sass/_tables.scss */
-.cn-list.requests-list-table table tbody td:nth-child(5) i {
-  color: #638A79;
-}
-/* line 396, ../../../sass/_tables.scss */
-.cn-list.requests-list-table table tbody td:nth-child(7) a {
-  margin-top: 5px;
-  display: table;
-}
-/* line 402, ../../../sass/_tables.scss */
+/* line 377, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td .status {
   position: relative;
   padding-left: 20px;
 }
-/* line 406, ../../../sass/_tables.scss */
+/* line 381, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td .status i {
   position: absolute;
   left: 0;
   top: 4px;
 }
-/* line 412, ../../../sass/_tables.scss */
+/* line 387, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td .status p:first-of-type {
   text-transform: capitalize;
 }
-/* line 415, ../../../sass/_tables.scss */
+/* line 390, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td .status p:nth-of-type(2) {
   opacity: 0.5;
 }
-/* line 419, ../../../sass/_tables.scss */
+/* line 394, ../../../sass/_tables.scss */
 .cn-list.requests-list-table table tbody td .status a {
   margin-top: 5px;
   display: table;
 }
-/* line 432, ../../../sass/_tables.scss */
+/* line 407, ../../../sass/_tables.scss */
 .cn-list.diff-table .group {
   background: #f7f7f7;
 }
-/* line 435, ../../../sass/_tables.scss */
+/* line 410, ../../../sass/_tables.scss */
 .cn-list.diff-table .sub-group {
   background: #dfeef5;
 }
-/* line 442, ../../../sass/_tables.scss */
+/* line 417, ../../../sass/_tables.scss */
 .cn-list table.ad-sets-list-table.card {
   border-bottom: none;
 }
-/* line 447, ../../../sass/_tables.scss */
+/* line 422, ../../../sass/_tables.scss */
 .cn-list .label,
 .cn-list label.control-label {
   display: inline-block;
@@ -3715,30 +3686,30 @@ table.fixed {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* line 455, ../../../sass/_tables.scss */
+/* line 430, ../../../sass/_tables.scss */
 .cn-list .media-object {
   max-width: 50px;
   display: inline;
 }
 
-/* line 461, ../../../sass/_tables.scss */
+/* line 436, ../../../sass/_tables.scss */
 .list-container {
   max-width: 85%;
   margin: auto;
   margin-top: 25px;
 }
 
-/* line 469, ../../../sass/_tables.scss */
+/* line 444, ../../../sass/_tables.scss */
 .cn-timepicker td {
   min-width: 50px;
 }
-/* line 472, ../../../sass/_tables.scss */
+/* line 447, ../../../sass/_tables.scss */
 .cn-timepicker button {
   margin: 0px 2px;
   padding: 9px;
 }
 
-/* line 478, ../../../sass/_tables.scss */
+/* line 453, ../../../sass/_tables.scss */
 .table > tbody > tr > td,
 .table > tbody > tr > th,
 .table > tfoot > tr > td,
@@ -3748,7 +3719,7 @@ table.fixed {
   vertical-align: middle;
 }
 
-/* line 487, ../../../sass/_tables.scss */
+/* line 462, ../../../sass/_tables.scss */
 .top-heavy > tbody > tr > td,
 .top-heavy > tbody > tr > th,
 .top-heavy > tfoot > tr > td,
@@ -3758,32 +3729,32 @@ table.fixed {
   vertical-align: top;
 }
 
-/* line 497, ../../../sass/_tables.scss */
+/* line 472, ../../../sass/_tables.scss */
 .cn-ff-table .row {
   border-top: 1px solid #d8d8d8;
   margin-left: 0;
   margin-right: 0;
 }
-/* line 498, ../../../sass/_tables.scss */
+/* line 473, ../../../sass/_tables.scss */
 .cn-ff-table .row:first-of-type {
   border-top: none;
 }
-/* line 500, ../../../sass/_tables.scss */
+/* line 475, ../../../sass/_tables.scss */
 .cn-ff-table .row:first-of-type p.column-header {
   color: #97949A;
   font-size: 0.90em;
   font-weight: 200;
 }
-/* line 506, ../../../sass/_tables.scss */
+/* line 481, ../../../sass/_tables.scss */
 .cn-ff-table .row p:first-of-type {
   font-weight: 800;
   margin-bottom: 0;
 }
-/* line 513, ../../../sass/_tables.scss */
+/* line 488, ../../../sass/_tables.scss */
 .cn-ff-table .row div:first-child {
   padding-left: 0;
 }
-/* line 517, ../../../sass/_tables.scss */
+/* line 492, ../../../sass/_tables.scss */
 .cn-ff-table h6 {
   text-transform: uppercase;
   font-size: 90%;
