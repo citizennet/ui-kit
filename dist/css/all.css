@@ -4418,6 +4418,11 @@ date-input {
 }
 
 /* line 696, ../../../sass/_forms.scss */
+.shutterstock-logo {
+  background: url("/images/shutterstock-logo.svg") no-repeat 50% 50%;
+}
+
+/* line 700, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group {
   margin: 1px 0;
   padding: 2px;
@@ -4427,84 +4432,84 @@ date-input {
   -khtml-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
 }
-/* line 702, ../../../sass/_forms.scss */
+/* line 706, ../../../sass/_forms.scss */
 [disabled] .cn-autocomplete-list.list-group {
   background-color: transparent;
   border: 1px solid #E7E6E9;
   border-bottom: 0;
   margin-bottom: 0;
 }
-/* line 712, ../../../sass/_forms.scss */
+/* line 716, ../../../sass/_forms.scss */
 .has-success .cn-autocomplete-list.list-group + tags-input .host .input.form-control, .has-error .cn-autocomplete-list.list-group + tags-input .host .input.form-control, .has-success .cn-autocomplete-list.list-group + .host .input.form-control, .has-error .cn-autocomplete-list.list-group + .host .input.form-control {
   -webkit-border-radius: 0 0 3px 3px;
   -moz-border-radius: 0 0 3px 3px;
   -khtml-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px;
 }
-/* line 716, ../../../sass/_forms.scss */
+/* line 720, ../../../sass/_forms.scss */
 .has-success .cn-autocomplete-list.list-group + tags-input .host .input.form-control .btn-group > .btn:last-child:not(:first-child), .has-error .cn-autocomplete-list.list-group + tags-input .host .input.form-control .btn-group > .btn:last-child:not(:first-child), .has-success .cn-autocomplete-list.list-group + .host .input.form-control .btn-group > .btn:last-child:not(:first-child), .has-error .cn-autocomplete-list.list-group + .host .input.form-control .btn-group > .btn:last-child:not(:first-child) {
   -webkit-border-radius: 0 0 3px 0;
   -moz-border-radius: 0 0 3px 0;
   -khtml-border-radius: 0 0 3px 0;
   border-radius: 0 0 3px 0;
 }
-/* line 723, ../../../sass/_forms.scss */
+/* line 727, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item {
   padding: 0 35px 0 0;
   background-color: transparent;
   border: 0;
 }
-/* line 728, ../../../sass/_forms.scss */
+/* line 732, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item:last-child {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -khtml-border-radius: 0;
   border-radius: 0;
 }
-/* line 732, ../../../sass/_forms.scss */
+/* line 736, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item:hover {
   background-color: #c8e4f0;
 }
-/* line 735, ../../../sass/_forms.scss */
+/* line 739, ../../../sass/_forms.scss */
 [disabled] .cn-autocomplete-list.list-group .list-group-item:hover {
   background-color: transparent;
 }
-/* line 739, ../../../sass/_forms.scss */
+/* line 743, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item:hover .close {
   opacity: 1;
 }
-/* line 744, ../../../sass/_forms.scss */
+/* line 748, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item:first-child {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-/* line 756, ../../../sass/_forms.scss */
+/* line 760, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .form-control {
   min-height: 32px;
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 762, ../../../sass/_forms.scss */
+/* line 766, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .form-control,
 .cn-autocomplete-list.list-group .list-group-item .btn {
   height: 32px;
   margin: 1px 0;
 }
-/* line 767, ../../../sass/_forms.scss */
+/* line 771, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .form-control[disabled], [disabled] .cn-autocomplete-list.list-group .list-group-item .form-control,
 .cn-autocomplete-list.list-group .list-group-item .btn[disabled], [disabled]
 .cn-autocomplete-list.list-group .list-group-item .btn {
   border: 0;
   background: transparent;
 }
-/* line 775, ../../../sass/_forms.scss */
+/* line 779, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item > .tag-item {
   display: block;
   padding: 1px 8px;
   line-height: 32px;
   margin: 0;
 }
-/* line 782, ../../../sass/_forms.scss */
+/* line 786, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .close {
   position: absolute;
   z-index: 99;
@@ -4512,31 +4517,31 @@ date-input {
   right: 10px;
   opacity: 0;
 }
-/* line 789, ../../../sass/_forms.scss */
+/* line 793, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .close:hover {
   color: #e65d6d;
 }
-/* line 794, ../../../sass/_forms.scss */
+/* line 798, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .form-group {
   margin-bottom: 0;
 }
-/* line 798, ../../../sass/_forms.scss */
+/* line 802, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .help-block {
   margin: 0;
 }
-/* line 802, ../../../sass/_forms.scss */
+/* line 806, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .btn {
   padding-top: 6px;
   padding-bottom: 6px;
 }
 
-/* line 810, ../../../sass/_forms.scss */
+/* line 814, ../../../sass/_forms.scss */
 .schema-form-array > .list-group > .list-group-item {
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 3px;
   margin-bottom: 15px;
 }
-/* line 815, ../../../sass/_forms.scss */
+/* line 819, ../../../sass/_forms.scss */
 .schema-form-array > .list-group > .list-group-item > button.close {
   position: absolute;
   top: 7px;
@@ -4544,42 +4549,42 @@ date-input {
   z-index: 20;
 }
 
-/* line 824, ../../../sass/_forms.scss */
+/* line 828, ../../../sass/_forms.scss */
 .cn-reusable {
   position: relative;
 }
-/* line 827, ../../../sass/_forms.scss */
+/* line 831, ../../../sass/_forms.scss */
 .cn-reusable p.toggle-view {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-/* line 834, ../../../sass/_forms.scss */
+/* line 838, ../../../sass/_forms.scss */
 .cn-batch-wrapper {
   position: relative;
 }
-/* line 837, ../../../sass/_forms.scss */
+/* line 841, ../../../sass/_forms.scss */
 .cn-batch-wrapper .cn-batch-field {
   margin-right: 40px;
 }
-/* line 841, ../../../sass/_forms.scss */
+/* line 845, ../../../sass/_forms.scss */
 .cn-batch-wrapper .cn-dirty-check {
   position: absolute;
   top: 34px;
   right: 0;
 }
-/* line 846, ../../../sass/_forms.scss */
+/* line 850, ../../../sass/_forms.scss */
 .cn-batch-wrapper .cn-dirty-check.notitle {
   top: 6px;
 }
 
-/* line 852, ../../../sass/_forms.scss */
+/* line 856, ../../../sass/_forms.scss */
 .form-group .cn-toggle {
   margin: 6px 0;
 }
 
-/* line 856, ../../../sass/_forms.scss */
+/* line 860, ../../../sass/_forms.scss */
 .cn-batch-options {
   padding: 10px 20px;
   background-color: rgba(0, 0, 0, 0.05);
@@ -4588,7 +4593,7 @@ date-input {
   clear: both;
   margin-bottom: 25px;
 }
-/* line 868, ../../../sass/_forms.scss */
+/* line 872, ../../../sass/_forms.scss */
 .cn-batch-options::before {
   content: ' ';
   position: absolute;
@@ -9232,6 +9237,44 @@ a.thumbnail.active {
 .media-list {
   padding-left: 0;
   list-style: none;
+}
+
+/* line 68, ../../../sass/_media.scss */
+.shutterstock-image {
+  background-color: black;
+}
+/* line 71, ../../../sass/_media.scss */
+.shutterstock-image a {
+  opacity: 0;
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100px;
+  height: 35px;
+  background-color: #F2F2F2;
+  margin: auto;
+  z-index: 9000;
+}
+/* line 84, ../../../sass/_media.scss */
+.shutterstock-image a:hover {
+  background-color: #F2F2F2;
+}
+/* line 90, ../../../sass/_media.scss */
+.shutterstock-image:hover img {
+  cursor: pointer;
+  opacity: 0.5;
+}
+/* line 94, ../../../sass/_media.scss */
+.shutterstock-image:hover a {
+  opacity: 1;
+}
+
+/* line 100, ../../../sass/_media.scss */
+.hj-gridify__tile {
+  overflow: hidden;
 }
 
 /* line 9, ../../../sass/_list-group.scss */
