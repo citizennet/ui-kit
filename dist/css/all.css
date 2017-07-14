@@ -303,58 +303,57 @@ th {
   *,
   *:before,
   *:after {
-    background: transparent !important;
     color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
 
-  /* line 18, ../../../sass/_print.scss */
+  /* line 20, ../../../sass/_print.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 23, ../../../sass/_print.scss */
+  /* line 25, ../../../sass/_print.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 27, ../../../sass/_print.scss */
+  /* line 29, ../../../sass/_print.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 33, ../../../sass/_print.scss */
+  /* line 35, ../../../sass/_print.scss */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: "";
   }
 
-  /* line 38, ../../../sass/_print.scss */
+  /* line 40, ../../../sass/_print.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 44, ../../../sass/_print.scss */
+  /* line 46, ../../../sass/_print.scss */
   thead {
     display: table-header-group;
   }
 
-  /* line 48, ../../../sass/_print.scss */
+  /* line 50, ../../../sass/_print.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 53, ../../../sass/_print.scss */
+  /* line 55, ../../../sass/_print.scss */
   img {
     max-width: 100% !important;
   }
 
-  /* line 57, ../../../sass/_print.scss */
+  /* line 59, ../../../sass/_print.scss */
   p,
   h2,
   h3 {
@@ -362,39 +361,39 @@ th {
     widows: 3;
   }
 
-  /* line 64, ../../../sass/_print.scss */
+  /* line 66, ../../../sass/_print.scss */
   h2,
   h3 {
     page-break-after: avoid;
   }
 
-  /* line 72, ../../../sass/_print.scss */
+  /* line 74, ../../../sass/_print.scss */
   .navbar {
     display: none;
   }
 
-  /* line 77, ../../../sass/_print.scss */
+  /* line 79, ../../../sass/_print.scss */
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
   }
 
-  /* line 81, ../../../sass/_print.scss */
+  /* line 83, ../../../sass/_print.scss */
   .label {
     border: 1px solid #000;
   }
 
-  /* line 85, ../../../sass/_print.scss */
+  /* line 87, ../../../sass/_print.scss */
   .table {
     border-collapse: collapse !important;
   }
-  /* line 88, ../../../sass/_print.scss */
+  /* line 90, ../../../sass/_print.scss */
   .table td,
   .table th {
     background-color: #fff !important;
   }
 
-  /* line 94, ../../../sass/_print.scss */
+  /* line 96, ../../../sass/_print.scss */
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important;
