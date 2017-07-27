@@ -751,6 +751,10 @@ date-input {
 
   .list-group-item {
     padding: 0 35px 0 0;
+    [disabled] & {
+      padding: 0;
+    }
+
     background-color: transparent;
     border: 0;
 
@@ -775,13 +779,6 @@ date-input {
       border-top-right-radius: 0;
     }
 
-    //    .label-primary {
-    //      background-color: darken($primary-highlight, 5%);
-    //    }
-
-    //    &,
-    //    .has-success &,
-    //    .has-error & {
     .form-control {
       min-height: 32px;
       padding-top: 0;
@@ -792,7 +789,7 @@ date-input {
     .btn {
       height: 32px;
       margin: 1px 0;
-      
+
       &[disabled],
       [disabled] & {
         border: 0;

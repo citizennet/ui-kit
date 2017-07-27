@@ -219,7 +219,11 @@ $sizes: 5 10 15 20 25 30 35 40 45 50;
 }
 
 .cn-error {
-  color: $danger;
+  color: $cn-bad;
+}
+
+.cn-success {
+  color: $cn-good;
 }
 
 [truncate-show=click] {
