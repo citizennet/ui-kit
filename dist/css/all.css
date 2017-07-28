@@ -3907,7 +3907,7 @@ legend, .cn-editor h3,
 /* line 126, ../../../sass/_forms.scss */
 .cn-form-nav .nav-pills > li > a:hover {
   background: transparent;
-  color: #1C1E29;
+  color: #111111;
 }
 /* line 131, ../../../sass/_forms.scss */
 .cn-form-nav .nav-pills > li > a > .badge {
@@ -3916,7 +3916,7 @@ legend, .cn-editor h3,
 /* line 137, ../../../sass/_forms.scss */
 .cn-form-nav .nav-pills > li.active > a {
   background: transparent;
-  color: #1C1E29;
+  color: #111111;
   border-left: 4px solid #24BFF3;
   padding-left: 31px;
   font-weight: 500;
@@ -3924,7 +3924,7 @@ legend, .cn-editor h3,
 /* line 144, ../../../sass/_forms.scss */
 .cn-form-nav .nav-pills > li.active > a:hover {
   background: transparent;
-  color: #1C1E29;
+  color: #111111;
 }
 /* line 151, ../../../sass/_forms.scss */
 .cn-form-nav .nav-pills > li .cni {
@@ -4667,7 +4667,7 @@ date-input {
 /* line 36, ../../../sass/_buttons.scss */
 .btn:hover, .btn:focus, .btn.focus {
   text-decoration: none;
-  box-shadow: 0 2px 4px rgba(28, 30, 41, 0.15);
+  box-shadow: 0 2px 4px rgba(17, 17, 17, 0.15);
 }
 /* line 43, ../../../sass/_buttons.scss */
 .btn.disabled, .btn[disabled], fieldset[disabled] .btn {
@@ -10218,9 +10218,9 @@ floating-action-button .fab-title {
   top: 13px;
   right: 100%;
   margin-right: 5px;
-  background: rgba(28, 30, 41, 0.75);
+  background: rgba(17, 17, 17, 0.75);
   color: #fff;
-  box-shadow: 0 1px 4px rgba(28, 30, 41, 0.2);
+  box-shadow: 0 1px 4px rgba(17, 17, 17, 0.2);
   padding: 5px 10px;
   border-radius: 3px;
   white-space: nowrap;
@@ -10237,7 +10237,7 @@ floating-action-button .fab-title {
 /* line 110, ../../../sass/_fab.scss */
 .circle-btn, floating-action-button > .btn {
   background-color: #00B0FF;
-  box-shadow: 0 1px 8px rgba(28, 30, 41, 0.2);
+  box-shadow: 0 1px 8px rgba(17, 17, 17, 0.2);
   transition: .3s;
   height: 52px;
   width: 52px;
@@ -10291,7 +10291,7 @@ floating-action-button .fab-title {
 /* line 165, ../../../sass/_fab.scss */
 .circle-btn:hover, floating-action-button > .btn:hover {
   background-color: #33c0ff;
-  box-shadow: 0 1px 15px rgba(28, 30, 41, 0.3) !important;
+  box-shadow: 0 1px 15px rgba(17, 17, 17, 0.3) !important;
   text-decoration: none;
 }
 
@@ -13672,11 +13672,11 @@ TOOL BAR
   }
   /* line 52, ../../../sass/_sidebar.scss */
   .cn-sidebar .nav-pills li a:hover {
-    background: #1C1E29;
+    background: #111111;
   }
   /* line 58, ../../../sass/_sidebar.scss */
   .cn-sidebar .nav-pills li.active a, .cn-sidebar .nav-pills li.active a:hover {
-    background: #1C1E29;
+    background: #111111;
   }
   /* line 64, ../../../sass/_sidebar.scss */
   .cn-sidebar .nav-pills li.disabled a, .cn-sidebar .nav-pills li.disabled a:hover {
