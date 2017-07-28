@@ -19,7 +19,7 @@ EDITOR
 /* new forms */
 .cn-form {
   margin: 0 auto;
-  width: $page-width;
+  max-width: $page-width;
   overflow: auto;
 
   &.cn-form-cols-2 {
@@ -52,7 +52,10 @@ section {
 }
 
 fieldset {
-  padding: 55px 0 0;
+  padding: 5px 0 0;
+  &:not(.notitle) {
+    padding-top: 55px;
+  }
   position: relative;
   //fucking browser sets min-width: min-content by default
   min-width: inherit;
@@ -111,16 +114,16 @@ legend {
 }
 
 .cn-form-nav {
-  padding: 50px 25px;
-  //  border-right: 1px solid $form-divider;
-
   .nav-pills {
+    margin: 10px 30px 0;
+    border-bottom: 1px solid $form-divider;
+
     > li {
       margin: 0;
 
       > a {
         @include border-radius(0);
-        padding: 13px 35px;
+        padding: 13px 17px;
         color: $dark-grey;
 
         &:hover {
@@ -137,8 +140,8 @@ legend {
         > a {
           background: transparent;
           color: $black;
-          border-left: 4px solid $cn-blue-1;
-          padding-left: 31px;
+          border-bottom: 4px solid $cn-blue-1;
+          padding-bottom: 9px;
           font-weight: 500;
 
           &:hover {
@@ -150,6 +153,26 @@ legend {
 
       .cni {
         margin-right: 10px;
+      }
+    }
+
+    &.nav-stacked {
+      margin: 50px 25px;
+      border-bottom: 0;
+
+      > li {
+        > a {
+          padding: 13px 35px;
+        }
+
+        &.active {
+          > a {
+            border-bottom: 0;
+            padding-bottom: 13px;
+            border-left: 4px solid $cn-blue-1;
+            padding-left: 31px;
+          }
+        }
       }
     }
   }
@@ -165,10 +188,12 @@ legend {
 }
 
 @media (min-width: $break-sm) {
-  .cn-form-nav-inner,
-  .cn-form-meta-inner {
-    position: fixed;
-    width: 100%;
+  .cn-form-fixed {
+    .cn-form-nav-inner,
+    .cn-form-meta-inner {
+      position: fixed;
+      width: 100%;
+    }
   }
 }
 
@@ -726,6 +751,10 @@ date-input {
 
   .list-group-item {
     padding: 0 35px 0 0;
+    [disabled] & {
+      padding: 0;
+    }
+
     background-color: transparent;
     border: 0;
 
@@ -750,13 +779,6 @@ date-input {
       border-top-right-radius: 0;
     }
 
-    //    .label-primary {
-    //      background-color: darken($primary-highlight, 5%);
-    //    }
-
-    //    &,
-    //    .has-success &,
-    //    .has-error & {
     .form-control {
       min-height: 32px;
       padding-top: 0;
@@ -767,7 +789,7 @@ date-input {
     .btn {
       height: 32px;
       margin: 1px 0;
-      
+
       &[disabled],
       [disabled] & {
         border: 0;
