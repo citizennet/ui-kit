@@ -4426,23 +4426,28 @@ date-input {
   z-index: 1;
 }
 
-/* line 710, ../../../sass/_forms.scss */
+/* line 709, ../../../sass/_forms.scss */
+.img-placeholder {
+  border: 6px solid #fff;
+  padding: 0;
+  line-height: 0;
+}
+/* line 713, ../../../sass/_forms.scss */
 .img-placeholder.empty {
   height: 160px;
-  border: 6px solid #fff;
   background: url("/images/icn-camera.svg") no-repeat 50% 50%;
 }
-/* line 716, ../../../sass/_forms.scss */
+/* line 718, ../../../sass/_forms.scss */
 .img-placeholder img, .img-placeholder video {
   max-width: 100%;
 }
 
-/* line 721, ../../../sass/_forms.scss */
+/* line 723, ../../../sass/_forms.scss */
 .shutterstock-logo {
   background: url("/images/shutterstock-logo.svg") no-repeat 50% 50%;
 }
 
-/* line 725, ../../../sass/_forms.scss */
+/* line 727, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group {
   margin: 1px 0;
   padding: 2px;
@@ -4452,88 +4457,88 @@ date-input {
   -khtml-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
 }
-/* line 731, ../../../sass/_forms.scss */
+/* line 733, ../../../sass/_forms.scss */
 [disabled] .cn-autocomplete-list.list-group {
   background-color: transparent;
   border: 1px solid #E7E6E9;
   border-bottom: 0;
   margin-bottom: 0;
 }
-/* line 741, ../../../sass/_forms.scss */
+/* line 743, ../../../sass/_forms.scss */
 .has-success .cn-autocomplete-list.list-group + tags-input .host .input.form-control, .has-error .cn-autocomplete-list.list-group + tags-input .host .input.form-control, .has-success .cn-autocomplete-list.list-group + .host .input.form-control, .has-error .cn-autocomplete-list.list-group + .host .input.form-control {
   -webkit-border-radius: 0 0 3px 3px;
   -moz-border-radius: 0 0 3px 3px;
   -khtml-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px;
 }
-/* line 745, ../../../sass/_forms.scss */
+/* line 747, ../../../sass/_forms.scss */
 .has-success .cn-autocomplete-list.list-group + tags-input .host .input.form-control .btn-group > .btn:last-child:not(:first-child), .has-error .cn-autocomplete-list.list-group + tags-input .host .input.form-control .btn-group > .btn:last-child:not(:first-child), .has-success .cn-autocomplete-list.list-group + .host .input.form-control .btn-group > .btn:last-child:not(:first-child), .has-error .cn-autocomplete-list.list-group + .host .input.form-control .btn-group > .btn:last-child:not(:first-child) {
   -webkit-border-radius: 0 0 3px 0;
   -moz-border-radius: 0 0 3px 0;
   -khtml-border-radius: 0 0 3px 0;
   border-radius: 0 0 3px 0;
 }
-/* line 752, ../../../sass/_forms.scss */
+/* line 754, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item {
   padding: 0 35px 0 0;
   background-color: transparent;
   border: 0;
 }
-/* line 754, ../../../sass/_forms.scss */
+/* line 756, ../../../sass/_forms.scss */
 [disabled] .cn-autocomplete-list.list-group .list-group-item {
   padding: 0;
 }
-/* line 761, ../../../sass/_forms.scss */
+/* line 763, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item:last-child {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -khtml-border-radius: 0;
   border-radius: 0;
 }
-/* line 765, ../../../sass/_forms.scss */
+/* line 767, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item:hover {
   background-color: #c8e4f0;
 }
-/* line 768, ../../../sass/_forms.scss */
+/* line 770, ../../../sass/_forms.scss */
 [disabled] .cn-autocomplete-list.list-group .list-group-item:hover {
   background-color: transparent;
 }
-/* line 772, ../../../sass/_forms.scss */
+/* line 774, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item:hover .close {
   opacity: 1;
 }
-/* line 777, ../../../sass/_forms.scss */
+/* line 779, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item:first-child {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-/* line 782, ../../../sass/_forms.scss */
+/* line 784, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .form-control {
   min-height: 32px;
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 788, ../../../sass/_forms.scss */
+/* line 790, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .form-control,
 .cn-autocomplete-list.list-group .list-group-item .btn {
   height: 32px;
   margin: 1px 0;
 }
-/* line 793, ../../../sass/_forms.scss */
+/* line 795, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .form-control[disabled], [disabled] .cn-autocomplete-list.list-group .list-group-item .form-control,
 .cn-autocomplete-list.list-group .list-group-item .btn[disabled], [disabled]
 .cn-autocomplete-list.list-group .list-group-item .btn {
   border: 0;
   background: transparent;
 }
-/* line 801, ../../../sass/_forms.scss */
+/* line 803, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item > .tag-item {
   display: block;
   padding: 1px 8px;
   line-height: 32px;
   margin: 0;
 }
-/* line 808, ../../../sass/_forms.scss */
+/* line 810, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .close {
   position: absolute;
   z-index: 99;
@@ -4541,31 +4546,31 @@ date-input {
   right: 10px;
   opacity: 0;
 }
-/* line 815, ../../../sass/_forms.scss */
+/* line 817, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .close:hover {
   color: #e65d6d;
 }
-/* line 820, ../../../sass/_forms.scss */
+/* line 822, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .form-group {
   margin-bottom: 0;
 }
-/* line 824, ../../../sass/_forms.scss */
+/* line 826, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .help-block {
   margin: 0;
 }
-/* line 828, ../../../sass/_forms.scss */
+/* line 830, ../../../sass/_forms.scss */
 .cn-autocomplete-list.list-group .list-group-item .btn {
   padding-top: 6px;
   padding-bottom: 6px;
 }
 
-/* line 836, ../../../sass/_forms.scss */
+/* line 838, ../../../sass/_forms.scss */
 .schema-form-array > .list-group > .list-group-item {
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 3px;
   margin-bottom: 15px;
 }
-/* line 841, ../../../sass/_forms.scss */
+/* line 843, ../../../sass/_forms.scss */
 .schema-form-array > .list-group > .list-group-item > button.close {
   position: absolute;
   top: 7px;
@@ -4573,42 +4578,42 @@ date-input {
   z-index: 20;
 }
 
-/* line 850, ../../../sass/_forms.scss */
+/* line 852, ../../../sass/_forms.scss */
 .cn-reusable {
   position: relative;
 }
-/* line 853, ../../../sass/_forms.scss */
+/* line 855, ../../../sass/_forms.scss */
 .cn-reusable p.toggle-view {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-/* line 860, ../../../sass/_forms.scss */
+/* line 862, ../../../sass/_forms.scss */
 .cn-batch-wrapper {
   position: relative;
 }
-/* line 863, ../../../sass/_forms.scss */
+/* line 865, ../../../sass/_forms.scss */
 .cn-batch-wrapper .cn-batch-field {
   margin-right: 40px;
 }
-/* line 867, ../../../sass/_forms.scss */
+/* line 869, ../../../sass/_forms.scss */
 .cn-batch-wrapper .cn-dirty-check {
   position: absolute;
   top: 34px;
   right: 0;
 }
-/* line 872, ../../../sass/_forms.scss */
+/* line 874, ../../../sass/_forms.scss */
 .cn-batch-wrapper .cn-dirty-check.notitle {
   top: 6px;
 }
 
-/* line 878, ../../../sass/_forms.scss */
+/* line 880, ../../../sass/_forms.scss */
 .form-group .cn-toggle {
   margin: 6px 0;
 }
 
-/* line 882, ../../../sass/_forms.scss */
+/* line 884, ../../../sass/_forms.scss */
 .cn-batch-options {
   padding: 10px 20px;
   background-color: rgba(0, 0, 0, 0.05);
@@ -4617,7 +4622,7 @@ date-input {
   clear: both;
   margin-bottom: 25px;
 }
-/* line 894, ../../../sass/_forms.scss */
+/* line 896, ../../../sass/_forms.scss */
 .cn-batch-options::before {
   content: ' ';
   position: absolute;
