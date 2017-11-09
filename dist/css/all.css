@@ -13880,7 +13880,7 @@ TOOL BAR
 }
 /* line 54, ../../../sass/_toast.scss */
 #toast-container > div {
-  position: absolute;
+  position: fixed;
   z-index: 9000;
   bottom: 0;
   right: 0;
