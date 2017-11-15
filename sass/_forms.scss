@@ -344,22 +344,31 @@ textarea.form-control {
       pointer-events: none;
 
       &::before {
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
         content: ' ';
         display: inline-block;
         width: 100%;
         height: 100%;
-        background: url(#{$svg-path}light/icn-select.svg) no-repeat;
         visibility: visible;
       }
     }
   }
 
+  input[type=radio] + span::before {
+    background-image: url(#{$svg-path}light/radio.svg);
+  }
+
   input[type=radio]:checked + span::before {
-    background-image: url(#{$svg-path}light/icn-radio.svg);
+    background-image: url(#{$svg-path}light/radio-selected.svg);
+  }
+
+  input[type=checkbox] + span::before {
+    background-image: url(#{$svg-path}light/checkbox.svg);
   }
 
   input[type=checkbox]:checked + span::before {
-    background-image: url(#{$svg-path}light/icn-check.svg);
+    background-image: url(#{$svg-path}light/checkbox-checked.svg);
   }
 }
 
