@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>checkbox</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="campaigns" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="list---fb-group---campaigns" transform="translate(-49.000000, -407.000000)">
+            <g id="Group-2" transform="translate(30.000000, 386.000000)">
+                <g id="checkbox---checked" transform="translate(19.000000, 21.000000)">
+                    <rect id="Rectangle-2" fill="#00BBE0" x="0" y="0" width="18" height="18" rx="3"></rect>
+                    <polygon id="Combined-Shape" fill="#FFFFFF" points="7.20097402 10.6985209 3.78921356 7.28676046 2.08333333 8.99264069 7.20097402 14.1102814 15.7303752 5.58088023 14.0244949 3.875"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

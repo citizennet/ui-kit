@@ -214,9 +214,13 @@ table {
 
   thead {
     tr {
-      height: 55px;
+      height: 35px;
+      background-color: #E6E6E6;
 
       th {
+        color: #666;
+        font-weight: 400;
+
         &:first-child {
           padding-left: 20px;
         }
