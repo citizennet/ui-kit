@@ -320,3 +320,7 @@ $flex-sizes: 1 2 3 4 5 6 7 8 9 10;
     flex: #{$size}
   }
 }
+
+.max-width {
+    max-width: $page-width;
+}
