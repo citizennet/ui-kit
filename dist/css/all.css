@@ -3917,7 +3917,7 @@ legend, .cn-editor h3,
 /* line 129, ../../../sass/_forms.scss */
 .cn-form-nav .nav-pills > li > a:hover {
   background: transparent;
-  color: #111111;
+  color: #00091A;
 }
 /* line 134, ../../../sass/_forms.scss */
 .cn-form-nav .nav-pills > li > a > .badge {
@@ -3926,7 +3926,7 @@ legend, .cn-editor h3,
 /* line 140, ../../../sass/_forms.scss */
 .cn-form-nav .nav-pills > li.active > a {
   background: transparent;
-  color: #111111;
+  color: #00091A;
   border-bottom: 4px solid #24BFF3;
   padding-bottom: 9px;
   font-weight: 500;
@@ -3934,7 +3934,7 @@ legend, .cn-editor h3,
 /* line 147, ../../../sass/_forms.scss */
 .cn-form-nav .nav-pills > li.active > a:hover {
   background: transparent;
-  color: #111111;
+  color: #00091A;
 }
 /* line 154, ../../../sass/_forms.scss */
 .cn-form-nav .nav-pills > li .cni {
@@ -4713,7 +4713,7 @@ date-input {
 /* line 36, ../../../sass/_buttons.scss */
 .btn:hover, .btn:focus, .btn.focus {
   text-decoration: none;
-  box-shadow: 0 2px 4px rgba(17, 17, 17, 0.15);
+  box-shadow: 0 2px 4px rgba(0, 9, 26, 0.15);
 }
 /* line 43, ../../../sass/_buttons.scss */
 .btn.disabled, .btn[disabled], fieldset[disabled] .btn {
@@ -8329,7 +8329,7 @@ tbody.collapse.in {
 }
 /* line 462, ../../../sass/_navbar.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #1B1B1B;
+  background-color: #00091A;
   color: #fff;
 }
 @media (max-width: 767px) {
@@ -8488,7 +8488,7 @@ NAVBAR
 ************************************************************************/
 /* line 671, ../../../sass/_navbar.scss */
 .navbar-default {
-  background: #111111;
+  background: #00091A;
   border: 0;
 }
 /* line 676, ../../../sass/_navbar.scss */
@@ -10264,9 +10264,9 @@ floating-action-button .fab-title {
   top: 13px;
   right: 100%;
   margin-right: 5px;
-  background: rgba(17, 17, 17, 0.75);
+  background: rgba(0, 9, 26, 0.75);
   color: #fff;
-  box-shadow: 0 1px 4px rgba(17, 17, 17, 0.2);
+  box-shadow: 0 1px 4px rgba(0, 9, 26, 0.2);
   padding: 5px 10px;
   border-radius: 3px;
   white-space: nowrap;
@@ -10283,7 +10283,7 @@ floating-action-button .fab-title {
 /* line 110, ../../../sass/_fab.scss */
 .circle-btn, floating-action-button > .btn {
   background-color: #00B0FF;
-  box-shadow: 0 1px 8px rgba(17, 17, 17, 0.2);
+  box-shadow: 0 1px 8px rgba(0, 9, 26, 0.2);
   transition: .3s;
   height: 52px;
   width: 52px;
@@ -10337,7 +10337,7 @@ floating-action-button .fab-title {
 /* line 165, ../../../sass/_fab.scss */
 .circle-btn:hover, floating-action-button > .btn:hover {
   background-color: #33c0ff;
-  box-shadow: 0 1px 15px rgba(17, 17, 17, 0.3) !important;
+  box-shadow: 0 1px 15px rgba(0, 9, 26, 0.3) !important;
   text-decoration: none;
 }
 
@@ -10705,7 +10705,7 @@ floating-action-button .fab-title {
 
 /* line 377, ../../../sass/_modals.scss */
 .toast-container > div.toast {
-  background-color: #1B1B1B;
+  background-color: #00091A;
 }
 /* line 380, ../../../sass/_modals.scss */
 .toast-container > div.toast.bg-primary, .toast-container > div.toast.bg-info {
@@ -13139,7 +13139,7 @@ a.disabled, div.readonly {
 }
 /* line 1, ../../../sass/_heading.scss */
 .cn-heading {
-  background: #111111;
+  background: #00091A;
   padding: 0 25px 15px;
   margin: 0;
   color: #AAAEB3;
@@ -13702,7 +13702,7 @@ TOOL BAR
     overflow-x: hidden;
     overflow-y: auto;
     /* Scrollable contents if viewport is shorter than content. */
-    background: #1B1B1B;
+    background: #00091A;
     color: #999;
   }
   /* line 31, ../../../sass/_sidebar.scss */
@@ -13731,11 +13731,11 @@ TOOL BAR
   }
   /* line 52, ../../../sass/_sidebar.scss */
   .cn-sidebar .nav-pills li a:hover {
-    background: #111111;
+    background: #00091A;
   }
   /* line 58, ../../../sass/_sidebar.scss */
   .cn-sidebar .nav-pills li.active a, .cn-sidebar .nav-pills li.active a:hover {
-    background: #111111;
+    background: #00091A;
   }
   /* line 64, ../../../sass/_sidebar.scss */
   .cn-sidebar .nav-pills li.disabled a, .cn-sidebar .nav-pills li.disabled a:hover {
@@ -13867,7 +13867,7 @@ TOOL BAR
 }
 /* line 16, ../../../sass/_toast.scss */
 #toast-container.toast-bottom-center * {
-  background-color: #111111;
+  background-color: #00091A;
 }
 /* line 22, ../../../sass/_toast.scss */
 #toast-container.action-toast-bottom-center > div {
@@ -13880,7 +13880,7 @@ TOOL BAR
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   background: #FFFFFF;
-  box-shadow: 0px 10px 20px 0px #111111;
+  box-shadow: 0px 10px 20px 0px #00091A;
 }
 /* line 37, ../../../sass/_toast.scss */
 #toast-container.full-width-toast-bottom a:not(.btn) {
@@ -13888,7 +13888,7 @@ TOOL BAR
 }
 /* line 41, ../../../sass/_toast.scss */
 #toast-container.full-width-toast-bottom span {
-  color: #111111;
+  color: #00091A;
 }
 /* line 43, ../../../sass/_toast.scss */
 #toast-container.full-width-toast-bottom span.label {
@@ -13908,7 +13908,7 @@ TOOL BAR
   left: 0;
   margin: auto;
   padding: 16px;
-  background: #111111;
+  background: #00091A;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
