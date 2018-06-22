@@ -2,6 +2,10 @@
 EDITOR
 ************************************************************************/
 
+.control-label {
+  display: block;
+}
+
 .cn-facets {
   min-width: 250px;
 }
@@ -915,3 +919,4 @@ date-input {
     border-bottom-color: rgba(0, 0, 0, .05);
   }
 }
+
