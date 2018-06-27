@@ -2,6 +2,10 @@
 EDITOR
 ************************************************************************/
 
+.cn-facets {
+  min-width: 250px;
+}
+
 /* old forms */
 .cn-editor {
   position: fixed;
@@ -15,7 +19,7 @@ EDITOR
 /* new forms */
 .cn-form {
   margin: 0 auto;
-  width: $page-width;
+  max-width: $page-width;
   overflow: auto;
 
   &.cn-form-cols-2 {
@@ -29,8 +33,17 @@ EDITOR
 
 fieldset,
 section {
-  margin: 25px 0 0;
   border: 0;
+}
+
+fieldset[disabled] .form-group,
+.form-group [disabled] {
+  pointer-events: none;
+}
+
+section,
+cn-flex-form fieldset:not(:first-of-type) {
+  margin: 25px 0 0;
   border-top: 1px solid $form-divider;
 }
 
@@ -39,7 +52,10 @@ section {
 }
 
 fieldset {
-  padding: 55px 0 0;
+  padding: 5px 0 0;
+  &:not(.notitle) {
+    padding-top: 55px;
+  }
   position: relative;
   //fucking browser sets min-width: min-content by default
   min-width: inherit;
@@ -98,17 +114,16 @@ legend {
 }
 
 .cn-form-nav {
-  padding: 50px 25px;
-  //  border-right: 1px solid $form-divider;
-
   .nav-pills {
+    margin: 10px 30px 0;
+    border-bottom: 1px solid $form-divider;
+
     > li {
-      margin: 0 0 10px;
+      margin: 0;
 
       > a {
         @include border-radius(0);
-        font-size: 14px;
-        padding: 5px 25px;
+        padding: 13px 17px;
         color: $dark-grey;
 
         &:hover {
@@ -125,8 +140,8 @@ legend {
         > a {
           background: transparent;
           color: $black;
-          border-left: 4px solid $primary-color;
-          padding-left: 21px;
+          border-bottom: 4px solid $cn-blue-1;
+          padding-bottom: 9px;
           font-weight: 500;
 
           &:hover {
@@ -138,6 +153,26 @@ legend {
 
       .cni {
         margin-right: 10px;
+      }
+    }
+
+    &.nav-stacked {
+      margin: 50px 25px;
+      border-bottom: 0;
+
+      > li {
+        > a {
+          padding: 13px 35px;
+        }
+
+        &.active {
+          > a {
+            border-bottom: 0;
+            padding-bottom: 13px;
+            border-left: 4px solid $cn-blue-1;
+            padding-left: 31px;
+          }
+        }
       }
     }
   }
@@ -153,10 +188,12 @@ legend {
 }
 
 @media (min-width: $break-sm) {
-  .cn-form-nav-inner,
-  .cn-form-meta-inner {
-    position: fixed;
-    width: 100%;
+  .cn-form-fixed {
+    .cn-form-nav-inner,
+    .cn-form-meta-inner {
+      position: fixed;
+      width: 100%;
+    }
   }
 }
 
@@ -172,7 +209,7 @@ legend {
   }
 }
 
-.form-group {
+.form-group:not(.schema-form-hidden) {
   margin-bottom: 15px;
 }
 
@@ -201,12 +238,15 @@ textarea.form-control {
   position: relative;
 
   .cn-list table td &,
-  &[disabled] {
+  &[disabled],
+  [disabled] &,
+  .well & {
     border: 1px solid $text-field-shadow;
-    padding: 6px 11px;
+    padding: 6px;
   }
 
-  &[disabled] {
+  &[disabled],
+  [disabled] & {
     background-color: $text-field-disabled;
   }
 
@@ -236,11 +276,11 @@ textarea.form-control {
   .form-control {
     &:not(:first-child) {
       border-left: 0;
-      padding-left: 6px;
+      padding-left: 3px;
     }
     &:not(:last-child) {
       border-right: 0;
-      padding-right: 6px;
+      padding-right: 3px;
     }
   }
 }
@@ -304,22 +344,31 @@ textarea.form-control {
       pointer-events: none;
 
       &::before {
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
         content: ' ';
         display: inline-block;
         width: 100%;
         height: 100%;
-        background: url(#{$svg-path}light/icn-select.svg) no-repeat;
         visibility: visible;
       }
     }
   }
 
+  input[type=radio] + span::before {
+    background-image: url(#{$svg-path}light/radio.svg);
+  }
+
   input[type=radio]:checked + span::before {
-    background-image: url(#{$svg-path}light/icn-radio.svg);
+    background-image: url(#{$svg-path}light/radio-selected.svg);
+  }
+
+  input[type=checkbox] + span::before {
+    background-image: url(#{$svg-path}light/checkbox.svg);
   }
 
   input[type=checkbox]:checked + span::before {
-    background-image: url(#{$svg-path}light/icn-check.svg);
+    background-image: url(#{$svg-path}light/checkbox-checked.svg);
   }
 }
 
@@ -386,6 +435,23 @@ textarea.form-control {
 
   &:first-of-type {
     padding-left: 0;
+  }
+}
+
+.radio-block,
+.checkbox-block {
+  align-items: center;
+  display: flex;
+  margin: 10px 0 10px 0;
+  width: 100%;
+
+  input[type=radio] {
+    margin-right: 10px;
+  }
+
+  .radio-block-icon {
+    width: 10px;
+    margin-right: 10px;
   }
 }
 
@@ -650,15 +716,21 @@ date-input {
 }
 
 .img-placeholder {
+  border: 6px solid $white;
+  padding: 0;
+  line-height: 0;
   &.empty {
     height: 160px;
-    border: 6px solid $white;
     background: url('/images/icn-camera.svg') no-repeat 50% 50%;
   }
 
   img, video {
     max-width: 100%;
   }
+}
+
+.shutterstock-logo {
+  background: url('/images/shutterstock-logo.svg') no-repeat 50% 50%;
 }
 
 .cn-autocomplete-list.list-group {
@@ -690,6 +762,10 @@ date-input {
 
   .list-group-item {
     padding: 0 35px 0 0;
+    [disabled] & {
+      padding: 0;
+    }
+
     background-color: transparent;
     border: 0;
 
@@ -714,23 +790,19 @@ date-input {
       border-top-right-radius: 0;
     }
 
-    //    .label-primary {
-    //      background-color: darken($primary-highlight, 5%);
-    //    }
-
-    //    &,
-    //    .has-success &,
-    //    .has-error & {
     .form-control {
       min-height: 32px;
       padding-top: 0;
       padding-bottom: 0;
     }
+
     .form-control,
     .btn {
       height: 32px;
       margin: 1px 0;
-      &[disabled] {
+
+      &[disabled],
+      [disabled] & {
         border: 0;
         background: transparent;
       }

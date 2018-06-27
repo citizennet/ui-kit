@@ -133,7 +133,7 @@ i.cn-icon {
   display: inline-block;
   vertical-align: middle;
   background-repeat: no-repeat;
-  margin-left: 4px; 
+  margin-left: 4px;
 }
 
 .icn-facebook {
@@ -328,6 +328,14 @@ i.cn-icon {
   vertical-align: middle;
 }
 
+.icn-company.dark {
+  background: url(#{$svg-path}dark/icn-company.svg);
+  width: 22px;
+  height: 14px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .icn-cn-short {
   background: url(#{$svg-path}light/mark.svg);
   width: 31px;
@@ -360,6 +368,14 @@ i.cn-icon {
   vertical-align: middle;
 }
 
+.icn-filter {
+  background: url(#{$svg-path}light/icn-filter.svg);
+  width: 10px;
+  height: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .icn-alert {
   background: url(#{$svg-path}light/icn-alert.svg);
   width: 20px;
@@ -373,6 +389,30 @@ i.cn-icon {
   width: 179px;
   height: 110px;
   background-size: 100%;
+}
+
+.icn-info {
+  background: url(#{$svg-path}light/icn-info.svg);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icn-error {
+  background: url(#{$svg-path}light/icn-error.svg);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icn-thumbsup {
+  background: url(#{$svg-path}light/icn-thumbsup.svg);
+  width: 16px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .cn-delete {

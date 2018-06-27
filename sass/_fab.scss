@@ -5,10 +5,17 @@
 * - bottom right (QS)
 */
 
+.cn-mast-actions floating-action-button {
+  height: 72px;
+  width: 72px;
+}
+
 floating-action-button {
   position: relative;
   bottom: 10px;
   right: 10px;
+  display: block;
+  line-height: 52px;
 
   z-index: 1020;
   cursor: pointer;
@@ -77,6 +84,20 @@ floating-action-button {
     left: -117px;
     top: -1px;
   }
+
+  .fab-title {
+    position: absolute;
+    top: 13px;
+    right: 100%;
+    margin-right: 5px;
+    background: rgba($black, .75);
+    color: $white;
+    box-shadow: 0 1px 4px rgba($black, .2);
+    padding: 5px 10px;
+    border-radius: $radii;
+    white-space: nowrap;
+    line-height: 20px;
+  }
 }
 
 // floating action button
@@ -87,19 +108,32 @@ floating-action-button {
 }
 
 .circle-btn, floating-action-button > .btn {
-  background-color: $vivid !important;
+  background-color: $vivid;
   // for drop shadow
-  box-shadow: 0 1px 8px rgba($black, 0.2);
+  box-shadow: 0 1px 8px rgba($black, .2);
   transition: .3s;
   height: 52px;
   width: 52px;
-  line-height: 52px;
-
+  line-height: 48px;
   border-radius: 50%;
-
-  padding: 5px 18px;
-
+  text-align: center;
+  padding: 5px;
   border: none;
+
+  &.btn-facebook {
+    background-color: $fb-blue;
+    border-color: $fb-border;
+  }
+
+  &.btn-twitter {
+    background-color: $tw-blue;
+    border-color: $tw-border;
+  }
+
+  &.btn-instagram {
+    background-color: $ig-brown;
+    border-color: $ig-border;
+  }
 
   .icn-audience {
     // center image
@@ -107,16 +141,30 @@ floating-action-button {
     margin-left: -2px;
   }
 
-  span {
+  span, i {
     color: #fff;
+  }
+
+  i {
+    font-size: 22px;
+    line-height: 3px;
+  }
+
+  span {
     font-size: 30px;
     line-height: 41px;
     font-family: -webkit-pictograph;
+
+    &.text {
+      font-family: inherit;
+      font-size: 16px;
+      font-weight: 100;
+    }
   }
 
   &:hover {
     background-color: lighten($vivid, 10);
-    box-shadow: 0 1px 15px rgba($black, 0.3);
+    box-shadow: 0 1px 15px rgba($black, 0.3) !important;
     text-decoration: none;
   }
 }

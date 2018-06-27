@@ -11,6 +11,7 @@
   position: relative;
   top: 0;
   min-height: $navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
+  font-size: 11px;
 
   border: 1px solid transparent;
 
@@ -22,7 +23,7 @@
   //  }
 
   > .container-fluid {
-    width: $page-width;
+    width: 1260px;
     margin-bottom: 0;
   }
 }
@@ -115,6 +116,7 @@
     @media (min-width: $grid-float-breakpoint) {
       margin-right: 0;
       margin-left: 0;
+      padding: 0 20px;
     }
   }
 }
@@ -170,7 +172,7 @@
 .navbar-brand {
   font-size: $font-size-large;
   line-height: $line-height-computed;
-  height: $navbar-height;
+  // height: $navbar-height;
 
   &:hover,
   &:focus {
@@ -462,7 +464,7 @@
       &:focus {
         //        background-color: $navbar-default-link-active-bg;
         //        color: $navbar-default-link-active-color;
-        background-color: $top-main-nav-bg-active;
+        background-color: $cn-black-2;
         color: $white;
       }
     }
@@ -672,7 +674,7 @@ NAVBAR
 
   ul.navbar-nav {
     > li a {
-      padding: 17px 20px;
+      padding: 15px 20px;
 
       &.btn {
         padding: 9px 8px;

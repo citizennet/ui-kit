@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icn - error</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="guides" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="guide---toasts" transform="translate(-456.000000, -532.000000)" fill="#FA6964">
+            <g id="Group-6" transform="translate(435.000000, 512.000000)">
+                <g id="icn---error" transform="translate(20.000000, 19.000000)">
+                    <g id="ic_error_outline_black_24px" transform="translate(1.000000, 1.000000)">
+                        <g id="Group">
+                            <path d="M9,13 L11,13 L11,15 L9,15 L9,13 Z M9,5 L11,5 L11,11 L9,11 L9,5 Z M9.99,0 C4.47,0 0,4.48 0,10 C0,15.52 4.47,20 9.99,20 C15.52,20 20,15.52 20,10 C20,4.48 15.52,0 9.99,0 Z M10,18 C5.58,18 2,14.42 2,10 C2,5.58 5.58,2 10,2 C14.42,2 18,5.58 18,10 C18,14.42 14.42,18 10,18 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

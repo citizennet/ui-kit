@@ -64,10 +64,6 @@ COMMON
   @include box-sizing(border-box);
 }
 
-body {
-  background: $lighter-grey;
-}
-
 /************************************************************************
 GENERAL
 ************************************************************************/
@@ -135,29 +131,47 @@ input[type="text"]:focus:-ms-input-placeholder {
   @include transition(all .3s ease);
 }
 
+// MARGIN + PADDING
+
 .gutterless {
   margin: 0;
 }
 
-.no-padding {
-  padding: 0 !important;
+$sides: top right bottom left;
+$sizes: 5 10 15 20 25 30 35 40 45 50;
+
+@mixin add_property($property) {
+  @each $size in $sizes {
+    .#{$property}-#{$size} {
+      #{$property}: #{$size}px;
+    }
+
+    @each $side in $sides {
+      .#{$property}-#{$side}-#{$size} {
+        #{$property}-#{$side}: #{$size}px;
+      }
+    }
+  }
 }
 
-.no-padding-top {
-  padding-top: 0;
+@mixin no_property($property) {
+  .no-#{$property} {
+    #{$property}: 0 !important;
+  }
+
+  @each $side in $sides {
+    .no-#{$property}-#{$side} {
+      #{$property}-#{$side}: 0;
+    }
+  }
 }
 
-.no-padding-right {
-  padding-right: 0;
-}
+@include add_property(margin);
+@include add_property(padding);
 
-.no-padding-bottom {
-  padding-bottom: 0;
-}
-
-.no-padding-left {
-  padding-left: 0;
-}
+@include no_property(border);
+@include no_property(margin);
+@include no_property(padding);
 
 .island {
   padding: 40px;
@@ -205,7 +219,11 @@ input[type="text"]:focus:-ms-input-placeholder {
 }
 
 .cn-error {
-  color: $danger;
+  color: $cn-bad;
+}
+
+.cn-success {
+  color: $cn-good;
 }
 
 [truncate-show=click] {
@@ -220,8 +238,8 @@ input[type="text"]:focus:-ms-input-placeholder {
   pointer-events: none;
 }
 
-// allow non-btn anchor tags to use disabled class
-a.disabled {
+// allow non-btns to use disabled class
+a.disabled, div.readonly {
   pointer-events: none;
   opacity: .65;
 }
@@ -279,4 +297,30 @@ a.disabled {
 
 .semi-transparent {
   opacity: .5;
+}
+
+// FLEXBOX CLASSES
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-box {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+$flex-sizes: 1 2 3 4 5 6 7 8 9 10;
+@each $size in $flex-sizes {
+  .flex-#{$size} {
+    flex: #{$size}
+  }
+}
+
+.max-width {
+    max-width: $page-width;
 }

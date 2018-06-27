@@ -195,11 +195,32 @@ table {
     }
   }
 
+  .table-condensed {
+    >thead,
+    >tbody {
+      >tr:not(.grouped-list) {
+        >th,
+        >td {
+          padding: 15px 5px 15px 5px;
+        }
+
+        >th:first-child,
+        >td:first-child {
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+
   thead {
     tr {
-      height: 55px;
+      height: 35px;
+      background-color: #E6E6E6;
 
       th {
+        color: #666;
+        font-weight: 400;
+
         &:first-child {
           padding-left: 20px;
         }
@@ -353,35 +374,10 @@ table {
           &:nth-child(2) {
             min-width: 10px;
           }
-          &:nth-child(3) {
-            width: 25%;
-          }
-          &:nth-child(4) {
-            width: 20%;
-          }
-          &:nth-child(5) {
-            text-align: center;
-          }
-          &:nth-child(11) {
-            min-width: 120px;
-          }
         }
       }
       tbody {
         td {
-          &:nth-child(5) {
-            text-align: center;
-            i {
-              color: #638A79
-            }
-          }
-          &:nth-child(7) {
-            a {
-              margin-top: 5px;
-              display: table;
-            }
-          }
-
           .status {
             position: relative;
             padding-left: 20px;
@@ -410,6 +406,16 @@ table {
     }
   }
 
+  // diff table
+  &.diff-table {
+    .group {
+      background: #f7f7f7;
+    }
+    .sub-group {
+      background: #dfeef5;
+    }
+  }
+
   // Ad Sets List
   table.ad-sets-list-table {
     &.card {
@@ -417,8 +423,12 @@ table {
     }
   }
 
-  .label {
-    display: inline;
+  .label,
+  label.control-label {
+    display: inline-block;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .media-object {

@@ -124,8 +124,8 @@
 
 // Give the line between buttons some depth
 .btn-group > .btn + .dropdown-toggle {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .btn-group > .btn-lg + .dropdown-toggle {
@@ -286,6 +286,13 @@
 //    border-color: $text-field-shadow;
     border: 0;
     padding: 7px 15px;
+
+    &[disabled],
+    [disabled] &,
+    .well & {
+      border: 1px solid $text-field-shadow;
+      padding: 6px;
+    }
   }
 
   &.open {

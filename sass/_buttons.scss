@@ -16,15 +16,12 @@
   background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
   white-space: nowrap;
   letter-spacing: .02em;
-//  background-color: rgba(white, 0.7);
-  background-color: transparent;
-  color: $charcoal;
-  border: 1px solid #D3D4D8;
-//  font-size: 12px;
-//  height: 33px;
+  border: 0;
+  //background-color: transparent;
+  //color: $grey-1;
 
-//  @include button-size(6px, 25px, inherit, $line-height-base, $btn-border-radius-base);
-  @include button-size(6px, 25px, inherit, 1.9, $btn-border-radius-base);
+  @include button-variant($cn-grey-1, transparent);
+  @include button-size(6px, 12px, inherit, 1.9, $btn-border-radius-base);
   @include user-select(none);
 
 //  &,
@@ -39,8 +36,8 @@
   &:hover,
   &:focus,
   &.focus {
-    color: $btn-default-color;
     text-decoration: none;
+    box-shadow: 0 2px 4px rgba($black, 0.15);
   }
 
   &.disabled,
@@ -57,123 +54,48 @@
   &:active:focus {
     @include box-shadow(inset 1px 1px 2px rgba(0, 0, 0, .3));
     outline: 0;
-    color: inherit;
   }
 
   &:hover {
-    color: inherit;
     @include box-shadow(none);
-    background-color: rgba(255, 255, 255, .1);
   }
 
   &.btn-default {
-    color: $button-gray-text;
-    background-color: $button-gray-bg;
-    border-color: $button-gray-shadow;
-    //  @include box-shadow(0 1px 0px $button-gray-shadow);
+    @include button-variant($cn-grey-1, $cn-semi-lite, $cn-semi-lite-hover);
+  }
 
-    &:active,
-    &.active,
-    &:focus,
-    &:active:focus {
-      color: #fff;
-      border-color: #555;
-      background: rgba(0, 0, 0, .6) none;
-    }
-
-    &:hover,
-    &.active {
-      color: $button-gray-text-hover;
-      background-color: $button-gray-bg-hover;
-      border-color: $button-gray-shadow-hover;
-      //    @include box-shadow(0 1px 0px $button-gray-shadow-hover);
-    }
+  &.btn-default-dark {
+    @include button-variant($cn-silver, $cn-semi-dark, $cn-semi-dark-hover);
   }
 
   &.btn-primary {
-    color: #fff;
-    background-color: $capri;
-    border-color: $capri;
-//    height: 33px;
-
-    &:hover, &.active {
-      background-color: lighten($capri, 10);
-      border-color: #00B0FF;
-      box-shadow: 0 2px 4px rgba($black, 0.15);
-      //      @include box-shadow(0 1px 0px $button-blue-shadow-hover);
-    }
+    @include button-variant($cn-white, $cn-blue-2);
   }
 
   &.btn-success {
-    color: white;
-    background-color: #5cb85c;
-    border-color: #4D4D4D;
-    //    @include box-shadow(0 1px 0px #4D4D4D);
-
-    &:hover,
-    &.active {
-      color: white;
-      background-color: #65C465;
-      //      @include box-shadow(0 1px 0px $button-blue-shadow-hover);
-    }
+    @include button-variant($cn-white, $cn-good);
   }
 
   &.btn-danger {
-    color: white;
-    background-color: #d9534f;
-    border-color: #4D4D4D;
-    //    @include box-shadow(0 1px 0px #4D4D4D);
-    &:hover,
-    &.active {
-      color: white;
-      background-color: #E25F5B;
-    }
-  }
-
-  &.btn-transparent {
-    background: transparent;
-    border-color: transparent;
-
-    &:active,
-    &.active,
-    &:focus,
-    &:active:focus {
-      @include box-shadow(none);
-    }
+    @include button-variant($cn-white, $cn-bad);
   }
 
   &.btn-facebook:not(label) {
-    background-color: $fb-blue;
+    @include button-variant($cn-white, $fb-blue);
     border-color: $fb-border;
-    color: $white;
 
-    &:hover,
-    &.active {
-      background-color: lighten($fb-blue, 10);
-      box-shadow: 0 2px 4px rgba($black, 0.15);
-      //      @include box-shadow(0 1px 0px $button-blue-shadow-hover);
-    }
+    //.cn-form-head & {
+      //border-color: darken($fb-border, 25)
+    //}
   }
 
   &.btn-twitter:not(label) {
-    background-color: $tw-blue;
+    @include button-variant($cn-white, $tw-blue);
     border-color: $tw-border;
-    color: $white;
 
-    &:hover,
-    &.active {
-      background-color: lighten($tw-blue, 10);
-      box-shadow: 0 2px 4px rgba($black, 0.15);
-      //      @include box-shadow(0 1px 0px $button-blue-shadow-hover);
-    }
-  }
-
-  &[disabled] {
-    opacity: .5;
-
-    &:hover {
-      cursor: default;
-    }
+    //.cn-form-head & {
+      //border-color: darken($tw-border, 25)
+    //}
   }
 
   i {
@@ -192,36 +114,6 @@ a.btn {
   }
 }
 
-// Alternate buttons
-// --------------------------------------------------
-
-.btn-default {
-  @include button-variant($btn-default-color, $btn-default-bg, $btn-default-border);
-}
-
-.btn-primary {
-  @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
-}
-
-// Success appears as green
-.btn-success {
-  @include button-variant($btn-success-color, $btn-success-bg, $btn-success-border);
-}
-
-// Info appears as blue-green
-.btn-info {
-  @include button-variant($btn-info-color, $btn-info-bg, $btn-info-border);
-}
-
-// Warning appears as orange
-.btn-warning {
-  @include button-variant($btn-warning-color, $btn-warning-bg, $btn-warning-border);
-}
-
-// Danger and error appear as red
-.btn-danger {
-  @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
-}
 
 // Link buttons
 // -------------------------
@@ -302,7 +194,7 @@ input[type="button"] {
 }
 
 .btn, label.btn, select.form-control {
-  border: 1px solid #D6D7DB;
+  //border: 1px solid #D6D7DB;
 //  color: #D6D7DB;
   @include box-shadow(none);
 //  background-color: #F9F8FA;

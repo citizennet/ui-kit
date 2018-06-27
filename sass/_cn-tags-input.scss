@@ -55,7 +55,8 @@ tags-input {
 
 .host {
   .tags {
-    &.form-control {
+    &.form-control,
+    .cn-list &.form-control {
       overflow: hidden;
       word-wrap: break-word;
       //    cursor: text;
@@ -118,6 +119,9 @@ tags-input {
   margin: 2px;
   //        display: inline;
   padding: 3px 20px 3px 4px;
+  [disabled] & {
+    padding: 3px 4px;
+  }
   font-size: 12px;
   position: relative;
   overflow: hidden;
@@ -168,6 +172,7 @@ tags-input {
     margin: 2px 0;
     padding: 9px 6px;
     margin-right: 30px;
+    min-height: 30px;
 
     [disabled] & {
       background: transparent;

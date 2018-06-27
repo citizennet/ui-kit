@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icn - thumbs up</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="guides" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="guide---toasts" transform="translate(-318.000000, -872.000000)" fill="#CED4D9">
+            <g id="Group-2" transform="translate(0.000000, 678.000000)">
+                <g id="Group-4" transform="translate(0.000000, 42.000000)">
+                    <g id="Group-6" transform="translate(293.000000, 130.000000)">
+                        <path d="M25,38 L28.2,38 L28.2,28.4 L25,28.4 L25,38 L25,38 Z M42.6,29.2 C42.6,28.32 41.88,27.6 41,27.6 L35.952,27.6 L36.712,23.944 L36.736,23.688 C36.736,23.36 36.6,23.056 36.384,22.84 L35.536,22 L30.272,27.272 C29.976,27.56 29.8,27.96 29.8,28.4 L29.8,36.4 C29.8,37.28 30.52,38 31.4,38 L38.6,38 C39.264,38 39.832,37.6 40.072,37.024 L42.488,31.384 C42.56,31.2 42.6,31.008 42.6,30.8 L42.6,29.272 L42.592,29.264 L42.6,29.2 L42.6,29.2 Z" id="icn---thumbs-up"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
