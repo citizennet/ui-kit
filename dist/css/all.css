@@ -6037,19 +6037,19 @@ i.cn-icon.cn-share {
 /* line 121, ../../../sass/_icons.scss */
 .icn-youtube {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/dark-active/icn-youtube.svg);
-  width: 20px;
-  height: 14px;
+  width: 22px;
+  height: 19px;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 /* line 130, ../../../sass/_icons.scss */
 .icn-youtube-dark {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-youtube.svg);
-  width: 20px;
-  height: 14px;
+  width: 22px;
+  height: 19px;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 /* line 138, ../../../sass/_icons.scss */
