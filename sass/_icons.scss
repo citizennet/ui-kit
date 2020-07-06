@@ -120,16 +120,17 @@ i.cn-icon {
 
 .icn-youtube {
   background: url(#{$svg-path}socialmedia/dark-active/icn-youtube.svg);
-  width: 22px;
+  width: 24px;
   height: 19px;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
+
 }
 
 
 .icn-youtube-dark {
   background: url(#{$svg-path}socialmedia/light/icn-youtube.svg);
-  width: 22px;
+  width: 24px;
   height: 19px;
   display: inline-block;
   vertical-align: middle;
@@ -143,8 +144,9 @@ i.cn-icon {
   height: 14px;
   display: inline-block;
   vertical-align: middle;
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
-  margin-left: 4px;
 }
 
 .icn-facebook {
