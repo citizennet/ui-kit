@@ -132,7 +132,9 @@ i.cn-icon {
   width: 22px;
   height: 19px;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .icn-google-dark {
@@ -179,10 +181,11 @@ i.cn-icon {
 
 .icn-taboola-dark {
   background: url(#{$svg-path}socialmedia/light/icn-taboola.svg);
-  width: 24px;
+  width: 26px;
   height: 24px;
   display: inline-block;
   vertical-align: middle;
+  background-position: center;
 }
 
 .icn-snapchat {
@@ -191,6 +194,9 @@ i.cn-icon {
   height: 24px;
   display: inline-block;
   vertical-align: middle;
+  background-position: center;
+  background-position: center;
+  background-size: contain;
 }
 
 .icn-snapchat-dark {
@@ -199,6 +205,8 @@ i.cn-icon {
   height: 24px;
   display: inline-block;
   vertical-align: middle;
+  background-position: center;
+  background-size: contain;
 }
 
 .icn-pinterest {
@@ -207,6 +215,8 @@ i.cn-icon {
   height: 24px;
   display: inline-block;
   vertical-align: middle;
+  background-position: center;
+  background-size: contain;
 }
 
 .icn-pinterest-dark {
@@ -215,6 +225,8 @@ i.cn-icon {
   height: 24px;
   display: inline-block;
   vertical-align: middle;
+  background-position: center;
+  background-size: contain;
 }
 
 
@@ -224,6 +236,8 @@ i.cn-icon {
   height: 24px;
   display: inline-block;
   vertical-align: middle;
+  background-position: center;
+  background-size: contain;
 }
 
 .icn-tiktok-dark {
@@ -232,6 +246,8 @@ i.cn-icon {
   height: 24px;
   display: inline-block;
   vertical-align: middle;
+  background-position: center;
+  background-size: contain;
 }
 
 .icn-linkedin {
@@ -240,6 +256,7 @@ i.cn-icon {
   height: 24px;
   display: inline-block;
   vertical-align: middle;
+  background-position: center;
 }
 
 .icn-linkedin-dark {
