@@ -234,6 +234,22 @@ i.cn-icon {
   vertical-align: middle;
 }
 
+.icn-linkedin {
+  background: url(#{$svg-path}socialmedia/dark-active/icn-linkedin.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icn-linkedin-dark {
+  background: url(#{$svg-path}socialmedia/light/icn-linkedin.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .icn-avatar-person-light {
   background: url(#{$svg-path}/light/icn-avatar-person.svg);
   width: 32px;
