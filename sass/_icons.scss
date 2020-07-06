@@ -179,6 +179,7 @@ i.cn-icon {
   vertical-align: middle;
   background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .icn-taboola-dark {
@@ -189,67 +190,74 @@ i.cn-icon {
   vertical-align: middle;
   background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .icn-snapchat {
   background: url(#{$svg-path}socialmedia/dark-active/icn-snapchat.svg);
-  width: 22px;
+  width: 24px;
   height: 22px;
   display: inline-block;
   vertical-align: middle;
   background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .icn-snapchat-dark {
   background: url(#{$svg-path}socialmedia/light/icn-snapchat.svg);
-  width: 22px;
+  width: 24px;
   height: 22px;
   display: inline-block;
   vertical-align: middle;
   background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .icn-pinterest {
   background: url(#{$svg-path}socialmedia/dark-active/icn-pinterest.svg);
-  width: 22px;
+  width: 24px;
   height: 22px;
   display: inline-block;
   vertical-align: middle;
   background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .icn-pinterest-dark {
   background: url(#{$svg-path}socialmedia/light/icn-pinterest.svg);
-  width: 22px;
+  width: 24px;
   height: 22px;
   display: inline-block;
   vertical-align: middle;
   background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 
 .icn-tiktok {
   background: url(#{$svg-path}socialmedia/dark-active/icn-tiktok.svg);
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 22px;
   display: inline-block;
   vertical-align: middle;
   background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .icn-tiktok-dark {
   background: url(#{$svg-path}socialmedia/light/icn-tiktok.svg);
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 22px;
   display: inline-block;
   vertical-align: middle;
   background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .icn-linkedin {
@@ -260,6 +268,7 @@ i.cn-icon {
   vertical-align: middle;
   background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .icn-linkedin-dark {
@@ -270,6 +279,7 @@ i.cn-icon {
   vertical-align: middle;
   background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .icn-avatar-person-light {
