@@ -6037,33 +6037,36 @@ i.cn-icon.cn-share {
 /* line 121, ../../../sass/_icons.scss */
 .icn-youtube {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/dark-active/icn-youtube.svg);
-  width: 22px;
+  width: 24px;
   height: 19px;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 /* line 130, ../../../sass/_icons.scss */
 .icn-youtube-dark {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-youtube.svg);
-  width: 22px;
+  width: 24px;
   height: 19px;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-/* line 138, ../../../sass/_icons.scss */
+/* line 140, ../../../sass/_icons.scss */
 .icn-google-dark {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-google-plus.svg);
   width: 24px;
   height: 14px;
   display: inline-block;
   vertical-align: middle;
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
-  margin-left: 4px;
 }
 
-/* line 148, ../../../sass/_icons.scss */
+/* line 151, ../../../sass/_icons.scss */
 .icn-facebook {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/dark-active/icn-facebook.svg);
   width: 24px;
@@ -6072,7 +6075,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 156, ../../../sass/_icons.scss */
+/* line 159, ../../../sass/_icons.scss */
 .icn-facebook-dark {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-facebook.svg);
   width: 24px;
@@ -6081,7 +6084,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 164, ../../../sass/_icons.scss */
+/* line 167, ../../../sass/_icons.scss */
 .icn-instagram-dark {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-instagram.svg);
   width: 24px;
@@ -6090,7 +6093,127 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 172, ../../../sass/_icons.scss */
+/* line 175, ../../../sass/_icons.scss */
+.icn-taboola {
+  background: url(../../js/vendor/ui-kit/assets/socialmedia/dark-active/icn-taboola.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 186, ../../../sass/_icons.scss */
+.icn-taboola-dark {
+  background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-taboola.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 197, ../../../sass/_icons.scss */
+.icn-snapchat {
+  background: url(../../js/vendor/ui-kit/assets/socialmedia/dark-active/icn-snapchat.svg);
+  width: 24px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 208, ../../../sass/_icons.scss */
+.icn-snapchat-dark {
+  background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-snapchat.svg);
+  width: 24px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 219, ../../../sass/_icons.scss */
+.icn-pinterest {
+  background: url(../../js/vendor/ui-kit/assets/socialmedia/dark-active/icn-pinterest.svg);
+  width: 24px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 230, ../../../sass/_icons.scss */
+.icn-pinterest-dark {
+  background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-pinterest.svg);
+  width: 24px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 242, ../../../sass/_icons.scss */
+.icn-tiktok {
+  background: url(../../js/vendor/ui-kit/assets/socialmedia/dark-active/icn-tiktok.svg);
+  width: 24px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 253, ../../../sass/_icons.scss */
+.icn-tiktok-dark {
+  background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-tiktok.svg);
+  width: 24px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 264, ../../../sass/_icons.scss */
+.icn-linkedin {
+  background: url(../../js/vendor/ui-kit/assets/socialmedia/dark-active/icn-linkedin.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 275, ../../../sass/_icons.scss */
+.icn-linkedin-dark {
+  background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-linkedin.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 286, ../../../sass/_icons.scss */
 .icn-avatar-person-light {
   background: url(../../js/vendor/ui-kit/assets//light/icn-avatar-person.svg);
   width: 32px;
@@ -6099,7 +6222,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 180, ../../../sass/_icons.scss */
+/* line 294, ../../../sass/_icons.scss */
 .icn-search {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-search-darker.svg);
   width: 24px;
@@ -6108,7 +6231,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 188, ../../../sass/_icons.scss */
+/* line 302, ../../../sass/_icons.scss */
 .icn-caret {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-dd.svg);
   width: 24px;
@@ -6117,7 +6240,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 196, ../../../sass/_icons.scss */
+/* line 310, ../../../sass/_icons.scss */
 .icn-cog {
   background: url(../../js/vendor/ui-kit/assets/light/icn-settings.svg);
   width: 24px;
@@ -6126,7 +6249,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 204, ../../../sass/_icons.scss */
+/* line 318, ../../../sass/_icons.scss */
 .icn-caret-sm {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-caret-sm.svg);
   width: 10px;
@@ -6135,7 +6258,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 212, ../../../sass/_icons.scss */
+/* line 326, ../../../sass/_icons.scss */
 .icn-toggle {
   background: url(../../js/vendor/ui-kit/assets/light/switch-on.png) no-repeat;
   width: 24px;
@@ -6144,18 +6267,18 @@ i.cn-icon.cn-share {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 220, ../../../sass/_icons.scss */
+/* line 334, ../../../sass/_icons.scss */
 .icn-toggle.disabled {
   background: url(../../js/vendor/ui-kit/assets/light/switch-off.png);
   background-size: 24px 15px;
 }
-/* line 225, ../../../sass/_icons.scss */
+/* line 339, ../../../sass/_icons.scss */
 .icn-toggle.undefined, .icn-toggle.schrodinger {
   background: url(../../js/vendor/ui-kit/assets/light/switch-undefined.png);
   background-size: 24px 15px;
 }
 
-/* line 232, ../../../sass/_icons.scss */
+/* line 346, ../../../sass/_icons.scss */
 .icn-analyze {
   background: url(../../js/vendor/ui-kit/assets/light/icn-analyze.svg) 50% 50%;
   width: 24px;
@@ -6164,7 +6287,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 240, ../../../sass/_icons.scss */
+/* line 354, ../../../sass/_icons.scss */
 .icn-analyze.sm {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-analyze-sm.svg);
   width: 16px;
@@ -6173,7 +6296,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 248, ../../../sass/_icons.scss */
+/* line 362, ../../../sass/_icons.scss */
 .icn-edit {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-settings.svg) 50% 50%;
   width: 24px;
@@ -6182,7 +6305,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 256, ../../../sass/_icons.scss */
+/* line 370, ../../../sass/_icons.scss */
 .icn-edit.sm {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-settings-sm.svg);
   width: 16px;
@@ -6191,7 +6314,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 264, ../../../sass/_icons.scss */
+/* line 378, ../../../sass/_icons.scss */
 .icn-edit-pencil {
   background: url(../../js/vendor/ui-kit/assets/light/icn-edit-pencil.svg);
   width: 12px;
@@ -6200,7 +6323,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 272, ../../../sass/_icons.scss */
+/* line 386, ../../../sass/_icons.scss */
 .icn-check.sm {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-check.png);
   width: 19px;
@@ -6210,7 +6333,7 @@ i.cn-icon.cn-share {
   margin-top: -4px;
 }
 
-/* line 282, ../../../sass/_icons.scss */
+/* line 396, ../../../sass/_icons.scss */
 .icn-menu {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-menu.svg);
   width: 24px;
@@ -6220,7 +6343,7 @@ i.cn-icon.cn-share {
   margin-top: -4px;
 }
 
-/* line 292, ../../../sass/_icons.scss */
+/* line 406, ../../../sass/_icons.scss */
 .icn-options {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-options.svg);
   width: 24px;
@@ -6230,7 +6353,7 @@ i.cn-icon.cn-share {
   margin-top: -4px;
 }
 
-/* line 302, ../../../sass/_icons.scss */
+/* line 416, ../../../sass/_icons.scss */
 .icn-options-light {
   background: url(../../js/vendor/ui-kit/assets/light/icn-options.svg);
   width: 24px;
@@ -6240,7 +6363,7 @@ i.cn-icon.cn-share {
   margin-top: -4px;
 }
 
-/* line 312, ../../../sass/_icons.scss */
+/* line 426, ../../../sass/_icons.scss */
 .icn-share {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-share.svg);
   width: 24px;
@@ -6250,7 +6373,7 @@ i.cn-icon.cn-share {
   margin-top: -4px;
 }
 
-/* line 322, ../../../sass/_icons.scss */
+/* line 436, ../../../sass/_icons.scss */
 .icn-add {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-add.svg);
   width: 24px;
@@ -6260,7 +6383,7 @@ i.cn-icon.cn-share {
   margin-top: -4px;
 }
 
-/* line 332, ../../../sass/_icons.scss */
+/* line 446, ../../../sass/_icons.scss */
 .icn-audience {
   background: url(../../js/vendor/ui-kit/assets/light/audience.svg);
   width: 22px;
@@ -6269,7 +6392,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 340, ../../../sass/_icons.scss */
+/* line 454, ../../../sass/_icons.scss */
 .icn-company.dark {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-company.svg);
   width: 22px;
@@ -6278,7 +6401,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 348, ../../../sass/_icons.scss */
+/* line 462, ../../../sass/_icons.scss */
 .icn-cn-short {
   background: url(../../js/vendor/ui-kit/assets/light/mark.svg);
   width: 31px;
@@ -6287,7 +6410,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 356, ../../../sass/_icons.scss */
+/* line 470, ../../../sass/_icons.scss */
 .icn-knobs {
   background: url(../../js/vendor/ui-kit/assets/light/icn-campaign.svg);
   width: 19px;
@@ -6296,7 +6419,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 364, ../../../sass/_icons.scss */
+/* line 478, ../../../sass/_icons.scss */
 .icn-summary {
   background: url(../../js/vendor/ui-kit/assets/light/icn-summary.svg);
   width: 17px;
@@ -6305,7 +6428,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 372, ../../../sass/_icons.scss */
+/* line 486, ../../../sass/_icons.scss */
 .icn-waiting {
   background: url(../../js/vendor/ui-kit/assets/light/icn-waiting.svg);
   width: 20px;
@@ -6314,7 +6437,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 380, ../../../sass/_icons.scss */
+/* line 494, ../../../sass/_icons.scss */
 .icn-filter {
   background: url(../../js/vendor/ui-kit/assets/light/icn-filter.svg);
   width: 10px;
@@ -6323,7 +6446,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 388, ../../../sass/_icons.scss */
+/* line 502, ../../../sass/_icons.scss */
 .icn-alert {
   background: url(../../js/vendor/ui-kit/assets/light/icn-alert.svg);
   width: 20px;
@@ -6332,7 +6455,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 396, ../../../sass/_icons.scss */
+/* line 510, ../../../sass/_icons.scss */
 .icn-img-chart {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-img-chart@2x.png) no-repeat;
   width: 179px;
@@ -6340,7 +6463,7 @@ i.cn-icon.cn-share {
   background-size: 100%;
 }
 
-/* line 403, ../../../sass/_icons.scss */
+/* line 517, ../../../sass/_icons.scss */
 .icn-info {
   background: url(../../js/vendor/ui-kit/assets/light/icn-info.svg);
   width: 20px;
@@ -6349,7 +6472,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 411, ../../../sass/_icons.scss */
+/* line 525, ../../../sass/_icons.scss */
 .icn-error {
   background: url(../../js/vendor/ui-kit/assets/light/icn-error.svg);
   width: 20px;
@@ -6358,7 +6481,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 419, ../../../sass/_icons.scss */
+/* line 533, ../../../sass/_icons.scss */
 .icn-thumbsup {
   background: url(../../js/vendor/ui-kit/assets/light/icn-thumbsup.svg);
   width: 16px;
@@ -6367,7 +6490,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
 }
 
-/* line 427, ../../../sass/_icons.scss */
+/* line 541, ../../../sass/_icons.scss */
 .cn-delete {
   background: url(../../js/vendor/ui-kit/assets/dark/icn-delete-small.svg);
   width: 20px;
@@ -6376,7 +6499,7 @@ i.cn-icon.cn-share {
   vertical-align: middle;
   background-size: 100%;
 }
-/* line 435, ../../../sass/_icons.scss */
+/* line 549, ../../../sass/_icons.scss */
 .cn-delete.sm {
   width: 11px;
   height: 12px;
@@ -6385,7 +6508,7 @@ i.cn-icon.cn-share {
 /******************************************************
 * Icons for tables
 *******************************************************/
-/* line 447, ../../../sass/_icons.scss */
+/* line 561, ../../../sass/_icons.scss */
 .icn-sort-caret {
   background: url(../../js/vendor/ui-kit/assets/light/icn-sort-caret.svg);
   width: 8px;
@@ -6395,16 +6518,16 @@ i.cn-icon.cn-share {
   margin-bottom: 3px;
   margin-left: 3px;
 }
-/* line 457, ../../../sass/_icons.scss */
+/* line 571, ../../../sass/_icons.scss */
 .icn-sort-caret.up {
   transform: rotate(180deg);
 }
-/* line 461, ../../../sass/_icons.scss */
+/* line 575, ../../../sass/_icons.scss */
 .icn-sort-caret.right {
   transform: rotate(270deg);
 }
 
-/* line 466, ../../../sass/_icons.scss */
+/* line 580, ../../../sass/_icons.scss */
 .icn-mini-menu {
   background: url(../../js/vendor/ui-kit/assets/light/icn-mini-menu.svg);
   width: 8px;
