@@ -120,19 +120,21 @@ i.cn-icon {
 
 .icn-youtube {
   background: url(#{$svg-path}socialmedia/dark-active/icn-youtube.svg);
-  width: 22px;
+  width: 24px;
   height: 19px;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 
 .icn-youtube-dark {
   background: url(#{$svg-path}socialmedia/light/icn-youtube.svg);
-  width: 22px;
+  width: 24px;
   height: 19px;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .icn-google-dark {
@@ -141,8 +143,9 @@ i.cn-icon {
   height: 14px;
   display: inline-block;
   vertical-align: middle;
+  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
-  margin-left: 4px;
 }
 
 .icn-facebook {
@@ -167,6 +170,117 @@ i.cn-icon {
   height: 24px;
   display: inline-block;
   vertical-align: middle;
+}
+
+.icn-taboola {
+  background: url(#{$svg-path}socialmedia/dark-active/icn-taboola.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icn-taboola-dark {
+  background: url(#{$svg-path}socialmedia/light/icn-taboola.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icn-snapchat {
+  background: url(#{$svg-path}socialmedia/dark-active/icn-snapchat.svg);
+  width: 24px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icn-snapchat-dark {
+  background: url(#{$svg-path}socialmedia/light/icn-snapchat.svg);
+  width: 24px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icn-pinterest {
+  background: url(#{$svg-path}socialmedia/dark-active/icn-pinterest.svg);
+  width: 24px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icn-pinterest-dark {
+  background: url(#{$svg-path}socialmedia/light/icn-pinterest.svg);
+  width: 24px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.icn-tiktok {
+  background: url(#{$svg-path}socialmedia/dark-active/icn-tiktok.svg);
+  width: 24px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icn-tiktok-dark {
+  background: url(#{$svg-path}socialmedia/light/icn-tiktok.svg);
+  width: 24px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icn-linkedin {
+  background: url(#{$svg-path}socialmedia/dark-active/icn-linkedin.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icn-linkedin-dark {
+  background: url(#{$svg-path}socialmedia/light/icn-linkedin.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .icn-avatar-person-light {
