@@ -241,6 +241,13 @@
 
   label:not(.input-group-addon) {
     display: block;
+
+    &.radio {
+      span {
+        display: inline-block;
+        vertical-align:top;
+      }
+    }
   }
 }
 
