@@ -6056,7 +6056,7 @@ i.cn-icon.cn-share {
 
 /* line 140, ../../../sass/_icons.scss */
 .icn-google-dark {
-  background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-google-plus.svg);
+  background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-google.svg);
   width: 24px;
   height: 14px;
   display: inline-block;
@@ -6121,7 +6121,7 @@ i.cn-icon.cn-share {
 .icn-snapchat {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/dark-active/icn-snapchat.svg);
   width: 24px;
-  height: 22px;
+  height: 24px;
   display: inline-block;
   vertical-align: middle;
   background-position: center;
@@ -6133,7 +6133,7 @@ i.cn-icon.cn-share {
 .icn-snapchat-dark {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-snapchat.svg);
   width: 24px;
-  height: 22px;
+  height: 24px;
   display: inline-block;
   vertical-align: middle;
   background-position: center;
@@ -6145,7 +6145,7 @@ i.cn-icon.cn-share {
 .icn-pinterest {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/dark-active/icn-pinterest.svg);
   width: 24px;
-  height: 22px;
+  height: 24px;
   display: inline-block;
   vertical-align: middle;
   background-position: center;
@@ -6157,7 +6157,7 @@ i.cn-icon.cn-share {
 .icn-pinterest-dark {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-pinterest.svg);
   width: 24px;
-  height: 22px;
+  height: 24px;
   display: inline-block;
   vertical-align: middle;
   background-position: center;
