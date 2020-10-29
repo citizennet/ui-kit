@@ -6054,6 +6054,17 @@ i.cn-icon.cn-share {
   background-repeat: no-repeat;
 }
 
+.icn-google {
+  background: url(../../js/vendor/ui-kit/assets/socialmedia/dark-active/icn-google.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 /* line 140, ../../../sass/_icons.scss */
 .icn-google-dark {
   background: url(../../js/vendor/ui-kit/assets/socialmedia/light/icn-google.svg);
