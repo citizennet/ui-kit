@@ -137,6 +137,17 @@ i.cn-icon {
   background-repeat: no-repeat;
 }
 
+.icn-google {
+  background: url(#{$svg-path}socialmedia/dark-active/icn-google.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .icn-google-dark {
   background: url(#{$svg-path}socialmedia/light/icn-google.svg);
   width: 24px;
