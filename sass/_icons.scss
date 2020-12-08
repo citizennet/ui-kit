@@ -126,7 +126,6 @@ i.cn-icon {
   vertical-align: middle;
 }
 
-
 .icn-youtube-dark {
   background: url(#{$svg-path}socialmedia/light/icn-youtube.svg);
   width: 24px;
@@ -150,6 +149,28 @@ i.cn-icon {
 
 .icn-google-dark {
   background: url(#{$svg-path}socialmedia/light/icn-google.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icn-reddit {
+  background: url(#{$svg-path}socialmedia/dark-active/icn-reddit.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icn-reddit-dark {
+  background: url(#{$svg-path}socialmedia/light/icn-reddit.svg);
   width: 24px;
   height: 24px;
   display: inline-block;
