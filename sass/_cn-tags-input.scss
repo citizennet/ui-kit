@@ -40,7 +40,7 @@ tags-input {
 
 
   .autocomplete {
-//    min-width: 100%;
+    //    min-width: 100%;
     width: 100%;
   }
 
@@ -109,7 +109,6 @@ tags-input {
   list-style-type: none;
 
   tags-input & {
-    display: inline-block;
     max-width: 100%;
     float: left;
   }
@@ -143,8 +142,19 @@ tags-input {
   tags-input & {
     margin: 0 4px 4px 0;
     padding: 9px 24px 8px 8px;
-//    font-size: 14px;
-//    font-weight: 300;
+
+    &.overflows-to-tooltip {
+      cursor: default;
+      overflow: visible;
+      padding: 0;
+
+      .overflows-to-tooltip {
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 9px 24px 8px 8px;
+      }
+    }
 
     &.tag-item-read-only {
       padding-right: 8px;
@@ -154,7 +164,7 @@ tags-input {
   .remove-button {
     cursor: pointer;
     color: inherit;
-//    font-size: 9px;
+    //    font-size: 9px;
     position: absolute;
     top: 3px;
     right: 5px;
@@ -180,10 +190,33 @@ tags-input {
   }
 }
 
-.tag-list + .input {
-  padding-left: 0;
+.tag-overflow-tooltip {
+  @include box-shadow(0px 0px 1px rgba(0, 0, 0, 0.2));
+  background-color: lighten($brand-info, 35%);
+  font-size: 11px;
+  position: absolute;
+  padding: 5px;
+  border: 1px solid $brand-info;
+  border-radius: 2px;
+  margin: 2px;
+  display: none;
+  bottom: 110%;
+  left: 2.5%;
+  width: 95%;
+  line-height: 1.6;
+  white-space: normal;
+
+  &::after {
+    content: '';
+    border: 6px solid transparent;
+    margin-left: -6px;
+    border-top-color: $brand-info;
+    position :absolute;
+    top: 100%;
+    left: 50%;
+  }
 }
 
-tags-input .tags .tag-item .remove-button:active {
-  //  color: red;
+.tag-list + .input {
+  padding-left: 0;
 }
