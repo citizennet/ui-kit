@@ -11548,12 +11548,11 @@ tags-input .help-block {
 }
 /* line 111, ../../../sass/_cn-tags-input.scss */
 tags-input .tag-list {
-  display: inline-block;
   max-width: 100%;
   float: left;
 }
 
-/* line 118, ../../../sass/_cn-tags-input.scss */
+/* line 117, ../../../sass/_cn-tags-input.scss */
 .tag-item {
   margin: 2px;
   padding: 3px 20px 3px 4px;
@@ -11563,32 +11562,45 @@ tags-input .tag-list {
   text-overflow: ellipsis;
   max-width: 100%;
 }
-/* line 122, ../../../sass/_cn-tags-input.scss */
+/* line 121, ../../../sass/_cn-tags-input.scss */
 [disabled] .tag-item {
   padding: 3px 4px;
 }
-/* line 131, ../../../sass/_cn-tags-input.scss */
+/* line 130, ../../../sass/_cn-tags-input.scss */
 .tag-list .tag-item {
   float: left;
 }
-/* line 135, ../../../sass/_cn-tags-input.scss */
+/* line 134, ../../../sass/_cn-tags-input.scss */
 .tag-item.selected {
   opacity: .5;
 }
-/* line 139, ../../../sass/_cn-tags-input.scss */
+/* line 138, ../../../sass/_cn-tags-input.scss */
 .tag-item.tag-item-read-only {
   padding-right: 4px;
 }
-/* line 143, ../../../sass/_cn-tags-input.scss */
+/* line 142, ../../../sass/_cn-tags-input.scss */
 tags-input .tag-item {
   margin: 0 4px 4px 0;
   padding: 9px 24px 8px 8px;
 }
-/* line 149, ../../../sass/_cn-tags-input.scss */
+/* line 146, ../../../sass/_cn-tags-input.scss */
+tags-input .tag-item.overflows-to-tooltip {
+  cursor: default;
+  overflow: visible;
+  padding: 0;
+}
+/* line 151, ../../../sass/_cn-tags-input.scss */
+tags-input .tag-item.overflows-to-tooltip .overflows-to-tooltip {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 9px 24px 8px 8px;
+}
+/* line 159, ../../../sass/_cn-tags-input.scss */
 tags-input .tag-item.tag-item-read-only {
   padding-right: 8px;
 }
-/* line 154, ../../../sass/_cn-tags-input.scss */
+/* line 164, ../../../sass/_cn-tags-input.scss */
 .tag-item .remove-button {
   cursor: pointer;
   color: inherit;
@@ -11596,12 +11608,12 @@ tags-input .tag-item.tag-item-read-only {
   top: 3px;
   right: 5px;
 }
-/* line 162, ../../../sass/_cn-tags-input.scss */
+/* line 172, ../../../sass/_cn-tags-input.scss */
 .host .tag-item .remove-button {
   top: 8px;
   right: 8px;
 }
-/* line 168, ../../../sass/_cn-tags-input.scss */
+/* line 178, ../../../sass/_cn-tags-input.scss */
 .tag-item.label-block {
   display: block;
   text-align: left;
@@ -11610,12 +11622,41 @@ tags-input .tag-item.tag-item-read-only {
   margin-right: 30px;
   min-height: 30px;
 }
-/* line 177, ../../../sass/_cn-tags-input.scss */
+/* line 187, ../../../sass/_cn-tags-input.scss */
 [disabled] .tag-item.label-block {
   background: transparent;
 }
 
-/* line 183, ../../../sass/_cn-tags-input.scss */
+/* line 193, ../../../sass/_cn-tags-input.scss */
+.tag-overflow-tooltip {
+  -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  background-color: #f0f9fc;
+  font-size: 11px;
+  position: absolute;
+  padding: 5px;
+  border: 1px solid #5bc0de;
+  border-radius: 2px;
+  margin: 2px;
+  display: none;
+  bottom: 110%;
+  left: 2.5%;
+  width: 95%;
+  line-height: 1.6;
+  white-space: normal;
+}
+/* line 209, ../../../sass/_cn-tags-input.scss */
+.tag-overflow-tooltip::after {
+  content: '';
+  border: 6px solid transparent;
+  margin-left: -6px;
+  border-top-color: #5bc0de;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+}
+
+/* line 220, ../../../sass/_cn-tags-input.scss */
 .tag-list + .input {
   padding-left: 0;
 }

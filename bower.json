@@ -14,7 +14,7 @@
     "ngAnimate-animate.css": "0.1.1",
     "modernizr": "2.5.3",
     "angular-chosen-localytics": "~1.0.6",
-    "angular-bootstrap": "^0.12.1",
+    "angular-bootstrap": ">=0.14.3",
     "bootstrap": "v3.3.5"
   },
   "resolutions": {
