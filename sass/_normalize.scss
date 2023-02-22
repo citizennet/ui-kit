@@ -252,10 +252,16 @@ textarea {
 
 //
 // Address `overflow` set to `hidden` in IE 8/9/10/11.
+// Remove default styles applied to button tags.
 //
 
 button {
   overflow: visible;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  outline: inherit;
 }
 
 //

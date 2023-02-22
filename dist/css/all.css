@@ -196,18 +196,23 @@ textarea {
   margin: 0;
 }
 
-/* line 257, ../../../sass/_normalize.scss */
+/* line 258, ../../../sass/_normalize.scss */
 button {
   overflow: visible;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  outline: inherit;
 }
 
-/* line 268, ../../../sass/_normalize.scss */
+/* line 274, ../../../sass/_normalize.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 281, ../../../sass/_normalize.scss */
+/* line 287, ../../../sass/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -216,57 +221,57 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 293, ../../../sass/_normalize.scss */
+/* line 299, ../../../sass/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 302, ../../../sass/_normalize.scss */
+/* line 308, ../../../sass/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 313, ../../../sass/_normalize.scss */
+/* line 319, ../../../sass/_normalize.scss */
 input {
   line-height: normal;
 }
 
-/* line 325, ../../../sass/_normalize.scss */
+/* line 331, ../../../sass/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-/* line 337, ../../../sass/_normalize.scss */
+/* line 343, ../../../sass/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/* line 347, ../../../sass/_normalize.scss */
+/* line 353, ../../../sass/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   box-sizing: content-box;
 }
 
-/* line 358, ../../../sass/_normalize.scss */
+/* line 364, ../../../sass/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 367, ../../../sass/_normalize.scss */
+/* line 373, ../../../sass/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-/* line 378, ../../../sass/_normalize.scss */
+/* line 384, ../../../sass/_normalize.scss */
 legend, .cn-editor h3,
 .cn-modal h3,
 .cn-form h3 {
@@ -274,23 +279,23 @@ legend, .cn-editor h3,
   padding: 0;
 }
 
-/* line 387, ../../../sass/_normalize.scss */
+/* line 393, ../../../sass/_normalize.scss */
 textarea {
   overflow: auto;
 }
 
-/* line 396, ../../../sass/_normalize.scss */
+/* line 402, ../../../sass/_normalize.scss */
 optgroup {
   font-weight: bold;
 }
 
-/* line 407, ../../../sass/_normalize.scss */
+/* line 413, ../../../sass/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 412, ../../../sass/_normalize.scss */
+/* line 418, ../../../sass/_normalize.scss */
 td,
 th {
   padding: 0;
