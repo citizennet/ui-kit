@@ -61,7 +61,7 @@
   }
 
   // Links within the dropdown menu
-  > li > a {
+  > li > a, > li > button {
     display: block;
     padding: 3px 20px;
     clear: both;
