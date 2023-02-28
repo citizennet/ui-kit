@@ -315,6 +315,17 @@ i.cn-icon {
   background-repeat: no-repeat;
 }
 
+.icn-outbrain-dark {
+  background: url(#{$svg-path}socialmedia/light/icn-outbrain.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .icn-avatar-person-light {
   background: url(#{$svg-path}/light/icn-avatar-person.svg);
   width: 32px;
