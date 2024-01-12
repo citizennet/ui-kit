@@ -86,7 +86,7 @@ template {
 // Remove the gray background color from active links in IE 10.
 //
 
-a {
+a, button {
   background-color: transparent;
 }
 
@@ -95,8 +95,7 @@ a {
 // active/hover state.
 //
 
-a:active,
-a:hover {
+a:active, a:hover, button:active, button:hover {
   outline: 0;
 }
 
@@ -253,10 +252,16 @@ textarea {
 
 //
 // Address `overflow` set to `hidden` in IE 8/9/10/11.
+// Remove default styles applied to button tags.
 //
 
 button {
   overflow: visible;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  outline: inherit;
 }
 
 //
