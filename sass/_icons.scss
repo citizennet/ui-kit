@@ -326,6 +326,17 @@ i.cn-icon {
   background-repeat: no-repeat;
 }
 
+.icn-multi_platform-dark {
+  background: url(#{$svg-path}socialmedia/light/icn-multiplatform.svg);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .icn-avatar-person-light {
   background: url(#{$svg-path}/light/icn-avatar-person.svg);
   width: 32px;
